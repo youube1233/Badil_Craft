@@ -1,780 +1,192 @@
-[02:48:40] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[02:48:41] [main/INFO]: Reloading ResourceManager: Default, bukkit
-[02:48:41] [Worker-Main-4/INFO]: Loaded 7 recipes
-[02:48:42] [Server thread/INFO]: Starting minecraft server version 1.16.5
-[02:48:42] [Server thread/INFO]: Loading properties
-[02:48:42] [Server thread/INFO]: This server is running Paper version git-Paper-790 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
-[02:48:42] [Server thread/INFO]: Debug logging is disabled
-[02:48:42] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[02:48:42] [Server thread/INFO]: Using 4 threads for Netty based IO
-[02:48:42] [Server thread/INFO]: Default game type: SURVIVAL
-[02:48:42] [Server thread/INFO]: Generating keypair
-[02:48:43] [Server thread/INFO]: Starting Minecraft server on localhost:25565
-[02:48:43] [Server thread/INFO]: Using default channel type
-[02:48:43] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.2.2
-[02:48:43] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v20.1
-[02:48:43] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.3.77
-[02:48:44] [Server thread/INFO]: [WorldBorder] Loading WorldBorder v1.9.10 (beta)
-[02:48:44] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-CMI
-[02:48:44] [Server thread/INFO]: [CMILib] Loading CMILib v1.1.2.5
-[02:48:44] [Server thread/INFO]: [CMI] Loading CMI v9.0.2.9
-[02:48:44] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[02:48:44] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.3.77
-[02:48:45] [Server thread/INFO]:         __    
-[02:48:45] [Server thread/INFO]:   |    |__)   LuckPerms v5.3.77
-[02:48:45] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[02:48:45] [Server thread/INFO]: 
-[02:48:45] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[02:48:45] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[02:48:45] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[02:48:45] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[02:48:45] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1257ms)
-[02:48:45] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-CMI
-[02:48:46] [Server thread/WARN]: [Vault] Loaded class com.Zrips.CMI.Modules.Economy.Economy from CMI v9.0.2.9 which is not a depend, softdepend or loadbefore of this plugin.
-[02:48:46] [Server thread/INFO]: [Vault] [Economy] CMI Economy found: Waiting
-[02:48:46] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[02:48:46] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-CMI
-[02:48:46] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[02:48:46] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[02:48:46] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[02:48:46] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[02:48:46] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[02:48:46] [Server thread/INFO]: Preparing level "world"
-[02:48:46] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[02:48:46] [Server thread/INFO]: Time elapsed: 339 ms
-[02:48:46] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[02:48:46] [Server thread/INFO]: Time elapsed: 58 ms
-[02:48:46] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[02:48:47] [Server thread/INFO]: Time elapsed: 48 ms
-[02:48:47] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
-[02:48:47] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
-[02:48:47] [Server thread/INFO]: [ClearLag] Loading modules...
-[02:48:47] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
-[02:48:47] [Server thread/INFO]: [ClearLag] Modules have been loaded!
-[02:48:47] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
-[02:48:47] [Thread-12/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.16]...
-[02:48:47] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v20.1
-[02:48:47] [Server thread/INFO]: [CoreProtect] CoreProtect был успешно запущен! 
-[02:48:47] [Server thread/INFO]: [CoreProtect] Для хранения данных используется SQLite.
-[02:48:47] [Server thread/INFO]: --------------------
-[02:48:47] [Server thread/INFO]: [CoreProtect] Нравится CoreProtect? Присоединяйтесь к нашему Discord!
-[02:48:47] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
-[02:48:47] [Server thread/INFO]: --------------------
-[02:48:47] [Server thread/INFO]: [WorldBorder] Enabling WorldBorder v1.9.10 (beta)
-[02:48:47] [Server thread/INFO]: [WorldBorder] [CONFIG] Using elliptic/round border, knockback of 3.0 blocks, and timer delay of 5.
-[02:48:47] [Server thread/INFO]: [WorldBorder] [CONFIG] Border-checking timed task started.
-[02:48:47] [Server thread/INFO]: [WorldBorder] For reference, the main world's spawn location is at X: 10,0 Y: 66,0 Z: 3,0
-[02:48:47] [Server thread/INFO]: [CMILib] Enabling CMILib v1.1.2.5
-[02:48:48] [Thread-12/INFO]: [ClearLag] No updates found!
-[02:48:48] [Server thread/INFO]: Server version: v1_16_R3 - 1.16.5 - paper
-[02:48:51] [Server thread/INFO]: CMI hooked.
-[02:48:51] [Server thread/INFO]: Updated (EN) language file. Took 141ms
-[02:48:51] [Server thread/INFO]: Updated (RU) language file. Took 53ms
-[02:48:51] [Server thread/INFO]: [CMI] Enabling CMI v9.0.2.9
-[02:48:51] [Server thread/INFO]: ┏━━━┓ ┏━┓┏━┓ ┏━━┓
-[02:48:51] [Server thread/INFO]: ┃┏━┓┃ ┃ ┗┛ ┃ ┗┫┣┛
-[02:48:51] [Server thread/INFO]: ┃┃ ┗┛ ┃┏┓┏┓┃  ┃┃ 
-[02:48:51] [Server thread/INFO]: ┃┃ ┏┓ ┃┃┃┃┃┃  ┃┃ 
-[02:48:51] [Server thread/INFO]: ┃┗━┛┃ ┃┃┃┃┃┃ ┏┫┣┓
-[02:48:51] [Server thread/INFO]: ┗━━━┛ ┗┛┗┛┗┛ ┗━━┛
-[02:48:51] [Server thread/INFO]: _______________________________________________________
-[02:48:51] [Server thread/INFO]: [CMI] Re-Leaked Aternosv2
-[02:48:51] [Server thread/INFO]:   Integrating PaperSpigot async methods
-[02:48:52] [Server thread/INFO]:   56 Enabled and 0 Disabled modules
-[02:48:52] [Server thread/INFO]:   Permission plugin: LuckPerms5.3.77
-[02:48:52] [Server thread/INFO]:   Initialized Cipher256 AES
-[02:48:53] [Server thread/INFO]:   Loaded (56) regular alias into memory. Took 58ms
-[02:48:53] [Server thread/INFO]:   Loaded (1) custom text's into memory. Took 16ms
-[02:48:53] [Server thread/INFO]:   3.34.0 data base type detected
-[02:48:53] [Server thread/INFO]:   Started SqLite data base. Took 198ms
-[02:48:53] [Server thread/INFO]:   Vault was found - Enabling capabilities. Economy: CMIEconomy
-[02:48:53] [Server thread/INFO]:   Loaded (5) warning categories into memory. Took 1ms
-[02:48:53] [Server thread/INFO]:   Loaded (3) warning commands into memory. Took 0ms
-[02:48:53] [Server thread/INFO]:   Loaded (135) custom mob heads into memory. Took 14ms
-[02:48:53] [Server thread/INFO]:   Loaded (0) cooldowns into memory. Took 25ms
-[02:48:53] [Server thread/INFO]:   Initializing BungeeCord
-[02:48:53] [Server thread/INFO]:   Loaded (5) kits into memory. Took 22ms
-[02:48:53] [Server thread/INFO]:   Loaded (7) ranks into memory. Took 37ms
-[02:48:53] [Server thread/INFO]:   Loaded (8) playtime rewards into memory. Took 18ms
-[02:48:53] [Server thread/INFO]:   Loaded (1) player data into memory. Took 9ms
-[02:48:53] [Server thread/INFO]:   Loaded (0) playtime records into memory. Took 1ms
-[02:48:53] [Server thread/INFO]:   Loaded (0) playtime reward records into memory. Took 0ms
-[02:48:54] [Server thread/INFO]:   Registered events. Took 156ms
-[02:48:54] [Server thread/INFO]:   Loaded (0) event action commands into memory. Took 4ms
-[02:48:54] [Server thread/INFO]:   Updated (EN) language file. Took 104ms
-[02:48:54] [Server thread/INFO]:   Updated (RU) language file. Took 170ms
-[02:48:54] [Server thread/INFO]:   Loaded (245) worth values into memory. Took 71ms
-[02:48:54] [Server thread/INFO]:   Vault permissions was found - Enabling capabilities.
-[02:48:54] [Server thread/INFO]:   Starting world timer.
-[02:48:54] [Server thread/INFO]:   Initializing world manager.
-[02:48:54] [Server thread/INFO]:   Loaded (5) schedules into memory. Took 10ms
-[02:48:54] [Server thread/INFO]:   Loaded GeoIP
-[02:48:54] [Server thread/INFO]:   Loaded (0) skin cache entries into memory. Took 1ms
-[02:48:54] [Server thread/INFO]:   Version 9.0.2.9 has been enabled
-[02:48:54] [Server thread/INFO]: ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
-[02:48:54] [Server thread/INFO]: [CMI] Downloaded from https://directleaks.net
-[02:48:54] [Server thread/INFO]: [Vault][Economy] CMI Economy hooked.
-[02:48:54] [Server thread/INFO]: Running delayed init tasks
-[02:48:54] [Server thread/INFO]: Done (12.032s)! For help, type "help"
-[02:48:54] [Craft Scheduler Thread - 3/INFO]: [Vault] Checking for Updates ... 
-[02:48:54] [Server thread/INFO]: Timings Reset
-[02:48:55] [Craft Scheduler Thread - 3/INFO]: [Vault] No new version available
-[02:48:55] [Thread-15/INFO]: --------------------
-[02:48:55] [Thread-15/INFO]: [CoreProtect] Версия 21.2 уже доступна!
-[02:48:55] [Thread-15/INFO]: [CoreProtect] Загрузить: www.coreprotect.net/download/
-[02:48:55] [Thread-15/INFO]: --------------------
-[02:48:56] [User Authenticator #1/INFO]: UUID of player youube1233 is e17fe5c2-00e9-3fc0-a4bc-54a26aa6c13e
-[02:49:00] [Server thread/INFO]: youube1233 joined the game
-[02:49:01] [Server thread/INFO]: youube1233[/127.0.0.1:56155] logged in with entity id 7 at ([world]-227.23247963660606, 91.17675927506424, -355.39987568395765)
-[02:51:25] [Server thread/INFO]: youube1233 issued server command: /cmi reload
-[02:51:25] [Server thread/INFO]: Updated (EN) language file. Took 27ms
-[02:51:25] [Server thread/INFO]: Updated (RU) language file. Took 59ms
-[02:51:26] [Server thread/INFO]: [CMI] Loaded (1) custom text's into memory. Took 17ms
-[02:51:26] [Server thread/INFO]: [CMI] Started SqLite data base. Took 20ms
-[02:51:26] [Server thread/INFO]: [CMI] Loaded (5) warning categories into memory. Took 0ms
-[02:51:26] [Server thread/INFO]: [CMI] Loaded (3) warning commands into memory. Took 1ms
-[02:51:26] [Server thread/INFO]: [CMI] Loaded (135) custom mob heads into memory. Took 20ms
-[02:51:26] [Server thread/INFO]: [CMI] Loaded (0) cooldowns into memory. Took 21ms
-[02:51:26] [Server thread/INFO]: [CMI] Updated (EN) language file. Took 86ms
-[02:51:26] [Server thread/INFO]: [CMI] Updated (RU) language file. Took 223ms
-[02:51:26] [Server thread/INFO]: [CMI] Loaded (5) kits into memory. Took 32ms
-[02:51:26] [Server thread/INFO]: [CMI] Loaded (5) schedules into memory. Took 8ms
-[02:51:26] [Server thread/INFO]: [CMI] Loaded (7) ranks into memory. Took 45ms
-[02:51:26] [Server thread/INFO]: [CMI] Loaded (56) regular alias into memory. Took 76ms
-[02:51:26] [Server thread/INFO]: [CMI] Loaded (245) worth values into memory. Took 47ms
-[02:51:26] [Server thread/INFO]: [CMI] Loaded (8) playtime rewards into memory. Took 17ms
-[02:51:26] [Server thread/INFO]: [CMI] Loaded (0) skin cache entries into memory. Took 1ms
-[02:51:26] [Server thread/INFO]: [CMI] Loaded (0) event action commands into memory. Took 24ms
-[02:51:37] [Server thread/INFO]: youube1233 issued server command: /time
-[02:52:24] [Server thread/INFO]: youube1233 issued server command: /cmi reload
-[02:52:24] [Server thread/INFO]: Updated (EN) language file. Took 47ms
-[02:52:24] [Server thread/INFO]: Updated (RU) language file. Took 33ms
-[02:52:24] [Server thread/INFO]: [CMI] Loaded (1) custom text's into memory. Took 1ms
-[02:52:24] [Server thread/INFO]: [CMI] Started SqLite data base. Took 5ms
-[02:52:24] [Server thread/INFO]: [CMI] Loaded (5) warning categories into memory. Took 0ms
-[02:52:24] [Server thread/INFO]: [CMI] Loaded (3) warning commands into memory. Took 0ms
-[02:52:24] [Server thread/INFO]: [CMI] Loaded (135) custom mob heads into memory. Took 43ms
-[02:52:24] [Server thread/INFO]: [CMI] Loaded (0) cooldowns into memory. Took 43ms
-[02:52:24] [Server thread/INFO]: [CMI] Updated (EN) language file. Took 322ms
-[02:52:25] [Server thread/INFO]: [CMI] Updated (RU) language file. Took 369ms
-[02:52:25] [Server thread/INFO]: [CMI] Loaded (5) kits into memory. Took 28ms
-[02:52:25] [Server thread/INFO]: [CMI] Loaded (5) schedules into memory. Took 19ms
-[02:52:25] [Server thread/INFO]: [CMI] Loaded (7) ranks into memory. Took 29ms
-[02:52:25] [Server thread/INFO]: [CMI] Loaded (56) regular alias into memory. Took 81ms
-[02:52:25] [Server thread/INFO]: [CMI] Loaded (245) worth values into memory. Took 21ms
-[02:52:25] [Server thread/INFO]: [CMI] Loaded (8) playtime rewards into memory. Took 7ms
-[02:52:25] [Server thread/INFO]: [CMI] Loaded (0) skin cache entries into memory. Took 1ms
-[02:52:25] [Server thread/INFO]: [CMI] Loaded (0) event action commands into memory. Took 10ms
-[02:52:36] [Server thread/INFO]: youube1233 issued server command: /cmi reload
-[02:52:36] [Server thread/INFO]: Updated (EN) language file. Took 32ms
-[02:52:36] [Server thread/INFO]: Updated (RU) language file. Took 17ms
-[02:52:36] [Server thread/INFO]: [CMI] Loaded (1) custom text's into memory. Took 1ms
-[02:52:36] [Server thread/INFO]: [CMI] Started SqLite data base. Took 3ms
-[02:52:36] [Server thread/INFO]: [CMI] Loaded (5) warning categories into memory. Took 0ms
-[02:52:36] [Server thread/INFO]: [CMI] Loaded (3) warning commands into memory. Took 0ms
-[02:52:36] [Server thread/INFO]: [CMI] Loaded (135) custom mob heads into memory. Took 15ms
-[02:52:36] [Server thread/INFO]: [CMI] Loaded (0) cooldowns into memory. Took 17ms
-[02:52:36] [Server thread/INFO]: [CMI] Updated (EN) language file. Took 77ms
-[02:52:36] [Server thread/INFO]: [CMI] Updated (RU) language file. Took 89ms
-[02:52:36] [Server thread/INFO]: [CMI] Loaded (5) kits into memory. Took 29ms
-[02:52:36] [Server thread/INFO]: [CMI] Loaded (5) schedules into memory. Took 5ms
-[02:52:36] [Server thread/INFO]: [CMI] Loaded (7) ranks into memory. Took 11ms
-[02:52:37] [Server thread/INFO]: [CMI] Loaded (56) regular alias into memory. Took 26ms
-[02:52:37] [Server thread/INFO]: [CMI] Loaded (245) worth values into memory. Took 29ms
-[02:52:37] [Server thread/INFO]: [CMI] Loaded (8) playtime rewards into memory. Took 2ms
-[02:52:37] [Server thread/INFO]: [CMI] Loaded (0) skin cache entries into memory. Took 1ms
-[02:52:37] [Server thread/INFO]: [CMI] Loaded (0) event action commands into memory. Took 3ms
-[02:52:58] [Server thread/INFO]: youube1233 issued server command: /cmi reload
-[02:52:58] [Server thread/INFO]: Updated (EN) language file. Took 37ms
-[02:52:58] [Server thread/INFO]: Updated (RU) language file. Took 21ms
-[02:52:58] [Server thread/INFO]: [CMI] Loaded (1) custom text's into memory. Took 0ms
-[02:52:58] [Server thread/INFO]: [CMI] Started SqLite data base. Took 4ms
-[02:52:58] [Server thread/INFO]: [CMI] Loaded (5) warning categories into memory. Took 0ms
-[02:52:58] [Server thread/INFO]: [CMI] Loaded (3) warning commands into memory. Took 0ms
-[02:52:58] [Server thread/INFO]: [CMI] Loaded (135) custom mob heads into memory. Took 17ms
-[02:52:58] [Server thread/INFO]: [CMI] Loaded (0) cooldowns into memory. Took 18ms
-[02:52:58] [Server thread/INFO]: [CMI] Updated (EN) language file. Took 101ms
-[02:52:59] [Server thread/INFO]: [CMI] Updated (RU) language file. Took 158ms
-[02:52:59] [Server thread/INFO]: [CMI] Loaded (5) kits into memory. Took 8ms
-[02:52:59] [Server thread/INFO]: [CMI] Loaded (5) schedules into memory. Took 17ms
-[02:52:59] [Server thread/INFO]: [CMI] Loaded (7) ranks into memory. Took 29ms
-[02:52:59] [Server thread/INFO]: [CMI] Loaded (56) regular alias into memory. Took 49ms
-[02:52:59] [Server thread/INFO]: [CMI] Loaded (245) worth values into memory. Took 16ms
-[02:52:59] [Server thread/INFO]: [CMI] Loaded (8) playtime rewards into memory. Took 3ms
-[02:52:59] [Server thread/INFO]: [CMI] Loaded (0) skin cache entries into memory. Took 0ms
-[02:52:59] [Server thread/INFO]: [CMI] Loaded (0) event action commands into memory. Took 20ms
-[02:53:05] [Server thread/INFO]: youube1233 issued server command: /cmi reload
-[02:53:05] [Server thread/INFO]: Updated (EN) language file. Took 34ms
-[02:53:05] [Server thread/INFO]: Updated (RU) language file. Took 46ms
-[02:53:05] [Server thread/INFO]: [CMI] Loaded (1) custom text's into memory. Took 1ms
-[02:53:06] [Server thread/INFO]: [CMI] Started SqLite data base. Took 4ms
-[02:53:06] [Server thread/INFO]: [CMI] Loaded (5) warning categories into memory. Took 0ms
-[02:53:06] [Server thread/INFO]: [CMI] Loaded (3) warning commands into memory. Took 0ms
-[02:53:06] [Server thread/INFO]: [CMI] Loaded (135) custom mob heads into memory. Took 25ms
-[02:53:06] [Server thread/INFO]: [CMI] Loaded (0) cooldowns into memory. Took 28ms
-[02:53:06] [Server thread/INFO]: [CMI] Updated (EN) language file. Took 167ms
-[02:53:06] [Server thread/INFO]: [CMI] Updated (RU) language file. Took 202ms
-[02:53:06] [Server thread/INFO]: [CMI] Loaded (5) kits into memory. Took 6ms
-[02:53:06] [Server thread/INFO]: [CMI] Loaded (5) schedules into memory. Took 30ms
-[02:53:06] [Server thread/INFO]: [CMI] Loaded (7) ranks into memory. Took 27ms
-[02:53:06] [Server thread/INFO]: [CMI] Loaded (56) regular alias into memory. Took 82ms
-[02:53:06] [Server thread/INFO]: [CMI] Loaded (245) worth values into memory. Took 23ms
-[02:53:06] [Server thread/INFO]: [CMI] Loaded (8) playtime rewards into memory. Took 4ms
-[02:53:06] [Server thread/INFO]: [CMI] Loaded (0) skin cache entries into memory. Took 0ms
-[02:53:06] [Server thread/INFO]: [CMI] Loaded (0) event action commands into memory. Took 15ms
-[02:53:18] [Server thread/INFO]: youube1233 issued server command: /cmi reload
-[02:53:18] [Server thread/INFO]: Updated (EN) language file. Took 70ms
-[02:53:18] [Server thread/INFO]: Updated (RU) language file. Took 58ms
-[02:53:19] [Server thread/INFO]: [CMI] Loaded (1) custom text's into memory. Took 21ms
-[02:53:19] [Server thread/INFO]: [CMI] Started SqLite data base. Took 9ms
-[02:53:19] [Server thread/INFO]: [CMI] Loaded (5) warning categories into memory. Took 0ms
-[02:53:19] [Server thread/INFO]: [CMI] Loaded (3) warning commands into memory. Took 0ms
-[02:53:19] [Server thread/INFO]: [CMI] Loaded (135) custom mob heads into memory. Took 39ms
-[02:53:19] [Server thread/INFO]: [CMI] Loaded (0) cooldowns into memory. Took 42ms
-[02:53:19] [Server thread/INFO]: [CMI] Updated (EN) language file. Took 306ms
-[02:53:19] [Server thread/INFO]: [CMI] Updated (RU) language file. Took 248ms
-[02:53:19] [Server thread/INFO]: [CMI] Loaded (5) kits into memory. Took 27ms
-[02:53:19] [Server thread/INFO]: [CMI] Loaded (5) schedules into memory. Took 28ms
-[02:53:19] [Server thread/INFO]: [CMI] Loaded (7) ranks into memory. Took 30ms
-[02:53:20] [Server thread/INFO]: [CMI] Loaded (56) regular alias into memory. Took 32ms
-[02:53:20] [Server thread/INFO]: [CMI] Loaded (245) worth values into memory. Took 41ms
-[02:53:20] [Server thread/INFO]: [CMI] Loaded (8) playtime rewards into memory. Took 19ms
-[02:53:20] [Server thread/INFO]: [CMI] Loaded (0) skin cache entries into memory. Took 0ms
-[02:53:20] [Server thread/INFO]: [CMI] Loaded (0) event action commands into memory. Took 24ms
-[02:53:33] [Server thread/INFO]: youube1233 issued server command: /cmi reload
-[02:53:33] [Server thread/INFO]: Updated (EN) language file. Took 91ms
-[02:53:33] [Server thread/INFO]: Updated (RU) language file. Took 76ms
-[02:53:33] [Server thread/INFO]: [CMI] Loaded (1) custom text's into memory. Took 2ms
-[02:53:33] [Server thread/INFO]: [CMI] Started SqLite data base. Took 14ms
-[02:53:33] [Server thread/INFO]: [CMI] Loaded (5) warning categories into memory. Took 0ms
-[02:53:33] [Server thread/INFO]: [CMI] Loaded (3) warning commands into memory. Took 0ms
-[02:53:33] [Server thread/INFO]: [CMI] Loaded (135) custom mob heads into memory. Took 115ms
-[02:53:33] [Server thread/INFO]: [CMI] Loaded (0) cooldowns into memory. Took 119ms
-[02:53:34] [Server thread/INFO]: [CMI] Updated (EN) language file. Took 298ms
-[02:53:34] [Server thread/INFO]: [CMI] Updated (RU) language file. Took 413ms
-[02:53:34] [Server thread/INFO]: [CMI] Loaded (5) kits into memory. Took 25ms
-[02:53:34] [Server thread/INFO]: [CMI] Loaded (5) schedules into memory. Took 19ms
-[02:53:34] [Server thread/INFO]: [CMI] Loaded (7) ranks into memory. Took 27ms
-[02:53:34] [Server thread/INFO]: [CMI] Loaded (56) regular alias into memory. Took 121ms
-[02:53:35] [Server thread/INFO]: [CMI] Loaded (245) worth values into memory. Took 51ms
-[02:53:35] [Server thread/INFO]: [CMI] Loaded (8) playtime rewards into memory. Took 8ms
-[02:53:35] [Server thread/INFO]: [CMI] Loaded (0) skin cache entries into memory. Took 0ms
-[02:53:35] [Server thread/INFO]: [CMI] Loaded (0) event action commands into memory. Took 7ms
-[02:53:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5055ms or 101 ticks behind
-[02:54:14] [Server thread/INFO]: youube1233 issued server command: /cmi reload
-[02:54:14] [Server thread/INFO]: Updated (EN) language file. Took 48ms
-[02:54:14] [Server thread/INFO]: Updated (RU) language file. Took 36ms
-[02:54:14] [Server thread/INFO]: [CMI] Loaded (1) custom text's into memory. Took 17ms
-[02:54:14] [Server thread/INFO]: [CMI] Started SqLite data base. Took 3ms
-[02:54:14] [Server thread/INFO]: [CMI] Loaded (5) warning categories into memory. Took 0ms
-[02:54:14] [Server thread/INFO]: [CMI] Loaded (3) warning commands into memory. Took 0ms
-[02:54:15] [Server thread/INFO]: [CMI] Loaded (135) custom mob heads into memory. Took 28ms
-[02:54:15] [Server thread/INFO]: [CMI] Loaded (0) cooldowns into memory. Took 29ms
-[02:54:15] [Server thread/INFO]: [CMI] Updated (EN) language file. Took 179ms
-[02:54:15] [Server thread/INFO]: [CMI] Updated (RU) language file. Took 273ms
-[02:54:15] [Server thread/INFO]: [CMI] Loaded (5) kits into memory. Took 25ms
-[02:54:15] [Server thread/INFO]: [CMI] Loaded (5) schedules into memory. Took 10ms
-[02:54:15] [Server thread/INFO]: [CMI] Loaded (7) ranks into memory. Took 12ms
-[02:54:15] [Server thread/INFO]: [CMI] Loaded (56) regular alias into memory. Took 58ms
-[02:54:15] [Server thread/INFO]: [CMI] Loaded (245) worth values into memory. Took 42ms
-[02:54:15] [Server thread/INFO]: [CMI] Loaded (8) playtime rewards into memory. Took 18ms
-[02:54:15] [Server thread/INFO]: [CMI] Loaded (0) skin cache entries into memory. Took 0ms
-[02:54:15] [Server thread/INFO]: [CMI] Loaded (0) event action commands into memory. Took 7ms
-[02:54:30] [Server thread/INFO]: youube1233 issued server command: /cmi reload
-[02:54:30] [Server thread/INFO]: Updated (EN) language file. Took 73ms
-[02:54:30] [Server thread/INFO]: Updated (RU) language file. Took 68ms
-[02:54:30] [Server thread/INFO]: [CMI] Loaded (1) custom text's into memory. Took 1ms
-[02:54:30] [Server thread/INFO]: [CMI] Started SqLite data base. Took 4ms
-[02:54:30] [Server thread/INFO]: [CMI] Loaded (5) warning categories into memory. Took 1ms
-[02:54:30] [Server thread/INFO]: [CMI] Loaded (3) warning commands into memory. Took 0ms
-[02:54:30] [Server thread/INFO]: [CMI] Loaded (135) custom mob heads into memory. Took 33ms
-[02:54:30] [Server thread/INFO]: [CMI] Loaded (0) cooldowns into memory. Took 35ms
-[02:54:30] [Server thread/INFO]: [CMI] Updated (EN) language file. Took 311ms
-[02:54:31] [Server thread/INFO]: [CMI] Updated (RU) language file. Took 414ms
-[02:54:31] [Server thread/INFO]: [CMI] Loaded (5) kits into memory. Took 7ms
-[02:54:31] [Server thread/INFO]: [CMI] Loaded (5) schedules into memory. Took 21ms
-[02:54:31] [Server thread/INFO]: [CMI] Loaded (7) ranks into memory. Took 25ms
-[02:54:31] [Server thread/INFO]: [CMI] Loaded (56) regular alias into memory. Took 103ms
-[02:54:31] [Server thread/INFO]: [CMI] Loaded (245) worth values into memory. Took 26ms
-[02:54:31] [Server thread/INFO]: [CMI] Loaded (8) playtime rewards into memory. Took 5ms
-[02:54:31] [Server thread/INFO]: [CMI] Loaded (0) skin cache entries into memory. Took 0ms
-[02:54:31] [Server thread/INFO]: [CMI] Loaded (0) event action commands into memory. Took 18ms
-[02:54:57] [Server thread/INFO]: youube1233 issued server command: /cmi reload
-[02:54:57] [Server thread/INFO]: Updated (EN) language file. Took 45ms
-[02:54:57] [Server thread/INFO]: Updated (RU) language file. Took 52ms
-[02:54:57] [Server thread/INFO]: [CMI] Loaded (1) custom text's into memory. Took 0ms
-[02:54:57] [Server thread/INFO]: [CMI] Started SqLite data base. Took 3ms
-[02:54:57] [Server thread/INFO]: [CMI] Loaded (5) warning categories into memory. Took 0ms
-[02:54:57] [Server thread/INFO]: [CMI] Loaded (3) warning commands into memory. Took 0ms
-[02:54:57] [Server thread/INFO]: [CMI] Loaded (135) custom mob heads into memory. Took 32ms
-[02:54:57] [Server thread/INFO]: [CMI] Loaded (0) cooldowns into memory. Took 34ms
-[02:54:57] [Server thread/INFO]: [CMI] Updated (EN) language file. Took 250ms
-[02:54:58] [Server thread/INFO]: [CMI] Updated (RU) language file. Took 256ms
-[02:54:58] [Server thread/INFO]: [CMI] Loaded (5) kits into memory. Took 10ms
-[02:54:58] [Server thread/INFO]: [CMI] Loaded (5) schedules into memory. Took 14ms
-[02:54:58] [Server thread/INFO]: [CMI] Loaded (7) ranks into memory. Took 15ms
-[02:54:58] [Server thread/INFO]: [CMI] Loaded (56) regular alias into memory. Took 65ms
-[02:54:58] [Server thread/INFO]: [CMI] Loaded (245) worth values into memory. Took 11ms
-[02:54:58] [Server thread/INFO]: [CMI] Loaded (8) playtime rewards into memory. Took 4ms
-[02:54:58] [Server thread/INFO]: [CMI] Loaded (0) skin cache entries into memory. Took 1ms
-[02:54:58] [Server thread/INFO]: [CMI] Loaded (0) event action commands into memory. Took 10ms
-[02:55:46] [Server thread/INFO]: youube1233 issued server command: /cmi reload
-[02:55:46] [Server thread/INFO]: Updated (EN) language file. Took 322ms
-[02:55:47] [Server thread/INFO]: Updated (RU) language file. Took 164ms
-[02:55:47] [Server thread/INFO]: [CMI] Loaded (1) custom text's into memory. Took 1ms
-[02:55:47] [Server thread/INFO]: [CMI] Started SqLite data base. Took 12ms
-[02:55:47] [Server thread/INFO]: [CMI] Loaded (5) warning categories into memory. Took 0ms
-[02:55:47] [Server thread/INFO]: [CMI] Loaded (3) warning commands into memory. Took 0ms
-[02:55:47] [Server thread/INFO]: [CMI] Loaded (135) custom mob heads into memory. Took 81ms
-[02:55:47] [Server thread/INFO]: [CMI] Loaded (0) cooldowns into memory. Took 86ms
-[02:55:48] [Server thread/INFO]: [CMI] Updated (EN) language file. Took 511ms
-[02:55:48] [Server thread/INFO]: [CMI] Updated (RU) language file. Took 817ms
-[02:55:49] [Server thread/INFO]: [CMI] Loaded (5) kits into memory. Took 27ms
-[02:55:49] [Server thread/INFO]: [CMI] Loaded (5) schedules into memory. Took 33ms
-[02:55:49] [Server thread/INFO]: [CMI] Loaded (7) ranks into memory. Took 47ms
-[02:55:49] [Server thread/INFO]: [CMI] Loaded (56) regular alias into memory. Took 153ms
-[02:55:49] [Server thread/INFO]: [CMI] Loaded (245) worth values into memory. Took 49ms
-[02:55:49] [Server thread/INFO]: [CMI] Loaded (8) playtime rewards into memory. Took 16ms
-[02:55:49] [Server thread/INFO]: [CMI] Loaded (0) skin cache entries into memory. Took 0ms
-[02:55:49] [Server thread/INFO]: [CMI] Loaded (0) event action commands into memory. Took 36ms
-[02:55:50] [Server thread/WARN]: youube1233 moved too quickly! -4.889500426398655,-3.249187078744683,11.277305594306256
-[02:56:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8527ms or 170 ticks behind
-[02:56:13] [Server thread/INFO]: youube1233 issued server command: /cmi reload
-[02:56:13] [Server thread/INFO]: Updated (EN) language file. Took 28ms
-[02:56:13] [Server thread/INFO]: Updated (RU) language file. Took 13ms
-[02:56:13] [Server thread/INFO]: [CMI] Loaded (1) custom text's into memory. Took 1ms
-[02:56:13] [Server thread/INFO]: [CMI] Started SqLite data base. Took 3ms
-[02:56:13] [Server thread/INFO]: [CMI] Loaded (5) warning categories into memory. Took 0ms
-[02:56:13] [Server thread/INFO]: [CMI] Loaded (3) warning commands into memory. Took 0ms
-[02:56:13] [Server thread/INFO]: [CMI] Loaded (135) custom mob heads into memory. Took 15ms
-[02:56:13] [Server thread/INFO]: [CMI] Loaded (0) cooldowns into memory. Took 16ms
-[02:56:13] [Server thread/INFO]: [CMI] Updated (EN) language file. Took 69ms
-[02:56:13] [Server thread/INFO]: [CMI] Updated (RU) language file. Took 70ms
-[02:56:13] [Server thread/INFO]: [CMI] Loaded (5) kits into memory. Took 4ms
-[02:56:13] [Server thread/INFO]: [CMI] Loaded (5) schedules into memory. Took 4ms
-[02:56:13] [Server thread/INFO]: [CMI] Loaded (7) ranks into memory. Took 8ms
-[02:56:13] [Server thread/INFO]: [CMI] Loaded (56) regular alias into memory. Took 23ms
-[02:56:13] [Server thread/INFO]: [CMI] Loaded (245) worth values into memory. Took 6ms
-[02:56:13] [Server thread/INFO]: [CMI] Loaded (8) playtime rewards into memory. Took 1ms
-[02:56:13] [Server thread/INFO]: [CMI] Loaded (0) skin cache entries into memory. Took 0ms
-[02:56:13] [Server thread/INFO]: [CMI] Loaded (0) event action commands into memory. Took 3ms
-[02:56:43] [Server thread/INFO]: youube1233 issued server command: /cmi reload
-[02:56:43] [Server thread/INFO]: Updated (EN) language file. Took 69ms
-[02:56:43] [Server thread/INFO]: Updated (RU) language file. Took 58ms
-[02:56:43] [Server thread/INFO]: [CMI] Loaded (1) custom text's into memory. Took 1ms
-[02:56:43] [Server thread/INFO]: [CMI] Started SqLite data base. Took 7ms
-[02:56:43] [Server thread/INFO]: [CMI] Loaded (5) warning categories into memory. Took 0ms
-[02:56:43] [Server thread/INFO]: [CMI] Loaded (3) warning commands into memory. Took 0ms
-[02:56:43] [Server thread/INFO]: [CMI] Loaded (135) custom mob heads into memory. Took 42ms
-[02:56:43] [Server thread/INFO]: [CMI] Loaded (0) cooldowns into memory. Took 43ms
-[02:56:44] [Server thread/INFO]: [CMI] Updated (EN) language file. Took 410ms
-[02:56:44] [Server thread/INFO]: [CMI] Updated (RU) language file. Took 706ms
-[02:56:45] [Server thread/INFO]: [CMI] Loaded (5) kits into memory. Took 32ms
-[02:56:45] [Server thread/INFO]: [CMI] Loaded (5) schedules into memory. Took 7ms
-[02:56:45] [Server thread/INFO]: [CMI] Loaded (7) ranks into memory. Took 120ms
-[02:56:45] [Server thread/INFO]: [CMI] Loaded (56) regular alias into memory. Took 99ms
-[02:56:45] [Server thread/INFO]: [CMI] Loaded (245) worth values into memory. Took 27ms
-[02:56:45] [Server thread/INFO]: [CMI] Loaded (8) playtime rewards into memory. Took 1ms
-[02:56:45] [Server thread/INFO]: [CMI] Loaded (0) skin cache entries into memory. Took 1ms
-[02:56:45] [Server thread/INFO]: [CMI] Loaded (0) event action commands into memory. Took 4ms
-[02:56:45] [Server thread/WARN]: youube1233 moved too quickly! -8.563127661016892,-0.8787031594607981,-5.351712853460185
-[02:56:55] [Server thread/INFO]: youube1233 issued server command: /cmi reload
-[02:56:55] [Server thread/INFO]: Updated (EN) language file. Took 20ms
-[02:56:55] [Server thread/INFO]: Updated (RU) language file. Took 12ms
-[02:56:55] [Server thread/INFO]: [CMI] Loaded (1) custom text's into memory. Took 0ms
-[02:56:55] [Server thread/INFO]: [CMI] Started SqLite data base. Took 2ms
-[02:56:55] [Server thread/INFO]: [CMI] Loaded (5) warning categories into memory. Took 1ms
-[02:56:55] [Server thread/INFO]: [CMI] Loaded (3) warning commands into memory. Took 0ms
-[02:56:55] [Server thread/INFO]: [CMI] Loaded (135) custom mob heads into memory. Took 12ms
-[02:56:55] [Server thread/INFO]: [CMI] Loaded (0) cooldowns into memory. Took 13ms
-[02:56:55] [Server thread/INFO]: [CMI] Updated (EN) language file. Took 57ms
-[02:56:55] [Server thread/INFO]: [CMI] Updated (RU) language file. Took 61ms
-[02:56:55] [Server thread/INFO]: [CMI] Loaded (5) kits into memory. Took 2ms
-[02:56:55] [Server thread/INFO]: [CMI] Loaded (5) schedules into memory. Took 4ms
-[02:56:55] [Server thread/INFO]: [CMI] Loaded (7) ranks into memory. Took 10ms
-[02:56:55] [Server thread/INFO]: [CMI] Loaded (56) regular alias into memory. Took 23ms
-[02:56:55] [Server thread/INFO]: [CMI] Loaded (245) worth values into memory. Took 4ms
-[02:56:55] [Server thread/INFO]: [CMI] Loaded (8) playtime rewards into memory. Took 1ms
-[02:56:55] [Server thread/INFO]: [CMI] Loaded (0) skin cache entries into memory. Took 0ms
-[02:56:55] [Server thread/INFO]: [CMI] Loaded (0) event action commands into memory. Took 3ms
-[02:57:03] [Server thread/INFO]: youube1233 issued server command: /cmi placeholders
-[02:57:28] [Server thread/INFO]: youube1233 issued server command: /cmi placeholders -p:2
-[02:57:30] [Server thread/INFO]: youube1233 issued server command: /cmi placeholders -p:3
-[02:57:32] [Server thread/INFO]: youube1233 issued server command: /cmi placeholders -p:4
-[02:57:34] [Server thread/INFO]: youube1233 issued server command: /cmi placeholders -p:5
-[02:57:43] [Server thread/INFO]: youube1233 issued server command: /cmi reload
-[02:57:43] [Server thread/INFO]: Updated (EN) language file. Took 52ms
-[02:57:43] [Server thread/INFO]: Updated (RU) language file. Took 50ms
-[02:57:43] [Server thread/INFO]: [CMI] Loaded (1) custom text's into memory. Took 0ms
-[02:57:43] [Server thread/INFO]: [CMI] Started SqLite data base. Took 3ms
-[02:57:43] [Server thread/INFO]: [CMI] Loaded (5) warning categories into memory. Took 1ms
-[02:57:43] [Server thread/INFO]: [CMI] Loaded (3) warning commands into memory. Took 0ms
-[02:57:43] [Server thread/INFO]: [CMI] Loaded (135) custom mob heads into memory. Took 35ms
-[02:57:43] [Server thread/INFO]: [CMI] Loaded (0) cooldowns into memory. Took 36ms
-[02:57:43] [Server thread/INFO]: [CMI] Updated (EN) language file. Took 249ms
-[02:57:44] [Server thread/INFO]: [CMI] Updated (RU) language file. Took 325ms
-[02:57:44] [Server thread/INFO]: [CMI] Loaded (5) kits into memory. Took 31ms
-[02:57:44] [Server thread/INFO]: [CMI] Loaded (5) schedules into memory. Took 17ms
-[02:57:44] [Server thread/INFO]: [CMI] Loaded (7) ranks into memory. Took 24ms
-[02:57:44] [Server thread/INFO]: [CMI] Loaded (56) regular alias into memory. Took 162ms
-[02:57:44] [Server thread/INFO]: [CMI] Loaded (245) worth values into memory. Took 37ms
-[02:57:44] [Server thread/INFO]: [CMI] Loaded (8) playtime rewards into memory. Took 6ms
-[02:57:44] [Server thread/INFO]: [CMI] Loaded (0) skin cache entries into memory. Took 0ms
-[02:57:44] [Server thread/INFO]: [CMI] Loaded (0) event action commands into memory. Took 12ms
-[02:57:50] [Server thread/INFO]: youube1233 issued server command: /cmi reload\
-[02:57:50] [Server thread/INFO]: Updated (EN) language file. Took 99ms
-[02:57:50] [Server thread/INFO]: Updated (RU) language file. Took 111ms
-[02:57:51] [Server thread/INFO]: [CMI] Loaded (1) custom text's into memory. Took 3ms
-[02:57:51] [Server thread/INFO]: [CMI] Started SqLite data base. Took 17ms
-[02:57:51] [Server thread/INFO]: [CMI] Loaded (5) warning categories into memory. Took 0ms
-[02:57:51] [Server thread/INFO]: [CMI] Loaded (3) warning commands into memory. Took 0ms
-[02:57:51] [Server thread/INFO]: [CMI] Loaded (135) custom mob heads into memory. Took 87ms
-[02:57:51] [Server thread/INFO]: [CMI] Loaded (0) cooldowns into memory. Took 95ms
-[02:57:51] [Server thread/INFO]: [CMI] Updated (EN) language file. Took 503ms
-[02:57:52] [Server thread/INFO]: [CMI] Updated (RU) language file. Took 463ms
-[02:57:52] [Server thread/INFO]: [CMI] Loaded (5) kits into memory. Took 33ms
-[02:57:52] [Server thread/INFO]: [CMI] Loaded (5) schedules into memory. Took 26ms
-[02:57:52] [Server thread/INFO]: [CMI] Loaded (7) ranks into memory. Took 35ms
-[02:57:52] [Server thread/INFO]: [CMI] Loaded (56) regular alias into memory. Took 104ms
-[02:57:52] [Server thread/INFO]: [CMI] Loaded (245) worth values into memory. Took 38ms
-[02:57:52] [Server thread/INFO]: [CMI] Loaded (8) playtime rewards into memory. Took 5ms
-[02:57:52] [Server thread/INFO]: [CMI] Loaded (0) skin cache entries into memory. Took 0ms
-[02:57:52] [Server thread/INFO]: [CMI] Loaded (0) event action commands into memory. Took 15ms
-[02:57:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5116ms or 102 ticks behind
-[02:58:01] [Server thread/INFO]: youube1233 issued server command: /cmi reload
-[02:58:01] [Server thread/INFO]: Updated (EN) language file. Took 122ms
-[02:58:01] [Server thread/INFO]: Updated (RU) language file. Took 102ms
-[02:58:02] [Server thread/INFO]: [CMI] Loaded (1) custom text's into memory. Took 1ms
-[02:58:02] [Server thread/INFO]: [CMI] Started SqLite data base. Took 7ms
-[02:58:02] [Server thread/INFO]: [CMI] Loaded (5) warning categories into memory. Took 1ms
-[02:58:02] [Server thread/INFO]: [CMI] Loaded (3) warning commands into memory. Took 0ms
-[02:58:02] [Server thread/INFO]: [CMI] Loaded (135) custom mob heads into memory. Took 49ms
-[02:58:02] [Server thread/INFO]: [CMI] Loaded (0) cooldowns into memory. Took 51ms
-[02:58:02] [Server thread/INFO]: [CMI] Updated (EN) language file. Took 562ms
-[02:58:03] [Server thread/INFO]: [CMI] Updated (RU) language file. Took 444ms
-[02:58:03] [Server thread/INFO]: [CMI] Loaded (5) kits into memory. Took 2ms
-[02:58:03] [Server thread/INFO]: [CMI] Loaded (5) schedules into memory. Took 18ms
-[02:58:03] [Server thread/INFO]: [CMI] Loaded (7) ranks into memory. Took 17ms
-[02:58:03] [Server thread/INFO]: [CMI] Loaded (56) regular alias into memory. Took 127ms
-[02:58:03] [Server thread/INFO]: [CMI] Loaded (245) worth values into memory. Took 59ms
-[02:58:03] [Server thread/INFO]: [CMI] Loaded (8) playtime rewards into memory. Took 4ms
-[02:58:03] [Server thread/INFO]: [CMI] Loaded (0) skin cache entries into memory. Took 0ms
-[02:58:03] [Server thread/INFO]: [CMI] Loaded (0) event action commands into memory. Took 12ms
-[02:58:19] [Async Chat Thread - #0/INFO]: <youube1233> f
-[02:59:03] [Server thread/INFO]: youube1233 issued server command: /cmi reload
-[02:59:04] [Server thread/INFO]: Updated (EN) language file. Took 569ms
-[02:59:04] [Server thread/INFO]: Updated (RU) language file. Took 190ms
-[02:59:04] [Server thread/INFO]: [CMI] Loaded (1) custom text's into memory. Took 16ms
-[02:59:04] [Server thread/INFO]: [CMI] Started SqLite data base. Took 7ms
-[02:59:04] [Server thread/INFO]: [CMI] Loaded (5) warning categories into memory. Took 0ms
-[02:59:04] [Server thread/INFO]: [CMI] Loaded (3) warning commands into memory. Took 0ms
-[02:59:04] [Server thread/INFO]: [CMI] Loaded (135) custom mob heads into memory. Took 35ms
-[02:59:04] [Server thread/INFO]: [CMI] Loaded (0) cooldowns into memory. Took 37ms
-[02:59:05] [Server thread/INFO]: [CMI] Updated (EN) language file. Took 231ms
-[02:59:05] [Server thread/INFO]: [CMI] Updated (RU) language file. Took 543ms
-[02:59:06] [Server thread/INFO]: [CMI] Loaded (5) kits into memory. Took 51ms
-[02:59:06] [Server thread/INFO]: [CMI] Loaded (5) schedules into memory. Took 9ms
-[02:59:06] [Server thread/INFO]: [CMI] Loaded (7) ranks into memory. Took 24ms
-[02:59:06] [Server thread/INFO]: [CMI] Loaded (56) regular alias into memory. Took 63ms
-[02:59:06] [Server thread/INFO]: [CMI] Loaded (245) worth values into memory. Took 35ms
-[02:59:06] [Server thread/INFO]: [CMI] Loaded (8) playtime rewards into memory. Took 21ms
-[02:59:06] [Server thread/INFO]: [CMI] Loaded (0) skin cache entries into memory. Took 0ms
-[02:59:06] [Server thread/INFO]: [CMI] Loaded (0) event action commands into memory. Took 13ms
-[02:59:06] [Async Chat Thread - #0/INFO]: <youube1233> f
-[02:59:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5020ms or 100 ticks behind
-[02:59:07] [Server thread/WARN]: youube1233 moved too quickly! -6.647415037832047,1.0013359791121417,-7.512428867873268
-[02:59:08] [Async Chat Thread - #0/INFO]: <youube1233> f
-[02:59:09] [Async Chat Thread - #0/INFO]: <youube1233> f
-[02:59:25] [Async Chat Thread - #0/INFO]: <youube1233> f
-[02:59:54] [Server thread/INFO]: youube1233 issued server command: /cmi reload
-[02:59:54] [Server thread/INFO]: Updated (EN) language file. Took 53ms
-[02:59:54] [Server thread/INFO]: Updated (RU) language file. Took 12ms
-[02:59:54] [Server thread/INFO]: [CMI] Loaded (1) custom text's into memory. Took 18ms
-[02:59:54] [Server thread/INFO]: [CMI] Started SqLite data base. Took 3ms
-[02:59:54] [Server thread/INFO]: [CMI] Loaded (5) warning categories into memory. Took 0ms
-[02:59:54] [Server thread/INFO]: [CMI] Loaded (3) warning commands into memory. Took 0ms
-[02:59:54] [Server thread/INFO]: [CMI] Loaded (135) custom mob heads into memory. Took 15ms
-[02:59:54] [Server thread/INFO]: [CMI] Loaded (0) cooldowns into memory. Took 16ms
-[02:59:54] [Server thread/INFO]: [CMI] Updated (EN) language file. Took 71ms
-[02:59:55] [Server thread/INFO]: [CMI] Updated (RU) language file. Took 59ms
-[02:59:55] [Server thread/INFO]: [CMI] Loaded (5) kits into memory. Took 23ms
-[02:59:55] [Server thread/INFO]: [CMI] Loaded (5) schedules into memory. Took 4ms
-[02:59:55] [Server thread/INFO]: [CMI] Loaded (7) ranks into memory. Took 15ms
-[02:59:55] [Server thread/INFO]: [CMI] Loaded (56) regular alias into memory. Took 26ms
-[02:59:55] [Server thread/INFO]: [CMI] Loaded (245) worth values into memory. Took 19ms
-[02:59:55] [Server thread/INFO]: [CMI] Loaded (8) playtime rewards into memory. Took 20ms
-[02:59:55] [Server thread/INFO]: [CMI] Loaded (0) skin cache entries into memory. Took 0ms
-[02:59:55] [Server thread/INFO]: [CMI] Loaded (0) event action commands into memory. Took 3ms
-[02:59:56] [Async Chat Thread - #0/INFO]: <youube1233> f
-[02:59:57] [Async Chat Thread - #0/INFO]: <youube1233> f
-[03:00:39] [Server thread/INFO]: youube1233 issued server command: /cmi reload
-[03:00:39] [Server thread/INFO]: Updated (EN) language file. Took 31ms
-[03:00:39] [Server thread/INFO]: Updated (RU) language file. Took 12ms
-[03:00:39] [Server thread/INFO]: [CMI] Loaded (1) custom text's into memory. Took 0ms
-[03:00:39] [Server thread/INFO]: [CMI] Started SqLite data base. Took 3ms
-[03:00:39] [Server thread/INFO]: [CMI] Loaded (5) warning categories into memory. Took 0ms
-[03:00:39] [Server thread/INFO]: [CMI] Loaded (3) warning commands into memory. Took 0ms
-[03:00:39] [Server thread/INFO]: [CMI] Loaded (135) custom mob heads into memory. Took 18ms
-[03:00:39] [Server thread/INFO]: [CMI] Loaded (0) cooldowns into memory. Took 19ms
-[03:00:39] [Server thread/INFO]: [CMI] Updated (EN) language file. Took 61ms
-[03:00:39] [Server thread/INFO]: [CMI] Updated (RU) language file. Took 61ms
-[03:00:39] [Server thread/INFO]: [CMI] Loaded (5) kits into memory. Took 16ms
-[03:00:39] [Server thread/INFO]: [CMI] Loaded (5) schedules into memory. Took 5ms
-[03:00:39] [Server thread/INFO]: [CMI] Loaded (7) ranks into memory. Took 7ms
-[03:00:39] [Server thread/INFO]: [CMI] Loaded (56) regular alias into memory. Took 22ms
-[03:00:39] [Server thread/INFO]: [CMI] Loaded (245) worth values into memory. Took 14ms
-[03:00:39] [Server thread/INFO]: [CMI] Loaded (8) playtime rewards into memory. Took 1ms
-[03:00:39] [Server thread/INFO]: [CMI] Loaded (0) skin cache entries into memory. Took 0ms
-[03:00:39] [Server thread/INFO]: [CMI] Loaded (0) event action commands into memory. Took 3ms
-[03:00:40] [Async Chat Thread - #0/INFO]: <youube1233> f
-[03:00:41] [Async Chat Thread - #0/INFO]: <youube1233> f
-[03:01:06] [Server thread/INFO]: youube1233 issued server command: /lp editor
-[03:01:28] [Server thread/INFO]: youube1233 issued server command: /lp applyedits oopg1WQlxe
-[03:01:28] [luckperms-command-executor/INFO]: [LP] ЛОГ > (youube1233) [G] (dev)
-[03:01:28] [luckperms-command-executor/INFO]: [LP] ЛОГ > webeditor add cmi.chatmessagegroup.1 true
-[03:01:30] [Async Chat Thread - #0/INFO]: <youube1233> fd
-[03:01:37] [Server thread/INFO]: youube1233 issued server command: /cmi reload
-[03:01:37] [Server thread/INFO]: Updated (EN) language file. Took 19ms
-[03:01:37] [Server thread/INFO]: Updated (RU) language file. Took 13ms
-[03:01:37] [Server thread/INFO]: [CMI] Loaded (1) custom text's into memory. Took 1ms
-[03:01:37] [Server thread/INFO]: [CMI] Started SqLite data base. Took 2ms
-[03:01:37] [Server thread/INFO]: [CMI] Loaded (5) warning categories into memory. Took 0ms
-[03:01:37] [Server thread/INFO]: [CMI] Loaded (3) warning commands into memory. Took 0ms
-[03:01:37] [Server thread/INFO]: [CMI] Loaded (135) custom mob heads into memory. Took 14ms
-[03:01:37] [Server thread/INFO]: [CMI] Loaded (0) cooldowns into memory. Took 14ms
-[03:01:37] [Server thread/INFO]: [CMI] Updated (EN) language file. Took 53ms
-[03:01:37] [Server thread/INFO]: [CMI] Updated (RU) language file. Took 59ms
-[03:01:37] [Server thread/INFO]: [CMI] Loaded (5) kits into memory. Took 1ms
-[03:01:37] [Server thread/INFO]: [CMI] Loaded (5) schedules into memory. Took 4ms
-[03:01:37] [Server thread/INFO]: [CMI] Loaded (7) ranks into memory. Took 8ms
-[03:01:37] [Server thread/INFO]: [CMI] Loaded (56) regular alias into memory. Took 17ms
-[03:01:37] [Server thread/INFO]: [CMI] Loaded (245) worth values into memory. Took 4ms
-[03:01:37] [Server thread/INFO]: [CMI] Loaded (8) playtime rewards into memory. Took 1ms
-[03:01:37] [Server thread/INFO]: [CMI] Loaded (0) skin cache entries into memory. Took 1ms
-[03:01:37] [Server thread/INFO]: [CMI] Loaded (0) event action commands into memory. Took 3ms
-[03:01:38] [Async Chat Thread - #0/INFO]: <youube1233> f
-[03:02:05] [Server thread/INFO]: youube1233 issued server command: /lp applyedits 4J7ScghRX5
-[03:02:05] [luckperms-command-executor/INFO]: [LP] ЛОГ > (youube1233) [G] (dev)
-[03:02:05] [luckperms-command-executor/INFO]: [LP] ЛОГ > webeditor remove cmi.chatmessagegroup.1 true
-[03:02:53] [Server thread/INFO]: Updated (EN) language file. Took 41ms
-[03:02:53] [Server thread/INFO]: Updated (RU) language file. Took 34ms
-[03:02:53] [Server thread/INFO]: CMIL Configs and locale files reloaded! Took 169ms
-[03:02:53] [Server thread/INFO]: [CMI] Loaded (1) custom text's into memory. Took 0ms
-[03:02:53] [Server thread/INFO]: [CMI] Started SqLite data base. Took 3ms
-[03:02:53] [Server thread/INFO]: [CMI] Loaded (5) warning categories into memory. Took 0ms
-[03:02:53] [Server thread/INFO]: [CMI] Loaded (3) warning commands into memory. Took 0ms
-[03:02:53] [Server thread/INFO]: [CMI] Loaded (135) custom mob heads into memory. Took 24ms
-[03:02:53] [Server thread/INFO]: [CMI] Loaded (0) cooldowns into memory. Took 24ms
-[03:02:54] [Server thread/INFO]: [CMI] Updated (EN) language file. Took 156ms
-[03:02:54] [Server thread/INFO]: [CMI] Updated (RU) language file. Took 187ms
-[03:02:54] [Server thread/INFO]: [CMI] Loaded (5) kits into memory. Took 2ms
-[03:02:54] [Server thread/INFO]: [CMI] Loaded (5) schedules into memory. Took 8ms
-[03:02:54] [Server thread/INFO]: [CMI] Loaded (7) ranks into memory. Took 12ms
-[03:02:54] [Server thread/INFO]: [CMI] Loaded (56) regular alias into memory. Took 46ms
-[03:02:54] [Server thread/INFO]: [CMI] Loaded (245) worth values into memory. Took 7ms
-[03:02:54] [Server thread/INFO]: [CMI] Loaded (8) playtime rewards into memory. Took 2ms
-[03:02:54] [Server thread/INFO]: [CMI] Loaded (0) skin cache entries into memory. Took 0ms
-[03:02:54] [Server thread/INFO]: [CMI] Loaded (0) event action commands into memory. Took 6ms
-[03:02:54] [Server thread/INFO]: Конфигурация перезагружена! Это заняло 631мс
-[03:02:58] [Async Chat Thread - #1/INFO]: <youube1233> f
-[03:04:32] [Server thread/INFO]: youube1233 issued server command: /cmi cheque
-[03:04:37] [Server thread/INFO]: youube1233 issued server command: /cmi cheque 133333
-[03:04:41] [Server thread/INFO]: youube1233 issued server command: /cmi cheque youube1233 12233
-[03:05:16] [Server thread/INFO]: youube1233 issued server command: /cmi tablistupdate
-[03:05:29] [Server thread/INFO]: youube1233 issued server command: /cmi reload
-[03:05:30] [Server thread/INFO]: Updated (EN) language file. Took 706ms
-[03:05:30] [Server thread/INFO]: Updated (RU) language file. Took 155ms
-[03:05:30] [Server thread/INFO]: [CMI] Loaded (1) custom text's into memory. Took 35ms
-[03:05:30] [Server thread/INFO]: [CMI] Started SqLite data base. Took 26ms
-[03:05:31] [Server thread/INFO]: [CMI] Loaded (5) warning categories into memory. Took 0ms
-[03:05:31] [Server thread/INFO]: [CMI] Loaded (3) warning commands into memory. Took 0ms
-[03:05:31] [Server thread/INFO]: [CMI] Loaded (135) custom mob heads into memory. Took 81ms
-[03:05:31] [Server thread/INFO]: [CMI] Loaded (0) cooldowns into memory. Took 92ms
-[03:05:31] [Server thread/INFO]: [CMI] Updated (EN) language file. Took 446ms
-[03:05:31] [Server thread/INFO]: [CMI] Updated (RU) language file. Took 108ms
-[03:05:32] [Server thread/INFO]: [CMI] Loaded (5) kits into memory. Took 73ms
-[03:05:32] [Server thread/INFO]: [CMI] Loaded (5) schedules into memory. Took 20ms
-[03:05:32] [Server thread/INFO]: [CMI] Loaded (7) ranks into memory. Took 80ms
-[03:05:32] [Server thread/INFO]: [CMI] Loaded (56) regular alias into memory. Took 80ms
-[03:05:32] [Server thread/INFO]: [CMI] Loaded (245) worth values into memory. Took 42ms
-[03:05:32] [Server thread/INFO]: [CMI] Loaded (8) playtime rewards into memory. Took 15ms
-[03:05:32] [Server thread/INFO]: [CMI] Loaded (0) skin cache entries into memory. Took 22ms
-[03:05:32] [Server thread/INFO]: [CMI] Loaded (0) event action commands into memory. Took 4ms
-[03:05:32] [Server thread/WARN]: youube1233 moved too quickly! -7.412829194848996,1.0013359791121417,-9.09105906623779
-[03:06:15] [Server thread/INFO]: youube1233 issued server command: /cmi reload
-[03:06:15] [Server thread/INFO]: Updated (EN) language file. Took 28ms
-[03:06:15] [Server thread/INFO]: Updated (RU) language file. Took 14ms
-[03:06:15] [Server thread/INFO]: [CMI] Loaded (1) custom text's into memory. Took 31ms
-[03:06:15] [Server thread/INFO]: [CMI] Started SqLite data base. Took 3ms
-[03:06:15] [Server thread/INFO]: [CMI] Loaded (5) warning categories into memory. Took 0ms
-[03:06:15] [Server thread/INFO]: [CMI] Loaded (3) warning commands into memory. Took 0ms
-[03:06:15] [Server thread/INFO]: [CMI] Loaded (135) custom mob heads into memory. Took 14ms
-[03:06:15] [Server thread/INFO]: [CMI] Loaded (0) cooldowns into memory. Took 15ms
-[03:06:15] [Server thread/INFO]: [CMI] Updated (EN) language file. Took 68ms
-[03:06:15] [Server thread/INFO]: [CMI] Updated (RU) language file. Took 68ms
-[03:06:15] [Server thread/INFO]: [CMI] Loaded (5) kits into memory. Took 20ms
-[03:06:15] [Server thread/INFO]: [CMI] Loaded (5) schedules into memory. Took 5ms
-[03:06:15] [Server thread/INFO]: [CMI] Loaded (7) ranks into memory. Took 12ms
-[03:06:15] [Server thread/INFO]: [CMI] Loaded (56) regular alias into memory. Took 29ms
-[03:06:15] [Server thread/INFO]: [CMI] Loaded (245) worth values into memory. Took 30ms
-[03:06:15] [Server thread/INFO]: [CMI] Loaded (8) playtime rewards into memory. Took 16ms
-[03:06:15] [Server thread/INFO]: [CMI] Loaded (0) skin cache entries into memory. Took 0ms
-[03:06:15] [Server thread/INFO]: [CMI] Loaded (0) event action commands into memory. Took 3ms
-[03:08:00] [Server thread/INFO]: youube1233 issued server command: /cmi reload
-[03:08:00] [Server thread/INFO]: Updated (EN) language file. Took 56ms
-[03:08:00] [Server thread/INFO]: Updated (RU) language file. Took 34ms
-[03:08:00] [Server thread/INFO]: [CMI] Loaded (1) custom text's into memory. Took 16ms
-[03:08:00] [Server thread/INFO]: [CMI] Started SqLite data base. Took 5ms
-[03:08:00] [Server thread/INFO]: [CMI] Loaded (5) warning categories into memory. Took 0ms
-[03:08:00] [Server thread/INFO]: [CMI] Loaded (3) warning commands into memory. Took 0ms
-[03:08:00] [Server thread/INFO]: [CMI] Loaded (135) custom mob heads into memory. Took 25ms
-[03:08:00] [Server thread/INFO]: [CMI] Loaded (0) cooldowns into memory. Took 25ms
-[03:08:00] [Server thread/INFO]: [CMI] Updated (EN) language file. Took 294ms
-[03:08:01] [Server thread/INFO]: [CMI] Updated (RU) language file. Took 158ms
-[03:08:01] [Server thread/INFO]: [CMI] Loaded (5) kits into memory. Took 9ms
-[03:08:01] [Server thread/INFO]: [CMI] Loaded (5) schedules into memory. Took 7ms
-[03:08:01] [Server thread/INFO]: [CMI] Loaded (7) ranks into memory. Took 21ms
-[03:08:01] [Server thread/INFO]: [CMI] Loaded (56) regular alias into memory. Took 74ms
-[03:08:01] [Server thread/INFO]: [CMI] Loaded (245) worth values into memory. Took 15ms
-[03:08:01] [Server thread/INFO]: [CMI] Loaded (8) playtime rewards into memory. Took 6ms
-[03:08:01] [Server thread/INFO]: [CMI] Loaded (0) skin cache entries into memory. Took 0ms
-[03:08:01] [Server thread/INFO]: [CMI] Loaded (0) event action commands into memory. Took 8ms
-[03:08:08] [Server thread/INFO]: youube1233 issued server command: /cmi reload
-[03:08:08] [Server thread/INFO]: Updated (EN) language file. Took 29ms
-[03:08:08] [Server thread/INFO]: Updated (RU) language file. Took 13ms
-[03:08:08] [Server thread/INFO]: [CMI] Loaded (1) custom text's into memory. Took 0ms
-[03:08:08] [Server thread/INFO]: [CMI] Started SqLite data base. Took 2ms
-[03:08:08] [Server thread/INFO]: [CMI] Loaded (5) warning categories into memory. Took 0ms
-[03:08:08] [Server thread/INFO]: [CMI] Loaded (3) warning commands into memory. Took 0ms
-[03:08:08] [Server thread/INFO]: [CMI] Loaded (135) custom mob heads into memory. Took 11ms
-[03:08:08] [Server thread/INFO]: [CMI] Loaded (0) cooldowns into memory. Took 12ms
-[03:08:08] [Server thread/INFO]: [CMI] Updated (EN) language file. Took 63ms
-[03:08:08] [Server thread/INFO]: [CMI] Updated (RU) language file. Took 283ms
-[03:08:08] [Server thread/INFO]: [CMI] Loaded (5) kits into memory. Took 1ms
-[03:08:08] [Server thread/INFO]: [CMI] Loaded (5) schedules into memory. Took 6ms
-[03:08:08] [Server thread/INFO]: [CMI] Loaded (7) ranks into memory. Took 10ms
-[03:08:09] [Server thread/INFO]: [CMI] Loaded (56) regular alias into memory. Took 33ms
-[03:08:09] [Server thread/INFO]: [CMI] Loaded (245) worth values into memory. Took 3ms
-[03:08:09] [Server thread/INFO]: [CMI] Loaded (8) playtime rewards into memory. Took 1ms
-[03:08:09] [Server thread/INFO]: [CMI] Loaded (0) skin cache entries into memory. Took 0ms
-[03:08:09] [Server thread/INFO]: [CMI] Loaded (0) event action commands into memory. Took 4ms
-[03:12:49] [Server thread/INFO]: youube1233 issued server command: /cmi money
-[03:13:00] [Server thread/INFO]: youube1233 issued server command: /cmi cheque 145450
-[03:13:04] [Server thread/INFO]: youube1233 issued server command: /cmi cheque youube1233 145450
-[03:13:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5011ms or 100 ticks behind
-[03:13:21] [Server thread/INFO]: youube1233 issued server command: /money
-[03:13:26] [Server thread/INFO]: youube1233 issued server command: /cmi money
-[03:13:31] [Server thread/INFO]: youube1233 issued server command: /cmi cheque youube1233 145450
-[03:13:38] [Server thread/INFO]: youube1233 issued server command: /pay
-[03:13:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6980ms or 139 ticks behind
-[03:13:53] [Server thread/INFO]: youube1233 issued server command: /cmi reload
-[03:13:55] [Server thread/INFO]: Updated (EN) language file. Took 581ms
-[03:13:55] [Server thread/INFO]: Updated (RU) language file. Took 193ms
-[03:13:56] [Server thread/INFO]: [CMI] Loaded (1) custom text's into memory. Took 74ms
-[03:13:56] [Server thread/INFO]: [CMI] Started SqLite data base. Took 34ms
-[03:13:56] [Server thread/INFO]: [CMI] Loaded (5) warning categories into memory. Took 0ms
-[03:13:56] [Server thread/INFO]: [CMI] Loaded (3) warning commands into memory. Took 0ms
-[03:13:56] [Server thread/INFO]: [CMI] Loaded (135) custom mob heads into memory. Took 122ms
-[03:13:56] [Server thread/INFO]: [CMI] Loaded (0) cooldowns into memory. Took 126ms
-[03:13:57] [Server thread/INFO]: [CMI] Updated (EN) language file. Took 517ms
-[03:13:58] [Server thread/INFO]: [CMI] Updated (RU) language file. Took 547ms
-[03:13:58] [Server thread/INFO]: [CMI] Loaded (5) kits into memory. Took 48ms
-[03:13:58] [Server thread/INFO]: [CMI] Loaded (5) schedules into memory. Took 11ms
-[03:13:58] [Server thread/INFO]: [CMI] Loaded (7) ranks into memory. Took 21ms
-[03:13:58] [Server thread/INFO]: [CMI] Loaded (56) regular alias into memory. Took 43ms
-[03:13:58] [Server thread/INFO]: [CMI] Loaded (245) worth values into memory. Took 30ms
-[03:13:58] [Server thread/INFO]: [CMI] Loaded (8) playtime rewards into memory. Took 20ms
-[03:13:58] [Server thread/INFO]: [CMI] Loaded (0) skin cache entries into memory. Took 0ms
-[03:13:58] [Server thread/INFO]: [CMI] Loaded (0) event action commands into memory. Took 4ms
-[03:13:58] [Server thread/WARN]: youube1233 moved too quickly! -9.436959538015941,1.2491870787446828,3.45912598636761
-[03:14:14] [Server thread/INFO]: Использование: /cmi more (playerName) (-clone/[amount])
-[03:14:14] [Server thread/INFO]: * Заполнить стак предметов до максимального значения
-[03:14:21] [Server thread/INFO]: youube1233 issued server command: /cmi more
-[03:14:33] [Server thread/INFO]: youube1233 issued server command: /cmi top
-[03:14:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8632ms or 172 ticks behind
-[03:14:46] [Server thread/INFO]: youube1233 issued server command: /cmi cheque youube1233 14545000000
-[03:14:47] [Server thread/INFO]: youube1233 issued server command: /cmi cheque youube1233 1454500000
-[03:14:48] [Server thread/INFO]: youube1233 issued server command: /cmi cheque youube1233 145450000
-[03:14:49] [Server thread/INFO]: youube1233 issued server command: /cmi cheque youube1233 14545000
-[03:14:49] [Server thread/INFO]: youube1233 issued server command: /cmi cheque youube1233 1454500
-[03:14:50] [Server thread/INFO]: youube1233 issued server command: /cmi cheque youube1233 1454500
-[03:14:53] [Server thread/INFO]: youube1233 issued server command: /cmi cheque youube1233 14545000
-[03:14:56] [Server thread/INFO]: youube1233 issued server command: /cmi cheque youube1233 1454500
-[03:15:00] [Server thread/INFO]: youube1233 issued server command: /cmi more
-[03:15:17] [Server thread/INFO]: youube1233 issued server command: /cmi cheque youube1233 9999999
-[03:15:19] [Server thread/INFO]: youube1233 issued server command: /cmi more
-[03:15:27] [Server thread/INFO]: youube1233 issued server command: /money
-[03:16:51] [Server thread/INFO]: youube1233 issued server command: /cmi baltop
-[03:17:25] [Server thread/INFO]: youube1233 issued server command: /cmi checkcommand
-[03:17:34] [Server thread/INFO]: youube1233 issued server command: /cmi checkcommand -p:2
-[03:17:45] [Server thread/INFO]: youube1233 issued server command: /cmi donate
-[03:17:48] [Server thread/INFO]: youube1233 issued server command: /cmi checkcommand -p:3
-[03:17:50] [Server thread/INFO]: youube1233 issued server command: /cmi checkcommand -p:4
-[03:17:53] [Server thread/INFO]: youube1233 issued server command: /cmi checkcommand -p:5
-[03:17:54] [Server thread/INFO]: youube1233 issued server command: /cmi checkcommand -p:6
-[03:17:54] [Server thread/INFO]: youube1233 issued server command: /cmi checkcommand -p:7
-[03:17:55] [Server thread/INFO]: youube1233 issued server command: /cmi checkcommand -p:8
-[03:17:58] [Server thread/INFO]: youube1233 issued server command: /cmi checkcommand -p:7
-[03:18:11] [Server thread/INFO]: youube1233 issued server command: /cmi money
-[03:18:13] [Server thread/INFO]: youube1233 issued server command: /cmi money take
-[03:18:17] [Server thread/INFO]: youube1233 issued server command: /cmi money take all
-[03:18:19] [Server thread/INFO]: youube1233 issued server command: /cmi money take all 1000
-[03:18:29] [Server thread/INFO]: Отобрано 1.00k БадыльКоинов у 1 игроков
-[03:18:34] [Server thread/INFO]: youube1233 issued server command: /cmi
-[03:18:39] [Server thread/INFO]: Отобрано 10.00b БадыльКоинов у 1 игроков
-[03:18:51] [Server thread/INFO]: Stopping the server
-[03:18:51] [Server thread/WARN]: java.lang.Throwable: Server stopped
-[03:18:51] [Server thread/WARN]: 	at io.papermc.paper.util.TraceUtil.dumpTraceForThread(TraceUtil.java:16)
-[03:18:51] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.safeShutdown(MinecraftServer.java:1001)
-[03:18:51] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.safeShutdown(MinecraftServer.java:995)
-[03:18:51] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.CommandStop.a(SourceFile:17)
-[03:18:51] [Server thread/WARN]: 	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:262)
-[03:18:51] [Server thread/WARN]: 	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:176)
-[03:18:51] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.CommandDispatcher.a(CommandDispatcher.java:276)
-[03:18:51] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.command.VanillaCommandWrapper.execute(VanillaCommandWrapper.java:45)
-[03:18:51] [Server thread/WARN]: 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:159)
-[03:18:51] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.dispatchCommand(CraftServer.java:826)
-[03:18:51] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.dispatchServerCommand(CraftServer.java:788)
-[03:18:51] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.DedicatedServer.handleCommandQueue(DedicatedServer.java:470)
-[03:18:51] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.DedicatedServer.b(DedicatedServer.java:437)
-[03:18:51] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.a(MinecraftServer.java:1347)
-[03:18:51] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:1135)
-[03:18:51] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:291)
-[03:18:51] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:831)
-[03:18:51] [Server thread/INFO]: Stopping server
-[03:18:51] [Server thread/INFO]: [CMI] Disabling CMI v9.0.2.9
-[03:18:51] [Server thread/INFO]: [Vault][Economy] CMI Economy unhooked.
-[03:18:52] [Server thread/INFO]: [CMI] Closed db connections
-[03:18:52] [Server thread/INFO]: [CMILib] Disabling CMILib v1.1.2.5
-[03:18:52] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-CMI
-[03:18:52] [Server thread/INFO]: [WorldBorder] Disabling WorldBorder v1.9.10 (beta)
-[03:18:52] [Server thread/INFO]: [WorldBorder] [CONFIG] Border-checking timed task stopped.
-[03:18:52] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.3.77
-[03:18:52] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[03:18:52] [Server thread/INFO]: [LuckPerms] Closing storage...
-[03:18:52] [Server thread/INFO]: [LuckPerms] Goodbye!
-[03:18:52] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v20.1
-[03:18:53] [Server thread/INFO]: [CoreProtect] Завершение регистрации данных. Пожалуйста, подождите...
-[03:18:53] [Server thread/INFO]: [CoreProtect] CoreProtect v20.1 был успешно отключён!
-[03:18:53] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.2.2
-[03:18:53] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
-[03:18:53] [Server thread/INFO]: Saving players
-[03:18:54] [Server thread/INFO]: youube1233 lost connection: Сервер закрыт.
-[03:18:54] [Server thread/INFO]: youube1233 left the game
-[03:18:54] [Server thread/INFO]: Saving worlds
-[03:18:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[03:18:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[03:18:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[03:18:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[03:18:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[03:18:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[03:18:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[03:18:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[03:18:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[03:18:59] [Server thread/INFO]: Flushing Chunk IO
-[03:18:59] [Server thread/INFO]: Closing Thread Pool
-[03:18:59] [Server thread/INFO]: Closing Server
-[03:18:59] [Thread-1/WARN]: java.lang.Throwable: Server stopped
-[03:18:59] [Thread-1/WARN]: 	at io.papermc.paper.util.TraceUtil.dumpTraceForThread(TraceUtil.java:16)
-[03:18:59] [Thread-1/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.safeShutdown(MinecraftServer.java:1001)
-[03:18:59] [Thread-1/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.util.ServerShutdownThread.run(ServerShutdownThread.java:16)
+[03:34:46] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[03:34:46] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[03:34:46] [Worker-Main-4/INFO]: Loaded 7 recipes
+[03:34:47] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[03:34:47] [Server thread/INFO]: Loading properties
+[03:34:47] [Server thread/INFO]: This server is running Paper version git-Paper-790 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
+[03:34:47] [Server thread/INFO]: Debug logging is disabled
+[03:34:47] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[03:34:47] [Server thread/INFO]: Using 4 threads for Netty based IO
+[03:34:47] [Server thread/INFO]: Default game type: SURVIVAL
+[03:34:47] [Server thread/INFO]: Generating keypair
+[03:34:47] [Server thread/INFO]: Starting Minecraft server on 192.168.0.115:25565
+[03:34:47] [Server thread/INFO]: Using default channel type
+[03:34:48] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.2.2
+[03:34:48] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v20.1
+[03:34:48] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.3.77
+[03:34:48] [Server thread/INFO]: [WorldBorder] Loading WorldBorder v1.9.10 (beta)
+[03:34:48] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-CMI
+[03:34:48] [Server thread/INFO]: [CMILib] Loading CMILib v1.1.2.5
+[03:34:48] [Server thread/INFO]: [CMI] Loading CMI v9.0.2.9
+[03:34:48] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[03:34:48] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.3.77
+[03:34:48] [Server thread/INFO]:         __    
+[03:34:48] [Server thread/INFO]:   |    |__)   LuckPerms v5.3.77
+[03:34:48] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[03:34:48] [Server thread/INFO]: 
+[03:34:48] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[03:34:48] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[03:34:49] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[03:34:49] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[03:34:49] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 896ms)
+[03:34:49] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-CMI
+[03:34:49] [Server thread/WARN]: [Vault] Loaded class com.Zrips.CMI.Modules.Economy.Economy from CMI v9.0.2.9 which is not a depend, softdepend or loadbefore of this plugin.
+[03:34:49] [Server thread/INFO]: [Vault] [Economy] CMI Economy found: Waiting
+[03:34:49] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[03:34:49] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-CMI
+[03:34:49] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[03:34:49] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[03:34:49] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[03:34:49] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[03:34:49] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[03:34:49] [Server thread/INFO]: Preparing level "world"
+[03:34:49] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[03:34:50] [Server thread/INFO]: Preparing spawn area: 0%
+[03:34:50] [Server thread/INFO]: Time elapsed: 289 ms
+[03:34:50] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[03:34:50] [Server thread/INFO]: Time elapsed: 60 ms
+[03:34:50] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[03:34:50] [Server thread/INFO]: Time elapsed: 122 ms
+[03:34:50] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[03:34:50] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
+[03:34:50] [Server thread/INFO]: [ClearLag] Loading modules...
+[03:34:50] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[03:34:50] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[03:34:50] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[03:34:50] [Thread-13/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.16]...
+[03:34:50] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v20.1
+[03:34:50] [Server thread/INFO]: [CoreProtect] CoreProtect был успешно запущен! 
+[03:34:50] [Server thread/INFO]: [CoreProtect] Для хранения данных используется SQLite.
+[03:34:50] [Server thread/INFO]: --------------------
+[03:34:50] [Server thread/INFO]: [CoreProtect] Нравится CoreProtect? Присоединяйтесь к нашему Discord!
+[03:34:50] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
+[03:34:50] [Server thread/INFO]: --------------------
+[03:34:50] [Server thread/INFO]: [WorldBorder] Enabling WorldBorder v1.9.10 (beta)
+[03:34:50] [Server thread/INFO]: [WorldBorder] [CONFIG] Using elliptic/round border, knockback of 3.0 blocks, and timer delay of 5.
+[03:34:50] [Server thread/INFO]: [WorldBorder] [CONFIG] Border-checking timed task started.
+[03:34:50] [Server thread/INFO]: [WorldBorder] For reference, the main world's spawn location is at X: 10,0 Y: 66,0 Z: 3,0
+[03:34:50] [Server thread/INFO]: [CMILib] Enabling CMILib v1.1.2.5
+[03:34:50] [Thread-13/INFO]: [ClearLag] No updates found!
+[03:34:51] [Server thread/INFO]: Server version: v1_16_R3 - 1.16.5 - paper
+[03:34:52] [Server thread/INFO]: CMI hooked.
+[03:34:52] [Server thread/INFO]: Updated (EN) language file. Took 46ms
+[03:34:52] [Server thread/INFO]: Updated (RU) language file. Took 38ms
+[03:34:52] [Server thread/INFO]: [CMI] Enabling CMI v9.0.2.9
+[03:34:52] [Server thread/INFO]: ┏━━━┓ ┏━┓┏━┓ ┏━━┓
+[03:34:52] [Server thread/INFO]: ┃┏━┓┃ ┃ ┗┛ ┃ ┗┫┣┛
+[03:34:52] [Server thread/INFO]: ┃┃ ┗┛ ┃┏┓┏┓┃  ┃┃ 
+[03:34:52] [Server thread/INFO]: ┃┃ ┏┓ ┃┃┃┃┃┃  ┃┃ 
+[03:34:52] [Server thread/INFO]: ┃┗━┛┃ ┃┃┃┃┃┃ ┏┫┣┓
+[03:34:52] [Server thread/INFO]: ┗━━━┛ ┗┛┗┛┗┛ ┗━━┛
+[03:34:52] [Server thread/INFO]: _______________________________________________________
+[03:34:52] [Server thread/INFO]: [CMI] Re-Leaked Aternosv2
+[03:34:52] [Server thread/INFO]:   Integrating PaperSpigot async methods
+[03:34:52] [Server thread/INFO]:   56 Enabled and 0 Disabled modules
+[03:34:52] [Server thread/INFO]:   Permission plugin: LuckPerms5.3.77
+[03:34:52] [Server thread/INFO]:   Initialized Cipher256 AES
+[03:34:52] [Server thread/INFO]:   Loaded (56) regular alias into memory. Took 56ms
+[03:34:52] [Server thread/INFO]:   Loaded (1) custom text's into memory. Took 1ms
+[03:34:52] [Server thread/INFO]:   3.34.0 data base type detected
+[03:34:53] [Server thread/INFO]:   Started SqLite data base. Took 160ms
+[03:34:53] [Server thread/INFO]:   Vault was found - Enabling capabilities. Economy: CMIEconomy
+[03:34:53] [Server thread/INFO]:   Loaded (5) warning categories into memory. Took 1ms
+[03:34:53] [Server thread/INFO]:   Loaded (3) warning commands into memory. Took 0ms
+[03:34:53] [Server thread/INFO]:   Loaded (135) custom mob heads into memory. Took 18ms
+[03:34:53] [Server thread/INFO]:   Loaded (0) cooldowns into memory. Took 26ms
+[03:34:53] [Server thread/INFO]:   Initializing BungeeCord
+[03:34:53] [Server thread/INFO]:   Loaded (5) kits into memory. Took 8ms
+[03:34:53] [Server thread/INFO]:   Loaded (7) ranks into memory. Took 19ms
+[03:34:53] [Server thread/INFO]:   Loaded (8) playtime rewards into memory. Took 2ms
+[03:34:53] [Server thread/INFO]:   Loaded (1) player data into memory. Took 6ms
+[03:34:53] [Server thread/INFO]:   Loaded (0) playtime records into memory. Took 1ms
+[03:34:53] [Server thread/INFO]:   Loaded (0) playtime reward records into memory. Took 0ms
+[03:34:53] [Server thread/INFO]:   Registered events. Took 115ms
+[03:34:53] [Server thread/INFO]:   Loaded (0) event action commands into memory. Took 5ms
+[03:34:53] [Server thread/INFO]:   Updated (EN) language file. Took 111ms
+[03:34:53] [Server thread/INFO]:   Updated (RU) language file. Took 91ms
+[03:34:53] [Server thread/INFO]:   Loaded (245) worth values into memory. Took 30ms
+[03:34:53] [Server thread/INFO]:   Vault permissions was found - Enabling capabilities.
+[03:34:53] [Server thread/INFO]:   Starting world timer.
+[03:34:53] [Server thread/INFO]:   Initializing world manager.
+[03:34:53] [Server thread/INFO]:   Loaded (5) schedules into memory. Took 9ms
+[03:34:53] [Server thread/INFO]:   Loaded GeoIP
+[03:34:53] [Server thread/INFO]:   Loaded (0) skin cache entries into memory. Took 0ms
+[03:34:53] [Server thread/INFO]:   Version 9.0.2.9 has been enabled
+[03:34:53] [Server thread/INFO]: ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+[03:34:53] [Server thread/INFO]: [CMI] Downloaded from https://directleaks.net
+[03:34:53] [Server thread/INFO]: [Vault][Economy] CMI Economy hooked.
+[03:34:53] [Server thread/INFO]: Starting remote control listener
+[03:34:53] [Server thread/INFO]: Thread RCON Listener started
+[03:34:53] [Server thread/INFO]: RCON running on 192.168.0.115:25575
+[03:34:53] [Server thread/INFO]: Running delayed init tasks
+[03:34:53] [Craft Scheduler Thread - 5/INFO]: [Vault] Checking for Updates ... 
+[03:34:53] [Server thread/INFO]: Done (6.298s)! For help, type "help"
+[03:34:53] [Server thread/INFO]: Timings Reset
+[03:34:53] [Craft Scheduler Thread - 5/INFO]: [Vault] No new version available
+[03:34:55] [Thread-16/INFO]: --------------------
+[03:34:55] [Thread-16/INFO]: [CoreProtect] Версия 21.2 уже доступна!
+[03:34:55] [Thread-16/INFO]: [CoreProtect] Загрузить: www.coreprotect.net/download/
+[03:34:55] [Thread-16/INFO]: --------------------
+[03:34:56] [RCON Listener #1/INFO]: Thread RCON Client /192.168.0.122 started
+[03:35:25] [Server thread/INFO]: [Rcon: Stopping the server]
+[03:35:25] [Server thread/WARN]: java.lang.Throwable: Server stopped
+[03:35:25] [Server thread/WARN]: 	at io.papermc.paper.util.TraceUtil.dumpTraceForThread(TraceUtil.java:16)
+[03:35:25] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.safeShutdown(MinecraftServer.java:1001)
+[03:35:25] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.safeShutdown(MinecraftServer.java:995)
+[03:35:25] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.CommandStop.a(SourceFile:17)
+[03:35:25] [Server thread/WARN]: 	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:262)
+[03:35:25] [Server thread/WARN]: 	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:176)
+[03:35:25] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.CommandDispatcher.a(CommandDispatcher.java:276)
+[03:35:25] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.command.VanillaCommandWrapper.execute(VanillaCommandWrapper.java:45)
+[03:35:25] [Server thread/WARN]: 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:159)
+[03:35:25] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.dispatchCommand(CraftServer.java:826)
+[03:35:25] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.dispatchServerCommand(CraftServer.java:788)
+[03:35:25] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.DedicatedServer.lambda$executeRemoteCommand$3(DedicatedServer.java:733)
+[03:35:25] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.IAsyncTaskHandler.lambda$executeFuture$0(IAsyncTaskHandler.java:48)
+[03:35:25] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1764)
+[03:35:25] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.TickTask.run(SourceFile:18)
+[03:35:25] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.IAsyncTaskHandler.executeTask(IAsyncTaskHandler.java:136)
+[03:35:25] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23)
+[03:35:25] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.IAsyncTaskHandler.executeNext(IAsyncTaskHandler.java:109)
+[03:35:25] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.bb(MinecraftServer.java:1271)
+[03:35:25] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.executeNext(MinecraftServer.java:1264)
+[03:35:25] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.IAsyncTaskHandler.awaitTasks(IAsyncTaskHandler.java:119)
+[03:35:25] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.sleepForTick(MinecraftServer.java:1225)
+[03:35:25] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:1139)
+[03:35:25] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:291)
+[03:35:25] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:831)
+[03:35:25] [Server thread/INFO]: Stopping server
+[03:35:25] [Server thread/INFO]: [CMI] Disabling CMI v9.0.2.9
+[03:35:25] [Server thread/INFO]: [Vault][Economy] CMI Economy unhooked.
+[03:35:25] [Server thread/INFO]: [CMI] Closed db connections
+[03:35:25] [Server thread/INFO]: [CMILib] Disabling CMILib v1.1.2.5
+[03:35:25] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-CMI
+[03:35:25] [Server thread/INFO]: [WorldBorder] Disabling WorldBorder v1.9.10 (beta)
+[03:35:25] [Server thread/INFO]: [WorldBorder] [CONFIG] Border-checking timed task stopped.
+[03:35:25] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.3.77
+[03:35:25] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[03:35:25] [Server thread/INFO]: [LuckPerms] Closing storage...
+[03:35:25] [Server thread/INFO]: [LuckPerms] Goodbye!
+[03:35:25] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v20.1
+[03:35:25] [Server thread/INFO]: [CoreProtect] Завершение регистрации данных. Пожалуйста, подождите...
+[03:35:26] [Server thread/INFO]: [CoreProtect] CoreProtect v20.1 был успешно отключён!
+[03:35:26] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.2.2
+[03:35:26] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
+[03:35:26] [Server thread/INFO]: Saving players
+[03:35:26] [Server thread/INFO]: Saving worlds
+[03:35:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[03:35:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03:35:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[03:35:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:35:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[03:35:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03:35:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03:35:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:35:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03:35:28] [Server thread/INFO]: Flushing Chunk IO
+[03:35:28] [Server thread/INFO]: Closing Thread Pool
+[03:35:28] [Server thread/INFO]: Closing Server
+[03:35:28] [Thread-1/WARN]: java.lang.Throwable: Server stopped
+[03:35:28] [Thread-1/WARN]: 	at io.papermc.paper.util.TraceUtil.dumpTraceForThread(TraceUtil.java:16)
+[03:35:28] [Thread-1/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.safeShutdown(MinecraftServer.java:1001)
+[03:35:28] [Thread-1/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.util.ServerShutdownThread.run(ServerShutdownThread.java:16)
