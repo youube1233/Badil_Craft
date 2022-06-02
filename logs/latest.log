@@ -1,202 +1,435 @@
-[00:40:57] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[00:40:57] [main/INFO]: Reloading ResourceManager: Default, bukkit
-[00:40:58] [Worker-Main-5/INFO]: Loaded 7 recipes
-[00:40:59] [Server thread/INFO]: Starting minecraft server version 1.16.5
-[00:40:59] [Server thread/INFO]: Loading properties
-[00:40:59] [Server thread/INFO]: This server is running Paper version git-Paper-790 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
-[00:40:59] [Server thread/INFO]: Debug logging is disabled
-[00:40:59] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[00:40:59] [Server thread/INFO]: Using 4 threads for Netty based IO
-[00:40:59] [Server thread/INFO]: Default game type: SURVIVAL
-[00:40:59] [Server thread/INFO]: Generating keypair
-[00:40:59] [Server thread/INFO]: Starting Minecraft server on 192.168.0.115:25565
-[00:40:59] [Server thread/INFO]: Using default channel type
-[00:41:01] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.2.2
-[00:41:01] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v20.1
-[00:41:01] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.3.77
-[00:41:02] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser-Spigot v2.0.3-SNAPSHOT
-[00:41:02] [Server thread/INFO]: [WorldBorder] Loading WorldBorder v1.9.10 (beta)
-[00:41:02] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-CMI
-[00:41:02] [Server thread/INFO]: [CMILib] Loading CMILib v1.1.2.5
-[00:41:02] [Server thread/INFO]: [CMI] Loading CMI v9.0.2.9
-[00:41:02] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[00:41:02] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.3.77
-[00:41:02] [Server thread/INFO]:         __    
-[00:41:02] [Server thread/INFO]:   |    |__)   LuckPerms v5.3.77
-[00:41:02] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[00:41:02] [Server thread/INFO]: 
-[00:41:02] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[00:41:03] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[00:41:03] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[00:41:03] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[00:41:03] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1663ms)
-[00:41:03] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-CMI
-[00:41:04] [Server thread/WARN]: [Vault] Loaded class com.Zrips.CMI.Modules.Economy.Economy from CMI v9.0.2.9 which is not a depend, softdepend or loadbefore of this plugin.
-[00:41:04] [Server thread/INFO]: [Vault] [Economy] CMI Economy found: Waiting
-[00:41:04] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[00:41:04] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-CMI
-[00:41:04] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[00:41:04] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[00:41:04] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[00:41:04] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[00:41:04] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[00:41:04] [Server thread/INFO]: Preparing level "world"
-[00:41:04] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[00:41:04] [Server thread/INFO]: Time elapsed: 337 ms
-[00:41:04] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[00:41:05] [Server thread/INFO]: Time elapsed: 69 ms
-[00:41:05] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[00:41:05] [Server thread/INFO]: Time elapsed: 138 ms
-[00:41:05] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
-[00:41:05] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
-[00:41:05] [Server thread/INFO]: [ClearLag] Loading modules...
-[00:41:05] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
-[00:41:05] [Server thread/INFO]: [ClearLag] Modules have been loaded!
-[00:41:05] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
-[00:41:05] [Thread-14/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.16]...
-[00:41:05] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v20.1
-[00:41:05] [Thread-14/INFO]: [ClearLag] No updates found!
-[00:41:05] [Server thread/INFO]: [CoreProtect] CoreProtect был успешно запущен! 
-[00:41:05] [Server thread/INFO]: [CoreProtect] Для хранения данных используется SQLite.
-[00:41:05] [Server thread/INFO]: --------------------
-[00:41:05] [Server thread/INFO]: [CoreProtect] Нравится CoreProtect? Присоединяйтесь к нашему Discord!
-[00:41:05] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
-[00:41:05] [Server thread/INFO]: --------------------
-[00:41:05] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.0.3-SNAPSHOT
-[00:41:07] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[00:41:07] [Server thread/INFO]: [Geyser-Spigot] 
-[00:41:07] [Server thread/INFO]: [Geyser-Spigot] Загрузка Geyser версии 2.0.3-SNAPSHOT (git-master-c83eb7f)
-[00:41:07] [Server thread/INFO]: [Geyser-Spigot] 
-[00:41:07] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[00:41:11] [Network Listener - #1/INFO]: [Geyser-Spigot] Geyser запущен на 0.0.0.0:25565
-[00:41:11] [Server thread/INFO]: [Geyser-Spigot] Выполнено (4,153сек.)! Используйте команду /geyser help для помощи!
-[00:41:11] [Server thread/WARN]: [Geyser-Spigot] Ваше серверное ядро не поддерживает версию Java, которую требует Geyser (1.18.2). Пожалуйста, установите ViaVersion (https://ci.viaversion.com/job/ViaVersion/) или обновите серверное ядро!
-[00:41:11] [Server thread/INFO]: [WorldBorder] Enabling WorldBorder v1.9.10 (beta)
-[00:41:11] [Server thread/INFO]: [WorldBorder] [CONFIG] Using elliptic/round border, knockback of 3.0 blocks, and timer delay of 5.
-[00:41:11] [Server thread/INFO]: [WorldBorder] [CONFIG] Border-checking timed task started.
-[00:41:11] [Server thread/INFO]: [WorldBorder] For reference, the main world's spawn location is at X: 10,0 Y: 66,0 Z: 3,0
-[00:41:11] [Server thread/INFO]: [CMILib] Enabling CMILib v1.1.2.5
-[00:41:12] [Server thread/INFO]: Server version: v1_16_R3 - 1.16.5 - paper
-[00:41:13] [Server thread/INFO]: CMI hooked.
-[00:41:13] [Server thread/INFO]: Updated (EN) language file. Took 88ms
-[00:41:13] [Server thread/INFO]: Updated (RU) language file. Took 64ms
-[00:41:13] [Server thread/INFO]: [CMI] Enabling CMI v9.0.2.9
-[00:41:13] [Server thread/INFO]: ┏━━━┓ ┏━┓┏━┓ ┏━━┓
-[00:41:13] [Server thread/INFO]: ┃┏━┓┃ ┃ ┗┛ ┃ ┗┫┣┛
-[00:41:13] [Server thread/INFO]: ┃┃ ┗┛ ┃┏┓┏┓┃  ┃┃ 
-[00:41:13] [Server thread/INFO]: ┃┃ ┏┓ ┃┃┃┃┃┃  ┃┃ 
-[00:41:13] [Server thread/INFO]: ┃┗━┛┃ ┃┃┃┃┃┃ ┏┫┣┓
-[00:41:13] [Server thread/INFO]: ┗━━━┛ ┗┛┗┛┗┛ ┗━━┛
-[00:41:13] [Server thread/INFO]: _______________________________________________________
-[00:41:13] [Server thread/INFO]: [CMI] Re-Leaked Aternosv2
-[00:41:13] [Server thread/INFO]:   Integrating PaperSpigot async methods
-[00:41:14] [Server thread/INFO]:   56 Enabled and 0 Disabled modules
-[00:41:14] [Server thread/INFO]:   Permission plugin: LuckPerms5.3.77
-[00:41:14] [Server thread/INFO]:   Initialized Cipher256 AES
-[00:41:14] [Server thread/INFO]:   Loaded (56) regular alias into memory. Took 70ms
-[00:41:14] [Server thread/INFO]:   Loaded (1) custom text's into memory. Took 17ms
-[00:41:14] [Server thread/INFO]:   3.34.0 data base type detected
-[00:41:15] [Server thread/INFO]:   Started SqLite data base. Took 187ms
-[00:41:15] [Server thread/INFO]:   Vault was found - Enabling capabilities. Economy: CMIEconomy
-[00:41:15] [Server thread/INFO]:   Loaded (5) warning categories into memory. Took 1ms
-[00:41:15] [Server thread/INFO]:   Loaded (3) warning commands into memory. Took 0ms
-[00:41:15] [Server thread/INFO]:   Loaded (135) custom mob heads into memory. Took 23ms
-[00:41:15] [Server thread/INFO]:   Loaded (0) cooldowns into memory. Took 33ms
-[00:41:15] [Server thread/INFO]:   Initializing BungeeCord
-[00:41:15] [Server thread/INFO]:   Loaded (5) kits into memory. Took 33ms
-[00:41:15] [Server thread/INFO]:   Loaded (7) ranks into memory. Took 17ms
-[00:41:15] [Server thread/INFO]:   Loaded (8) playtime rewards into memory. Took 9ms
-[00:41:15] [Server thread/INFO]:   Loaded (1) player data into memory. Took 9ms
-[00:41:15] [Server thread/INFO]:   Loaded (0) playtime records into memory. Took 0ms
-[00:41:15] [Server thread/INFO]:   Loaded (0) playtime reward records into memory. Took 0ms
-[00:41:15] [Server thread/INFO]:   Registered events. Took 125ms
-[00:41:15] [Server thread/INFO]:   Loaded (0) event action commands into memory. Took 7ms
-[00:41:15] [Server thread/INFO]:   Updated (EN) language file. Took 126ms
-[00:41:15] [Server thread/INFO]:   Updated (RU) language file. Took 128ms
-[00:41:15] [Server thread/INFO]:   Loaded (245) worth values into memory. Took 67ms
-[00:41:15] [Server thread/INFO]:   Vault permissions was found - Enabling capabilities.
-[00:41:15] [Server thread/INFO]:   Starting world timer.
-[00:41:15] [Server thread/INFO]:   Initializing world manager.
-[00:41:15] [Server thread/INFO]:   Loaded (5) schedules into memory. Took 14ms
-[00:41:15] [Server thread/INFO]:   Loaded GeoIP
-[00:41:15] [Server thread/INFO]:   Loaded (0) skin cache entries into memory. Took 0ms
-[00:41:15] [Server thread/INFO]:   Version 9.0.2.9 has been enabled
-[00:41:15] [Server thread/INFO]: ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
-[00:41:15] [Server thread/INFO]: [CMI] Downloaded from https://directleaks.net
-[00:41:15] [Server thread/INFO]: [Vault][Economy] CMI Economy hooked.
-[00:41:16] [Server thread/INFO]: Starting remote control listener
-[00:41:16] [Server thread/INFO]: Thread RCON Listener started
-[00:41:16] [Server thread/INFO]: RCON running on 192.168.0.115:25575
-[00:41:16] [Server thread/INFO]: Running delayed init tasks
-[00:41:16] [Server thread/INFO]: Done (16.644s)! For help, type "help"
-[00:41:16] [Server thread/INFO]: Timings Reset
-[00:41:16] [Craft Scheduler Thread - 4/INFO]: [Vault] Checking for Updates ... 
-[00:41:16] [Craft Scheduler Thread - 4/INFO]: [Vault] No new version available
-[00:41:17] [Server thread/INFO]: Downloaded CMILib1.1.2.6 file
-[00:41:17] [Server thread/INFO]: Please restart server for this to take full effect
-[00:41:17] [Thread-18/INFO]: --------------------
-[00:41:17] [Thread-18/INFO]: [CoreProtect] Версия 21.2 уже доступна!
-[00:41:17] [Thread-18/INFO]: [CoreProtect] Загрузить: www.coreprotect.net/download/
-[00:41:17] [Thread-18/INFO]: --------------------
-[00:45:33] [Network Listener - #1/INFO]: [Geyser-Spigot] /192.168.0.179:34214 попытался подключиться!
-[00:45:34] [Network Listener - #3/INFO]: [Geyser-Spigot] Bedrock пользователь с IP: /192.168.0.179 отключился по причине Пожалуйста, войдите в Xbox, чтобы присоединиться к этому серверу.
-[00:45:39] [Server thread/INFO]: Whitelist is now turned off
-[00:45:50] [Network Listener - #1/INFO]: [Geyser-Spigot] /192.168.0.179:34214 попытался подключиться!
-[00:45:50] [Network Listener - #0/INFO]: [Geyser-Spigot] Bedrock пользователь с IP: /192.168.0.179 отключился по причине Пожалуйста, войдите в Xbox, чтобы присоединиться к этому серверу.
-[00:46:11] [Server thread/INFO]: Stopping the server
-[00:46:11] [Server thread/WARN]: java.lang.Throwable: Server stopped
-[00:46:11] [Server thread/WARN]: 	at io.papermc.paper.util.TraceUtil.dumpTraceForThread(TraceUtil.java:16)
-[00:46:11] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.safeShutdown(MinecraftServer.java:1001)
-[00:46:11] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.safeShutdown(MinecraftServer.java:995)
-[00:46:11] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.CommandStop.a(SourceFile:17)
-[00:46:11] [Server thread/WARN]: 	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:262)
-[00:46:11] [Server thread/WARN]: 	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:176)
-[00:46:11] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.CommandDispatcher.a(CommandDispatcher.java:276)
-[00:46:11] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.command.VanillaCommandWrapper.execute(VanillaCommandWrapper.java:45)
-[00:46:11] [Server thread/WARN]: 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:159)
-[00:46:11] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.dispatchCommand(CraftServer.java:826)
-[00:46:11] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.dispatchServerCommand(CraftServer.java:788)
-[00:46:11] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.DedicatedServer.handleCommandQueue(DedicatedServer.java:470)
-[00:46:11] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.DedicatedServer.b(DedicatedServer.java:437)
-[00:46:11] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.a(MinecraftServer.java:1347)
-[00:46:11] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:1135)
-[00:46:11] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:291)
-[00:46:11] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:831)
-[00:46:11] [Server thread/INFO]: Stopping server
-[00:46:11] [Server thread/INFO]: [CMI] Disabling CMI v9.0.2.9
-[00:46:11] [Server thread/INFO]: [Vault][Economy] CMI Economy unhooked.
-[00:46:11] [Server thread/INFO]: [CMI] Closed db connections
-[00:46:11] [Server thread/INFO]: [CMILib] Disabling CMILib v1.1.2.5
-[00:46:11] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-CMI
-[00:46:11] [Server thread/INFO]: [WorldBorder] Disabling WorldBorder v1.9.10 (beta)
-[00:46:11] [Server thread/INFO]: [WorldBorder] [CONFIG] Border-checking timed task stopped.
-[00:46:11] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.0.3-SNAPSHOT
-[00:46:11] [Server thread/INFO]: [Geyser-Spigot] Выключение Geyser.
-[00:46:11] [Server thread/INFO]: [Geyser-Spigot] Geyser успешно выключен.
-[00:46:11] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.3.77
-[00:46:11] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[00:46:11] [Server thread/INFO]: [LuckPerms] Closing storage...
-[00:46:11] [Server thread/INFO]: [LuckPerms] Goodbye!
-[00:46:11] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v20.1
-[00:46:11] [Server thread/INFO]: [CoreProtect] Завершение регистрации данных. Пожалуйста, подождите...
-[00:46:12] [Server thread/INFO]: [CoreProtect] CoreProtect v20.1 был успешно отключён!
-[00:46:12] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.2.2
-[00:46:12] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
-[00:46:12] [Server thread/INFO]: Saving players
-[00:46:13] [Server thread/INFO]: Saving worlds
-[00:46:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[00:46:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[00:46:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[00:46:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[00:46:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[00:46:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[00:46:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[00:46:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[00:46:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[00:46:16] [Server thread/INFO]: Flushing Chunk IO
-[00:46:16] [Server thread/INFO]: Closing Thread Pool
-[00:46:16] [Server thread/INFO]: Closing Server
-[00:46:16] [Thread-1/WARN]: java.lang.Throwable: Server stopped
-[00:46:16] [Thread-1/WARN]: 	at io.papermc.paper.util.TraceUtil.dumpTraceForThread(TraceUtil.java:16)
-[00:46:16] [Thread-1/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.safeShutdown(MinecraftServer.java:1001)
-[00:46:16] [Thread-1/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.util.ServerShutdownThread.run(ServerShutdownThread.java:16)
+[01:33:27] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[01:33:28] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[01:33:29] [Worker-Main-6/INFO]: Loaded 7 recipes
+[01:33:30] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[01:33:30] [Server thread/INFO]: Loading properties
+[01:33:30] [Server thread/INFO]: This server is running Paper version git-Paper-790 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
+[01:33:30] [Server thread/INFO]: Debug logging is disabled
+[01:33:30] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:33:30] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:33:30] [Server thread/INFO]: Default game type: SURVIVAL
+[01:33:30] [Server thread/INFO]: Generating keypair
+[01:33:30] [Server thread/INFO]: Starting Minecraft server on 192.168.0.115:25565
+[01:33:31] [Server thread/INFO]: Using default channel type
+[01:33:32] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.2.2
+[01:33:32] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v20.1
+[01:33:32] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.3.77
+[01:33:32] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser-Spigot v1.2.1-SNAPSHOT
+[01:33:32] [Server thread/INFO]: [WorldBorder] Loading WorldBorder v1.9.10 (beta)
+[01:33:32] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-CMI
+[01:33:32] [Server thread/INFO]: [CMILib] Loading CMILib v1.1.2.6
+[01:33:32] [Server thread/INFO]: [CMI] Loading CMI v9.0.2.9
+[01:33:32] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:33:32] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.3.77
+[01:33:33] [Server thread/INFO]:         __    
+[01:33:33] [Server thread/INFO]:   |    |__)   LuckPerms v5.3.77
+[01:33:33] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[01:33:33] [Server thread/INFO]: 
+[01:33:33] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[01:33:33] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[01:33:34] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[01:33:34] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[01:33:34] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1708ms)
+[01:33:34] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-CMI
+[01:33:34] [Server thread/WARN]: [Vault] Loaded class com.Zrips.CMI.Modules.Economy.Economy from CMI v9.0.2.9 which is not a depend, softdepend or loadbefore of this plugin.
+[01:33:34] [Server thread/INFO]: [Vault] [Economy] CMI Economy found: Waiting
+[01:33:34] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[01:33:34] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-CMI
+[01:33:34] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[01:33:34] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01:33:34] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[01:33:34] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[01:33:34] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[01:33:34] [Server thread/INFO]: Preparing level "world"
+[01:33:34] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[01:33:35] [Server thread/INFO]: Time elapsed: 539 ms
+[01:33:35] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[01:33:35] [Server thread/INFO]: Time elapsed: 64 ms
+[01:33:35] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[01:33:35] [Server thread/INFO]: Time elapsed: 57 ms
+[01:33:35] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[01:33:35] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
+[01:33:35] [Server thread/INFO]: [ClearLag] Loading modules...
+[01:33:35] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[01:33:35] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[01:33:35] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[01:33:35] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v20.1
+[01:33:35] [Thread-13/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.16]...
+[01:33:36] [Server thread/INFO]: [CoreProtect] CoreProtect был успешно запущен! 
+[01:33:36] [Server thread/INFO]: [CoreProtect] Для хранения данных используется SQLite.
+[01:33:36] [Server thread/INFO]: --------------------
+[01:33:36] [Server thread/INFO]: [CoreProtect] Нравится CoreProtect? Присоединяйтесь к нашему Discord!
+[01:33:36] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
+[01:33:36] [Server thread/INFO]: --------------------
+[01:33:36] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v1.2.1-SNAPSHOT
+[01:33:36] [Thread-13/INFO]: [ClearLag] No updates found!
+[01:33:36] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[01:33:36] [Server thread/INFO]: [Geyser-Spigot] 
+[01:33:36] [Server thread/INFO]: [Geyser-Spigot] Загрузка Geyser версии 1.2.1-SNAPSHOT (git-master-aaa100b)
+[01:33:36] [Server thread/INFO]: [Geyser-Spigot] 
+[01:33:36] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.bedrock.entity.player.BedrockEmoteTranslator : EmotePacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.bedrock.BedrockShowCreditsTranslator : ShowCreditsPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.world.JavaUpdateViewDistanceTranslator : ServerUpdateViewDistancePacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.bedrock.BedrockAdventureSettingsTranslator : AdventureSettingsPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.world.JavaUnloadChunkTranslator : ServerUnloadChunkPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.entity.spawn.JavaSpawnLivingEntityTranslator : ServerSpawnLivingEntityPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.bedrock.BedrockContainerCloseTranslator : ContainerClosePacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.JavaDisconnectPacket : ServerDisconnectPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.bedrock.BedrockBlockEntityDataTranslator : BlockEntityDataPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.bedrock.BedrockEmoteListTranslator : EmoteListPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.entity.player.JavaPlayerSetExperienceTranslator : ServerPlayerSetExperiencePacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.JavaDeclareTagsTranslator : ServerDeclareTagsPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.world.JavaTradeListTranslator : ServerTradeListPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.entity.JavaEntityTeleportTranslator : ServerEntityTeleportPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.entity.spawn.JavaSpawnExpOrbTranslator : ServerSpawnExpOrbPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.scoreboard.JavaDisplayScoreboardTranslator : ServerDisplayScoreboardPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.bedrock.BedrockPlayerInputTranslator : PlayerInputPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.entity.JavaEntityVelocityTranslator : ServerEntityVelocityPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.entity.JavaEntityPositionTranslator : ServerEntityPositionPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.window.JavaWindowPropertyTranslator : ServerWindowPropertyPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.world.JavaStopSoundTranslator : ServerStopSoundPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.world.JavaSpawnPositionTranslator : ServerSpawnPositionPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.world.JavaBlockChangeTranslator : ServerBlockChangePacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.entity.JavaEntityEquipmentTranslator : ServerEntityEquipmentPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.entity.player.JavaPlayerHealthTranslator : ServerPlayerHealthPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.JavaAdvancementsTranslator : ServerAdvancementsPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.bedrock.BedrockMoveEntityAbsoluteTranslator : MoveEntityAbsolutePacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.scoreboard.JavaUpdateScoreTranslator : ServerUpdateScorePacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.bedrock.BedrockRespawnTranslator : RespawnPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.JavaUnlockRecipesTranslator : ServerUnlockRecipesPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.bedrock.entity.player.BedrockMovePlayerTranslator : MovePlayerPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.entity.spawn.JavaSpawnPaintingTranslator : ServerSpawnPaintingPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.window.JavaWindowItemsTranslator : ServerWindowItemsPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.bedrock.entity.player.BedrockRiderJumpTranslator : RiderJumpPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.window.JavaConfirmTransactionTranslator : ServerConfirmTransactionPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.bedrock.BedrockFilterTextTranslator : FilterTextPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.entity.JavaEntityPropertiesTranslator : ServerEntityPropertiesPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.entity.JavaEntityEffectTranslator : ServerEntityEffectPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.bedrock.BedrockInventoryTransactionTranslator : InventoryTransactionPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.world.JavaBlockBreakAnimTranslator : ServerBlockBreakAnimPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.JavaBossBarTranslator : ServerBossBarPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.world.JavaSpawnParticleTranslator : ServerSpawnParticlePacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.bedrock.BedrockAnimateTranslator : AnimatePacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.entity.spawn.JavaSpawnEntityTranslator : ServerSpawnEntityPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.bedrock.entity.player.BedrockActionTranslator : PlayerActionPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.bedrock.BedrockNetworkStackLatencyTranslator : NetworkStackLatencyPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.bedrock.BedrockPositionTrackingDBClientRequestTranslator : PositionTrackingDBClientRequestPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.JavaDifficultyTranslator : ServerDifficultyPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.entity.player.JavaPlayerChangeHeldItemTranslator : ServerPlayerChangeHeldItemPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.window.JavaOpenWindowTranslator : ServerOpenWindowPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.window.JavaCloseWindowTranslator : ServerCloseWindowPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.bedrock.world.BedrockLevelSoundEventTranslator : LevelSoundEventPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.window.JavaSetSlotTranslator : ServerSetSlotPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.JavaDeclareRecipesTranslator : ServerDeclareRecipesPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.world.JavaMapDataTranslator : ServerMapDataPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.bedrock.BedrockItemFrameDropItemTranslator : ItemFrameDropItemPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.world.JavaPlayBuiltinSoundTranslator : ServerPlayBuiltinSoundPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.window.JavaOpenHorseWindowTranslator : ServerOpenHorseWindowPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.entity.JavaEntityRemoveEffectTranslator : ServerEntityRemoveEffectPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.bedrock.BedrockMobEquipmentTranslator : MobEquipmentPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.world.JavaUpdateTileEntityTranslator : ServerUpdateTileEntityPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.JavaJoinGameTranslator : ServerJoinGamePacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.bedrock.BedrockEntityPickRequestTranslator : EntityPickRequestPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.world.JavaNotifyClientTranslator : ServerNotifyClientPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.entity.JavaEntityCollectItemTranslator : ServerEntityCollectItemPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.world.JavaVehicleMoveTranslator : ServerVehicleMovePacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.entity.JavaEntityStatusTranslator : ServerEntityStatusPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.scoreboard.JavaScoreboardObjectiveTranslator : ServerScoreboardObjectivePacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.JavaTitleTranslator : ServerTitlePacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.bedrock.BedrockItemStackRequestTranslator : ItemStackRequestPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.entity.JavaEntityPositionRotationTranslator : ServerEntityPositionRotationPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.entity.player.JavaPlayerPositionRotationTranslator : ServerPlayerPositionRotationPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.JavaLoginPluginRequestTranslator : LoginPluginRequestPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.JavaChatTranslator : ServerChatPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.bedrock.BedrockSetLocalPlayerAsInitializedTranslator : SetLocalPlayerAsInitializedPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.JavaAdvancementsTabTranslator : ServerAdvancementTabPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.bedrock.BedrockPacketViolationWarningTranslator : PacketViolationWarningPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.bedrock.BedrockServerSettingsRequestTranslator : ServerSettingsRequestPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.entity.player.JavaPlayerListEntryTranslator : ServerPlayerListEntryPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.JavaDeclareCommandsTranslator : ServerDeclareCommandsPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.entity.JavaEntityRotationTranslator : ServerEntityRotationPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.world.JavaUpdateViewPositionTranslator : ServerUpdateViewPositionPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.JavaLoginDisconnectTranslator : LoginDisconnectPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.JavaKeepAliveTranslator : ServerKeepAlivePacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.bedrock.BedrockMapInfoRequestTranslator : MapInfoRequestPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.bedrock.BedrockBookEditTranslator : BookEditPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.scoreboard.JavaTeamTranslator : ServerTeamPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.bedrock.BedrockCommandBlockUpdateTranslator : CommandBlockUpdatePacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.bedrock.entity.BedrockEntityEventTranslator : EntityEventPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.world.JavaMultiBlockChangeTranslator : ServerMultiBlockChangePacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.bedrock.entity.player.BedrockInteractTranslator : InteractPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.bedrock.BedrockTextTranslator : TextPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.bedrock.BedrockLecternUpdateTranslator : LecternUpdatePacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.world.JavaPlayEffectTranslator : ServerPlayEffectPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.entity.player.JavaPlayerAbilitiesTranslator : ServerPlayerAbilitiesPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.entity.JavaEntitySetPassengersTranslator : ServerEntitySetPassengersPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.world.JavaChunkDataTranslator : ServerChunkDataPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.entity.spawn.JavaSpawnPlayerTranslator : ServerSpawnPlayerPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.entity.JavaEntityAttachTranslator : ServerEntityAttachPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.entity.JavaEntityDestroyTranslator : ServerEntityDestroyPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.bedrock.BedrockBlockPickRequestTranslator : BlockPickRequestPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.bedrock.entity.player.BedrockSetPlayerGameTypeTranslator : SetPlayerGameTypePacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.JavaRespawnTranslator : ServerRespawnPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.entity.JavaEntityAnimationTranslator : ServerEntityAnimationPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.JavaStatisticsTranslator : ServerStatisticsPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.entity.JavaEntityMetadataTranslator : ServerEntityMetadataPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.entity.JavaEntityHeadLookTranslator : ServerEntityHeadLookPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.world.JavaPlaySoundTranslator : ServerPlaySoundPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.world.JavaExplosionTranslator : ServerExplosionPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.world.JavaUpdateTimeTranslator : ServerUpdateTimePacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.entity.player.JavaPlayerActionAckTranslator : ServerPlayerActionAckPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.bedrock.BedrockCommandRequestTranslator : CommandRequestPacket
+[01:33:37] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.world.JavaBlockValueTranslator : ServerBlockValuePacket
+[01:33:38] [Server thread/INFO]: [Geyser-Spigot] Found annotated block entity: org.geysermc.connector.network.translators.world.block.entity.SignBlockEntityTranslator
+[01:33:38] [Server thread/INFO]: [Geyser-Spigot] Found annotated block entity: org.geysermc.connector.network.translators.world.block.entity.BeaconBlockEntityTranslator
+[01:33:38] [Server thread/INFO]: [Geyser-Spigot] Found annotated block entity: org.geysermc.connector.network.translators.world.block.entity.BannerBlockEntityTranslator
+[01:33:38] [Server thread/INFO]: [Geyser-Spigot] Found annotated block entity: org.geysermc.connector.network.translators.world.block.entity.SpawnerBlockEntityTranslator
+[01:33:38] [Server thread/INFO]: [Geyser-Spigot] Found annotated block entity: org.geysermc.connector.network.translators.world.block.entity.ShulkerBoxBlockEntityTranslator
+[01:33:38] [Server thread/INFO]: [Geyser-Spigot] Found annotated block entity: org.geysermc.connector.network.translators.world.block.entity.DoubleChestBlockEntityTranslator
+[01:33:38] [Server thread/INFO]: [Geyser-Spigot] Found annotated block entity: org.geysermc.connector.network.translators.world.block.entity.EmptyBlockEntityTranslator
+[01:33:38] [Server thread/INFO]: [Geyser-Spigot] Found annotated block entity: org.geysermc.connector.network.translators.world.block.entity.BedBlockEntityTranslator
+[01:33:38] [Server thread/INFO]: [Geyser-Spigot] Found annotated block entity: org.geysermc.connector.network.translators.world.block.entity.JigsawBlockBlockEntityTranslator
+[01:33:38] [Server thread/INFO]: [Geyser-Spigot] Found annotated block entity: org.geysermc.connector.network.translators.world.block.entity.EndGatewayBlockEntityTranslator
+[01:33:38] [Server thread/INFO]: [Geyser-Spigot] Found annotated block entity: org.geysermc.connector.network.translators.world.block.entity.CommandBlockBlockEntityTranslator
+[01:33:38] [Server thread/INFO]: [Geyser-Spigot] Found annotated block entity: org.geysermc.connector.network.translators.world.block.entity.SkullBlockEntityTranslator
+[01:33:38] [Server thread/INFO]: [Geyser-Spigot] Found annotated block entity: org.geysermc.connector.network.translators.world.block.entity.CampfireBlockEntityTranslator
+[01:33:38] [Server thread/INFO]: [Geyser-Spigot] Found block entity that requires block state: org.geysermc.connector.network.translators.world.block.entity.NoteblockBlockEntityTranslator
+[01:33:38] [Server thread/INFO]: [Geyser-Spigot] Not adding because cache chunks is enabled.
+[01:33:38] [Server thread/INFO]: [Geyser-Spigot] Found block entity that requires block state: org.geysermc.connector.network.translators.world.block.entity.BannerBlockEntityTranslator
+[01:33:38] [Server thread/INFO]: [Geyser-Spigot] Not adding because cache chunks is enabled.
+[01:33:38] [Server thread/INFO]: [Geyser-Spigot] Found block entity that requires block state: org.geysermc.connector.network.translators.world.block.entity.CommandBlockBlockEntityTranslator
+[01:33:38] [Server thread/INFO]: [Geyser-Spigot] Not adding because cache chunks is enabled.
+[01:33:38] [Server thread/INFO]: [Geyser-Spigot] Found block entity that requires block state: org.geysermc.connector.network.translators.world.block.entity.DoubleChestBlockEntityTranslator
+[01:33:38] [Server thread/INFO]: [Geyser-Spigot] Found block entity that requires block state: org.geysermc.connector.network.translators.world.block.entity.FlowerPotBlockEntityTranslator
+[01:33:38] [Server thread/INFO]: [Geyser-Spigot] Found block entity that requires block state: org.geysermc.connector.network.translators.world.block.entity.BedBlockEntityTranslator
+[01:33:38] [Server thread/INFO]: [Geyser-Spigot] Not adding because cache chunks is enabled.
+[01:33:38] [Server thread/INFO]: [Geyser-Spigot] Found block entity that requires block state: org.geysermc.connector.network.translators.world.block.entity.SkullBlockEntityTranslator
+[01:33:38] [Server thread/INFO]: [Geyser-Spigot] Not adding because cache chunks is enabled.
+[01:33:41] [Server thread/INFO]: [Geyser-Spigot] Found annotated item translator: org.geysermc.connector.network.translators.item.translators.nbt.ShulkerBoxItemTranslator
+[01:33:41] [Server thread/INFO]: [Geyser-Spigot] Found annotated item translator: org.geysermc.connector.network.translators.item.translators.nbt.PlayerHeadTranslator
+[01:33:41] [Server thread/INFO]: [Geyser-Spigot] Found annotated item translator: org.geysermc.connector.network.translators.item.translators.nbt.FireworkStarTranslator
+[01:33:41] [Server thread/INFO]: [Geyser-Spigot] Found annotated item translator: org.geysermc.connector.network.translators.item.translators.TippedArrowTranslator
+[01:33:41] [Server thread/INFO]: [Geyser-Spigot] Found annotated item translator: org.geysermc.connector.network.translators.item.translators.nbt.CrossbowTranslator
+[01:33:41] [Server thread/INFO]: [Geyser-Spigot] Found annotated item translator: org.geysermc.connector.network.translators.item.translators.nbt.BookPagesTranslator
+[01:33:41] [Server thread/INFO]: [Geyser-Spigot] Found annotated item translator: org.geysermc.connector.network.translators.item.translators.nbt.EnchantmentTranslator
+[01:33:41] [Server thread/INFO]: [Geyser-Spigot] Found annotated item translator: org.geysermc.connector.network.translators.item.translators.nbt.LeatherArmorTranslator
+[01:33:41] [Server thread/INFO]: [Geyser-Spigot] Found annotated item translator: org.geysermc.connector.network.translators.item.translators.nbt.MapItemTranslator
+[01:33:41] [Server thread/INFO]: [Geyser-Spigot] Found annotated item translator: org.geysermc.connector.network.translators.item.translators.CompassTranslator
+[01:33:41] [Server thread/INFO]: [Geyser-Spigot] Found annotated item translator: org.geysermc.connector.network.translators.item.translators.nbt.BasicItemTranslator
+[01:33:41] [Server thread/INFO]: [Geyser-Spigot] Found annotated item translator: org.geysermc.connector.network.translators.item.translators.PotionTranslator
+[01:33:41] [Server thread/INFO]: [Geyser-Spigot] Found annotated item translator: org.geysermc.connector.network.translators.item.translators.BannerTranslator
+[01:33:41] [Server thread/INFO]: [Geyser-Spigot] Found annotated item translator: org.geysermc.connector.network.translators.item.translators.nbt.FireworkRocketTranslator
+[01:33:41] [Server thread/INFO]: [Geyser-Spigot] Found annotated item translator: org.geysermc.connector.network.translators.item.translators.nbt.EnchantedBookTranslator
+[01:33:41] [Server thread/INFO]: [Geyser-Spigot] Found annotated collision translator: org.geysermc.connector.network.translators.collision.translators.TrapdoorCollision
+[01:33:41] [Server thread/INFO]: [Geyser-Spigot] Found annotated collision translator: org.geysermc.connector.network.translators.collision.translators.ScaffoldingCollision
+[01:33:41] [Server thread/INFO]: [Geyser-Spigot] Found annotated collision translator: org.geysermc.connector.network.translators.collision.translators.SolidCollision
+[01:33:41] [Server thread/INFO]: [Geyser-Spigot] Found annotated collision translator: org.geysermc.connector.network.translators.collision.translators.DoorCollision
+[01:33:41] [Server thread/INFO]: [Geyser-Spigot] Found annotated collision translator: org.geysermc.connector.network.translators.collision.translators.SnowCollision
+[01:33:41] [Server thread/INFO]: [Geyser-Spigot] Found annotated collision translator: org.geysermc.connector.network.translators.collision.translators.GrassPathCollision
+[01:33:42] [Server thread/INFO]: [Geyser-Spigot] {"client":{"sha1":"37fd3c903861eeff3bc24b71eed48f828b5269c8","size":17547153,"url":"https://launcher.mojang.com/v1/objects/37fd3c903861eeff3bc24b71eed48f828b5269c8/client.jar"},"client_mappings":{"sha1":"374c6b789574afbdc901371207155661e0509e17","size":5746047,"url":"https://launcher.mojang.com/v1/objects/374c6b789574afbdc901371207155661e0509e17/client.txt"},"server":{"sha1":"1b557e7b033b583cd9f66746b7a9ab1ec1673ced","size":37962360,"url":"https://launcher.mojang.com/v1/objects/1b557e7b033b583cd9f66746b7a9ab1ec1673ced/server.jar"},"server_mappings":{"sha1":"41285beda6d251d190f2bf33beadd4fee187df7a","size":4400926,"url":"https://launcher.mojang.com/v1/objects/41285beda6d251d190f2bf33beadd4fee187df7a/server.txt"}}
+[01:33:42] [Server thread/INFO]: [Geyser-Spigot] {"sha1":"37fd3c903861eeff3bc24b71eed48f828b5269c8","size":17547153,"url":"https://launcher.mojang.com/v1/objects/37fd3c903861eeff3bc24b71eed48f828b5269c8/client.jar"}
+[01:33:43] [Server thread/INFO]: [Geyser-Spigot] Downloading and loading locale: ru_ru
+[01:33:43] [Server thread/INFO]: [Geyser-Spigot] Locale already downloaded and up-to date: ru_ru
+[01:33:43] [Server thread/INFO]: [Geyser-Spigot] Missing mapping for bedrock item 510:10
+[01:33:43] [Server thread/INFO]: [Geyser-Spigot] Missing mapping for bedrock item 510:11
+[01:33:43] [Server thread/INFO]: [Geyser-Spigot] Missing mapping for bedrock item 510:12
+[01:33:43] [Server thread/INFO]: [Geyser-Spigot] Missing mapping for bedrock item 510:13
+[01:33:43] [Server thread/INFO]: [Geyser-Spigot] Missing mapping for bedrock item 510:14
+[01:33:43] [Server thread/INFO]: [Geyser-Spigot] Missing mapping for bedrock item 510:3
+[01:33:43] [Server thread/INFO]: [Geyser-Spigot] Missing mapping for bedrock item 510:4
+[01:33:43] [Server thread/INFO]: [Geyser-Spigot] Missing mapping for bedrock item 510:15
+[01:33:43] [Server thread/INFO]: [Geyser-Spigot] Missing mapping for bedrock item 510:1
+[01:33:43] [Server thread/INFO]: [Geyser-Spigot] Missing mapping for bedrock item 510:2
+[01:33:43] [Server thread/INFO]: [Geyser-Spigot] Missing mapping for bedrock item 510:5
+[01:33:43] [Server thread/INFO]: [Geyser-Spigot] Missing mapping for bedrock item 510:6
+[01:33:43] [Server thread/INFO]: [Geyser-Spigot] Missing mapping for bedrock item 510:7
+[01:33:43] [Server thread/INFO]: [Geyser-Spigot] Missing mapping for bedrock item 510:8
+[01:33:43] [Server thread/INFO]: [Geyser-Spigot] Missing mapping for bedrock item 510:9
+[01:33:43] [Server thread/INFO]: [Geyser-Spigot] Missing mapping for bedrock item 579:7
+[01:33:43] [Server thread/INFO]: [Geyser-Spigot] Missing mapping for bedrock item 579:3
+[01:33:43] [Server thread/INFO]: [Geyser-Spigot] Missing mapping for bedrock item 579:6
+[01:33:43] [Server thread/INFO]: [Geyser-Spigot] Missing mapping for bedrock item 579:1
+[01:33:43] [Server thread/INFO]: [Geyser-Spigot] Missing mapping for bedrock item 579:5
+[01:33:43] [Server thread/INFO]: [Geyser-Spigot] Missing mapping for bedrock item 579:4
+[01:33:43] [Server thread/INFO]: [Geyser-Spigot] Missing mapping for bedrock item 579:8
+[01:33:43] [Server thread/INFO]: [Geyser-Spigot] Missing mapping for bedrock item 579:2
+[01:33:43] [Server thread/INFO]: [Geyser-Spigot] Missing mapping for bedrock item 579:2
+[01:33:43] [Server thread/INFO]: [Geyser-Spigot] Missing mapping for bedrock item 579:2
+[01:33:43] [Server thread/INFO]: [Geyser-Spigot] Missing mapping for bedrock item 579:2
+[01:33:43] [Server thread/INFO]: [Geyser-Spigot] Missing mapping for bedrock item 579:9
+[01:33:43] [Server thread/INFO]: [Geyser-Spigot] Setting MTU to 1400
+[01:33:43] [Server thread/INFO]: [Geyser-Spigot] EventLoop type: NIO
+[01:33:43] [Server thread/INFO]: [Geyser-Spigot] Reason for no Epoll: java.lang.ExceptionInInitializerError
+[01:33:43] [Server thread/INFO]: [Geyser-Spigot] Reason for no KQueue: java.lang.ExceptionInInitializerError
+[01:33:43] [Network Listener - #1/INFO]: [Geyser-Spigot] Geyser запущен на 0.0.0.0:25565
+[01:33:43] [Server thread/INFO]: [Geyser-Spigot] Выполнено (7,138сек.)! Используйте команду /geyser help для помощи!
+[01:33:43] [Server thread/INFO]: [Geyser-Spigot] Зарегистрирована команда help
+[01:33:43] [Server thread/INFO]: [Geyser-Spigot] Зарегистрирована команда list
+[01:33:43] [Server thread/INFO]: [Geyser-Spigot] Зарегистрирована команда reload
+[01:33:43] [Server thread/INFO]: [Geyser-Spigot] Зарегистрирована команда stop
+[01:33:43] [Server thread/INFO]: [Geyser-Spigot] Зарегистрирована команда offhand
+[01:33:43] [Server thread/INFO]: [Geyser-Spigot] Зарегистрирована команда dump
+[01:33:43] [Server thread/INFO]: [Geyser-Spigot] Зарегистрирована команда version
+[01:33:43] [Server thread/INFO]: [Geyser-Spigot] Зарегистрирована команда settings
+[01:33:43] [Server thread/INFO]: [Geyser-Spigot] Зарегистрирована команда statistics
+[01:33:43] [Server thread/INFO]: [Geyser-Spigot] Зарегистрирована команда advancements
+[01:33:43] [Server thread/INFO]: [Geyser-Spigot] No biome mapping found for CUSTOM, defaulting to 0
+[01:33:43] [Server thread/INFO]: [Geyser-Spigot] Using NMS adapter: class org.geysermc.platform.spigot.world.manager.GeyserSpigotNativeWorldManager, v1_16_R3
+[01:33:43] [Server thread/INFO]: [WorldBorder] Enabling WorldBorder v1.9.10 (beta)
+[01:33:43] [Server thread/INFO]: [WorldBorder] [CONFIG] Using elliptic/round border, knockback of 3.0 blocks, and timer delay of 5.
+[01:33:43] [Server thread/INFO]: [WorldBorder] [CONFIG] Border-checking timed task started.
+[01:33:43] [Server thread/INFO]: [WorldBorder] For reference, the main world's spawn location is at X: 10,0 Y: 66,0 Z: 3,0
+[01:33:43] [Server thread/INFO]: [CMILib] Enabling CMILib v1.1.2.6
+[01:33:46] [Server thread/INFO]: Server version: v1_16_R3 - 1.16.5 - paper
+[01:33:47] [Server thread/INFO]: CMI hooked.
+[01:33:47] [Server thread/INFO]: Updated (EN) language file. Took 85ms
+[01:33:47] [Server thread/INFO]: Updated (RU) language file. Took 151ms
+[01:33:47] [Server thread/INFO]: [CMI] Enabling CMI v9.0.2.9
+[01:33:48] [Server thread/INFO]: ┏━━━┓ ┏━┓┏━┓ ┏━━┓
+[01:33:48] [Server thread/INFO]: ┃┏━┓┃ ┃ ┗┛ ┃ ┗┫┣┛
+[01:33:48] [Server thread/INFO]: ┃┃ ┗┛ ┃┏┓┏┓┃  ┃┃ 
+[01:33:48] [Server thread/INFO]: ┃┃ ┏┓ ┃┃┃┃┃┃  ┃┃ 
+[01:33:48] [Server thread/INFO]: ┃┗━┛┃ ┃┃┃┃┃┃ ┏┫┣┓
+[01:33:48] [Server thread/INFO]: ┗━━━┛ ┗┛┗┛┗┛ ┗━━┛
+[01:33:48] [Server thread/INFO]: _______________________________________________________
+[01:33:48] [Server thread/INFO]: [CMI] Re-Leaked Aternosv2
+[01:33:48] [Server thread/INFO]:   Integrating PaperSpigot async methods
+[01:33:48] [Server thread/INFO]:   56 Enabled and 0 Disabled modules
+[01:33:49] [Server thread/INFO]:   Permission plugin: LuckPerms5.3.77
+[01:33:49] [Server thread/INFO]:   Initialized Cipher256 AES
+[01:33:49] [Server thread/INFO]:   Loaded (56) regular alias into memory. Took 53ms
+[01:33:50] [Server thread/INFO]:   Loaded (1) custom text's into memory. Took 43ms
+[01:33:50] [Server thread/INFO]:   3.34.0 data base type detected
+[01:33:50] [Server thread/INFO]:   Started SqLite data base. Took 428ms
+[01:33:50] [Server thread/INFO]:   Vault was found - Enabling capabilities. Economy: CMIEconomy
+[01:33:50] [Server thread/INFO]:   Loaded (5) warning categories into memory. Took 0ms
+[01:33:50] [Server thread/INFO]:   Loaded (3) warning commands into memory. Took 1ms
+[01:33:50] [Server thread/INFO]:   Loaded (135) custom mob heads into memory. Took 48ms
+[01:33:50] [Server thread/INFO]:   Loaded (0) cooldowns into memory. Took 56ms
+[01:33:50] [Server thread/INFO]:   Initializing BungeeCord
+[01:33:50] [Server thread/INFO]:   Loaded (5) kits into memory. Took 143ms
+[01:33:51] [Server thread/INFO]:   Loaded (7) ranks into memory. Took 64ms
+[01:33:51] [Server thread/INFO]:   Loaded (8) playtime rewards into memory. Took 15ms
+[01:33:51] [Server thread/INFO]:   Loaded (1) player data into memory. Took 8ms
+[01:33:51] [Server thread/INFO]:   Loaded (0) playtime records into memory. Took 0ms
+[01:33:51] [Server thread/INFO]:   Loaded (0) playtime reward records into memory. Took 1ms
+[01:33:51] [Server thread/INFO]:   Registered events. Took 202ms
+[01:33:51] [Server thread/INFO]:   Loaded (0) event action commands into memory. Took 5ms
+[01:33:51] [Server thread/INFO]:   Updated (EN) language file. Took 142ms
+[01:33:51] [Server thread/INFO]:   Updated (RU) language file. Took 139ms
+[01:33:51] [Server thread/INFO]:   Loaded (245) worth values into memory. Took 104ms
+[01:33:51] [Server thread/INFO]:   Vault permissions was found - Enabling capabilities.
+[01:33:51] [Server thread/INFO]:   Starting world timer.
+[01:33:51] [Server thread/INFO]:   Initializing world manager.
+[01:33:51] [Server thread/INFO]:   Loaded (5) schedules into memory. Took 15ms
+[01:33:51] [Server thread/INFO]:   Loaded GeoIP
+[01:33:51] [Server thread/INFO]:   Loaded (0) skin cache entries into memory. Took 0ms
+[01:33:51] [Server thread/INFO]:   Version 9.0.2.9 has been enabled
+[01:33:51] [Server thread/INFO]: ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+[01:33:51] [Server thread/INFO]: [CMI] Downloaded from https://directleaks.net
+[01:33:51] [Server thread/INFO]: [Vault][Economy] CMI Economy hooked.
+[01:33:52] [Server thread/INFO]: Starting remote control listener
+[01:33:52] [Server thread/INFO]: Thread RCON Listener started
+[01:33:52] [Server thread/INFO]: RCON running on 192.168.0.115:25575
+[01:33:52] [Server thread/INFO]: Running delayed init tasks
+[01:33:52] [Server thread/INFO]: Done (21.603s)! For help, type "help"
+[01:33:52] [Server thread/INFO]: Timings Reset
+[01:33:52] [User Authenticator #1/INFO]: UUID of player youube1233 is e17fe5c2-00e9-3fc0-a4bc-54a26aa6c13e
+[01:33:53] [Thread-16/INFO]: --------------------
+[01:33:53] [Thread-16/INFO]: [CoreProtect] Версия 21.2 уже доступна!
+[01:33:53] [Thread-16/INFO]: [CoreProtect] Загрузить: www.coreprotect.net/download/
+[01:33:53] [Thread-16/INFO]: --------------------
+[01:33:54] [Craft Scheduler Thread - 1/INFO]: [Vault] Checking for Updates ... 
+[01:33:55] [Craft Scheduler Thread - 1/INFO]: [Vault] No new version available
+[01:33:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5042ms or 100 ticks behind
+[01:34:03] [Server thread/INFO]: youube1233 joined the game
+[01:34:03] [Server thread/INFO]: youube1233[/192.168.0.115:54751] logged in with entity id 2 at ([world]-184.17182082472533, 69.0, -246.69999998807907)
+[01:34:09] [Server thread/INFO]: youube1233 issued server command: /tps
+[01:34:11] [Server thread/INFO]: youube1233 issued server command: /cmi tps
+[01:34:56] [Server thread/INFO]: youube1233 lost connection: Disconnected
+[01:34:57] [Server thread/INFO]: youube1233 left the game
+[01:35:04] [Network Listener - #1/INFO]: [Geyser-Spigot] /192.168.0.179:38168 пингнул вас!
+[01:35:04] [Network Listener - #1/INFO]: [Geyser-Spigot] /192.168.0.179:38168 пингнул вас!
+[01:35:06] [Network Listener - #1/INFO]: [Geyser-Spigot] /192.168.0.179:38168 пингнул вас!
+[01:35:07] [Network Listener - #1/INFO]: [Geyser-Spigot] /192.168.0.179:55325 попытался подключиться!
+[01:35:08] [Network Listener - #1/INFO]: [Geyser-Spigot] Is player data valid? false
+[01:35:08] [Network Listener - #1/INFO]: [Geyser-Spigot] Bedrock пользователь с IP: /192.168.0.179 отключился по причине CLOSED_BY_REMOTE_PEER
+[01:35:33] [User Authenticator #2/INFO]: UUID of player youube1233 is e17fe5c2-00e9-3fc0-a4bc-54a26aa6c13e
+[01:35:33] [Server thread/INFO]: youube1233 joined the game
+[01:35:33] [Server thread/INFO]: youube1233[/192.168.0.115:54884] logged in with entity id 373 at ([world]-188.69999998807907, 73.5, -244.32915841682646)
+[01:36:29] [Network Listener - #1/INFO]: [Geyser-Spigot] /192.168.0.179:38168 пингнул вас!
+[01:36:29] [Network Listener - #1/INFO]: [Geyser-Spigot] /192.168.0.179:38168 пингнул вас!
+[01:36:34] [Network Listener - #1/INFO]: [Geyser-Spigot] /192.168.0.179:38168 пингнул вас!
+[01:36:39] [Network Listener - #1/INFO]: [Geyser-Spigot] /192.168.0.179:38168 пингнул вас!
+[01:36:44] [Network Listener - #1/INFO]: [Geyser-Spigot] /192.168.0.179:38168 пингнул вас!
+[01:36:49] [Network Listener - #1/INFO]: [Geyser-Spigot] /192.168.0.179:38168 пингнул вас!
+[01:36:54] [Network Listener - #1/INFO]: [Geyser-Spigot] /192.168.0.179:38168 пингнул вас!
+[01:36:59] [Network Listener - #1/INFO]: [Geyser-Spigot] /192.168.0.179:38168 пингнул вас!
+[01:37:04] [Network Listener - #1/INFO]: [Geyser-Spigot] /192.168.0.179:38168 пингнул вас!
+[01:37:09] [Network Listener - #1/INFO]: [Geyser-Spigot] /192.168.0.179:38168 пингнул вас!
+[01:37:14] [Network Listener - #1/INFO]: [Geyser-Spigot] /192.168.0.179:38168 пингнул вас!
+[01:37:19] [Network Listener - #1/INFO]: [Geyser-Spigot] /192.168.0.179:38168 пингнул вас!
+[01:37:24] [Network Listener - #1/INFO]: [Geyser-Spigot] /192.168.0.179:38168 пингнул вас!
+[01:37:29] [Network Listener - #1/INFO]: [Geyser-Spigot] /192.168.0.179:38168 пингнул вас!
+[01:37:34] [Network Listener - #1/INFO]: [Geyser-Spigot] /192.168.0.179:38168 пингнул вас!
+[01:37:39] [Network Listener - #1/INFO]: [Geyser-Spigot] /192.168.0.179:38168 пингнул вас!
+[01:37:42] [Server thread/INFO]: youube1233 issued server command: /cmi ipban
+[01:37:44] [Network Listener - #1/INFO]: [Geyser-Spigot] /192.168.0.179:38168 пингнул вас!
+[01:37:48] [Server thread/INFO]: youube1233 issued server command: /cmi preview 20
+[01:37:49] [Network Listener - #1/INFO]: [Geyser-Spigot] /192.168.0.179:38168 пингнул вас!
+[01:37:54] [Network Listener - #1/INFO]: [Geyser-Spigot] /192.168.0.179:38168 пингнул вас!
+[01:37:59] [Network Listener - #1/INFO]: [Geyser-Spigot] /192.168.0.179:38168 пингнул вас!
+[01:38:04] [Network Listener - #1/INFO]: [Geyser-Spigot] /192.168.0.179:38168 пингнул вас!
+[01:38:09] [Network Listener - #1/INFO]: [Geyser-Spigot] /192.168.0.179:38168 пингнул вас!
+[01:38:14] [Network Listener - #1/INFO]: [Geyser-Spigot] /192.168.0.179:38168 пингнул вас!
+[01:38:19] [Network Listener - #1/INFO]: [Geyser-Spigot] /192.168.0.179:38168 пингнул вас!
+[01:38:24] [Network Listener - #1/INFO]: [Geyser-Spigot] /192.168.0.179:38168 пингнул вас!
+[01:38:27] [Server console handler/WARN]: java.lang.Throwable: Server stopped
+[01:38:27] [Server console handler/WARN]: 	at io.papermc.paper.util.TraceUtil.dumpTraceForThread(TraceUtil.java:16)
+[01:38:27] [Server console handler/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.safeShutdown(MinecraftServer.java:1001)
+[01:38:27] [Server console handler/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.safeShutdown(MinecraftServer.java:995)
+[01:38:27] [Server console handler/WARN]: 	at com.destroystokyo.paper.console.PaperConsole.shutdown(PaperConsole.java:44)
+[01:38:27] [Server console handler/WARN]: 	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:171)
+[01:38:27] [Server console handler/WARN]: 	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:141)
+[01:38:27] [Server console handler/WARN]: 	at net.minecraft.server.v1_16_R3.DedicatedServer$1.run(DedicatedServer.java:106)
+[01:38:27] [Server thread/INFO]: Stopping server
+[01:38:27] [Server thread/INFO]: [CMI] Disabling CMI v9.0.2.9
+[01:38:27] [Server thread/INFO]: [Vault][Economy] CMI Economy unhooked.
+[01:38:27] [Server thread/INFO]: [CMI] Closed db connections
+[01:38:27] [Server thread/INFO]: [CMILib] Disabling CMILib v1.1.2.6
+[01:38:27] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-CMI
+[01:38:27] [Server thread/INFO]: [WorldBorder] Disabling WorldBorder v1.9.10 (beta)
+[01:38:27] [Server thread/INFO]: [WorldBorder] [CONFIG] Border-checking timed task stopped.
+[01:38:27] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v1.2.1-SNAPSHOT
+[01:38:27] [Server thread/INFO]: [Geyser-Spigot] Выключение Geyser.
+[01:38:27] [Server thread/INFO]: [Geyser-Spigot] Geyser успешно выключен.
+[01:38:27] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.3.77
+[01:38:27] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[01:38:27] [Server thread/INFO]: [LuckPerms] Closing storage...
+[01:38:27] [Server thread/INFO]: [LuckPerms] Goodbye!
+[01:38:27] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v20.1
+[01:38:27] [Server thread/INFO]: [CoreProtect] Завершение регистрации данных. Пожалуйста, подождите...
+[01:38:28] [Server thread/INFO]: [CoreProtect] CoreProtect v20.1 был успешно отключён!
+[01:38:28] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.2.2
+[01:38:28] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
+[01:38:28] [Server thread/INFO]: Saving players
+[01:38:28] [Server thread/INFO]: youube1233 lost connection: Сервер закрыт.
+[01:38:28] [Server thread/INFO]: youube1233 left the game
+[01:38:28] [Server thread/INFO]: Saving worlds
+[01:38:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[01:38:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[01:38:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[01:38:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01:38:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[01:38:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01:38:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[01:38:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01:38:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01:38:34] [Server thread/INFO]: Flushing Chunk IO
+[01:38:34] [Server thread/INFO]: Closing Thread Pool
+[01:38:34] [Server thread/INFO]: Closing Server
+[01:38:34] [Thread-1/WARN]: java.lang.Throwable: Server stopped
+[01:38:34] [Thread-1/WARN]: 	at io.papermc.paper.util.TraceUtil.dumpTraceForThread(TraceUtil.java:16)
+[01:38:34] [Thread-1/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.safeShutdown(MinecraftServer.java:1001)
+[01:38:34] [Thread-1/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.util.ServerShutdownThread.run(ServerShutdownThread.java:16)
