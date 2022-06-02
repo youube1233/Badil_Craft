@@ -42,6 +42,7 @@ TabList:
       - '&7Корды: &f%player_x%:&7%player_y%:&f%player_z%'
       - '&7Денег: &f%vault_eco_balance_formatted%'
       - '&7Real Life: &f%server_time_HH:mm:ss%'
+      - '&7TPS: &5%cmi_tps_1%'
       - '&5zabi.fun'
       - '&f------------------------------------'
   useGeneralName: false
