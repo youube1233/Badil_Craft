@@ -29,18 +29,20 @@ TabList:
   # Full list can be checked ingame with /cmi placeholders
   GeneralFormat:
     # This will define how others see players name in tab list
-    PlayerName: '[playerDisplayName]'
+    PlayerName: '[playerDisplayName]%cmi_user_suffix%'
     Header:
       '1':
       - '&f------------------------------------'
       - '&7Ежжи брат'
-      - '&7Онлайн на сервере: &f%server_online%'
+      - '&7Онлайн: &f%server_online%'
       - '&f------------------------------------'
     Footer:
       '1':
       - '&f------------------------------------'
-      - '&7%player_world% &f%player_x%:&7%player_y%:&f%player_z%'
-      - '&7Money: &f%vault_eco_balance_formatted% &7Time: &f%server_time_HH:mm:ss%'
+      - '&7Корды: &f%player_x%:&7%player_y%:&f%player_z%'
+      - '&7Денег: &f%vault_eco_balance_formatted%'
+      - '&7Real Life: &f%server_time_HH:mm:ss%'
+      - '&5zabi.fun'
       - '&f------------------------------------'
   useGeneralName: false
   # When this set to true, in case you dint defined PlayerName, Header or Footer in GroupFormat, then default one from GeneralFormat will be used

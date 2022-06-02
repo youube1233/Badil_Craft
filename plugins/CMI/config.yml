@@ -54,7 +54,7 @@ Economy:
     IncludeFakes: false
   Global:
     # Starting amount of money players will have
-    StartingAmount: 100.0
+    StartingAmount: 0
     # Minimal amount, can go into negative if needed
     MinimalAmount: 0.0
     # Maximal amount of money player can have. Set to -1 to disable this limit
@@ -66,7 +66,7 @@ Economy:
     # if this is disabled then payments will be limited to whole numbers and in case player provides number with fraction we will round number down
     Fractions: true
     # Currency symbol to be used when showing balance or similar
-    CurrencySymbol: БадыльКоин
+    CurrencySymbol: ' §5Бадыль§6Коинов'
     # Format used for displaying money
     MoneyFormat: '###,##0.00'
     # Converts long numbers to short ones, like 12305122 to 12.3m

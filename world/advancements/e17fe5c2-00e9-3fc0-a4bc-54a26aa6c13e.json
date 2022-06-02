@@ -11,6 +11,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2022-06-02 03:08:58 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/dark_oak_boat": {
     "criteria": {
       "in_water": "2022-06-02 01:45:23 +0300"
@@ -29,6 +35,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2022-06-02 03:04:41 +0300"
+    },
+    "done": true
+  },
   "minecraft:adventure/kill_a_mob": {
     "criteria": {
       "minecraft:stray": "2022-06-02 02:02:13 +0300"
@@ -43,7 +55,9 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
-      "minecraft:stray": "2022-06-02 02:02:13 +0300"
+      "minecraft:creeper": "2022-06-02 03:08:35 +0300",
+      "minecraft:stray": "2022-06-02 02:02:13 +0300",
+      "minecraft:zombie": "2022-06-02 03:04:50 +0300"
     },
     "done": false
   },
@@ -110,7 +124,9 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:snowy_mountains": "2022-06-02 01:45:22 +0300",
-      "minecraft:snowy_tundra": "2022-06-02 01:44:47 +0300"
+      "minecraft:snowy_tundra": "2022-06-02 01:44:47 +0300",
+      "minecraft:frozen_river": "2022-06-02 03:05:23 +0300",
+      "minecraft:snowy_taiga": "2022-06-02 03:05:34 +0300"
     },
     "done": false
   },

@@ -1,857 +1,780 @@
-[02:05:58] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[02:05:58] [main/INFO]: Reloading ResourceManager: Default, bukkit
-[02:05:59] [Worker-Main-4/INFO]: Loaded 7 recipes
-[02:06:00] [Server thread/INFO]: Starting minecraft server version 1.16.5
-[02:06:00] [Server thread/INFO]: Loading properties
-[02:06:00] [Server thread/INFO]: This server is running Paper version git-Paper-790 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
-[02:06:00] [Server thread/INFO]: Debug logging is disabled
-[02:06:00] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[02:06:00] [Server thread/INFO]: Using 4 threads for Netty based IO
-[02:06:00] [Server thread/INFO]: Default game type: SURVIVAL
-[02:06:00] [Server thread/INFO]: Generating keypair
-[02:06:00] [Server thread/INFO]: Starting Minecraft server on localhost:25565
-[02:06:00] [Server thread/INFO]: Using default channel type
-[02:06:01] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.2.2
-[02:06:01] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v20.1
-[02:06:01] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.3.77
-[02:06:02] [Server thread/INFO]: [WorldBorder] Loading WorldBorder v1.9.10 (beta)
-[02:06:02] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-CMI
-[02:06:02] [Server thread/INFO]: [CMILib] Loading CMILib v1.1.2.5
-[02:06:02] [Server thread/INFO]: [CMI] Loading CMI v9.0.2.9
-[02:06:02] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[02:06:02] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.3.77
-[02:06:02] [Server thread/INFO]:         __    
-[02:06:02] [Server thread/INFO]:   |    |__)   LuckPerms v5.3.77
-[02:06:02] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[02:06:02] [Server thread/INFO]: 
-[02:06:02] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[02:06:03] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[02:06:03] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[02:06:03] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[02:06:03] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1321ms)
-[02:06:03] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-CMI
-[02:06:03] [Server thread/WARN]: [Vault] Loaded class com.Zrips.CMI.Modules.Economy.Economy from CMI v9.0.2.9 which is not a depend, softdepend or loadbefore of this plugin.
-[02:06:03] [Server thread/INFO]: [Vault] [Economy] CMI Economy found: Waiting
-[02:06:03] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[02:06:04] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-CMI
-[02:06:04] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[02:06:04] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[02:06:04] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[02:06:04] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[02:06:04] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[02:06:04] [Server thread/INFO]: Preparing level "world"
-[02:06:04] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[02:06:04] [Server thread/INFO]: Time elapsed: 264 ms
-[02:06:04] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[02:06:04] [Server thread/INFO]: Time elapsed: 87 ms
-[02:06:04] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[02:06:04] [Server thread/INFO]: Time elapsed: 316 ms
-[02:06:04] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
-[02:06:04] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
-[02:06:05] [Server thread/INFO]: [ClearLag] Loading modules...
-[02:06:05] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
-[02:06:05] [Server thread/INFO]: [ClearLag] Modules have been loaded!
-[02:06:05] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
-[02:06:05] [Thread-13/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.16]...
-[02:06:05] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v20.1
-[02:06:05] [Server thread/INFO]: [CoreProtect] CoreProtect был успешно запущен! 
-[02:06:05] [Server thread/INFO]: [CoreProtect] Для хранения данных используется SQLite.
-[02:06:05] [Server thread/INFO]: --------------------
-[02:06:05] [Server thread/INFO]: [CoreProtect] Нравится CoreProtect? Присоединяйтесь к нашему Discord!
-[02:06:05] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
-[02:06:05] [Server thread/INFO]: --------------------
-[02:06:05] [Server thread/INFO]: [WorldBorder] Enabling WorldBorder v1.9.10 (beta)
-[02:06:05] [Server thread/INFO]: [WorldBorder] [CONFIG] Using elliptic/round border, knockback of 3.0 blocks, and timer delay of 5.
-[02:06:05] [Server thread/INFO]: [WorldBorder] [CONFIG] Border-checking timed task started.
-[02:06:05] [Server thread/INFO]: [WorldBorder] For reference, the main world's spawn location is at X: 10,0 Y: 66,0 Z: 3,0
-[02:06:05] [Server thread/INFO]: [CMILib] Enabling CMILib v1.1.2.5
-[02:06:06] [Thread-13/INFO]: [ClearLag] No updates found!
-[02:06:07] [Server thread/INFO]: Server version: v1_16_R3 - 1.16.5 - paper
-[02:06:07] [Server thread/INFO]: CMI hooked.
-[02:06:07] [Server thread/INFO]: Updated (EN) language file. Took 62ms
-[02:06:07] [Server thread/INFO]: Updated (RU) language file. Took 110ms
-[02:06:07] [Server thread/INFO]: [CMI] Enabling CMI v9.0.2.9
-[02:06:07] [Server thread/INFO]: ┏━━━┓ ┏━┓┏━┓ ┏━━┓
-[02:06:07] [Server thread/INFO]: ┃┏━┓┃ ┃ ┗┛ ┃ ┗┫┣┛
-[02:06:07] [Server thread/INFO]: ┃┃ ┗┛ ┃┏┓┏┓┃  ┃┃ 
-[02:06:07] [Server thread/INFO]: ┃┃ ┏┓ ┃┃┃┃┃┃  ┃┃ 
-[02:06:07] [Server thread/INFO]: ┃┗━┛┃ ┃┃┃┃┃┃ ┏┫┣┓
-[02:06:07] [Server thread/INFO]: ┗━━━┛ ┗┛┗┛┗┛ ┗━━┛
-[02:06:07] [Server thread/INFO]: _______________________________________________________
-[02:06:07] [Server thread/INFO]: [CMI] Re-Leaked Aternosv2
-[02:06:07] [Server thread/INFO]:   Integrating PaperSpigot async methods
-[02:06:08] [Server thread/INFO]:   56 Enabled and 0 Disabled modules
-[02:06:08] [Server thread/INFO]:   Permission plugin: LuckPerms5.3.77
-[02:06:08] [Server thread/INFO]:   Initialized Cipher256 AES
-[02:06:08] [Server thread/INFO]:   Loaded (56) regular alias into memory. Took 81ms
-[02:06:08] [Server thread/INFO]:   Loaded (1) custom text's into memory. Took 46ms
-[02:06:08] [Server thread/INFO]:   3.34.0 data base type detected
-[02:06:08] [Server thread/INFO]:   Started SqLite data base. Took 171ms
-[02:06:08] [Server thread/INFO]:   Vault was found - Enabling capabilities. Economy: CMIEconomy
-[02:06:09] [Server thread/INFO]:   Loaded (5) warning categories into memory. Took 1ms
-[02:06:09] [Server thread/INFO]:   Loaded (3) warning commands into memory. Took 0ms
-[02:06:09] [Server thread/INFO]:   Loaded (135) custom mob heads into memory. Took 14ms
-[02:06:09] [Server thread/INFO]:   Loaded (0) cooldowns into memory. Took 22ms
-[02:06:09] [Server thread/INFO]:   Initializing BungeeCord
-[02:06:09] [Server thread/INFO]:   Loaded (5) kits into memory. Took 19ms
-[02:06:09] [Server thread/INFO]:   Loaded (7) ranks into memory. Took 20ms
-[02:06:09] [Server thread/INFO]:   Loaded (8) playtime rewards into memory. Took 3ms
-[02:06:09] [Server thread/INFO]:   Loaded (1) player data into memory. Took 6ms
-[02:06:09] [Server thread/INFO]:   Loaded (0) playtime records into memory. Took 0ms
-[02:06:09] [Server thread/INFO]:   Loaded (0) playtime reward records into memory. Took 0ms
-[02:06:09] [Server thread/INFO]:   Registered events. Took 165ms
-[02:06:09] [Server thread/INFO]:   Loaded (0) event action commands into memory. Took 12ms
-[02:06:09] [Server thread/INFO]:   Updated (EN) language file. Took 101ms
-[02:06:09] [Server thread/INFO]:   Updated (RU) language file. Took 114ms
-[02:06:09] [Server thread/INFO]:   Loaded (245) worth values into memory. Took 64ms
-[02:06:09] [Server thread/INFO]:   Vault permissions was found - Enabling capabilities.
-[02:06:09] [Server thread/INFO]:   Starting world timer.
-[02:06:09] [Server thread/INFO]:   Initializing world manager.
-[02:06:09] [Server thread/INFO]:   Loaded (5) schedules into memory. Took 7ms
-[02:06:09] [Server thread/INFO]:   Loaded GeoIP
-[02:06:09] [Server thread/INFO]:   Loaded (0) skin cache entries into memory. Took 1ms
-[02:06:09] [Server thread/INFO]:   Version 9.0.2.9 has been enabled
-[02:06:09] [Server thread/INFO]: ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
-[02:06:09] [Server thread/INFO]: [CMI] Downloaded from https://directleaks.net
-[02:06:09] [Server thread/INFO]: [Vault][Economy] CMI Economy hooked.
-[02:06:09] [Server thread/INFO]: Running delayed init tasks
-[02:06:09] [Craft Scheduler Thread - 5/INFO]: [Vault] Checking for Updates ... 
-[02:06:09] [Server thread/INFO]: Done (9.326s)! For help, type "help"
-[02:06:09] [Server thread/INFO]: Timings Reset
-[02:06:10] [Craft Scheduler Thread - 5/INFO]: [Vault] No new version available
-[02:06:11] [Thread-16/INFO]: --------------------
-[02:06:11] [Thread-16/INFO]: [CoreProtect] Версия 21.2 уже доступна!
-[02:06:11] [Thread-16/INFO]: [CoreProtect] Загрузить: www.coreprotect.net/download/
-[02:06:11] [Thread-16/INFO]: --------------------
-[02:06:25] [User Authenticator #1/INFO]: UUID of player youube1233 is e17fe5c2-00e9-3fc0-a4bc-54a26aa6c13e
-[02:06:25] [Server thread/INFO]: youube1233 joined the game
-[02:06:25] [Server thread/INFO]: youube1233[/127.0.0.1:52244] logged in with entity id 173 at ([world]-212.47484751292546, 71.71666897954374, -224.94388186312804)
-[02:06:43] [Server thread/INFO]: youube1233 issued server command: /cmi moneyt
-[02:06:45] [Server thread/INFO]: youube1233 issued server command: /cmi money
-[02:08:34] [Server thread/INFO]: youube1233 issued server command: /cmi give youube1233 1231
-[02:08:48] [Server thread/INFO]: youube1233 issued server command: /cmi give youube1233 money 1
-[02:10:08] [Server thread/INFO]: Использование: /cmi cheque (playerName) [amount]
-[02:10:08] [Server thread/INFO]: * Конвертировать деньги в чек
-[02:11:29] [Server thread/INFO]: youube1233 issued server command: /cmi reload
-[02:11:29] [Server thread/INFO]: Updated (EN) language file. Took 80ms
-[02:11:29] [Server thread/INFO]: Updated (RU) language file. Took 63ms
-[02:11:30] [Server thread/INFO]: [CMI] Loaded (1) custom text's into memory. Took 1ms
-[02:11:30] [Server thread/INFO]: [CMI] Started SqLite data base. Took 24ms
-[02:11:30] [Server thread/INFO]: [CMI] Loaded (5) warning categories into memory. Took 0ms
-[02:11:30] [Server thread/INFO]: [CMI] Loaded (3) warning commands into memory. Took 0ms
-[02:11:30] [Server thread/INFO]: [CMI] Loaded (135) custom mob heads into memory. Took 63ms
-[02:11:30] [Server thread/INFO]: [CMI] Loaded (0) cooldowns into memory. Took 64ms
-[02:11:30] [Server thread/INFO]: [CMI] Updated (EN) language file. Took 144ms
-[02:11:30] [Server thread/INFO]: [CMI] Updated (RU) language file. Took 139ms
-[02:11:30] [Server thread/INFO]: [CMI] Loaded (5) kits into memory. Took 31ms
-[02:11:30] [Server thread/INFO]: [CMI] Loaded (5) schedules into memory. Took 17ms
-[02:11:30] [Server thread/INFO]: [CMI] Loaded (7) ranks into memory. Took 22ms
-[02:11:30] [Server thread/INFO]: [CMI] Loaded (56) regular alias into memory. Took 49ms
-[02:11:30] [Server thread/INFO]: [CMI] Loaded (245) worth values into memory. Took 44ms
-[02:11:30] [Server thread/INFO]: [CMI] Loaded (8) playtime rewards into memory. Took 2ms
-[02:11:30] [Server thread/INFO]: [CMI] Loaded (0) skin cache entries into memory. Took 0ms
-[02:11:30] [Server thread/INFO]: [CMI] Loaded (0) event action commands into memory. Took 8ms
-[02:11:41] [Server thread/INFO]: youube1233 issued server command: /cmi cheque youube1233 100001202002
-[02:11:47] [Server thread/INFO]: youube1233 issued server command: /cmi cheque youube1233 10000
-[02:11:57] [Server thread/INFO]: youube1233 issued server command: /cmi reload
-[02:11:58] [Server thread/INFO]: Updated (EN) language file. Took 198ms
-[02:11:58] [Server thread/INFO]: Updated (RU) language file. Took 35ms
-[02:11:58] [Server thread/INFO]: [CMI] Loaded (1) custom text's into memory. Took 1ms
-[02:11:58] [Server thread/INFO]: [CMI] Started SqLite data base. Took 28ms
-[02:11:58] [Server thread/INFO]: [CMI] Loaded (5) warning categories into memory. Took 6ms
-[02:11:58] [Server thread/INFO]: [CMI] Loaded (3) warning commands into memory. Took 0ms
-[02:11:58] [Server thread/INFO]: [CMI] Loaded (135) custom mob heads into memory. Took 30ms
-[02:11:58] [Server thread/INFO]: [CMI] Loaded (0) cooldowns into memory. Took 31ms
-[02:11:59] [Server thread/INFO]: [CMI] Updated (EN) language file. Took 320ms
-[02:11:59] [Server thread/INFO]: [CMI] Updated (RU) language file. Took 768ms
-[02:12:00] [Server thread/INFO]: [CMI] Loaded (5) kits into memory. Took 47ms
-[02:12:00] [Server thread/INFO]: [CMI] Loaded (5) schedules into memory. Took 40ms
-[02:12:00] [Server thread/INFO]: [CMI] Loaded (7) ranks into memory. Took 44ms
-[02:12:00] [Server thread/INFO]: [CMI] Loaded (56) regular alias into memory. Took 160ms
-[02:12:00] [Server thread/INFO]: [CMI] Loaded (245) worth values into memory. Took 84ms
-[02:12:00] [Server thread/INFO]: [CMI] Loaded (8) playtime rewards into memory. Took 3ms
-[02:12:00] [Server thread/INFO]: [CMI] Loaded (0) skin cache entries into memory. Took 0ms
-[02:12:00] [Server thread/INFO]: [CMI] Loaded (0) event action commands into memory. Took 12ms
-[02:12:00] [Server thread/WARN]: youube1233 moved too quickly! 6.030884829019385,1.1661092609382138,8.866880761776883
-[02:12:15] [Server thread/INFO]: youube1233 issued server command: /cmi money
-[02:15:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5583ms or 111 ticks behind
-[02:20:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5082ms or 101 ticks behind
-[02:23:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5068ms or 101 ticks behind
-[02:23:45] [Server thread/INFO]: youube1233 issued server command: /stop
-[02:23:45] [Server thread/INFO]: [youube1233: Stopping the server]
-[02:23:45] [Server thread/WARN]: java.lang.Throwable: Server stopped
-[02:23:45] [Server thread/WARN]: 	at io.papermc.paper.util.TraceUtil.dumpTraceForThread(TraceUtil.java:16)
-[02:23:45] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.safeShutdown(MinecraftServer.java:1001)
-[02:23:45] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.safeShutdown(MinecraftServer.java:995)
-[02:23:45] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.CommandStop.a(SourceFile:17)
-[02:23:45] [Server thread/WARN]: 	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:262)
-[02:23:45] [Server thread/WARN]: 	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:176)
-[02:23:45] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.CommandDispatcher.a(CommandDispatcher.java:276)
-[02:23:45] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.command.VanillaCommandWrapper.execute(VanillaCommandWrapper.java:45)
-[02:23:45] [Server thread/WARN]: 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:159)
-[02:23:45] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.dispatchCommand(CraftServer.java:826)
-[02:23:45] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.PlayerConnection.handleCommand(PlayerConnection.java:2185)
-[02:23:45] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.PlayerConnection.c(PlayerConnection.java:2000)
-[02:23:45] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.PlayerConnection.a(PlayerConnection.java:1953)
-[02:23:45] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.PacketPlayInChat.a(PacketPlayInChat.java:49)
-[02:23:45] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.PacketPlayInChat.a(PacketPlayInChat.java:7)
-[02:23:45] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.PlayerConnectionUtils.lambda$ensureMainThread$1(PlayerConnectionUtils.java:35)
-[02:23:45] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.TickTask.run(SourceFile:18)
-[02:23:45] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.IAsyncTaskHandler.executeTask(IAsyncTaskHandler.java:136)
-[02:23:45] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23)
-[02:23:45] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.IAsyncTaskHandler.executeNext(IAsyncTaskHandler.java:109)
-[02:23:45] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.bb(MinecraftServer.java:1271)
-[02:23:45] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.executeNext(MinecraftServer.java:1264)
-[02:23:45] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.IAsyncTaskHandler.awaitTasks(IAsyncTaskHandler.java:119)
-[02:23:45] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.a(MinecraftServer.java:1338)
-[02:23:45] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:1135)
-[02:23:45] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:291)
-[02:23:45] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:831)
-[02:23:46] [Paper Watchdog Thread/ERROR]: ------------------------------
-[02:23:46] [Paper Watchdog Thread/ERROR]: The server has stopped responding! This is (probably) not a Paper bug.
-[02:23:46] [Paper Watchdog Thread/ERROR]: If you see a plugin in the Server thread dump below, then please report it to that author
-[02:23:46] [Paper Watchdog Thread/ERROR]: 	 *Especially* if it looks like HTTP or MySQL operations are occurring
-[02:23:46] [Paper Watchdog Thread/ERROR]: If you see a world save or edit, then it means you did far more than your server can handle at once
-[02:23:46] [Paper Watchdog Thread/ERROR]: 	 If this is the case, consider increasing timeout-time in spigot.yml but note that this will replace the crash with LARGE lag spikes
-[02:23:46] [Paper Watchdog Thread/ERROR]: If you are unsure or still think this is a Paper bug, please report this to https://github.com/PaperMC/Paper/issues
-[02:23:46] [Paper Watchdog Thread/ERROR]: Be sure to include ALL relevant console errors and Minecraft crash reports
-[02:23:46] [Paper Watchdog Thread/ERROR]: Paper version: git-Paper-790 (MC: 1.16.5)
-[02:23:46] [Paper Watchdog Thread/ERROR]: ------------------------------
-[02:23:46] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
-[02:23:46] [Paper Watchdog Thread/ERROR]: ------------------------------
-[02:23:46] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
-[02:23:46] [Paper Watchdog Thread/ERROR]: 	PID: 28 | Suspended: false | Native: false | State: RUNNABLE
-[02:23:46] [Paper Watchdog Thread/ERROR]: 	Stack:
-[02:23:46] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.IWorldReader.c(IWorldReader.java:155)
-[02:23:46] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.IWorldReader.getLightLevel(IWorldReader.java:151)
-[02:23:46] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.IWorldReader.y(IWorldReader.java:97)
-[02:23:46] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.Entity.aR(Entity.java:1396)
-[02:23:46] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityMonster.eQ(EntityMonster.java:49)
-[02:23:46] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityMonster.movementTick(EntityMonster.java:44)
-[02:23:46] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityEnderman.movementTick(EntityEnderman.java:267)
-[02:23:46] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityLiving.tick(EntityLiving.java:2591)
-[02:23:46] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityInsentient.tick(EntityInsentient.java:378)
-[02:23:46] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.WorldServer.entityJoinedWorld(WorldServer.java:960)
-[02:23:46] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.WorldServer$$Lambda$4472/0x0000000801ad1038.accept(Unknown Source)
-[02:23:46] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.World.a(World.java:955)
-[02:23:46] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.WorldServer.doTick(WorldServer.java:646)
-[02:23:46] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.MinecraftServer.b(MinecraftServer.java:1495)
-[02:23:46] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.DedicatedServer.b(DedicatedServer.java:436)
-[02:23:46] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.MinecraftServer.a(MinecraftServer.java:1347)
-[02:23:46] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:1135)
-[02:23:46] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:291)
-[02:23:46] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.MinecraftServer$$Lambda$3148/0x00000008012cf5f8.run(Unknown Source)
-[02:23:46] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.lang.Thread.run(Thread.java:831)
-[02:23:46] [Paper Watchdog Thread/ERROR]: ------------------------------
-[02:23:46] [Paper Watchdog Thread/ERROR]: Entire Thread Dump:
-[02:23:56] [Paper Watchdog Thread/ERROR]: ------------------------------
-[02:23:56] [Paper Watchdog Thread/ERROR]: Current Thread: Reference Handler
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	PID: 2 | Suspended: false | Native: false | State: RUNNABLE
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	Stack:
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.lang.ref.Reference.waitForReferencePendingList(Native Method)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.lang.ref.Reference.processPendingReferences(Reference.java:243)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.lang.ref.Reference$ReferenceHandler.run(Reference.java:215)
-[02:23:56] [Paper Watchdog Thread/ERROR]: ------------------------------
-[02:23:56] [Paper Watchdog Thread/ERROR]: Current Thread: Finalizer
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	PID: 3 | Suspended: false | Native: false | State: WAITING
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	Stack:
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.lang.Object.wait(Native Method)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:171)
-[02:23:56] [Paper Watchdog Thread/ERROR]: ------------------------------
-[02:23:56] [Paper Watchdog Thread/ERROR]: Current Thread: Signal Dispatcher
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	PID: 4 | Suspended: false | Native: false | State: RUNNABLE
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	Stack:
-[02:23:56] [Paper Watchdog Thread/ERROR]: ------------------------------
-[02:23:56] [Paper Watchdog Thread/ERROR]: Current Thread: Attach Listener
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	PID: 5 | Suspended: false | Native: false | State: RUNNABLE
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	Stack:
-[02:23:56] [Paper Watchdog Thread/ERROR]: ------------------------------
-[02:23:56] [Paper Watchdog Thread/ERROR]: Current Thread: Notification Thread
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	PID: 13 | Suspended: false | Native: false | State: RUNNABLE
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	Stack:
-[02:23:56] [Paper Watchdog Thread/ERROR]: ------------------------------
-[02:23:56] [Paper Watchdog Thread/ERROR]: Current Thread: Common-Cleaner
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	PID: 14 | Suspended: false | Native: false | State: TIMED_WAITING
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	Stack:
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.lang.Object.wait(Native Method)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:140)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.lang.Thread.run(Thread.java:831)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:134)
-[02:23:56] [Paper Watchdog Thread/ERROR]: ------------------------------
-[02:23:56] [Paper Watchdog Thread/ERROR]: Current Thread: Log4j2-TF-1-AsyncLogger[AsyncContext@2a139a55]-1
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	PID: 17 | Suspended: false | Native: false | State: RUNNABLE
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	Stack:
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.lang.StringBuilder.toString(StringBuilder.java:450)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//org.apache.logging.log4j.core.layout.PatternLayout$PatternSelectorSerializer.toSerializable(PatternLayout.java:445)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//org.apache.logging.log4j.core.layout.PatternLayout.toSerializable(PatternLayout.java:209)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//org.apache.logging.log4j.core.layout.PatternLayout.toSerializable(PatternLayout.java:58)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//net.minecrell.terminalconsole.TerminalConsoleAppender.append(TerminalConsoleAppender.java:253)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//org.apache.logging.log4j.core.config.AppenderControl.tryCallAppender(AppenderControl.java:156)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//org.apache.logging.log4j.core.config.AppenderControl.callAppender0(AppenderControl.java:129)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//org.apache.logging.log4j.core.config.AppenderControl.callAppenderPreventRecursion(AppenderControl.java:120)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//org.apache.logging.log4j.core.config.AppenderControl.callAppender(AppenderControl.java:84)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//org.apache.logging.log4j.core.config.LoggerConfig.callAppenders(LoggerConfig.java:464)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//org.apache.logging.log4j.core.config.LoggerConfig.processLogEvent(LoggerConfig.java:448)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:431)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:419)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//org.apache.logging.log4j.core.config.AwaitCompletionReliabilityStrategy.log(AwaitCompletionReliabilityStrategy.java:79)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//org.apache.logging.log4j.core.async.AsyncLogger.actualAsyncLog(AsyncLogger.java:381)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//org.apache.logging.log4j.core.async.RingBufferLogEvent.execute(RingBufferLogEvent.java:161)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//org.apache.logging.log4j.core.async.RingBufferLogEventHandler.onEvent(RingBufferLogEventHandler.java:45)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//org.apache.logging.log4j.core.async.RingBufferLogEventHandler.onEvent(RingBufferLogEventHandler.java:29)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//com.lmax.disruptor.BatchEventProcessor.processEvents(BatchEventProcessor.java:168)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//com.lmax.disruptor.BatchEventProcessor.run(BatchEventProcessor.java:125)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.lang.Thread.run(Thread.java:831)
-[02:23:56] [Paper Watchdog Thread/ERROR]: ------------------------------
-[02:23:56] [Paper Watchdog Thread/ERROR]: Current Thread: WindowsStreamPump
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	PID: 19 | Suspended: false | Native: false | State: RUNNABLE
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	Stack:
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//org.fusesource.jansi.internal.Kernel32.WaitForSingleObject(Native Method)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//org.fusesource.jansi.internal.WindowsSupport.readConsoleInput(WindowsSupport.java:97)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//org.jline.terminal.impl.jansi.win.JansiWinSysTerminal.processConsoleInput(JansiWinSysTerminal.java:112)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//org.jline.terminal.impl.AbstractWindowsTerminal.pump(AbstractWindowsTerminal.java:458)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//org.jline.terminal.impl.AbstractWindowsTerminal$$Lambda$88/0x0000000800d0cef0.run(Unknown Source)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.lang.Thread.run(Thread.java:831)
-[02:23:56] [Paper Watchdog Thread/ERROR]: ------------------------------
-[02:23:56] [Paper Watchdog Thread/ERROR]: Current Thread: Timer hack thread
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	PID: 21 | Suspended: false | Native: false | State: TIMED_WAITING
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	Stack:
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.lang.Thread.sleep(Native Method)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.SystemUtils$5.run(SystemUtils.java:473)
-[02:23:56] [Paper Watchdog Thread/ERROR]: ------------------------------
-[02:23:56] [Paper Watchdog Thread/ERROR]: Current Thread: Worker-Main-1
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	PID: 22 | Suspended: false | Native: false | State: WAITING
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	Stack:
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/jdk.internal.misc.Unsafe.park(Native Method)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:505)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3137)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1614)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.lang.Thread.run(Thread.java:831)
-[02:23:56] [Paper Watchdog Thread/ERROR]: ------------------------------
-[02:23:56] [Paper Watchdog Thread/ERROR]: Current Thread: Worker-Main-2
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	PID: 23 | Suspended: false | Native: false | State: WAITING
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	Stack:
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/jdk.internal.misc.Unsafe.park(Native Method)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:505)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3137)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1614)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.lang.Thread.run(Thread.java:831)
-[02:23:56] [Paper Watchdog Thread/ERROR]: ------------------------------
-[02:23:56] [Paper Watchdog Thread/ERROR]: Current Thread: Worker-Main-3
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	PID: 24 | Suspended: false | Native: false | State: WAITING
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	Stack:
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/jdk.internal.misc.Unsafe.park(Native Method)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:505)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3137)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1614)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.lang.Thread.run(Thread.java:831)
-[02:23:56] [Paper Watchdog Thread/ERROR]: ------------------------------
-[02:23:56] [Paper Watchdog Thread/ERROR]: Current Thread: Worker-Main-4
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	PID: 25 | Suspended: false | Native: false | State: WAITING
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	Stack:
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/jdk.internal.misc.Unsafe.park(Native Method)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:505)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3137)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1614)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.lang.Thread.run(Thread.java:831)
-[02:23:56] [Paper Watchdog Thread/ERROR]: ------------------------------
-[02:23:56] [Paper Watchdog Thread/ERROR]: Current Thread: Worker-Main-5
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	PID: 26 | Suspended: false | Native: false | State: WAITING
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	Stack:
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/jdk.internal.misc.Unsafe.park(Native Method)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:505)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3137)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1614)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.lang.Thread.run(Thread.java:831)
-[02:23:56] [Paper Watchdog Thread/ERROR]: ------------------------------
-[02:23:56] [Paper Watchdog Thread/ERROR]: Current Thread: Worker-Main-6
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	PID: 27 | Suspended: false | Native: false | State: WAITING
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	Stack:
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/jdk.internal.misc.Unsafe.park(Native Method)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:505)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3137)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1614)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.lang.Thread.run(Thread.java:831)
-[02:23:56] [Paper Watchdog Thread/ERROR]: ------------------------------
-[02:23:56] [Paper Watchdog Thread/ERROR]: Current Thread: Snooper Timer
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	PID: 29 | Suspended: false | Native: false | State: WAITING
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	Stack:
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.lang.Object.wait(Native Method)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.lang.Object.wait(Object.java:320)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.TimerThread.mainLoop(Timer.java:527)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.TimerThread.run(Timer.java:506)
-[02:23:56] [Paper Watchdog Thread/ERROR]: ------------------------------
-[02:23:56] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	PID: 28 | Suspended: false | Native: false | State: RUNNABLE
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	Stack:
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityLiving.t(EntityLiving.java:2525)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityLiving.a(EntityLiving.java:2478)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityLiving.g(EntityLiving.java:2439)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityLiving.movementTick(EntityLiving.java:2905)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityInsentient.movementTick(EntityInsentient.java:615)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityMonster.movementTick(EntityMonster.java:45)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityLiving.tick(EntityLiving.java:2591)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityInsentient.tick(EntityInsentient.java:378)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityCreeper.tick(EntityCreeper.java:160)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.WorldServer.entityJoinedWorld(WorldServer.java:960)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.WorldServer$$Lambda$4472/0x0000000801ad1038.accept(Unknown Source)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.World.a(World.java:955)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.WorldServer.doTick(WorldServer.java:646)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.MinecraftServer.b(MinecraftServer.java:1495)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.DedicatedServer.b(DedicatedServer.java:436)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.MinecraftServer.a(MinecraftServer.java:1347)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:1135)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:291)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.MinecraftServer$$Lambda$3148/0x00000008012cf5f8.run(Unknown Source)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.lang.Thread.run(Thread.java:831)
-[02:23:56] [Paper Watchdog Thread/ERROR]: ------------------------------
-[02:23:56] [Paper Watchdog Thread/ERROR]: Current Thread: Server console handler
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	PID: 31 | Suspended: false | Native: false | State: TIMED_WAITING
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	Stack:
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.lang.Object.wait(Native Method)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//org.jline.utils.NonBlockingPumpReader.wait(NonBlockingPumpReader.java:55)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//org.jline.utils.NonBlockingPumpReader.read(NonBlockingPumpReader.java:101)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//org.jline.utils.NonBlockingReader.read(NonBlockingReader.java:57)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//org.jline.keymap.BindingReader.readCharacter(BindingReader.java:133)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//org.jline.keymap.BindingReader.readBinding(BindingReader.java:110)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//org.jline.keymap.BindingReader.readBinding(BindingReader.java:61)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//org.jline.reader.impl.LineReaderImpl.doReadBinding(LineReaderImpl.java:848)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//org.jline.reader.impl.LineReaderImpl.readBinding(LineReaderImpl.java:868)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:575)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:418)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:158)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:141)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.DedicatedServer$1.run(DedicatedServer.java:106)
-[02:23:56] [Paper Watchdog Thread/ERROR]: ------------------------------
-[02:23:56] [Paper Watchdog Thread/ERROR]: Current Thread: DestroyJavaVM
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	PID: 32 | Suspended: false | Native: false | State: RUNNABLE
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	Stack:
-[02:23:56] [Paper Watchdog Thread/ERROR]: ------------------------------
-[02:23:56] [Paper Watchdog Thread/ERROR]: Current Thread: Paper Watchdog Thread
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	PID: 37 | Suspended: false | Native: false | State: RUNNABLE
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	Stack:
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.management@16.0.2/sun.management.ThreadImpl.dumpThreads0(Native Method)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.management@16.0.2/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:521)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.management@16.0.2/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:509)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//org.spigotmc.WatchdogThread.run(WatchdogThread.java:131)
-[02:23:56] [Paper Watchdog Thread/ERROR]: ------------------------------
-[02:23:56] [Paper Watchdog Thread/ERROR]: Current Thread: Paper Async Chunk Task Thread #0
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	PID: 38 | Suspended: false | Native: false | State: WAITING
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	Stack:
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/jdk.internal.misc.Unsafe.park(Native Method)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:211)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//com.destroystokyo.paper.io.QueueExecutorThread.run(QueueExecutorThread.java:84)
-[02:23:56] [Paper Watchdog Thread/ERROR]: ------------------------------
-[02:23:56] [Paper Watchdog Thread/ERROR]: Current Thread: Paper Async Chunk Task Thread #1
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	PID: 39 | Suspended: false | Native: false | State: WAITING
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	Stack:
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/jdk.internal.misc.Unsafe.park(Native Method)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:211)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//com.destroystokyo.paper.io.QueueExecutorThread.run(QueueExecutorThread.java:84)
-[02:23:56] [Paper Watchdog Thread/ERROR]: ------------------------------
-[02:23:56] [Paper Watchdog Thread/ERROR]: Current Thread: Paper Async Chunk Task Thread #2
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	PID: 40 | Suspended: false | Native: false | State: WAITING
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	Stack:
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/jdk.internal.misc.Unsafe.park(Native Method)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:211)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//com.destroystokyo.paper.io.QueueExecutorThread.run(QueueExecutorThread.java:84)
-[02:23:56] [Paper Watchdog Thread/ERROR]: ------------------------------
-[02:23:56] [Paper Watchdog Thread/ERROR]: Current Thread: Paper Async Chunk Task Thread #3
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	PID: 41 | Suspended: false | Native: false | State: WAITING
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	Stack:
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/jdk.internal.misc.Unsafe.park(Native Method)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:211)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//com.destroystokyo.paper.io.QueueExecutorThread.run(QueueExecutorThread.java:84)
-[02:23:56] [Paper Watchdog Thread/ERROR]: ------------------------------
-[02:23:56] [Paper Watchdog Thread/ERROR]: Current Thread: Paper Async Chunk Task Thread #4
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	PID: 42 | Suspended: false | Native: false | State: WAITING
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	Stack:
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/jdk.internal.misc.Unsafe.park(Native Method)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:211)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//com.destroystokyo.paper.io.QueueExecutorThread.run(QueueExecutorThread.java:84)
-[02:23:56] [Paper Watchdog Thread/ERROR]: ------------------------------
-[02:23:56] [Paper Watchdog Thread/ERROR]: Current Thread: Paper Async Chunk Task Thread #5
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	PID: 43 | Suspended: false | Native: false | State: WAITING
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	Stack:
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/jdk.internal.misc.Unsafe.park(Native Method)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:211)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//com.destroystokyo.paper.io.QueueExecutorThread.run(QueueExecutorThread.java:84)
-[02:23:56] [Paper Watchdog Thread/ERROR]: ------------------------------
-[02:23:56] [Paper Watchdog Thread/ERROR]: Current Thread: Paper Async Chunk Task Thread #6
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	PID: 44 | Suspended: false | Native: false | State: WAITING
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	Stack:
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/jdk.internal.misc.Unsafe.park(Native Method)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:211)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//com.destroystokyo.paper.io.QueueExecutorThread.run(QueueExecutorThread.java:84)
-[02:23:56] [Paper Watchdog Thread/ERROR]: ------------------------------
-[02:23:56] [Paper Watchdog Thread/ERROR]: Current Thread: Paper Async Chunk Urgent Task Thread
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	PID: 45 | Suspended: false | Native: false | State: WAITING
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	Stack:
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/jdk.internal.misc.Unsafe.park(Native Method)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:211)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//com.destroystokyo.paper.io.QueueExecutorThread.run(QueueExecutorThread.java:84)
-[02:23:56] [Paper Watchdog Thread/ERROR]: ------------------------------
-[02:23:56] [Paper Watchdog Thread/ERROR]: Current Thread: Netty Server IO #0
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	PID: 46 | Suspended: false | Native: true | State: RUNNABLE
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	Thread is waiting on monitor(s):
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		Locked on:java.base@16.0.2/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		Locked on:java.base@16.0.2/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	Stack:
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:353)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:178)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:146)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:68)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:803)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:457)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.lang.Thread.run(Thread.java:831)
-[02:23:56] [Paper Watchdog Thread/ERROR]: ------------------------------
-[02:23:56] [Paper Watchdog Thread/ERROR]: Current Thread: pool-7-thread-1
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	PID: 47 | Suspended: false | Native: false | State: TIMED_WAITING
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	Stack:
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/jdk.internal.misc.Unsafe.park(Native Method)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1661)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.lang.Thread.run(Thread.java:831)
-[02:23:56] [Paper Watchdog Thread/ERROR]: ------------------------------
-[02:23:56] [Paper Watchdog Thread/ERROR]: Current Thread: ForkJoinPool-1-worker-3
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	PID: 56 | Suspended: false | Native: false | State: WAITING
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	Stack:
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/jdk.internal.misc.Unsafe.park(Native Method)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:505)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3127)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1614)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.LinkedBlockingDeque.takeFirst(LinkedBlockingDeque.java:485)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.LinkedBlockingDeque.take(LinkedBlockingDeque.java:673)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/sun.nio.fs.AbstractWatchService.take(AbstractWatchService.java:118)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		me.lucko.luckperms.common.storage.implementation.file.watcher.AbstractFileWatcher.runEventProcessingLoop(AbstractFileWatcher.java:128)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		me.lucko.luckperms.common.storage.implementation.file.watcher.FileWatcher.lambda$new$0(FileWatcher.java:60)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		me.lucko.luckperms.common.storage.implementation.file.watcher.FileWatcher$$Lambda$3814/0x00000008016c57a0.run(Unknown Source)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1434)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
-[02:23:56] [Paper Watchdog Thread/ERROR]: ------------------------------
-[02:23:56] [Paper Watchdog Thread/ERROR]: Current Thread: ForkJoinPool-1-worker-39
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	PID: 58 | Suspended: false | Native: false | State: WAITING
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	Stack:
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/jdk.internal.misc.Unsafe.park(Native Method)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:211)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1633)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
-[02:23:56] [Paper Watchdog Thread/ERROR]: ------------------------------
-[02:23:56] [Paper Watchdog Thread/ERROR]: Current Thread: luckperms-scheduler
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	PID: 59 | Suspended: false | Native: false | State: TIMED_WAITING
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	Stack:
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/jdk.internal.misc.Unsafe.park(Native Method)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1661)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.lang.Thread.run(Thread.java:831)
-[02:23:56] [Paper Watchdog Thread/ERROR]: ------------------------------
-[02:23:56] [Paper Watchdog Thread/ERROR]: Current Thread: FileSystemWatchService
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	PID: 61 | Suspended: false | Native: true | State: RUNNABLE
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	Stack:
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/sun.nio.fs.WindowsNativeDispatcher.GetQueuedCompletionStatus0(Native Method)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/sun.nio.fs.WindowsNativeDispatcher.GetQueuedCompletionStatus(WindowsNativeDispatcher.java:1055)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/sun.nio.fs.WindowsWatchService$Poller.run(WindowsWatchService.java:587)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.lang.Thread.run(Thread.java:831)
-[02:23:56] [Paper Watchdog Thread/ERROR]: ------------------------------
-[02:23:56] [Paper Watchdog Thread/ERROR]: Current Thread: MVStore background writer nio:D:/Projects/Minecraft projects/Private/plugins/LuckPerms/luckperms-h2.mv.db
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	PID: 64 | Suspended: false | Native: false | State: TIMED_WAITING
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	Stack:
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.lang.Object.wait(Native Method)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		org.h2.mvstore.MVStore$BackgroundWriterThread.run(MVStore.java:3116)
-[02:23:56] [Paper Watchdog Thread/ERROR]: ------------------------------
-[02:23:56] [Paper Watchdog Thread/ERROR]: Current Thread: Paper RegionFile IO Thread
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	PID: 66 | Suspended: false | Native: false | State: WAITING
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	Stack:
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/jdk.internal.misc.Unsafe.park(Native Method)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:211)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//com.destroystokyo.paper.io.QueueExecutorThread.run(QueueExecutorThread.java:84)
-[02:23:56] [Paper Watchdog Thread/ERROR]: ------------------------------
-[02:23:56] [Paper Watchdog Thread/ERROR]: Current Thread: Cleaner-0
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	PID: 67 | Suspended: false | Native: false | State: TIMED_WAITING
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	Stack:
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.lang.Object.wait(Native Method)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:140)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.lang.Thread.run(Thread.java:831)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:134)
-[02:23:56] [Paper Watchdog Thread/ERROR]: ------------------------------
-[02:23:56] [Paper Watchdog Thread/ERROR]: Current Thread: world - Light
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	PID: 68 | Suspended: false | Native: false | State: WAITING
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	Stack:
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/jdk.internal.misc.Unsafe.park(Native Method)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:505)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3137)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1614)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.lang.Thread.run(Thread.java:831)
-[02:23:56] [Paper Watchdog Thread/ERROR]: ------------------------------
-[02:23:56] [Paper Watchdog Thread/ERROR]: Current Thread: mysql-cj-abandoned-connection-cleanup
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	PID: 71 | Suspended: false | Native: false | State: TIMED_WAITING
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	Stack:
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.lang.Object.wait(Native Method)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.lang.Thread.run(Thread.java:831)
-[02:23:56] [Paper Watchdog Thread/ERROR]: ------------------------------
-[02:23:56] [Paper Watchdog Thread/ERROR]: Current Thread: Thread-14
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	PID: 73 | Suspended: false | Native: false | State: TIMED_WAITING
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	Stack:
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.lang.Thread.sleep(Native Method)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		net.coreprotect.thread.CacheHandler.run(CacheHandler.java:30)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.lang.Thread.run(Thread.java:831)
-[02:23:56] [Paper Watchdog Thread/ERROR]: ------------------------------
-[02:23:56] [Paper Watchdog Thread/ERROR]: Current Thread: Thread-15
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	PID: 74 | Suspended: false | Native: false | State: TIMED_WAITING
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	Stack:
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.lang.Thread.sleep(Native Method)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		net.coreprotect.consumer.Consumer.run(Consumer.java:139)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.lang.Thread.run(Thread.java:831)
-[02:23:56] [Paper Watchdog Thread/ERROR]: ------------------------------
-[02:23:56] [Paper Watchdog Thread/ERROR]: Current Thread: Craft Async Scheduler Management Thread
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	PID: 76 | Suspended: false | Native: false | State: WAITING
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	Stack:
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/jdk.internal.misc.Unsafe.park(Native Method)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:505)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3137)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1614)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.lang.Thread.run(Thread.java:831)
-[02:23:56] [Paper Watchdog Thread/ERROR]: ------------------------------
-[02:23:56] [Paper Watchdog Thread/ERROR]: Current Thread: Thread-16
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	PID: 79 | Suspended: false | Native: false | State: TIMED_WAITING
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	Stack:
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.lang.Thread.sleep(Native Method)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		net.coreprotect.thread.NetworkHandler.run(NetworkHandler.java:360)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.lang.Thread.run(Thread.java:831)
-[02:23:56] [Paper Watchdog Thread/ERROR]: ------------------------------
-[02:23:56] [Paper Watchdog Thread/ERROR]: Current Thread: world_nether - Light
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	PID: 80 | Suspended: false | Native: false | State: WAITING
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	Stack:
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/jdk.internal.misc.Unsafe.park(Native Method)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:505)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3137)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1614)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.lang.Thread.run(Thread.java:831)
-[02:23:56] [Paper Watchdog Thread/ERROR]: ------------------------------
-[02:23:56] [Paper Watchdog Thread/ERROR]: Current Thread: world_the_end - Light
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	PID: 81 | Suspended: false | Native: false | State: WAITING
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	Stack:
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/jdk.internal.misc.Unsafe.park(Native Method)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:505)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3137)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1614)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.lang.Thread.run(Thread.java:831)
-[02:23:56] [Paper Watchdog Thread/ERROR]: ------------------------------
-[02:23:56] [Paper Watchdog Thread/ERROR]: Current Thread: Paper Object Cleaner
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	PID: 82 | Suspended: false | Native: false | State: WAITING
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	Stack:
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/jdk.internal.misc.Unsafe.park(Native Method)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:505)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3137)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1614)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.lang.Thread.run(Thread.java:831)
-[02:23:56] [Paper Watchdog Thread/ERROR]: ------------------------------
-[02:23:56] [Paper Watchdog Thread/ERROR]: Current Thread: Netty Server IO #1
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	PID: 85 | Suspended: false | Native: false | State: RUNNABLE
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	Thread is waiting on monitor(s):
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		Locked on:java.base@16.0.2/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		Locked on:java.base@16.0.2/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	Stack:
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:353)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:178)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:141)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:62)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:807)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:457)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		app//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.lang.Thread.run(Thread.java:831)
-[02:23:56] [Paper Watchdog Thread/ERROR]: ------------------------------
-[02:23:56] [Paper Watchdog Thread/ERROR]: Current Thread: ForkJoinPool-2-worker-3
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	PID: 87 | Suspended: false | Native: false | State: WAITING
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	Stack:
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/jdk.internal.misc.Unsafe.park(Native Method)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:211)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1633)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
-[02:23:56] [Paper Watchdog Thread/ERROR]: ------------------------------
-[02:23:56] [Paper Watchdog Thread/ERROR]: Current Thread: ForkJoinPool.commonPool-worker-3
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	PID: 89 | Suspended: false | Native: false | State: WAITING
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	Stack:
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/jdk.internal.misc.Unsafe.park(Native Method)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:211)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1633)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
-[02:23:56] [Paper Watchdog Thread/ERROR]: ------------------------------
-[02:23:56] [Paper Watchdog Thread/ERROR]: Current Thread: luckperms-scheduler-worker-16
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	PID: 177 | Suspended: false | Native: false | State: TIMED_WAITING
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	Stack:
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/jdk.internal.misc.Unsafe.park(Native Method)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:462)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:361)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1055)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.lang.Thread.run(Thread.java:831)
-[02:23:56] [Paper Watchdog Thread/ERROR]: ------------------------------
-[02:23:56] [Paper Watchdog Thread/ERROR]: Current Thread: Craft Scheduler Thread - 90
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	PID: 191 | Suspended: false | Native: false | State: TIMED_WAITING
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	Stack:
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/jdk.internal.misc.Unsafe.park(Native Method)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:462)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:361)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1055)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.lang.Thread.run(Thread.java:831)
-[02:23:56] [Paper Watchdog Thread/ERROR]: ------------------------------
-[02:23:56] [Paper Watchdog Thread/ERROR]: Current Thread: luckperms-scheduler-worker-17
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	PID: 192 | Suspended: false | Native: false | State: TIMED_WAITING
-[02:23:56] [Paper Watchdog Thread/ERROR]: 	Stack:
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/jdk.internal.misc.Unsafe.park(Native Method)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:462)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:361)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1055)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-[02:23:56] [Paper Watchdog Thread/ERROR]: 		java.base@16.0.2/java.lang.Thread.run(Thread.java:831)
-[02:23:56] [Paper Watchdog Thread/ERROR]: ------------------------------
-[02:23:56] [Paper Watchdog Thread/WARN]: java.lang.Throwable: Server stopped
-[02:23:56] [Paper Watchdog Thread/WARN]: 	at io.papermc.paper.util.TraceUtil.dumpTraceForThread(TraceUtil.java:16)
-[02:23:56] [Paper Watchdog Thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.safeShutdown(MinecraftServer.java:1001)
-[02:23:56] [Paper Watchdog Thread/WARN]: 	at org.spigotmc.WatchdogThread.run(WatchdogThread.java:155)
-[02:23:56] [Server thread/WARN]: youube1233 moved too quickly! -9.144183221782328,1.0244240882136921,4.242839434797872
-[02:23:56] [Server thread/WARN]: youube1233 moved too quickly! -8.987317582708556,1.1767592750642422,4.27767936297721
-[02:23:56] [Server thread/WARN]: youube1233 moved too quickly! -9.001186013673049,0.9431272690217583,4.268490512321534
-[02:23:56] [Server thread/WARN]: youube1233 moved too quickly! -9.02570498855917,0.9431272690217583,4.260636252204563
-[02:23:57] [Server thread/WARN]: youube1233 moved too quickly! -8.985520798045883,1.0983592735383638,4.279252119946477
-[02:23:57] [Paper Watchdog Thread/INFO]: Stopping main thread (Ignore any thread death message you see! - DO NOT REPORT THREAD DEATH TO PAPER)
-[02:23:57] [Server thread/ERROR]: Main thread terminated by WatchDog due to hard crash
-java.lang.ThreadDeath: null
-	at java.lang.Thread.stop(Thread.java:939) [?:?]
-	at net.minecraft.server.v1_16_R3.MinecraftServer.stop(MinecraftServer.java:890) ~[patched_1.16.5.jar:git-Paper-790]
-	at net.minecraft.server.v1_16_R3.DedicatedServer.stop(DedicatedServer.java:763) ~[patched_1.16.5.jar:git-Paper-790]
-	at net.minecraft.server.v1_16_R3.MinecraftServer.close(MinecraftServer.java:862) ~[patched_1.16.5.jar:git-Paper-790]
-	at org.spigotmc.WatchdogThread.run(WatchdogThread.java:162) ~[patched_1.16.5.jar:git-Paper-790]
-[02:23:57] [Paper Watchdog Thread/INFO]: Stopping server
-[02:23:57] [Paper Watchdog Thread/INFO]: [CMI] Disabling CMI v9.0.2.9
-[02:23:57] [Paper Watchdog Thread/INFO]: [Vault][Economy] CMI Economy unhooked.
-[02:23:57] [Paper Watchdog Thread/INFO]: [CMI] Closed db connections
-[02:23:57] [Paper Watchdog Thread/INFO]: [CMILib] Disabling CMILib v1.1.2.5
-[02:23:57] [Paper Watchdog Thread/INFO]: [Vault] Disabling Vault v1.7.3-CMI
-[02:23:57] [Paper Watchdog Thread/INFO]: [WorldBorder] Disabling WorldBorder v1.9.10 (beta)
-[02:23:57] [Paper Watchdog Thread/INFO]: [WorldBorder] [CONFIG] Border-checking timed task stopped.
-[02:23:57] [Paper Watchdog Thread/INFO]: [LuckPerms] Disabling LuckPerms v5.3.77
-[02:23:57] [Paper Watchdog Thread/INFO]: [LuckPerms] Starting shutdown process...
-[02:23:57] [Paper Watchdog Thread/INFO]: [LuckPerms] Closing storage...
-[02:23:58] [Paper Watchdog Thread/INFO]: [LuckPerms] Goodbye!
-[02:23:58] [Paper Watchdog Thread/INFO]: [CoreProtect] Disabling CoreProtect v20.1
-[02:23:58] [Paper Watchdog Thread/INFO]: [CoreProtect] Завершение регистрации данных. Пожалуйста, подождите...
-[02:23:59] [Paper Watchdog Thread/INFO]: [CoreProtect] CoreProtect v20.1 был успешно отключён!
-[02:23:59] [Paper Watchdog Thread/INFO]: [ClearLag] Disabling ClearLag v3.2.2
-[02:23:59] [Paper Watchdog Thread/INFO]: [ClearLag] Clearlag is now disabled!
-[02:23:59] [Paper Watchdog Thread/INFO]: Saving players
-[02:24:01] [Paper Watchdog Thread/INFO]: youube1233 lost connection: Server is restarting
-[02:24:01] [Paper Watchdog Thread/INFO]: youube1233 left the game
-[02:24:02] [Paper Watchdog Thread/INFO]: Saving worlds
-[02:24:02] [Paper Watchdog Thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[02:24:06] [Paper Watchdog Thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[02:24:06] [Paper Watchdog Thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[02:24:06] [Paper Watchdog Thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[02:24:06] [Paper Watchdog Thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[02:24:06] [Paper Watchdog Thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[02:24:06] [Paper Watchdog Thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[02:24:07] [Paper Watchdog Thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[02:24:07] [Paper Watchdog Thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[02:24:08] [Paper Watchdog Thread/INFO]: Flushing Chunk IO
-[02:24:08] [Paper Watchdog Thread/INFO]: Closing Thread Pool
-[02:24:08] [Paper Watchdog Thread/INFO]: Closing Server
-[02:24:08] [Thread-1/WARN]: java.lang.Throwable: Server stopped
-[02:24:08] [Thread-1/WARN]: 	at io.papermc.paper.util.TraceUtil.dumpTraceForThread(TraceUtil.java:16)
-[02:24:08] [Thread-1/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.safeShutdown(MinecraftServer.java:1001)
-[02:24:08] [Thread-1/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.util.ServerShutdownThread.run(ServerShutdownThread.java:16)
+[02:48:40] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[02:48:41] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[02:48:41] [Worker-Main-4/INFO]: Loaded 7 recipes
+[02:48:42] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[02:48:42] [Server thread/INFO]: Loading properties
+[02:48:42] [Server thread/INFO]: This server is running Paper version git-Paper-790 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
+[02:48:42] [Server thread/INFO]: Debug logging is disabled
+[02:48:42] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[02:48:42] [Server thread/INFO]: Using 4 threads for Netty based IO
+[02:48:42] [Server thread/INFO]: Default game type: SURVIVAL
+[02:48:42] [Server thread/INFO]: Generating keypair
+[02:48:43] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[02:48:43] [Server thread/INFO]: Using default channel type
+[02:48:43] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.2.2
+[02:48:43] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v20.1
+[02:48:43] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.3.77
+[02:48:44] [Server thread/INFO]: [WorldBorder] Loading WorldBorder v1.9.10 (beta)
+[02:48:44] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-CMI
+[02:48:44] [Server thread/INFO]: [CMILib] Loading CMILib v1.1.2.5
+[02:48:44] [Server thread/INFO]: [CMI] Loading CMI v9.0.2.9
+[02:48:44] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[02:48:44] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.3.77
+[02:48:45] [Server thread/INFO]:         __    
+[02:48:45] [Server thread/INFO]:   |    |__)   LuckPerms v5.3.77
+[02:48:45] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[02:48:45] [Server thread/INFO]: 
+[02:48:45] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[02:48:45] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[02:48:45] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[02:48:45] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[02:48:45] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1257ms)
+[02:48:45] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-CMI
+[02:48:46] [Server thread/WARN]: [Vault] Loaded class com.Zrips.CMI.Modules.Economy.Economy from CMI v9.0.2.9 which is not a depend, softdepend or loadbefore of this plugin.
+[02:48:46] [Server thread/INFO]: [Vault] [Economy] CMI Economy found: Waiting
+[02:48:46] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[02:48:46] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-CMI
+[02:48:46] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[02:48:46] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[02:48:46] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[02:48:46] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[02:48:46] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[02:48:46] [Server thread/INFO]: Preparing level "world"
+[02:48:46] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[02:48:46] [Server thread/INFO]: Time elapsed: 339 ms
+[02:48:46] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[02:48:46] [Server thread/INFO]: Time elapsed: 58 ms
+[02:48:46] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[02:48:47] [Server thread/INFO]: Time elapsed: 48 ms
+[02:48:47] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[02:48:47] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
+[02:48:47] [Server thread/INFO]: [ClearLag] Loading modules...
+[02:48:47] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[02:48:47] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[02:48:47] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[02:48:47] [Thread-12/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.16]...
+[02:48:47] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v20.1
+[02:48:47] [Server thread/INFO]: [CoreProtect] CoreProtect был успешно запущен! 
+[02:48:47] [Server thread/INFO]: [CoreProtect] Для хранения данных используется SQLite.
+[02:48:47] [Server thread/INFO]: --------------------
+[02:48:47] [Server thread/INFO]: [CoreProtect] Нравится CoreProtect? Присоединяйтесь к нашему Discord!
+[02:48:47] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
+[02:48:47] [Server thread/INFO]: --------------------
+[02:48:47] [Server thread/INFO]: [WorldBorder] Enabling WorldBorder v1.9.10 (beta)
+[02:48:47] [Server thread/INFO]: [WorldBorder] [CONFIG] Using elliptic/round border, knockback of 3.0 blocks, and timer delay of 5.
+[02:48:47] [Server thread/INFO]: [WorldBorder] [CONFIG] Border-checking timed task started.
+[02:48:47] [Server thread/INFO]: [WorldBorder] For reference, the main world's spawn location is at X: 10,0 Y: 66,0 Z: 3,0
+[02:48:47] [Server thread/INFO]: [CMILib] Enabling CMILib v1.1.2.5
+[02:48:48] [Thread-12/INFO]: [ClearLag] No updates found!
+[02:48:48] [Server thread/INFO]: Server version: v1_16_R3 - 1.16.5 - paper
+[02:48:51] [Server thread/INFO]: CMI hooked.
+[02:48:51] [Server thread/INFO]: Updated (EN) language file. Took 141ms
+[02:48:51] [Server thread/INFO]: Updated (RU) language file. Took 53ms
+[02:48:51] [Server thread/INFO]: [CMI] Enabling CMI v9.0.2.9
+[02:48:51] [Server thread/INFO]: ┏━━━┓ ┏━┓┏━┓ ┏━━┓
+[02:48:51] [Server thread/INFO]: ┃┏━┓┃ ┃ ┗┛ ┃ ┗┫┣┛
+[02:48:51] [Server thread/INFO]: ┃┃ ┗┛ ┃┏┓┏┓┃  ┃┃ 
+[02:48:51] [Server thread/INFO]: ┃┃ ┏┓ ┃┃┃┃┃┃  ┃┃ 
+[02:48:51] [Server thread/INFO]: ┃┗━┛┃ ┃┃┃┃┃┃ ┏┫┣┓
+[02:48:51] [Server thread/INFO]: ┗━━━┛ ┗┛┗┛┗┛ ┗━━┛
+[02:48:51] [Server thread/INFO]: _______________________________________________________
+[02:48:51] [Server thread/INFO]: [CMI] Re-Leaked Aternosv2
+[02:48:51] [Server thread/INFO]:   Integrating PaperSpigot async methods
+[02:48:52] [Server thread/INFO]:   56 Enabled and 0 Disabled modules
+[02:48:52] [Server thread/INFO]:   Permission plugin: LuckPerms5.3.77
+[02:48:52] [Server thread/INFO]:   Initialized Cipher256 AES
+[02:48:53] [Server thread/INFO]:   Loaded (56) regular alias into memory. Took 58ms
+[02:48:53] [Server thread/INFO]:   Loaded (1) custom text's into memory. Took 16ms
+[02:48:53] [Server thread/INFO]:   3.34.0 data base type detected
+[02:48:53] [Server thread/INFO]:   Started SqLite data base. Took 198ms
+[02:48:53] [Server thread/INFO]:   Vault was found - Enabling capabilities. Economy: CMIEconomy
+[02:48:53] [Server thread/INFO]:   Loaded (5) warning categories into memory. Took 1ms
+[02:48:53] [Server thread/INFO]:   Loaded (3) warning commands into memory. Took 0ms
+[02:48:53] [Server thread/INFO]:   Loaded (135) custom mob heads into memory. Took 14ms
+[02:48:53] [Server thread/INFO]:   Loaded (0) cooldowns into memory. Took 25ms
+[02:48:53] [Server thread/INFO]:   Initializing BungeeCord
+[02:48:53] [Server thread/INFO]:   Loaded (5) kits into memory. Took 22ms
+[02:48:53] [Server thread/INFO]:   Loaded (7) ranks into memory. Took 37ms
+[02:48:53] [Server thread/INFO]:   Loaded (8) playtime rewards into memory. Took 18ms
+[02:48:53] [Server thread/INFO]:   Loaded (1) player data into memory. Took 9ms
+[02:48:53] [Server thread/INFO]:   Loaded (0) playtime records into memory. Took 1ms
+[02:48:53] [Server thread/INFO]:   Loaded (0) playtime reward records into memory. Took 0ms
+[02:48:54] [Server thread/INFO]:   Registered events. Took 156ms
+[02:48:54] [Server thread/INFO]:   Loaded (0) event action commands into memory. Took 4ms
+[02:48:54] [Server thread/INFO]:   Updated (EN) language file. Took 104ms
+[02:48:54] [Server thread/INFO]:   Updated (RU) language file. Took 170ms
+[02:48:54] [Server thread/INFO]:   Loaded (245) worth values into memory. Took 71ms
+[02:48:54] [Server thread/INFO]:   Vault permissions was found - Enabling capabilities.
+[02:48:54] [Server thread/INFO]:   Starting world timer.
+[02:48:54] [Server thread/INFO]:   Initializing world manager.
+[02:48:54] [Server thread/INFO]:   Loaded (5) schedules into memory. Took 10ms
+[02:48:54] [Server thread/INFO]:   Loaded GeoIP
+[02:48:54] [Server thread/INFO]:   Loaded (0) skin cache entries into memory. Took 1ms
+[02:48:54] [Server thread/INFO]:   Version 9.0.2.9 has been enabled
+[02:48:54] [Server thread/INFO]: ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+[02:48:54] [Server thread/INFO]: [CMI] Downloaded from https://directleaks.net
+[02:48:54] [Server thread/INFO]: [Vault][Economy] CMI Economy hooked.
+[02:48:54] [Server thread/INFO]: Running delayed init tasks
+[02:48:54] [Server thread/INFO]: Done (12.032s)! For help, type "help"
+[02:48:54] [Craft Scheduler Thread - 3/INFO]: [Vault] Checking for Updates ... 
+[02:48:54] [Server thread/INFO]: Timings Reset
+[02:48:55] [Craft Scheduler Thread - 3/INFO]: [Vault] No new version available
+[02:48:55] [Thread-15/INFO]: --------------------
+[02:48:55] [Thread-15/INFO]: [CoreProtect] Версия 21.2 уже доступна!
+[02:48:55] [Thread-15/INFO]: [CoreProtect] Загрузить: www.coreprotect.net/download/
+[02:48:55] [Thread-15/INFO]: --------------------
+[02:48:56] [User Authenticator #1/INFO]: UUID of player youube1233 is e17fe5c2-00e9-3fc0-a4bc-54a26aa6c13e
+[02:49:00] [Server thread/INFO]: youube1233 joined the game
+[02:49:01] [Server thread/INFO]: youube1233[/127.0.0.1:56155] logged in with entity id 7 at ([world]-227.23247963660606, 91.17675927506424, -355.39987568395765)
+[02:51:25] [Server thread/INFO]: youube1233 issued server command: /cmi reload
+[02:51:25] [Server thread/INFO]: Updated (EN) language file. Took 27ms
+[02:51:25] [Server thread/INFO]: Updated (RU) language file. Took 59ms
+[02:51:26] [Server thread/INFO]: [CMI] Loaded (1) custom text's into memory. Took 17ms
+[02:51:26] [Server thread/INFO]: [CMI] Started SqLite data base. Took 20ms
+[02:51:26] [Server thread/INFO]: [CMI] Loaded (5) warning categories into memory. Took 0ms
+[02:51:26] [Server thread/INFO]: [CMI] Loaded (3) warning commands into memory. Took 1ms
+[02:51:26] [Server thread/INFO]: [CMI] Loaded (135) custom mob heads into memory. Took 20ms
+[02:51:26] [Server thread/INFO]: [CMI] Loaded (0) cooldowns into memory. Took 21ms
+[02:51:26] [Server thread/INFO]: [CMI] Updated (EN) language file. Took 86ms
+[02:51:26] [Server thread/INFO]: [CMI] Updated (RU) language file. Took 223ms
+[02:51:26] [Server thread/INFO]: [CMI] Loaded (5) kits into memory. Took 32ms
+[02:51:26] [Server thread/INFO]: [CMI] Loaded (5) schedules into memory. Took 8ms
+[02:51:26] [Server thread/INFO]: [CMI] Loaded (7) ranks into memory. Took 45ms
+[02:51:26] [Server thread/INFO]: [CMI] Loaded (56) regular alias into memory. Took 76ms
+[02:51:26] [Server thread/INFO]: [CMI] Loaded (245) worth values into memory. Took 47ms
+[02:51:26] [Server thread/INFO]: [CMI] Loaded (8) playtime rewards into memory. Took 17ms
+[02:51:26] [Server thread/INFO]: [CMI] Loaded (0) skin cache entries into memory. Took 1ms
+[02:51:26] [Server thread/INFO]: [CMI] Loaded (0) event action commands into memory. Took 24ms
+[02:51:37] [Server thread/INFO]: youube1233 issued server command: /time
+[02:52:24] [Server thread/INFO]: youube1233 issued server command: /cmi reload
+[02:52:24] [Server thread/INFO]: Updated (EN) language file. Took 47ms
+[02:52:24] [Server thread/INFO]: Updated (RU) language file. Took 33ms
+[02:52:24] [Server thread/INFO]: [CMI] Loaded (1) custom text's into memory. Took 1ms
+[02:52:24] [Server thread/INFO]: [CMI] Started SqLite data base. Took 5ms
+[02:52:24] [Server thread/INFO]: [CMI] Loaded (5) warning categories into memory. Took 0ms
+[02:52:24] [Server thread/INFO]: [CMI] Loaded (3) warning commands into memory. Took 0ms
+[02:52:24] [Server thread/INFO]: [CMI] Loaded (135) custom mob heads into memory. Took 43ms
+[02:52:24] [Server thread/INFO]: [CMI] Loaded (0) cooldowns into memory. Took 43ms
+[02:52:24] [Server thread/INFO]: [CMI] Updated (EN) language file. Took 322ms
+[02:52:25] [Server thread/INFO]: [CMI] Updated (RU) language file. Took 369ms
+[02:52:25] [Server thread/INFO]: [CMI] Loaded (5) kits into memory. Took 28ms
+[02:52:25] [Server thread/INFO]: [CMI] Loaded (5) schedules into memory. Took 19ms
+[02:52:25] [Server thread/INFO]: [CMI] Loaded (7) ranks into memory. Took 29ms
+[02:52:25] [Server thread/INFO]: [CMI] Loaded (56) regular alias into memory. Took 81ms
+[02:52:25] [Server thread/INFO]: [CMI] Loaded (245) worth values into memory. Took 21ms
+[02:52:25] [Server thread/INFO]: [CMI] Loaded (8) playtime rewards into memory. Took 7ms
+[02:52:25] [Server thread/INFO]: [CMI] Loaded (0) skin cache entries into memory. Took 1ms
+[02:52:25] [Server thread/INFO]: [CMI] Loaded (0) event action commands into memory. Took 10ms
+[02:52:36] [Server thread/INFO]: youube1233 issued server command: /cmi reload
+[02:52:36] [Server thread/INFO]: Updated (EN) language file. Took 32ms
+[02:52:36] [Server thread/INFO]: Updated (RU) language file. Took 17ms
+[02:52:36] [Server thread/INFO]: [CMI] Loaded (1) custom text's into memory. Took 1ms
+[02:52:36] [Server thread/INFO]: [CMI] Started SqLite data base. Took 3ms
+[02:52:36] [Server thread/INFO]: [CMI] Loaded (5) warning categories into memory. Took 0ms
+[02:52:36] [Server thread/INFO]: [CMI] Loaded (3) warning commands into memory. Took 0ms
+[02:52:36] [Server thread/INFO]: [CMI] Loaded (135) custom mob heads into memory. Took 15ms
+[02:52:36] [Server thread/INFO]: [CMI] Loaded (0) cooldowns into memory. Took 17ms
+[02:52:36] [Server thread/INFO]: [CMI] Updated (EN) language file. Took 77ms
+[02:52:36] [Server thread/INFO]: [CMI] Updated (RU) language file. Took 89ms
+[02:52:36] [Server thread/INFO]: [CMI] Loaded (5) kits into memory. Took 29ms
+[02:52:36] [Server thread/INFO]: [CMI] Loaded (5) schedules into memory. Took 5ms
+[02:52:36] [Server thread/INFO]: [CMI] Loaded (7) ranks into memory. Took 11ms
+[02:52:37] [Server thread/INFO]: [CMI] Loaded (56) regular alias into memory. Took 26ms
+[02:52:37] [Server thread/INFO]: [CMI] Loaded (245) worth values into memory. Took 29ms
+[02:52:37] [Server thread/INFO]: [CMI] Loaded (8) playtime rewards into memory. Took 2ms
+[02:52:37] [Server thread/INFO]: [CMI] Loaded (0) skin cache entries into memory. Took 1ms
+[02:52:37] [Server thread/INFO]: [CMI] Loaded (0) event action commands into memory. Took 3ms
+[02:52:58] [Server thread/INFO]: youube1233 issued server command: /cmi reload
+[02:52:58] [Server thread/INFO]: Updated (EN) language file. Took 37ms
+[02:52:58] [Server thread/INFO]: Updated (RU) language file. Took 21ms
+[02:52:58] [Server thread/INFO]: [CMI] Loaded (1) custom text's into memory. Took 0ms
+[02:52:58] [Server thread/INFO]: [CMI] Started SqLite data base. Took 4ms
+[02:52:58] [Server thread/INFO]: [CMI] Loaded (5) warning categories into memory. Took 0ms
+[02:52:58] [Server thread/INFO]: [CMI] Loaded (3) warning commands into memory. Took 0ms
+[02:52:58] [Server thread/INFO]: [CMI] Loaded (135) custom mob heads into memory. Took 17ms
+[02:52:58] [Server thread/INFO]: [CMI] Loaded (0) cooldowns into memory. Took 18ms
+[02:52:58] [Server thread/INFO]: [CMI] Updated (EN) language file. Took 101ms
+[02:52:59] [Server thread/INFO]: [CMI] Updated (RU) language file. Took 158ms
+[02:52:59] [Server thread/INFO]: [CMI] Loaded (5) kits into memory. Took 8ms
+[02:52:59] [Server thread/INFO]: [CMI] Loaded (5) schedules into memory. Took 17ms
+[02:52:59] [Server thread/INFO]: [CMI] Loaded (7) ranks into memory. Took 29ms
+[02:52:59] [Server thread/INFO]: [CMI] Loaded (56) regular alias into memory. Took 49ms
+[02:52:59] [Server thread/INFO]: [CMI] Loaded (245) worth values into memory. Took 16ms
+[02:52:59] [Server thread/INFO]: [CMI] Loaded (8) playtime rewards into memory. Took 3ms
+[02:52:59] [Server thread/INFO]: [CMI] Loaded (0) skin cache entries into memory. Took 0ms
+[02:52:59] [Server thread/INFO]: [CMI] Loaded (0) event action commands into memory. Took 20ms
+[02:53:05] [Server thread/INFO]: youube1233 issued server command: /cmi reload
+[02:53:05] [Server thread/INFO]: Updated (EN) language file. Took 34ms
+[02:53:05] [Server thread/INFO]: Updated (RU) language file. Took 46ms
+[02:53:05] [Server thread/INFO]: [CMI] Loaded (1) custom text's into memory. Took 1ms
+[02:53:06] [Server thread/INFO]: [CMI] Started SqLite data base. Took 4ms
+[02:53:06] [Server thread/INFO]: [CMI] Loaded (5) warning categories into memory. Took 0ms
+[02:53:06] [Server thread/INFO]: [CMI] Loaded (3) warning commands into memory. Took 0ms
+[02:53:06] [Server thread/INFO]: [CMI] Loaded (135) custom mob heads into memory. Took 25ms
+[02:53:06] [Server thread/INFO]: [CMI] Loaded (0) cooldowns into memory. Took 28ms
+[02:53:06] [Server thread/INFO]: [CMI] Updated (EN) language file. Took 167ms
+[02:53:06] [Server thread/INFO]: [CMI] Updated (RU) language file. Took 202ms
+[02:53:06] [Server thread/INFO]: [CMI] Loaded (5) kits into memory. Took 6ms
+[02:53:06] [Server thread/INFO]: [CMI] Loaded (5) schedules into memory. Took 30ms
+[02:53:06] [Server thread/INFO]: [CMI] Loaded (7) ranks into memory. Took 27ms
+[02:53:06] [Server thread/INFO]: [CMI] Loaded (56) regular alias into memory. Took 82ms
+[02:53:06] [Server thread/INFO]: [CMI] Loaded (245) worth values into memory. Took 23ms
+[02:53:06] [Server thread/INFO]: [CMI] Loaded (8) playtime rewards into memory. Took 4ms
+[02:53:06] [Server thread/INFO]: [CMI] Loaded (0) skin cache entries into memory. Took 0ms
+[02:53:06] [Server thread/INFO]: [CMI] Loaded (0) event action commands into memory. Took 15ms
+[02:53:18] [Server thread/INFO]: youube1233 issued server command: /cmi reload
+[02:53:18] [Server thread/INFO]: Updated (EN) language file. Took 70ms
+[02:53:18] [Server thread/INFO]: Updated (RU) language file. Took 58ms
+[02:53:19] [Server thread/INFO]: [CMI] Loaded (1) custom text's into memory. Took 21ms
+[02:53:19] [Server thread/INFO]: [CMI] Started SqLite data base. Took 9ms
+[02:53:19] [Server thread/INFO]: [CMI] Loaded (5) warning categories into memory. Took 0ms
+[02:53:19] [Server thread/INFO]: [CMI] Loaded (3) warning commands into memory. Took 0ms
+[02:53:19] [Server thread/INFO]: [CMI] Loaded (135) custom mob heads into memory. Took 39ms
+[02:53:19] [Server thread/INFO]: [CMI] Loaded (0) cooldowns into memory. Took 42ms
+[02:53:19] [Server thread/INFO]: [CMI] Updated (EN) language file. Took 306ms
+[02:53:19] [Server thread/INFO]: [CMI] Updated (RU) language file. Took 248ms
+[02:53:19] [Server thread/INFO]: [CMI] Loaded (5) kits into memory. Took 27ms
+[02:53:19] [Server thread/INFO]: [CMI] Loaded (5) schedules into memory. Took 28ms
+[02:53:19] [Server thread/INFO]: [CMI] Loaded (7) ranks into memory. Took 30ms
+[02:53:20] [Server thread/INFO]: [CMI] Loaded (56) regular alias into memory. Took 32ms
+[02:53:20] [Server thread/INFO]: [CMI] Loaded (245) worth values into memory. Took 41ms
+[02:53:20] [Server thread/INFO]: [CMI] Loaded (8) playtime rewards into memory. Took 19ms
+[02:53:20] [Server thread/INFO]: [CMI] Loaded (0) skin cache entries into memory. Took 0ms
+[02:53:20] [Server thread/INFO]: [CMI] Loaded (0) event action commands into memory. Took 24ms
+[02:53:33] [Server thread/INFO]: youube1233 issued server command: /cmi reload
+[02:53:33] [Server thread/INFO]: Updated (EN) language file. Took 91ms
+[02:53:33] [Server thread/INFO]: Updated (RU) language file. Took 76ms
+[02:53:33] [Server thread/INFO]: [CMI] Loaded (1) custom text's into memory. Took 2ms
+[02:53:33] [Server thread/INFO]: [CMI] Started SqLite data base. Took 14ms
+[02:53:33] [Server thread/INFO]: [CMI] Loaded (5) warning categories into memory. Took 0ms
+[02:53:33] [Server thread/INFO]: [CMI] Loaded (3) warning commands into memory. Took 0ms
+[02:53:33] [Server thread/INFO]: [CMI] Loaded (135) custom mob heads into memory. Took 115ms
+[02:53:33] [Server thread/INFO]: [CMI] Loaded (0) cooldowns into memory. Took 119ms
+[02:53:34] [Server thread/INFO]: [CMI] Updated (EN) language file. Took 298ms
+[02:53:34] [Server thread/INFO]: [CMI] Updated (RU) language file. Took 413ms
+[02:53:34] [Server thread/INFO]: [CMI] Loaded (5) kits into memory. Took 25ms
+[02:53:34] [Server thread/INFO]: [CMI] Loaded (5) schedules into memory. Took 19ms
+[02:53:34] [Server thread/INFO]: [CMI] Loaded (7) ranks into memory. Took 27ms
+[02:53:34] [Server thread/INFO]: [CMI] Loaded (56) regular alias into memory. Took 121ms
+[02:53:35] [Server thread/INFO]: [CMI] Loaded (245) worth values into memory. Took 51ms
+[02:53:35] [Server thread/INFO]: [CMI] Loaded (8) playtime rewards into memory. Took 8ms
+[02:53:35] [Server thread/INFO]: [CMI] Loaded (0) skin cache entries into memory. Took 0ms
+[02:53:35] [Server thread/INFO]: [CMI] Loaded (0) event action commands into memory. Took 7ms
+[02:53:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5055ms or 101 ticks behind
+[02:54:14] [Server thread/INFO]: youube1233 issued server command: /cmi reload
+[02:54:14] [Server thread/INFO]: Updated (EN) language file. Took 48ms
+[02:54:14] [Server thread/INFO]: Updated (RU) language file. Took 36ms
+[02:54:14] [Server thread/INFO]: [CMI] Loaded (1) custom text's into memory. Took 17ms
+[02:54:14] [Server thread/INFO]: [CMI] Started SqLite data base. Took 3ms
+[02:54:14] [Server thread/INFO]: [CMI] Loaded (5) warning categories into memory. Took 0ms
+[02:54:14] [Server thread/INFO]: [CMI] Loaded (3) warning commands into memory. Took 0ms
+[02:54:15] [Server thread/INFO]: [CMI] Loaded (135) custom mob heads into memory. Took 28ms
+[02:54:15] [Server thread/INFO]: [CMI] Loaded (0) cooldowns into memory. Took 29ms
+[02:54:15] [Server thread/INFO]: [CMI] Updated (EN) language file. Took 179ms
+[02:54:15] [Server thread/INFO]: [CMI] Updated (RU) language file. Took 273ms
+[02:54:15] [Server thread/INFO]: [CMI] Loaded (5) kits into memory. Took 25ms
+[02:54:15] [Server thread/INFO]: [CMI] Loaded (5) schedules into memory. Took 10ms
+[02:54:15] [Server thread/INFO]: [CMI] Loaded (7) ranks into memory. Took 12ms
+[02:54:15] [Server thread/INFO]: [CMI] Loaded (56) regular alias into memory. Took 58ms
+[02:54:15] [Server thread/INFO]: [CMI] Loaded (245) worth values into memory. Took 42ms
+[02:54:15] [Server thread/INFO]: [CMI] Loaded (8) playtime rewards into memory. Took 18ms
+[02:54:15] [Server thread/INFO]: [CMI] Loaded (0) skin cache entries into memory. Took 0ms
+[02:54:15] [Server thread/INFO]: [CMI] Loaded (0) event action commands into memory. Took 7ms
+[02:54:30] [Server thread/INFO]: youube1233 issued server command: /cmi reload
+[02:54:30] [Server thread/INFO]: Updated (EN) language file. Took 73ms
+[02:54:30] [Server thread/INFO]: Updated (RU) language file. Took 68ms
+[02:54:30] [Server thread/INFO]: [CMI] Loaded (1) custom text's into memory. Took 1ms
+[02:54:30] [Server thread/INFO]: [CMI] Started SqLite data base. Took 4ms
+[02:54:30] [Server thread/INFO]: [CMI] Loaded (5) warning categories into memory. Took 1ms
+[02:54:30] [Server thread/INFO]: [CMI] Loaded (3) warning commands into memory. Took 0ms
+[02:54:30] [Server thread/INFO]: [CMI] Loaded (135) custom mob heads into memory. Took 33ms
+[02:54:30] [Server thread/INFO]: [CMI] Loaded (0) cooldowns into memory. Took 35ms
+[02:54:30] [Server thread/INFO]: [CMI] Updated (EN) language file. Took 311ms
+[02:54:31] [Server thread/INFO]: [CMI] Updated (RU) language file. Took 414ms
+[02:54:31] [Server thread/INFO]: [CMI] Loaded (5) kits into memory. Took 7ms
+[02:54:31] [Server thread/INFO]: [CMI] Loaded (5) schedules into memory. Took 21ms
+[02:54:31] [Server thread/INFO]: [CMI] Loaded (7) ranks into memory. Took 25ms
+[02:54:31] [Server thread/INFO]: [CMI] Loaded (56) regular alias into memory. Took 103ms
+[02:54:31] [Server thread/INFO]: [CMI] Loaded (245) worth values into memory. Took 26ms
+[02:54:31] [Server thread/INFO]: [CMI] Loaded (8) playtime rewards into memory. Took 5ms
+[02:54:31] [Server thread/INFO]: [CMI] Loaded (0) skin cache entries into memory. Took 0ms
+[02:54:31] [Server thread/INFO]: [CMI] Loaded (0) event action commands into memory. Took 18ms
+[02:54:57] [Server thread/INFO]: youube1233 issued server command: /cmi reload
+[02:54:57] [Server thread/INFO]: Updated (EN) language file. Took 45ms
+[02:54:57] [Server thread/INFO]: Updated (RU) language file. Took 52ms
+[02:54:57] [Server thread/INFO]: [CMI] Loaded (1) custom text's into memory. Took 0ms
+[02:54:57] [Server thread/INFO]: [CMI] Started SqLite data base. Took 3ms
+[02:54:57] [Server thread/INFO]: [CMI] Loaded (5) warning categories into memory. Took 0ms
+[02:54:57] [Server thread/INFO]: [CMI] Loaded (3) warning commands into memory. Took 0ms
+[02:54:57] [Server thread/INFO]: [CMI] Loaded (135) custom mob heads into memory. Took 32ms
+[02:54:57] [Server thread/INFO]: [CMI] Loaded (0) cooldowns into memory. Took 34ms
+[02:54:57] [Server thread/INFO]: [CMI] Updated (EN) language file. Took 250ms
+[02:54:58] [Server thread/INFO]: [CMI] Updated (RU) language file. Took 256ms
+[02:54:58] [Server thread/INFO]: [CMI] Loaded (5) kits into memory. Took 10ms
+[02:54:58] [Server thread/INFO]: [CMI] Loaded (5) schedules into memory. Took 14ms
+[02:54:58] [Server thread/INFO]: [CMI] Loaded (7) ranks into memory. Took 15ms
+[02:54:58] [Server thread/INFO]: [CMI] Loaded (56) regular alias into memory. Took 65ms
+[02:54:58] [Server thread/INFO]: [CMI] Loaded (245) worth values into memory. Took 11ms
+[02:54:58] [Server thread/INFO]: [CMI] Loaded (8) playtime rewards into memory. Took 4ms
+[02:54:58] [Server thread/INFO]: [CMI] Loaded (0) skin cache entries into memory. Took 1ms
+[02:54:58] [Server thread/INFO]: [CMI] Loaded (0) event action commands into memory. Took 10ms
+[02:55:46] [Server thread/INFO]: youube1233 issued server command: /cmi reload
+[02:55:46] [Server thread/INFO]: Updated (EN) language file. Took 322ms
+[02:55:47] [Server thread/INFO]: Updated (RU) language file. Took 164ms
+[02:55:47] [Server thread/INFO]: [CMI] Loaded (1) custom text's into memory. Took 1ms
+[02:55:47] [Server thread/INFO]: [CMI] Started SqLite data base. Took 12ms
+[02:55:47] [Server thread/INFO]: [CMI] Loaded (5) warning categories into memory. Took 0ms
+[02:55:47] [Server thread/INFO]: [CMI] Loaded (3) warning commands into memory. Took 0ms
+[02:55:47] [Server thread/INFO]: [CMI] Loaded (135) custom mob heads into memory. Took 81ms
+[02:55:47] [Server thread/INFO]: [CMI] Loaded (0) cooldowns into memory. Took 86ms
+[02:55:48] [Server thread/INFO]: [CMI] Updated (EN) language file. Took 511ms
+[02:55:48] [Server thread/INFO]: [CMI] Updated (RU) language file. Took 817ms
+[02:55:49] [Server thread/INFO]: [CMI] Loaded (5) kits into memory. Took 27ms
+[02:55:49] [Server thread/INFO]: [CMI] Loaded (5) schedules into memory. Took 33ms
+[02:55:49] [Server thread/INFO]: [CMI] Loaded (7) ranks into memory. Took 47ms
+[02:55:49] [Server thread/INFO]: [CMI] Loaded (56) regular alias into memory. Took 153ms
+[02:55:49] [Server thread/INFO]: [CMI] Loaded (245) worth values into memory. Took 49ms
+[02:55:49] [Server thread/INFO]: [CMI] Loaded (8) playtime rewards into memory. Took 16ms
+[02:55:49] [Server thread/INFO]: [CMI] Loaded (0) skin cache entries into memory. Took 0ms
+[02:55:49] [Server thread/INFO]: [CMI] Loaded (0) event action commands into memory. Took 36ms
+[02:55:50] [Server thread/WARN]: youube1233 moved too quickly! -4.889500426398655,-3.249187078744683,11.277305594306256
+[02:56:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8527ms or 170 ticks behind
+[02:56:13] [Server thread/INFO]: youube1233 issued server command: /cmi reload
+[02:56:13] [Server thread/INFO]: Updated (EN) language file. Took 28ms
+[02:56:13] [Server thread/INFO]: Updated (RU) language file. Took 13ms
+[02:56:13] [Server thread/INFO]: [CMI] Loaded (1) custom text's into memory. Took 1ms
+[02:56:13] [Server thread/INFO]: [CMI] Started SqLite data base. Took 3ms
+[02:56:13] [Server thread/INFO]: [CMI] Loaded (5) warning categories into memory. Took 0ms
+[02:56:13] [Server thread/INFO]: [CMI] Loaded (3) warning commands into memory. Took 0ms
+[02:56:13] [Server thread/INFO]: [CMI] Loaded (135) custom mob heads into memory. Took 15ms
+[02:56:13] [Server thread/INFO]: [CMI] Loaded (0) cooldowns into memory. Took 16ms
+[02:56:13] [Server thread/INFO]: [CMI] Updated (EN) language file. Took 69ms
+[02:56:13] [Server thread/INFO]: [CMI] Updated (RU) language file. Took 70ms
+[02:56:13] [Server thread/INFO]: [CMI] Loaded (5) kits into memory. Took 4ms
+[02:56:13] [Server thread/INFO]: [CMI] Loaded (5) schedules into memory. Took 4ms
+[02:56:13] [Server thread/INFO]: [CMI] Loaded (7) ranks into memory. Took 8ms
+[02:56:13] [Server thread/INFO]: [CMI] Loaded (56) regular alias into memory. Took 23ms
+[02:56:13] [Server thread/INFO]: [CMI] Loaded (245) worth values into memory. Took 6ms
+[02:56:13] [Server thread/INFO]: [CMI] Loaded (8) playtime rewards into memory. Took 1ms
+[02:56:13] [Server thread/INFO]: [CMI] Loaded (0) skin cache entries into memory. Took 0ms
+[02:56:13] [Server thread/INFO]: [CMI] Loaded (0) event action commands into memory. Took 3ms
+[02:56:43] [Server thread/INFO]: youube1233 issued server command: /cmi reload
+[02:56:43] [Server thread/INFO]: Updated (EN) language file. Took 69ms
+[02:56:43] [Server thread/INFO]: Updated (RU) language file. Took 58ms
+[02:56:43] [Server thread/INFO]: [CMI] Loaded (1) custom text's into memory. Took 1ms
+[02:56:43] [Server thread/INFO]: [CMI] Started SqLite data base. Took 7ms
+[02:56:43] [Server thread/INFO]: [CMI] Loaded (5) warning categories into memory. Took 0ms
+[02:56:43] [Server thread/INFO]: [CMI] Loaded (3) warning commands into memory. Took 0ms
+[02:56:43] [Server thread/INFO]: [CMI] Loaded (135) custom mob heads into memory. Took 42ms
+[02:56:43] [Server thread/INFO]: [CMI] Loaded (0) cooldowns into memory. Took 43ms
+[02:56:44] [Server thread/INFO]: [CMI] Updated (EN) language file. Took 410ms
+[02:56:44] [Server thread/INFO]: [CMI] Updated (RU) language file. Took 706ms
+[02:56:45] [Server thread/INFO]: [CMI] Loaded (5) kits into memory. Took 32ms
+[02:56:45] [Server thread/INFO]: [CMI] Loaded (5) schedules into memory. Took 7ms
+[02:56:45] [Server thread/INFO]: [CMI] Loaded (7) ranks into memory. Took 120ms
+[02:56:45] [Server thread/INFO]: [CMI] Loaded (56) regular alias into memory. Took 99ms
+[02:56:45] [Server thread/INFO]: [CMI] Loaded (245) worth values into memory. Took 27ms
+[02:56:45] [Server thread/INFO]: [CMI] Loaded (8) playtime rewards into memory. Took 1ms
+[02:56:45] [Server thread/INFO]: [CMI] Loaded (0) skin cache entries into memory. Took 1ms
+[02:56:45] [Server thread/INFO]: [CMI] Loaded (0) event action commands into memory. Took 4ms
+[02:56:45] [Server thread/WARN]: youube1233 moved too quickly! -8.563127661016892,-0.8787031594607981,-5.351712853460185
+[02:56:55] [Server thread/INFO]: youube1233 issued server command: /cmi reload
+[02:56:55] [Server thread/INFO]: Updated (EN) language file. Took 20ms
+[02:56:55] [Server thread/INFO]: Updated (RU) language file. Took 12ms
+[02:56:55] [Server thread/INFO]: [CMI] Loaded (1) custom text's into memory. Took 0ms
+[02:56:55] [Server thread/INFO]: [CMI] Started SqLite data base. Took 2ms
+[02:56:55] [Server thread/INFO]: [CMI] Loaded (5) warning categories into memory. Took 1ms
+[02:56:55] [Server thread/INFO]: [CMI] Loaded (3) warning commands into memory. Took 0ms
+[02:56:55] [Server thread/INFO]: [CMI] Loaded (135) custom mob heads into memory. Took 12ms
+[02:56:55] [Server thread/INFO]: [CMI] Loaded (0) cooldowns into memory. Took 13ms
+[02:56:55] [Server thread/INFO]: [CMI] Updated (EN) language file. Took 57ms
+[02:56:55] [Server thread/INFO]: [CMI] Updated (RU) language file. Took 61ms
+[02:56:55] [Server thread/INFO]: [CMI] Loaded (5) kits into memory. Took 2ms
+[02:56:55] [Server thread/INFO]: [CMI] Loaded (5) schedules into memory. Took 4ms
+[02:56:55] [Server thread/INFO]: [CMI] Loaded (7) ranks into memory. Took 10ms
+[02:56:55] [Server thread/INFO]: [CMI] Loaded (56) regular alias into memory. Took 23ms
+[02:56:55] [Server thread/INFO]: [CMI] Loaded (245) worth values into memory. Took 4ms
+[02:56:55] [Server thread/INFO]: [CMI] Loaded (8) playtime rewards into memory. Took 1ms
+[02:56:55] [Server thread/INFO]: [CMI] Loaded (0) skin cache entries into memory. Took 0ms
+[02:56:55] [Server thread/INFO]: [CMI] Loaded (0) event action commands into memory. Took 3ms
+[02:57:03] [Server thread/INFO]: youube1233 issued server command: /cmi placeholders
+[02:57:28] [Server thread/INFO]: youube1233 issued server command: /cmi placeholders -p:2
+[02:57:30] [Server thread/INFO]: youube1233 issued server command: /cmi placeholders -p:3
+[02:57:32] [Server thread/INFO]: youube1233 issued server command: /cmi placeholders -p:4
+[02:57:34] [Server thread/INFO]: youube1233 issued server command: /cmi placeholders -p:5
+[02:57:43] [Server thread/INFO]: youube1233 issued server command: /cmi reload
+[02:57:43] [Server thread/INFO]: Updated (EN) language file. Took 52ms
+[02:57:43] [Server thread/INFO]: Updated (RU) language file. Took 50ms
+[02:57:43] [Server thread/INFO]: [CMI] Loaded (1) custom text's into memory. Took 0ms
+[02:57:43] [Server thread/INFO]: [CMI] Started SqLite data base. Took 3ms
+[02:57:43] [Server thread/INFO]: [CMI] Loaded (5) warning categories into memory. Took 1ms
+[02:57:43] [Server thread/INFO]: [CMI] Loaded (3) warning commands into memory. Took 0ms
+[02:57:43] [Server thread/INFO]: [CMI] Loaded (135) custom mob heads into memory. Took 35ms
+[02:57:43] [Server thread/INFO]: [CMI] Loaded (0) cooldowns into memory. Took 36ms
+[02:57:43] [Server thread/INFO]: [CMI] Updated (EN) language file. Took 249ms
+[02:57:44] [Server thread/INFO]: [CMI] Updated (RU) language file. Took 325ms
+[02:57:44] [Server thread/INFO]: [CMI] Loaded (5) kits into memory. Took 31ms
+[02:57:44] [Server thread/INFO]: [CMI] Loaded (5) schedules into memory. Took 17ms
+[02:57:44] [Server thread/INFO]: [CMI] Loaded (7) ranks into memory. Took 24ms
+[02:57:44] [Server thread/INFO]: [CMI] Loaded (56) regular alias into memory. Took 162ms
+[02:57:44] [Server thread/INFO]: [CMI] Loaded (245) worth values into memory. Took 37ms
+[02:57:44] [Server thread/INFO]: [CMI] Loaded (8) playtime rewards into memory. Took 6ms
+[02:57:44] [Server thread/INFO]: [CMI] Loaded (0) skin cache entries into memory. Took 0ms
+[02:57:44] [Server thread/INFO]: [CMI] Loaded (0) event action commands into memory. Took 12ms
+[02:57:50] [Server thread/INFO]: youube1233 issued server command: /cmi reload\
+[02:57:50] [Server thread/INFO]: Updated (EN) language file. Took 99ms
+[02:57:50] [Server thread/INFO]: Updated (RU) language file. Took 111ms
+[02:57:51] [Server thread/INFO]: [CMI] Loaded (1) custom text's into memory. Took 3ms
+[02:57:51] [Server thread/INFO]: [CMI] Started SqLite data base. Took 17ms
+[02:57:51] [Server thread/INFO]: [CMI] Loaded (5) warning categories into memory. Took 0ms
+[02:57:51] [Server thread/INFO]: [CMI] Loaded (3) warning commands into memory. Took 0ms
+[02:57:51] [Server thread/INFO]: [CMI] Loaded (135) custom mob heads into memory. Took 87ms
+[02:57:51] [Server thread/INFO]: [CMI] Loaded (0) cooldowns into memory. Took 95ms
+[02:57:51] [Server thread/INFO]: [CMI] Updated (EN) language file. Took 503ms
+[02:57:52] [Server thread/INFO]: [CMI] Updated (RU) language file. Took 463ms
+[02:57:52] [Server thread/INFO]: [CMI] Loaded (5) kits into memory. Took 33ms
+[02:57:52] [Server thread/INFO]: [CMI] Loaded (5) schedules into memory. Took 26ms
+[02:57:52] [Server thread/INFO]: [CMI] Loaded (7) ranks into memory. Took 35ms
+[02:57:52] [Server thread/INFO]: [CMI] Loaded (56) regular alias into memory. Took 104ms
+[02:57:52] [Server thread/INFO]: [CMI] Loaded (245) worth values into memory. Took 38ms
+[02:57:52] [Server thread/INFO]: [CMI] Loaded (8) playtime rewards into memory. Took 5ms
+[02:57:52] [Server thread/INFO]: [CMI] Loaded (0) skin cache entries into memory. Took 0ms
+[02:57:52] [Server thread/INFO]: [CMI] Loaded (0) event action commands into memory. Took 15ms
+[02:57:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5116ms or 102 ticks behind
+[02:58:01] [Server thread/INFO]: youube1233 issued server command: /cmi reload
+[02:58:01] [Server thread/INFO]: Updated (EN) language file. Took 122ms
+[02:58:01] [Server thread/INFO]: Updated (RU) language file. Took 102ms
+[02:58:02] [Server thread/INFO]: [CMI] Loaded (1) custom text's into memory. Took 1ms
+[02:58:02] [Server thread/INFO]: [CMI] Started SqLite data base. Took 7ms
+[02:58:02] [Server thread/INFO]: [CMI] Loaded (5) warning categories into memory. Took 1ms
+[02:58:02] [Server thread/INFO]: [CMI] Loaded (3) warning commands into memory. Took 0ms
+[02:58:02] [Server thread/INFO]: [CMI] Loaded (135) custom mob heads into memory. Took 49ms
+[02:58:02] [Server thread/INFO]: [CMI] Loaded (0) cooldowns into memory. Took 51ms
+[02:58:02] [Server thread/INFO]: [CMI] Updated (EN) language file. Took 562ms
+[02:58:03] [Server thread/INFO]: [CMI] Updated (RU) language file. Took 444ms
+[02:58:03] [Server thread/INFO]: [CMI] Loaded (5) kits into memory. Took 2ms
+[02:58:03] [Server thread/INFO]: [CMI] Loaded (5) schedules into memory. Took 18ms
+[02:58:03] [Server thread/INFO]: [CMI] Loaded (7) ranks into memory. Took 17ms
+[02:58:03] [Server thread/INFO]: [CMI] Loaded (56) regular alias into memory. Took 127ms
+[02:58:03] [Server thread/INFO]: [CMI] Loaded (245) worth values into memory. Took 59ms
+[02:58:03] [Server thread/INFO]: [CMI] Loaded (8) playtime rewards into memory. Took 4ms
+[02:58:03] [Server thread/INFO]: [CMI] Loaded (0) skin cache entries into memory. Took 0ms
+[02:58:03] [Server thread/INFO]: [CMI] Loaded (0) event action commands into memory. Took 12ms
+[02:58:19] [Async Chat Thread - #0/INFO]: <youube1233> f
+[02:59:03] [Server thread/INFO]: youube1233 issued server command: /cmi reload
+[02:59:04] [Server thread/INFO]: Updated (EN) language file. Took 569ms
+[02:59:04] [Server thread/INFO]: Updated (RU) language file. Took 190ms
+[02:59:04] [Server thread/INFO]: [CMI] Loaded (1) custom text's into memory. Took 16ms
+[02:59:04] [Server thread/INFO]: [CMI] Started SqLite data base. Took 7ms
+[02:59:04] [Server thread/INFO]: [CMI] Loaded (5) warning categories into memory. Took 0ms
+[02:59:04] [Server thread/INFO]: [CMI] Loaded (3) warning commands into memory. Took 0ms
+[02:59:04] [Server thread/INFO]: [CMI] Loaded (135) custom mob heads into memory. Took 35ms
+[02:59:04] [Server thread/INFO]: [CMI] Loaded (0) cooldowns into memory. Took 37ms
+[02:59:05] [Server thread/INFO]: [CMI] Updated (EN) language file. Took 231ms
+[02:59:05] [Server thread/INFO]: [CMI] Updated (RU) language file. Took 543ms
+[02:59:06] [Server thread/INFO]: [CMI] Loaded (5) kits into memory. Took 51ms
+[02:59:06] [Server thread/INFO]: [CMI] Loaded (5) schedules into memory. Took 9ms
+[02:59:06] [Server thread/INFO]: [CMI] Loaded (7) ranks into memory. Took 24ms
+[02:59:06] [Server thread/INFO]: [CMI] Loaded (56) regular alias into memory. Took 63ms
+[02:59:06] [Server thread/INFO]: [CMI] Loaded (245) worth values into memory. Took 35ms
+[02:59:06] [Server thread/INFO]: [CMI] Loaded (8) playtime rewards into memory. Took 21ms
+[02:59:06] [Server thread/INFO]: [CMI] Loaded (0) skin cache entries into memory. Took 0ms
+[02:59:06] [Server thread/INFO]: [CMI] Loaded (0) event action commands into memory. Took 13ms
+[02:59:06] [Async Chat Thread - #0/INFO]: <youube1233> f
+[02:59:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5020ms or 100 ticks behind
+[02:59:07] [Server thread/WARN]: youube1233 moved too quickly! -6.647415037832047,1.0013359791121417,-7.512428867873268
+[02:59:08] [Async Chat Thread - #0/INFO]: <youube1233> f
+[02:59:09] [Async Chat Thread - #0/INFO]: <youube1233> f
+[02:59:25] [Async Chat Thread - #0/INFO]: <youube1233> f
+[02:59:54] [Server thread/INFO]: youube1233 issued server command: /cmi reload
+[02:59:54] [Server thread/INFO]: Updated (EN) language file. Took 53ms
+[02:59:54] [Server thread/INFO]: Updated (RU) language file. Took 12ms
+[02:59:54] [Server thread/INFO]: [CMI] Loaded (1) custom text's into memory. Took 18ms
+[02:59:54] [Server thread/INFO]: [CMI] Started SqLite data base. Took 3ms
+[02:59:54] [Server thread/INFO]: [CMI] Loaded (5) warning categories into memory. Took 0ms
+[02:59:54] [Server thread/INFO]: [CMI] Loaded (3) warning commands into memory. Took 0ms
+[02:59:54] [Server thread/INFO]: [CMI] Loaded (135) custom mob heads into memory. Took 15ms
+[02:59:54] [Server thread/INFO]: [CMI] Loaded (0) cooldowns into memory. Took 16ms
+[02:59:54] [Server thread/INFO]: [CMI] Updated (EN) language file. Took 71ms
+[02:59:55] [Server thread/INFO]: [CMI] Updated (RU) language file. Took 59ms
+[02:59:55] [Server thread/INFO]: [CMI] Loaded (5) kits into memory. Took 23ms
+[02:59:55] [Server thread/INFO]: [CMI] Loaded (5) schedules into memory. Took 4ms
+[02:59:55] [Server thread/INFO]: [CMI] Loaded (7) ranks into memory. Took 15ms
+[02:59:55] [Server thread/INFO]: [CMI] Loaded (56) regular alias into memory. Took 26ms
+[02:59:55] [Server thread/INFO]: [CMI] Loaded (245) worth values into memory. Took 19ms
+[02:59:55] [Server thread/INFO]: [CMI] Loaded (8) playtime rewards into memory. Took 20ms
+[02:59:55] [Server thread/INFO]: [CMI] Loaded (0) skin cache entries into memory. Took 0ms
+[02:59:55] [Server thread/INFO]: [CMI] Loaded (0) event action commands into memory. Took 3ms
+[02:59:56] [Async Chat Thread - #0/INFO]: <youube1233> f
+[02:59:57] [Async Chat Thread - #0/INFO]: <youube1233> f
+[03:00:39] [Server thread/INFO]: youube1233 issued server command: /cmi reload
+[03:00:39] [Server thread/INFO]: Updated (EN) language file. Took 31ms
+[03:00:39] [Server thread/INFO]: Updated (RU) language file. Took 12ms
+[03:00:39] [Server thread/INFO]: [CMI] Loaded (1) custom text's into memory. Took 0ms
+[03:00:39] [Server thread/INFO]: [CMI] Started SqLite data base. Took 3ms
+[03:00:39] [Server thread/INFO]: [CMI] Loaded (5) warning categories into memory. Took 0ms
+[03:00:39] [Server thread/INFO]: [CMI] Loaded (3) warning commands into memory. Took 0ms
+[03:00:39] [Server thread/INFO]: [CMI] Loaded (135) custom mob heads into memory. Took 18ms
+[03:00:39] [Server thread/INFO]: [CMI] Loaded (0) cooldowns into memory. Took 19ms
+[03:00:39] [Server thread/INFO]: [CMI] Updated (EN) language file. Took 61ms
+[03:00:39] [Server thread/INFO]: [CMI] Updated (RU) language file. Took 61ms
+[03:00:39] [Server thread/INFO]: [CMI] Loaded (5) kits into memory. Took 16ms
+[03:00:39] [Server thread/INFO]: [CMI] Loaded (5) schedules into memory. Took 5ms
+[03:00:39] [Server thread/INFO]: [CMI] Loaded (7) ranks into memory. Took 7ms
+[03:00:39] [Server thread/INFO]: [CMI] Loaded (56) regular alias into memory. Took 22ms
+[03:00:39] [Server thread/INFO]: [CMI] Loaded (245) worth values into memory. Took 14ms
+[03:00:39] [Server thread/INFO]: [CMI] Loaded (8) playtime rewards into memory. Took 1ms
+[03:00:39] [Server thread/INFO]: [CMI] Loaded (0) skin cache entries into memory. Took 0ms
+[03:00:39] [Server thread/INFO]: [CMI] Loaded (0) event action commands into memory. Took 3ms
+[03:00:40] [Async Chat Thread - #0/INFO]: <youube1233> f
+[03:00:41] [Async Chat Thread - #0/INFO]: <youube1233> f
+[03:01:06] [Server thread/INFO]: youube1233 issued server command: /lp editor
+[03:01:28] [Server thread/INFO]: youube1233 issued server command: /lp applyedits oopg1WQlxe
+[03:01:28] [luckperms-command-executor/INFO]: [LP] ЛОГ > (youube1233) [G] (dev)
+[03:01:28] [luckperms-command-executor/INFO]: [LP] ЛОГ > webeditor add cmi.chatmessagegroup.1 true
+[03:01:30] [Async Chat Thread - #0/INFO]: <youube1233> fd
+[03:01:37] [Server thread/INFO]: youube1233 issued server command: /cmi reload
+[03:01:37] [Server thread/INFO]: Updated (EN) language file. Took 19ms
+[03:01:37] [Server thread/INFO]: Updated (RU) language file. Took 13ms
+[03:01:37] [Server thread/INFO]: [CMI] Loaded (1) custom text's into memory. Took 1ms
+[03:01:37] [Server thread/INFO]: [CMI] Started SqLite data base. Took 2ms
+[03:01:37] [Server thread/INFO]: [CMI] Loaded (5) warning categories into memory. Took 0ms
+[03:01:37] [Server thread/INFO]: [CMI] Loaded (3) warning commands into memory. Took 0ms
+[03:01:37] [Server thread/INFO]: [CMI] Loaded (135) custom mob heads into memory. Took 14ms
+[03:01:37] [Server thread/INFO]: [CMI] Loaded (0) cooldowns into memory. Took 14ms
+[03:01:37] [Server thread/INFO]: [CMI] Updated (EN) language file. Took 53ms
+[03:01:37] [Server thread/INFO]: [CMI] Updated (RU) language file. Took 59ms
+[03:01:37] [Server thread/INFO]: [CMI] Loaded (5) kits into memory. Took 1ms
+[03:01:37] [Server thread/INFO]: [CMI] Loaded (5) schedules into memory. Took 4ms
+[03:01:37] [Server thread/INFO]: [CMI] Loaded (7) ranks into memory. Took 8ms
+[03:01:37] [Server thread/INFO]: [CMI] Loaded (56) regular alias into memory. Took 17ms
+[03:01:37] [Server thread/INFO]: [CMI] Loaded (245) worth values into memory. Took 4ms
+[03:01:37] [Server thread/INFO]: [CMI] Loaded (8) playtime rewards into memory. Took 1ms
+[03:01:37] [Server thread/INFO]: [CMI] Loaded (0) skin cache entries into memory. Took 1ms
+[03:01:37] [Server thread/INFO]: [CMI] Loaded (0) event action commands into memory. Took 3ms
+[03:01:38] [Async Chat Thread - #0/INFO]: <youube1233> f
+[03:02:05] [Server thread/INFO]: youube1233 issued server command: /lp applyedits 4J7ScghRX5
+[03:02:05] [luckperms-command-executor/INFO]: [LP] ЛОГ > (youube1233) [G] (dev)
+[03:02:05] [luckperms-command-executor/INFO]: [LP] ЛОГ > webeditor remove cmi.chatmessagegroup.1 true
+[03:02:53] [Server thread/INFO]: Updated (EN) language file. Took 41ms
+[03:02:53] [Server thread/INFO]: Updated (RU) language file. Took 34ms
+[03:02:53] [Server thread/INFO]: CMIL Configs and locale files reloaded! Took 169ms
+[03:02:53] [Server thread/INFO]: [CMI] Loaded (1) custom text's into memory. Took 0ms
+[03:02:53] [Server thread/INFO]: [CMI] Started SqLite data base. Took 3ms
+[03:02:53] [Server thread/INFO]: [CMI] Loaded (5) warning categories into memory. Took 0ms
+[03:02:53] [Server thread/INFO]: [CMI] Loaded (3) warning commands into memory. Took 0ms
+[03:02:53] [Server thread/INFO]: [CMI] Loaded (135) custom mob heads into memory. Took 24ms
+[03:02:53] [Server thread/INFO]: [CMI] Loaded (0) cooldowns into memory. Took 24ms
+[03:02:54] [Server thread/INFO]: [CMI] Updated (EN) language file. Took 156ms
+[03:02:54] [Server thread/INFO]: [CMI] Updated (RU) language file. Took 187ms
+[03:02:54] [Server thread/INFO]: [CMI] Loaded (5) kits into memory. Took 2ms
+[03:02:54] [Server thread/INFO]: [CMI] Loaded (5) schedules into memory. Took 8ms
+[03:02:54] [Server thread/INFO]: [CMI] Loaded (7) ranks into memory. Took 12ms
+[03:02:54] [Server thread/INFO]: [CMI] Loaded (56) regular alias into memory. Took 46ms
+[03:02:54] [Server thread/INFO]: [CMI] Loaded (245) worth values into memory. Took 7ms
+[03:02:54] [Server thread/INFO]: [CMI] Loaded (8) playtime rewards into memory. Took 2ms
+[03:02:54] [Server thread/INFO]: [CMI] Loaded (0) skin cache entries into memory. Took 0ms
+[03:02:54] [Server thread/INFO]: [CMI] Loaded (0) event action commands into memory. Took 6ms
+[03:02:54] [Server thread/INFO]: Конфигурация перезагружена! Это заняло 631мс
+[03:02:58] [Async Chat Thread - #1/INFO]: <youube1233> f
+[03:04:32] [Server thread/INFO]: youube1233 issued server command: /cmi cheque
+[03:04:37] [Server thread/INFO]: youube1233 issued server command: /cmi cheque 133333
+[03:04:41] [Server thread/INFO]: youube1233 issued server command: /cmi cheque youube1233 12233
+[03:05:16] [Server thread/INFO]: youube1233 issued server command: /cmi tablistupdate
+[03:05:29] [Server thread/INFO]: youube1233 issued server command: /cmi reload
+[03:05:30] [Server thread/INFO]: Updated (EN) language file. Took 706ms
+[03:05:30] [Server thread/INFO]: Updated (RU) language file. Took 155ms
+[03:05:30] [Server thread/INFO]: [CMI] Loaded (1) custom text's into memory. Took 35ms
+[03:05:30] [Server thread/INFO]: [CMI] Started SqLite data base. Took 26ms
+[03:05:31] [Server thread/INFO]: [CMI] Loaded (5) warning categories into memory. Took 0ms
+[03:05:31] [Server thread/INFO]: [CMI] Loaded (3) warning commands into memory. Took 0ms
+[03:05:31] [Server thread/INFO]: [CMI] Loaded (135) custom mob heads into memory. Took 81ms
+[03:05:31] [Server thread/INFO]: [CMI] Loaded (0) cooldowns into memory. Took 92ms
+[03:05:31] [Server thread/INFO]: [CMI] Updated (EN) language file. Took 446ms
+[03:05:31] [Server thread/INFO]: [CMI] Updated (RU) language file. Took 108ms
+[03:05:32] [Server thread/INFO]: [CMI] Loaded (5) kits into memory. Took 73ms
+[03:05:32] [Server thread/INFO]: [CMI] Loaded (5) schedules into memory. Took 20ms
+[03:05:32] [Server thread/INFO]: [CMI] Loaded (7) ranks into memory. Took 80ms
+[03:05:32] [Server thread/INFO]: [CMI] Loaded (56) regular alias into memory. Took 80ms
+[03:05:32] [Server thread/INFO]: [CMI] Loaded (245) worth values into memory. Took 42ms
+[03:05:32] [Server thread/INFO]: [CMI] Loaded (8) playtime rewards into memory. Took 15ms
+[03:05:32] [Server thread/INFO]: [CMI] Loaded (0) skin cache entries into memory. Took 22ms
+[03:05:32] [Server thread/INFO]: [CMI] Loaded (0) event action commands into memory. Took 4ms
+[03:05:32] [Server thread/WARN]: youube1233 moved too quickly! -7.412829194848996,1.0013359791121417,-9.09105906623779
+[03:06:15] [Server thread/INFO]: youube1233 issued server command: /cmi reload
+[03:06:15] [Server thread/INFO]: Updated (EN) language file. Took 28ms
+[03:06:15] [Server thread/INFO]: Updated (RU) language file. Took 14ms
+[03:06:15] [Server thread/INFO]: [CMI] Loaded (1) custom text's into memory. Took 31ms
+[03:06:15] [Server thread/INFO]: [CMI] Started SqLite data base. Took 3ms
+[03:06:15] [Server thread/INFO]: [CMI] Loaded (5) warning categories into memory. Took 0ms
+[03:06:15] [Server thread/INFO]: [CMI] Loaded (3) warning commands into memory. Took 0ms
+[03:06:15] [Server thread/INFO]: [CMI] Loaded (135) custom mob heads into memory. Took 14ms
+[03:06:15] [Server thread/INFO]: [CMI] Loaded (0) cooldowns into memory. Took 15ms
+[03:06:15] [Server thread/INFO]: [CMI] Updated (EN) language file. Took 68ms
+[03:06:15] [Server thread/INFO]: [CMI] Updated (RU) language file. Took 68ms
+[03:06:15] [Server thread/INFO]: [CMI] Loaded (5) kits into memory. Took 20ms
+[03:06:15] [Server thread/INFO]: [CMI] Loaded (5) schedules into memory. Took 5ms
+[03:06:15] [Server thread/INFO]: [CMI] Loaded (7) ranks into memory. Took 12ms
+[03:06:15] [Server thread/INFO]: [CMI] Loaded (56) regular alias into memory. Took 29ms
+[03:06:15] [Server thread/INFO]: [CMI] Loaded (245) worth values into memory. Took 30ms
+[03:06:15] [Server thread/INFO]: [CMI] Loaded (8) playtime rewards into memory. Took 16ms
+[03:06:15] [Server thread/INFO]: [CMI] Loaded (0) skin cache entries into memory. Took 0ms
+[03:06:15] [Server thread/INFO]: [CMI] Loaded (0) event action commands into memory. Took 3ms
+[03:08:00] [Server thread/INFO]: youube1233 issued server command: /cmi reload
+[03:08:00] [Server thread/INFO]: Updated (EN) language file. Took 56ms
+[03:08:00] [Server thread/INFO]: Updated (RU) language file. Took 34ms
+[03:08:00] [Server thread/INFO]: [CMI] Loaded (1) custom text's into memory. Took 16ms
+[03:08:00] [Server thread/INFO]: [CMI] Started SqLite data base. Took 5ms
+[03:08:00] [Server thread/INFO]: [CMI] Loaded (5) warning categories into memory. Took 0ms
+[03:08:00] [Server thread/INFO]: [CMI] Loaded (3) warning commands into memory. Took 0ms
+[03:08:00] [Server thread/INFO]: [CMI] Loaded (135) custom mob heads into memory. Took 25ms
+[03:08:00] [Server thread/INFO]: [CMI] Loaded (0) cooldowns into memory. Took 25ms
+[03:08:00] [Server thread/INFO]: [CMI] Updated (EN) language file. Took 294ms
+[03:08:01] [Server thread/INFO]: [CMI] Updated (RU) language file. Took 158ms
+[03:08:01] [Server thread/INFO]: [CMI] Loaded (5) kits into memory. Took 9ms
+[03:08:01] [Server thread/INFO]: [CMI] Loaded (5) schedules into memory. Took 7ms
+[03:08:01] [Server thread/INFO]: [CMI] Loaded (7) ranks into memory. Took 21ms
+[03:08:01] [Server thread/INFO]: [CMI] Loaded (56) regular alias into memory. Took 74ms
+[03:08:01] [Server thread/INFO]: [CMI] Loaded (245) worth values into memory. Took 15ms
+[03:08:01] [Server thread/INFO]: [CMI] Loaded (8) playtime rewards into memory. Took 6ms
+[03:08:01] [Server thread/INFO]: [CMI] Loaded (0) skin cache entries into memory. Took 0ms
+[03:08:01] [Server thread/INFO]: [CMI] Loaded (0) event action commands into memory. Took 8ms
+[03:08:08] [Server thread/INFO]: youube1233 issued server command: /cmi reload
+[03:08:08] [Server thread/INFO]: Updated (EN) language file. Took 29ms
+[03:08:08] [Server thread/INFO]: Updated (RU) language file. Took 13ms
+[03:08:08] [Server thread/INFO]: [CMI] Loaded (1) custom text's into memory. Took 0ms
+[03:08:08] [Server thread/INFO]: [CMI] Started SqLite data base. Took 2ms
+[03:08:08] [Server thread/INFO]: [CMI] Loaded (5) warning categories into memory. Took 0ms
+[03:08:08] [Server thread/INFO]: [CMI] Loaded (3) warning commands into memory. Took 0ms
+[03:08:08] [Server thread/INFO]: [CMI] Loaded (135) custom mob heads into memory. Took 11ms
+[03:08:08] [Server thread/INFO]: [CMI] Loaded (0) cooldowns into memory. Took 12ms
+[03:08:08] [Server thread/INFO]: [CMI] Updated (EN) language file. Took 63ms
+[03:08:08] [Server thread/INFO]: [CMI] Updated (RU) language file. Took 283ms
+[03:08:08] [Server thread/INFO]: [CMI] Loaded (5) kits into memory. Took 1ms
+[03:08:08] [Server thread/INFO]: [CMI] Loaded (5) schedules into memory. Took 6ms
+[03:08:08] [Server thread/INFO]: [CMI] Loaded (7) ranks into memory. Took 10ms
+[03:08:09] [Server thread/INFO]: [CMI] Loaded (56) regular alias into memory. Took 33ms
+[03:08:09] [Server thread/INFO]: [CMI] Loaded (245) worth values into memory. Took 3ms
+[03:08:09] [Server thread/INFO]: [CMI] Loaded (8) playtime rewards into memory. Took 1ms
+[03:08:09] [Server thread/INFO]: [CMI] Loaded (0) skin cache entries into memory. Took 0ms
+[03:08:09] [Server thread/INFO]: [CMI] Loaded (0) event action commands into memory. Took 4ms
+[03:12:49] [Server thread/INFO]: youube1233 issued server command: /cmi money
+[03:13:00] [Server thread/INFO]: youube1233 issued server command: /cmi cheque 145450
+[03:13:04] [Server thread/INFO]: youube1233 issued server command: /cmi cheque youube1233 145450
+[03:13:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5011ms or 100 ticks behind
+[03:13:21] [Server thread/INFO]: youube1233 issued server command: /money
+[03:13:26] [Server thread/INFO]: youube1233 issued server command: /cmi money
+[03:13:31] [Server thread/INFO]: youube1233 issued server command: /cmi cheque youube1233 145450
+[03:13:38] [Server thread/INFO]: youube1233 issued server command: /pay
+[03:13:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6980ms or 139 ticks behind
+[03:13:53] [Server thread/INFO]: youube1233 issued server command: /cmi reload
+[03:13:55] [Server thread/INFO]: Updated (EN) language file. Took 581ms
+[03:13:55] [Server thread/INFO]: Updated (RU) language file. Took 193ms
+[03:13:56] [Server thread/INFO]: [CMI] Loaded (1) custom text's into memory. Took 74ms
+[03:13:56] [Server thread/INFO]: [CMI] Started SqLite data base. Took 34ms
+[03:13:56] [Server thread/INFO]: [CMI] Loaded (5) warning categories into memory. Took 0ms
+[03:13:56] [Server thread/INFO]: [CMI] Loaded (3) warning commands into memory. Took 0ms
+[03:13:56] [Server thread/INFO]: [CMI] Loaded (135) custom mob heads into memory. Took 122ms
+[03:13:56] [Server thread/INFO]: [CMI] Loaded (0) cooldowns into memory. Took 126ms
+[03:13:57] [Server thread/INFO]: [CMI] Updated (EN) language file. Took 517ms
+[03:13:58] [Server thread/INFO]: [CMI] Updated (RU) language file. Took 547ms
+[03:13:58] [Server thread/INFO]: [CMI] Loaded (5) kits into memory. Took 48ms
+[03:13:58] [Server thread/INFO]: [CMI] Loaded (5) schedules into memory. Took 11ms
+[03:13:58] [Server thread/INFO]: [CMI] Loaded (7) ranks into memory. Took 21ms
+[03:13:58] [Server thread/INFO]: [CMI] Loaded (56) regular alias into memory. Took 43ms
+[03:13:58] [Server thread/INFO]: [CMI] Loaded (245) worth values into memory. Took 30ms
+[03:13:58] [Server thread/INFO]: [CMI] Loaded (8) playtime rewards into memory. Took 20ms
+[03:13:58] [Server thread/INFO]: [CMI] Loaded (0) skin cache entries into memory. Took 0ms
+[03:13:58] [Server thread/INFO]: [CMI] Loaded (0) event action commands into memory. Took 4ms
+[03:13:58] [Server thread/WARN]: youube1233 moved too quickly! -9.436959538015941,1.2491870787446828,3.45912598636761
+[03:14:14] [Server thread/INFO]: Использование: /cmi more (playerName) (-clone/[amount])
+[03:14:14] [Server thread/INFO]: * Заполнить стак предметов до максимального значения
+[03:14:21] [Server thread/INFO]: youube1233 issued server command: /cmi more
+[03:14:33] [Server thread/INFO]: youube1233 issued server command: /cmi top
+[03:14:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8632ms or 172 ticks behind
+[03:14:46] [Server thread/INFO]: youube1233 issued server command: /cmi cheque youube1233 14545000000
+[03:14:47] [Server thread/INFO]: youube1233 issued server command: /cmi cheque youube1233 1454500000
+[03:14:48] [Server thread/INFO]: youube1233 issued server command: /cmi cheque youube1233 145450000
+[03:14:49] [Server thread/INFO]: youube1233 issued server command: /cmi cheque youube1233 14545000
+[03:14:49] [Server thread/INFO]: youube1233 issued server command: /cmi cheque youube1233 1454500
+[03:14:50] [Server thread/INFO]: youube1233 issued server command: /cmi cheque youube1233 1454500
+[03:14:53] [Server thread/INFO]: youube1233 issued server command: /cmi cheque youube1233 14545000
+[03:14:56] [Server thread/INFO]: youube1233 issued server command: /cmi cheque youube1233 1454500
+[03:15:00] [Server thread/INFO]: youube1233 issued server command: /cmi more
+[03:15:17] [Server thread/INFO]: youube1233 issued server command: /cmi cheque youube1233 9999999
+[03:15:19] [Server thread/INFO]: youube1233 issued server command: /cmi more
+[03:15:27] [Server thread/INFO]: youube1233 issued server command: /money
+[03:16:51] [Server thread/INFO]: youube1233 issued server command: /cmi baltop
+[03:17:25] [Server thread/INFO]: youube1233 issued server command: /cmi checkcommand
+[03:17:34] [Server thread/INFO]: youube1233 issued server command: /cmi checkcommand -p:2
+[03:17:45] [Server thread/INFO]: youube1233 issued server command: /cmi donate
+[03:17:48] [Server thread/INFO]: youube1233 issued server command: /cmi checkcommand -p:3
+[03:17:50] [Server thread/INFO]: youube1233 issued server command: /cmi checkcommand -p:4
+[03:17:53] [Server thread/INFO]: youube1233 issued server command: /cmi checkcommand -p:5
+[03:17:54] [Server thread/INFO]: youube1233 issued server command: /cmi checkcommand -p:6
+[03:17:54] [Server thread/INFO]: youube1233 issued server command: /cmi checkcommand -p:7
+[03:17:55] [Server thread/INFO]: youube1233 issued server command: /cmi checkcommand -p:8
+[03:17:58] [Server thread/INFO]: youube1233 issued server command: /cmi checkcommand -p:7
+[03:18:11] [Server thread/INFO]: youube1233 issued server command: /cmi money
+[03:18:13] [Server thread/INFO]: youube1233 issued server command: /cmi money take
+[03:18:17] [Server thread/INFO]: youube1233 issued server command: /cmi money take all
+[03:18:19] [Server thread/INFO]: youube1233 issued server command: /cmi money take all 1000
+[03:18:29] [Server thread/INFO]: Отобрано 1.00k БадыльКоинов у 1 игроков
+[03:18:34] [Server thread/INFO]: youube1233 issued server command: /cmi
+[03:18:39] [Server thread/INFO]: Отобрано 10.00b БадыльКоинов у 1 игроков
+[03:18:51] [Server thread/INFO]: Stopping the server
+[03:18:51] [Server thread/WARN]: java.lang.Throwable: Server stopped
+[03:18:51] [Server thread/WARN]: 	at io.papermc.paper.util.TraceUtil.dumpTraceForThread(TraceUtil.java:16)
+[03:18:51] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.safeShutdown(MinecraftServer.java:1001)
+[03:18:51] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.safeShutdown(MinecraftServer.java:995)
+[03:18:51] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.CommandStop.a(SourceFile:17)
+[03:18:51] [Server thread/WARN]: 	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:262)
+[03:18:51] [Server thread/WARN]: 	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:176)
+[03:18:51] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.CommandDispatcher.a(CommandDispatcher.java:276)
+[03:18:51] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.command.VanillaCommandWrapper.execute(VanillaCommandWrapper.java:45)
+[03:18:51] [Server thread/WARN]: 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:159)
+[03:18:51] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.dispatchCommand(CraftServer.java:826)
+[03:18:51] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.dispatchServerCommand(CraftServer.java:788)
+[03:18:51] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.DedicatedServer.handleCommandQueue(DedicatedServer.java:470)
+[03:18:51] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.DedicatedServer.b(DedicatedServer.java:437)
+[03:18:51] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.a(MinecraftServer.java:1347)
+[03:18:51] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:1135)
+[03:18:51] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:291)
+[03:18:51] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:831)
+[03:18:51] [Server thread/INFO]: Stopping server
+[03:18:51] [Server thread/INFO]: [CMI] Disabling CMI v9.0.2.9
+[03:18:51] [Server thread/INFO]: [Vault][Economy] CMI Economy unhooked.
+[03:18:52] [Server thread/INFO]: [CMI] Closed db connections
+[03:18:52] [Server thread/INFO]: [CMILib] Disabling CMILib v1.1.2.5
+[03:18:52] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-CMI
+[03:18:52] [Server thread/INFO]: [WorldBorder] Disabling WorldBorder v1.9.10 (beta)
+[03:18:52] [Server thread/INFO]: [WorldBorder] [CONFIG] Border-checking timed task stopped.
+[03:18:52] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.3.77
+[03:18:52] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[03:18:52] [Server thread/INFO]: [LuckPerms] Closing storage...
+[03:18:52] [Server thread/INFO]: [LuckPerms] Goodbye!
+[03:18:52] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v20.1
+[03:18:53] [Server thread/INFO]: [CoreProtect] Завершение регистрации данных. Пожалуйста, подождите...
+[03:18:53] [Server thread/INFO]: [CoreProtect] CoreProtect v20.1 был успешно отключён!
+[03:18:53] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.2.2
+[03:18:53] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
+[03:18:53] [Server thread/INFO]: Saving players
+[03:18:54] [Server thread/INFO]: youube1233 lost connection: Сервер закрыт.
+[03:18:54] [Server thread/INFO]: youube1233 left the game
+[03:18:54] [Server thread/INFO]: Saving worlds
+[03:18:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[03:18:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03:18:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[03:18:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:18:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[03:18:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03:18:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03:18:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:18:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03:18:59] [Server thread/INFO]: Flushing Chunk IO
+[03:18:59] [Server thread/INFO]: Closing Thread Pool
+[03:18:59] [Server thread/INFO]: Closing Server
+[03:18:59] [Thread-1/WARN]: java.lang.Throwable: Server stopped
+[03:18:59] [Thread-1/WARN]: 	at io.papermc.paper.util.TraceUtil.dumpTraceForThread(TraceUtil.java:16)
+[03:18:59] [Thread-1/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.safeShutdown(MinecraftServer.java:1001)
+[03:18:59] [Thread-1/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.util.ServerShutdownThread.run(ServerShutdownThread.java:16)
