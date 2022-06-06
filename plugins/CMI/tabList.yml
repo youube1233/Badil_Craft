@@ -37,7 +37,7 @@ TabList:
       - '&0------------------------------------'
       - '&3Онлайн: &f%server_online%'
       - '&3TPS: &f%cmi_tps_1%'
-      - '&3Ping:&f%cmi_user_ping%'
+      - '&3Ping: &f%cmi_user_ping%'
       - '&0------------------------------------'
     Footer:
       '1':
