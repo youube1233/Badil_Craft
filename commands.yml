@@ -10,7 +10,8 @@
 # Forums: https://www.spigotmc.org/
 # Bug tracker: https://www.spigotmc.org/go/bugs
 
-aliases:
-  :
 command-block-overrides: []
-ignore-vanilla-permissions: true
+ignore-vanilla-permissions: false
+aliases:
+  icanhasbukkit:
+  - version $1-
