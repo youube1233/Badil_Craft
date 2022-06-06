@@ -1,1045 +1,481 @@
-[18:50:13] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[18:50:14] [main/INFO]: Reloading ResourceManager: Default, bukkit
-[18:50:14] [Worker-Main-4/INFO]: Loaded 7 recipes
-[18:50:15] [Server thread/INFO]: Starting minecraft server version 1.16.5
-[18:50:15] [Server thread/INFO]: Loading properties
-[18:50:15] [Server thread/INFO]: This server is running Paper version git-Paper-790 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
-[18:50:16] [Server thread/INFO]: Debug logging is disabled
-[18:50:16] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[18:50:16] [Server thread/INFO]: Using 4 threads for Netty based IO
-[18:50:16] [Server thread/INFO]: Default game type: SURVIVAL
-[18:50:16] [Server thread/INFO]: Generating keypair
-[18:50:16] [Server thread/INFO]: Starting Minecraft server on localhost:25565
-[18:50:16] [Server thread/INFO]: Using default channel type
-[18:50:17] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.2.2
-[18:50:17] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v20.1
-[18:50:17] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.3.77
-[18:50:17] [Server thread/INFO]: [WorldBorder] Loading WorldBorder v1.9.10 (beta)
-[18:50:17] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-CMI
-[18:50:17] [Server thread/INFO]: [CMILib] Loading CMILib v1.1.2.6
-[18:50:17] [Server thread/INFO]: [CMI] Loading CMI v9.0.2.9
-[18:50:17] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[18:50:17] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.3.77
-[18:50:17] [Server thread/INFO]:         __    
-[18:50:17] [Server thread/INFO]:   |    |__)   LuckPerms v5.3.77
-[18:50:17] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[18:50:17] [Server thread/INFO]: 
-[18:50:17] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[18:50:17] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[18:50:18] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[18:50:18] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[18:50:18] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1213ms)
-[18:50:18] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-CMI
-[18:50:18] [Server thread/WARN]: [Vault] Loaded class com.Zrips.CMI.Modules.Economy.Economy from CMI v9.0.2.9 which is not a depend, softdepend or loadbefore of this plugin.
-[18:50:18] [Server thread/INFO]: [Vault] [Economy] CMI Economy found: Waiting
-[18:50:18] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[18:50:18] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-CMI
-[18:50:18] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[18:50:18] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[18:50:18] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[18:50:18] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[18:50:18] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[18:50:18] [Server thread/INFO]: Preparing level "world"
-[18:50:18] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[18:50:19] [Server thread/INFO]: Time elapsed: 181 ms
-[18:50:19] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[18:50:19] [Server thread/INFO]: Time elapsed: 177 ms
-[18:50:19] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[18:50:19] [Server thread/INFO]: Time elapsed: 73 ms
-[18:50:19] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
-[18:50:19] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
-[18:50:19] [Server thread/INFO]: [ClearLag] Loading modules...
-[18:50:19] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
-[18:50:19] [Server thread/INFO]: [ClearLag] Modules have been loaded!
-[18:50:19] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
-[18:50:19] [Thread-14/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.16]...
-[18:50:19] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v20.1
-[18:50:19] [Server thread/INFO]: [CoreProtect] CoreProtect был успешно запущен! 
-[18:50:19] [Server thread/INFO]: [CoreProtect] Для хранения данных используется SQLite.
-[18:50:19] [Server thread/INFO]: --------------------
-[18:50:19] [Server thread/INFO]: [CoreProtect] Нравится CoreProtect? Присоединяйтесь к нашему Discord!
-[18:50:19] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
-[18:50:19] [Server thread/INFO]: --------------------
-[18:50:19] [Server thread/INFO]: [WorldBorder] Enabling WorldBorder v1.9.10 (beta)
-[18:50:19] [Server thread/INFO]: [WorldBorder] [CONFIG] Using elliptic/round border, knockback of 3.0 blocks, and timer delay of 5.
-[18:50:19] [Server thread/INFO]: [WorldBorder] [CONFIG] Border-checking timed task started.
-[18:50:19] [Server thread/INFO]: [WorldBorder] For reference, the main world's spawn location is at X: 256,0 Y: 71,0 Z: 208,0
-[18:50:19] [Server thread/INFO]: [CMILib] Enabling CMILib v1.1.2.6
-[18:50:19] [Thread-14/INFO]: [ClearLag] No updates found!
-[18:50:20] [Server thread/INFO]: Server version: v1_16_R3 - 1.16.5 - paper
-[18:50:21] [Server thread/INFO]: CMI hooked.
-[18:50:21] [Server thread/INFO]: Updated (EN) language file. Took 45ms
-[18:50:21] [Server thread/INFO]: Updated (RU) language file. Took 29ms
-[18:50:21] [Server thread/INFO]: [CMI] Enabling CMI v9.0.2.9
-[18:50:21] [Server thread/INFO]: ┏━━━┓ ┏━┓┏━┓ ┏━━┓
-[18:50:21] [Server thread/INFO]: ┃┏━┓┃ ┃ ┗┛ ┃ ┗┫┣┛
-[18:50:21] [Server thread/INFO]: ┃┃ ┗┛ ┃┏┓┏┓┃  ┃┃ 
-[18:50:21] [Server thread/INFO]: ┃┃ ┏┓ ┃┃┃┃┃┃  ┃┃ 
-[18:50:21] [Server thread/INFO]: ┃┗━┛┃ ┃┃┃┃┃┃ ┏┫┣┓
-[18:50:21] [Server thread/INFO]: ┗━━━┛ ┗┛┗┛┗┛ ┗━━┛
-[18:50:21] [Server thread/INFO]: _______________________________________________________
-[18:50:21] [Server thread/INFO]: [CMI] Re-Leaked Aternosv2
-[18:50:21] [Server thread/INFO]:   Integrating PaperSpigot async methods
-[18:50:21] [Server thread/INFO]:   21 Enabled and 35 Disabled modules
-[18:50:21] [Server thread/INFO]:   Permission plugin: LuckPerms5.3.77
-[18:50:21] [Server thread/INFO]:   Initialized Cipher256 AES
-[18:50:22] [Server thread/INFO]:   Loaded (56) regular alias into memory. Took 46ms
-[18:50:22] [Server thread/INFO]:   Loaded (1) custom text's into memory. Took 13ms
-[18:50:22] [Server thread/INFO]:   3.34.0 data base type detected
-[18:50:22] [Server thread/INFO]:   Started SqLite data base. Took 179ms
-[18:50:22] [Server thread/INFO]:   Vault was found - Enabling capabilities. Economy: CMIEconomy
-[18:50:22] [Server thread/INFO]:   Loaded (5) warning categories into memory. Took 1ms
-[18:50:22] [Server thread/INFO]:   Loaded (3) warning commands into memory. Took 0ms
-[18:50:22] [Server thread/INFO]:   Loaded (135) custom mob heads into memory. Took 20ms
-[18:50:22] [Server thread/INFO]:   Loaded (0) cooldowns into memory. Took 28ms
-[18:50:22] [Server thread/INFO]:   Initializing BungeeCord
-[18:50:22] [Server thread/INFO]:   Loaded (1) player data into memory. Took 6ms
-[18:50:22] [Server thread/INFO]:   Loaded (0) playtime records into memory. Took 0ms
-[18:50:22] [Server thread/INFO]:   Loaded (0) playtime reward records into memory. Took 0ms
-[18:50:22] [Server thread/INFO]:   Registered events. Took 128ms
-[18:50:22] [Server thread/INFO]:   Loaded (0) event action commands into memory. Took 5ms
-[18:50:22] [Server thread/INFO]:   Updated (EN) language file. Took 109ms
-[18:50:23] [Server thread/INFO]:   Updated (RU) language file. Took 88ms
-[18:50:23] [Server thread/INFO]:   Vault permissions was found - Enabling capabilities.
-[18:50:23] [Server thread/INFO]:   Starting world timer.
-[18:50:23] [Server thread/INFO]:   Initializing world manager.
-[18:50:23] [Server thread/INFO]:   Loaded GeoIP
-[18:50:23] [Server thread/INFO]:   Loaded (0) skin cache entries into memory. Took 0ms
-[18:50:23] [Server thread/INFO]:   Version 9.0.2.9 has been enabled
-[18:50:23] [Server thread/INFO]: ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
-[18:50:23] [Server thread/INFO]: [CMI] Downloaded from https://directleaks.net
-[18:50:23] [Server thread/INFO]: [Vault][Economy] CMI Economy hooked.
-[18:50:23] [Server thread/INFO]: Running delayed init tasks
-[18:50:23] [Server thread/INFO]: Done (7.410s)! For help, type "help"
-[18:50:23] [Server thread/INFO]: Timings Reset
-[18:50:23] [Craft Scheduler Thread - 4/INFO]: [Vault] Checking for Updates ... 
-[18:50:23] [Craft Scheduler Thread - 4/INFO]: [Vault] No new version available
-[18:50:24] [Thread-17/INFO]: --------------------
-[18:50:24] [Thread-17/INFO]: [CoreProtect] Версия 21.2 уже доступна!
-[18:50:24] [Thread-17/INFO]: [CoreProtect] Загрузить: www.coreprotect.net/download/
-[18:50:24] [Thread-17/INFO]: --------------------
-[18:50:39] [User Authenticator #1/INFO]: UUID of player youube1233 is e17fe5c2-00e9-3fc0-a4bc-54a26aa6c13e
-[18:50:39] [Server thread/INFO]: youube1233 joined the game
-[18:50:40] [Server thread/INFO]: youube1233[/127.0.0.1:58100] logged in with entity id 328 at ([world]258.6615324244648, 68.0, 207.69999998807907)
-[18:50:45] [Server thread/INFO]: youube1233 issued server command: /wborder
-[18:51:38] [Server thread/INFO]: youube1233 issued server command: /help
-[18:51:41] [Server thread/INFO]: youube1233 issued server command: /minecrafhelp
-[18:51:44] [Server thread/INFO]: youube1233 issued server command: /minecraft:help
-[18:51:45] [Server thread/INFO]: youube1233 issued server command: /minecraft:help
-[18:52:01] [luckperms-command-executor/INFO]: [LP] Данные веб-редактора были успешно применены к group default.
-[18:52:01] [luckperms-command-executor/INFO]: [LP] (0 добавлено и 37 удалено)
-[18:52:01] [luckperms-command-executor/INFO]: -  cmi.command.* (false)
-[18:52:01] [luckperms-command-executor/INFO]: -  worldborder.* (false)
-[18:52:01] [luckperms-command-executor/INFO]: -  cmi (false)
-[18:52:01] [luckperms-command-executor/INFO]: -  cmil.command (false)
-[18:52:01] [luckperms-command-executor/INFO]: -  coreprotect (false)
-[18:52:01] [luckperms-command-executor/INFO]: -  coreprotect.co (false)
-[18:52:01] [luckperms-command-executor/INFO]: -  lagg (false)
-[18:52:01] [luckperms-command-executor/INFO]: -  minecraft.command.worldborder (false)
-[18:52:01] [luckperms-command-executor/INFO]: -  minecraft.help (false)
-[18:52:01] [luckperms-command-executor/INFO]: -  worldborder (false)
-[18:52:01] [luckperms-command-executor/INFO]: -  worldborder.bypass (false)
-[18:52:01] [luckperms-command-executor/INFO]: -  worldborder.bypasslist (false)
-[18:52:01] [luckperms-command-executor/INFO]: -  worldborder.clear (false)
-[18:52:01] [luckperms-command-executor/INFO]: -  worldborder.debug (false)
-[18:52:01] [luckperms-command-executor/INFO]: -  worldborder.delay (false)
-[18:52:01] [luckperms-command-executor/INFO]: -  worldborder.denypearl (false)
-[18:52:01] [luckperms-command-executor/INFO]: -  worldborder.dynmap (false)
-[18:52:01] [luckperms-command-executor/INFO]: -  worldborder.dynmapmsg (false)
-[18:52:01] [luckperms-command-executor/INFO]: -  worldborder.fill (false)
-[18:52:01] [luckperms-command-executor/INFO]: -  worldborder.fillautosave (false)
-[18:52:01] [luckperms-command-executor/INFO]: -  worldborder.getmsg (false)
-[18:52:01] [luckperms-command-executor/INFO]: -  worldborder.help (false)
-[18:52:01] [luckperms-command-executor/INFO]: -  worldborder.knockback (false)
-[18:52:01] [luckperms-command-executor/INFO]: -  worldborder.list (false)
-[18:52:01] [luckperms-command-executor/INFO]: -  worldborder.portal (false)
-[18:52:01] [luckperms-command-executor/INFO]: -  worldborder.preventblockplace (false)
-[18:52:01] [luckperms-command-executor/INFO]: -  worldborder.preventmobspawn (false)
-[18:52:01] [luckperms-command-executor/INFO]: -  worldborder.radius (false)
-[18:52:01] [luckperms-command-executor/INFO]: -  worldborder.reload (false)
-[18:52:01] [luckperms-command-executor/INFO]: -  worldborder.remount (false)
-[18:52:01] [luckperms-command-executor/INFO]: -  worldborder.set (false)
-[18:52:01] [luckperms-command-executor/INFO]: -  worldborder.setmsg (false)
-[18:52:01] [luckperms-command-executor/INFO]: -  worldborder.shape (false)
-[18:52:01] [luckperms-command-executor/INFO]: -  worldborder.trim (false)
-[18:52:01] [luckperms-command-executor/INFO]: -  worldborder.whoosh (false)
-[18:52:01] [luckperms-command-executor/INFO]: -  worldborder.wrap (false)
-[18:52:01] [luckperms-command-executor/INFO]: -  worldborder.wshape (false)
-[18:52:45] [Server thread/INFO]: youube1233 issued server command: /bukkit
-[18:52:55] [Server thread/INFO]: youube1233 issued server command: /icanhasbukkit
-[18:57:41] [Server thread/INFO]: Неизвестная команда.
-[18:57:47] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
-[18:57:47] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
-[18:57:47] [Server thread/INFO]: Debug logging is disabled
-[18:57:47] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[18:57:47] [Server thread/INFO]: Using 4 threads for Netty based IO
-[18:57:47] [Server thread/INFO]: [CMI] Disabling CMI v9.0.2.9
-[18:57:47] [Server thread/INFO]: [Vault][Economy] CMI Economy unhooked.
-[18:57:47] [Server thread/INFO]: [CMI] Closed db connections
-[18:57:47] [Server thread/INFO]: [CMILib] Disabling CMILib v1.1.2.6
-[18:57:47] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-CMI
-[18:57:47] [Server thread/INFO]: [WorldBorder] Disabling WorldBorder v1.9.10 (beta)
-[18:57:47] [Server thread/INFO]: [WorldBorder] [CONFIG] Border-checking timed task stopped.
-[18:57:47] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.3.77
-[18:57:47] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[18:57:47] [Server thread/INFO]: [LuckPerms] Closing storage...
-[18:57:48] [Server thread/INFO]: [LuckPerms] Goodbye!
-[18:57:48] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v20.1
-[18:57:48] [Server thread/INFO]: [CoreProtect] Завершение регистрации данных. Пожалуйста, подождите...
-[18:57:49] [Server thread/INFO]: [CoreProtect] CoreProtect v20.1 был успешно отключён!
-[18:57:49] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.2.2
-[18:57:49] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
-[18:57:49] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
-[18:57:49] [Server thread/INFO]: Loaded 7 recipes
-[18:57:49] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
-[18:57:49] [Server thread/INFO]: Loaded 7 recipes
-[18:57:50] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.2.2
-[18:57:50] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v20.1
-[18:57:50] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.3.77
-[18:57:50] [Server thread/INFO]: [WorldBorder] Loading WorldBorder v1.9.10 (beta)
-[18:57:50] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-CMI
-[18:57:50] [Server thread/INFO]: [CMILib] Loading CMILib v1.1.2.6
-[18:57:50] [Server thread/INFO]: [CMI] Loading CMI v9.0.2.9
-[18:57:50] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[18:57:50] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.3.77
-[18:57:50] [Server thread/INFO]:         __    
-[18:57:50] [Server thread/INFO]:   |    |__)   LuckPerms v5.3.77
-[18:57:50] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[18:57:50] [Server thread/INFO]: 
-[18:57:50] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[18:57:50] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[18:57:51] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[18:57:51] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[18:57:51] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 712ms)
-[18:57:51] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-CMI
-[18:57:51] [Server thread/WARN]: [Vault] Loaded class com.Zrips.CMI.Modules.Economy.Economy from CMI v9.0.2.9 which is not a depend, softdepend or loadbefore of this plugin.
-[18:57:51] [Server thread/INFO]: [Vault] [Economy] CMI Economy found: Waiting
-[18:57:51] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[18:57:51] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-CMI
-[18:57:51] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[18:57:51] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
-[18:57:51] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
-[18:57:51] [Server thread/INFO]: [ClearLag] Loading modules...
-[18:57:51] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
-[18:57:51] [Server thread/INFO]: [ClearLag] Modules have been loaded!
-[18:57:51] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
-[18:57:51] [Thread-23/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.16]...
-[18:57:51] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v20.1
-[18:57:51] [Server thread/INFO]: [CoreProtect] CoreProtect был успешно запущен! 
-[18:57:51] [Server thread/INFO]: [CoreProtect] Для хранения данных используется SQLite.
-[18:57:51] [Server thread/INFO]: --------------------
-[18:57:51] [Server thread/INFO]: [CoreProtect] Нравится CoreProtect? Присоединяйтесь к нашему Discord!
-[18:57:51] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
-[18:57:51] [Server thread/INFO]: --------------------
-[18:57:51] [Server thread/INFO]: [WorldBorder] Enabling WorldBorder v1.9.10 (beta)
-[18:57:51] [Server thread/INFO]: [WorldBorder] [CONFIG] Using elliptic/round border, knockback of 3.0 blocks, and timer delay of 5.
-[18:57:51] [Server thread/INFO]: [WorldBorder] [CONFIG] Border-checking timed task started.
-[18:57:51] [Server thread/INFO]: [WorldBorder] For reference, the main world's spawn location is at X: 256,0 Y: 71,0 Z: 208,0
-[18:57:51] [Server thread/INFO]: [CMILib] Enabling CMILib v1.1.2.6
-[18:57:51] [Thread-23/INFO]: [ClearLag] No updates found!
-[18:57:52] [Server thread/INFO]: Server version: v1_16_R3 - 1.16.5 - paper
-[18:57:52] [Server thread/INFO]: CMI hooked.
-[18:57:52] [Server thread/INFO]: Updated (EN) language file. Took 50ms
-[18:57:52] [Server thread/INFO]: Updated (RU) language file. Took 25ms
-[18:57:52] [Server thread/INFO]: [CMI] Enabling CMI v9.0.2.9
-[18:57:53] [Server thread/INFO]: ┏━━━┓ ┏━┓┏━┓ ┏━━┓
-[18:57:53] [Server thread/INFO]: ┃┏━┓┃ ┃ ┗┛ ┃ ┗┫┣┛
-[18:57:53] [Server thread/INFO]: ┃┃ ┗┛ ┃┏┓┏┓┃  ┃┃ 
-[18:57:53] [Server thread/INFO]: ┃┃ ┏┓ ┃┃┃┃┃┃  ┃┃ 
-[18:57:53] [Server thread/INFO]: ┃┗━┛┃ ┃┃┃┃┃┃ ┏┫┣┓
-[18:57:53] [Server thread/INFO]: ┗━━━┛ ┗┛┗┛┗┛ ┗━━┛
-[18:57:53] [Server thread/INFO]: _______________________________________________________
-[18:57:53] [Server thread/INFO]: [CMI] Re-Leaked Aternosv2
-[18:57:53] [Server thread/INFO]:   Integrating PaperSpigot async methods
-[18:57:53] [Server thread/INFO]:   21 Enabled and 35 Disabled modules
-[18:57:53] [Server thread/INFO]:   Permission plugin: LuckPerms5.3.77
-[18:57:53] [Server thread/INFO]:   Initialized Cipher256 AES
-[18:57:53] [Server thread/INFO]:   Loaded (56) regular alias into memory. Took 29ms
-[18:57:53] [Server thread/INFO]:   Loaded (1) custom text's into memory. Took 1ms
-[18:57:53] [Server thread/INFO]:   3.34.0 data base type detected
-[18:57:53] [Server thread/INFO]:   Started SqLite data base. Took 134ms
-[18:57:53] [Server thread/INFO]:   Vault was found - Enabling capabilities. Economy: CMIEconomy
-[18:57:53] [Server thread/INFO]:   Loaded (5) warning categories into memory. Took 0ms
-[18:57:53] [Server thread/INFO]:   Loaded (3) warning commands into memory. Took 0ms
-[18:57:53] [Server thread/INFO]:   Loaded (135) custom mob heads into memory. Took 15ms
-[18:57:53] [Server thread/INFO]:   Loaded (0) cooldowns into memory. Took 21ms
-[18:57:53] [Server thread/INFO]:   Initializing BungeeCord
-[18:57:53] [Server thread/INFO]:   Loaded (1) player data into memory. Took 3ms
-[18:57:53] [Server thread/INFO]:   Loaded (0) playtime records into memory. Took 0ms
-[18:57:53] [Server thread/INFO]:   Loaded (0) playtime reward records into memory. Took 1ms
-[18:57:53] [Server thread/INFO]:   Registered events. Took 99ms
-[18:57:53] [Server thread/INFO]:   Loaded (0) event action commands into memory. Took 3ms
-[18:57:53] [Server thread/INFO]:   Updated (EN) language file. Took 71ms
-[18:57:53] [Server thread/INFO]:   Updated (RU) language file. Took 77ms
-[18:57:54] [Server thread/INFO]:   Vault permissions was found - Enabling capabilities.
-[18:57:54] [Server thread/INFO]:   Starting world timer.
-[18:57:54] [Server thread/INFO]:   Initializing world manager.
-[18:57:54] [Server thread/INFO]:   Loaded GeoIP
-[18:57:54] [Server thread/INFO]:   Loaded (0) skin cache entries into memory. Took 1ms
-[18:57:54] [Server thread/INFO]:   Version 9.0.2.9 has been enabled
-[18:57:54] [Server thread/INFO]: ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
-[18:57:54] [Server thread/INFO]: [CMI] Downloaded from https://directleaks.net
-[18:57:54] [Server thread/INFO]: [Vault][Economy] CMI Economy hooked.
-[18:57:54] [Server thread/INFO]: CONSOLE: Reload complete.
-[18:57:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6354ms or 127 ticks behind
-[18:57:54] [Server thread/INFO]: Timings Reset
-[18:57:54] [Craft Scheduler Thread - 17/INFO]: [Vault] Checking for Updates ... 
-[18:57:54] [Craft Scheduler Thread - 17/INFO]: [Vault] No new version available
-[18:57:55] [Thread-26/INFO]: --------------------
-[18:57:55] [Thread-26/INFO]: [CoreProtect] Версия 21.2 уже доступна!
-[18:57:55] [Thread-26/INFO]: [CoreProtect] Загрузить: www.coreprotect.net/download/
-[18:57:55] [Thread-26/INFO]: --------------------
-[18:58:02] [Server thread/INFO]: youube1233 issued server command: /
-[18:58:03] [Server thread/INFO]: youube1233 issued server command: /d
-[18:58:05] [Server thread/INFO]: youube1233 issued server command: /gm 1
-[18:58:05] [Server thread/INFO]: youube1233 не имеет разрешения: cmi.command.gm
-[18:58:18] [luckperms-command-executor/INFO]: [LP] Подготовка новой сессии веб-редактора, пожалуйста, подождите...
-[18:58:19] [luckperms-command-executor/INFO]: [LP] Нажмите на ссылку ниже, чтобы открыть веб-редактор:
-[18:58:19] [luckperms-command-executor/INFO]: https://luckperms.net/editor/CZ833xV9Er
-[18:58:26] [Server thread/INFO]: youube1233 issued server command: /plugins
-[18:58:29] [Server thread/INFO]: youube1233 issued server command: /pl
-[18:58:30] [Server thread/INFO]: youube1233 issued server command: /?
-[18:58:32] [Server thread/INFO]: youube1233 issued server command: /help
-[18:59:27] [Server thread/INFO]: youube1233 was blown up by Creeper
-[19:00:24] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
-[19:00:24] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
-[19:00:24] [Server thread/INFO]: Debug logging is disabled
-[19:00:24] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[19:00:24] [Server thread/INFO]: Using 4 threads for Netty based IO
-[19:00:24] [Server thread/INFO]: [CMI] Disabling CMI v9.0.2.9
-[19:00:24] [Server thread/INFO]: [Vault][Economy] CMI Economy unhooked.
-[19:00:24] [Server thread/INFO]: [CMI] Closed db connections
-[19:00:24] [Server thread/INFO]: [CMILib] Disabling CMILib v1.1.2.6
-[19:00:24] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-CMI
-[19:00:24] [Server thread/INFO]: [WorldBorder] Disabling WorldBorder v1.9.10 (beta)
-[19:00:24] [Server thread/INFO]: [WorldBorder] [CONFIG] Border-checking timed task stopped.
-[19:00:24] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.3.77
-[19:00:24] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[19:00:24] [Server thread/INFO]: [LuckPerms] Closing storage...
-[19:00:24] [Server thread/INFO]: [LuckPerms] Goodbye!
-[19:00:24] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v20.1
-[19:00:24] [Server thread/INFO]: [CoreProtect] Завершение регистрации данных. Пожалуйста, подождите...
-[19:00:25] [Server thread/INFO]: [CoreProtect] CoreProtect v20.1 был успешно отключён!
-[19:00:25] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.2.2
-[19:00:25] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
-[19:00:25] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
-[19:00:25] [Server thread/INFO]: Loaded 7 recipes
-[19:00:26] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
-[19:00:26] [Server thread/INFO]: Loaded 7 recipes
-[19:00:26] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.2.2
-[19:00:26] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v20.1
-[19:00:26] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.3.77
-[19:00:26] [Server thread/INFO]: [WorldBorder] Loading WorldBorder v1.9.10 (beta)
-[19:00:26] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-CMI
-[19:00:26] [Server thread/INFO]: [CMILib] Loading CMILib v1.1.2.6
-[19:00:26] [Server thread/INFO]: [CMI] Loading CMI v9.0.2.9
-[19:00:26] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[19:00:26] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.3.77
-[19:00:27] [Server thread/INFO]:         __    
-[19:00:27] [Server thread/INFO]:   |    |__)   LuckPerms v5.3.77
-[19:00:27] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[19:00:27] [Server thread/INFO]: 
-[19:00:27] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[19:00:27] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[19:00:27] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[19:00:27] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[19:00:27] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 566ms)
-[19:00:27] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-CMI
-[19:00:27] [Server thread/WARN]: [Vault] Loaded class com.Zrips.CMI.Modules.Economy.Economy from CMI v9.0.2.9 which is not a depend, softdepend or loadbefore of this plugin.
-[19:00:27] [Server thread/INFO]: [Vault] [Economy] CMI Economy found: Waiting
-[19:00:27] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[19:00:27] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-CMI
-[19:00:27] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[19:00:27] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
-[19:00:27] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
-[19:00:27] [Server thread/INFO]: [ClearLag] Loading modules...
-[19:00:27] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
-[19:00:27] [Server thread/INFO]: [ClearLag] Modules have been loaded!
-[19:00:27] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
-[19:00:27] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v20.1
-[19:00:27] [Thread-30/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.16]...
-[19:00:27] [Server thread/INFO]: [CoreProtect] CoreProtect был успешно запущен! 
-[19:00:27] [Server thread/INFO]: [CoreProtect] Для хранения данных используется SQLite.
-[19:00:27] [Server thread/INFO]: --------------------
-[19:00:27] [Server thread/INFO]: [CoreProtect] Нравится CoreProtect? Присоединяйтесь к нашему Discord!
-[19:00:27] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
-[19:00:27] [Server thread/INFO]: --------------------
-[19:00:27] [Server thread/INFO]: [WorldBorder] Enabling WorldBorder v1.9.10 (beta)
-[19:00:27] [Server thread/INFO]: [WorldBorder] [CONFIG] Using elliptic/round border, knockback of 3.0 blocks, and timer delay of 5.
-[19:00:27] [Server thread/INFO]: [WorldBorder] [CONFIG] Border-checking timed task started.
-[19:00:27] [Server thread/INFO]: [WorldBorder] For reference, the main world's spawn location is at X: 256,0 Y: 71,0 Z: 208,0
-[19:00:27] [Server thread/INFO]: [CMILib] Enabling CMILib v1.1.2.6
-[19:00:28] [Thread-30/INFO]: [ClearLag] No updates found!
-[19:00:28] [Server thread/INFO]: Server version: v1_16_R3 - 1.16.5 - paper
-[19:00:29] [Server thread/INFO]: CMI hooked.
-[19:00:29] [Server thread/INFO]: Updated (EN) language file. Took 27ms
-[19:00:29] [Server thread/INFO]: Updated (RU) language file. Took 13ms
-[19:00:29] [Server thread/INFO]: [CMI] Enabling CMI v9.0.2.9
-[19:00:29] [Server thread/INFO]: ┏━━━┓ ┏━┓┏━┓ ┏━━┓
-[19:00:29] [Server thread/INFO]: ┃┏━┓┃ ┃ ┗┛ ┃ ┗┫┣┛
-[19:00:29] [Server thread/INFO]: ┃┃ ┗┛ ┃┏┓┏┓┃  ┃┃ 
-[19:00:29] [Server thread/INFO]: ┃┃ ┏┓ ┃┃┃┃┃┃  ┃┃ 
-[19:00:29] [Server thread/INFO]: ┃┗━┛┃ ┃┃┃┃┃┃ ┏┫┣┓
-[19:00:29] [Server thread/INFO]: ┗━━━┛ ┗┛┗┛┗┛ ┗━━┛
-[19:00:29] [Server thread/INFO]: _______________________________________________________
-[19:00:29] [Server thread/INFO]: [CMI] Re-Leaked Aternosv2
-[19:00:29] [Server thread/INFO]:   Integrating PaperSpigot async methods
-[19:00:29] [Server thread/INFO]:   21 Enabled and 35 Disabled modules
-[19:00:29] [Server thread/INFO]:   Permission plugin: LuckPerms5.3.77
-[19:00:29] [Server thread/INFO]:   Initialized Cipher256 AES
-[19:00:29] [Server thread/INFO]:   Loaded (56) regular alias into memory. Took 30ms
-[19:00:29] [Server thread/INFO]:   Loaded (1) custom text's into memory. Took 2ms
-[19:00:29] [Server thread/INFO]:   3.34.0 data base type detected
-[19:00:29] [Server thread/INFO]:   Started SqLite data base. Took 109ms
-[19:00:29] [Server thread/INFO]:   Vault was found - Enabling capabilities. Economy: CMIEconomy
-[19:00:29] [Server thread/INFO]:   Loaded (5) warning categories into memory. Took 0ms
-[19:00:29] [Server thread/INFO]:   Loaded (3) warning commands into memory. Took 0ms
-[19:00:29] [Server thread/INFO]:   Loaded (135) custom mob heads into memory. Took 14ms
-[19:00:29] [Server thread/INFO]:   Loaded (0) cooldowns into memory. Took 18ms
-[19:00:29] [Server thread/INFO]:   Initializing BungeeCord
-[19:00:29] [Server thread/INFO]:   Loaded (1) player data into memory. Took 4ms
-[19:00:29] [Server thread/INFO]:   Loaded (0) playtime records into memory. Took 0ms
-[19:00:29] [Server thread/INFO]:   Loaded (0) playtime reward records into memory. Took 0ms
-[19:00:29] [Server thread/INFO]:   Registered events. Took 101ms
-[19:00:29] [Server thread/INFO]:   Loaded (0) event action commands into memory. Took 4ms
-[19:00:29] [Server thread/INFO]:   Updated (EN) language file. Took 66ms
-[19:00:29] [Server thread/INFO]:   Updated (RU) language file. Took 67ms
-[19:00:29] [Server thread/INFO]:   Vault permissions was found - Enabling capabilities.
-[19:00:29] [Server thread/INFO]:   Starting world timer.
-[19:00:29] [Server thread/INFO]:   Initializing world manager.
-[19:00:29] [Server thread/INFO]:   Loaded GeoIP
-[19:00:29] [Server thread/INFO]:   Loaded (0) skin cache entries into memory. Took 0ms
-[19:00:29] [Server thread/INFO]:   Version 9.0.2.9 has been enabled
-[19:00:29] [Server thread/INFO]: ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
-[19:00:29] [Server thread/INFO]: [CMI] Downloaded from https://directleaks.net
-[19:00:29] [Server thread/INFO]: [Vault][Economy] CMI Economy hooked.
-[19:00:30] [Server thread/INFO]: CONSOLE: Reload complete.
-[19:00:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5826ms or 116 ticks behind
-[19:00:30] [Server thread/INFO]: Timings Reset
-[19:00:30] [Craft Scheduler Thread - 25/INFO]: [Vault] Checking for Updates ... 
-[19:00:30] [Craft Scheduler Thread - 25/INFO]: [Vault] No new version available
-[19:00:31] [Thread-33/INFO]: --------------------
-[19:00:31] [Thread-33/INFO]: [CoreProtect] Версия 21.2 уже доступна!
-[19:00:31] [Thread-33/INFO]: [CoreProtect] Загрузить: www.coreprotect.net/download/
-[19:00:31] [Thread-33/INFO]: --------------------
-[19:00:39] [Server thread/INFO]: youube1233 issued server command: /cmilib:cmil
-[19:00:39] [Server thread/INFO]: youube1233 не имеет разрешения: cmil.command
-[19:00:58] [Server thread/INFO]: youube1233 issued server command: /skill
-[19:01:08] [Server thread/INFO]: youube1233 issued server command: /summon
-[19:01:13] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[19:01:13] [Server thread/INFO]: summon<--[HERE]
-[19:01:19] [Server thread/INFO]: Summoned new Cat
-[19:01:37] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[19:01:37] [Server thread/INFO]: summon<--[HERE]
-[19:01:39] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
-[19:01:39] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
-[19:01:39] [Server thread/INFO]: Debug logging is disabled
-[19:01:39] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[19:01:39] [Server thread/INFO]: Using 4 threads for Netty based IO
-[19:01:39] [Server thread/INFO]: [CMI] Disabling CMI v9.0.2.9
-[19:01:39] [Server thread/INFO]: [Vault][Economy] CMI Economy unhooked.
-[19:01:39] [Server thread/INFO]: [CMI] Closed db connections
-[19:01:39] [Server thread/INFO]: [CMILib] Disabling CMILib v1.1.2.6
-[19:01:39] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-CMI
-[19:01:39] [Server thread/INFO]: [WorldBorder] Disabling WorldBorder v1.9.10 (beta)
-[19:01:39] [Server thread/INFO]: [WorldBorder] [CONFIG] Border-checking timed task stopped.
-[19:01:39] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.3.77
-[19:01:39] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[19:01:39] [Server thread/INFO]: [LuckPerms] Closing storage...
-[19:01:40] [Server thread/INFO]: [LuckPerms] Goodbye!
-[19:01:40] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v20.1
-[19:01:40] [Server thread/INFO]: [CoreProtect] Завершение регистрации данных. Пожалуйста, подождите...
-[19:01:40] [Server thread/INFO]: [CoreProtect] CoreProtect v20.1 был успешно отключён!
-[19:01:40] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.2.2
-[19:01:40] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
-[19:01:40] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
-[19:01:41] [Server thread/INFO]: Loaded 7 recipes
-[19:01:41] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
-[19:01:41] [Server thread/INFO]: Loaded 7 recipes
-[19:01:42] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.2.2
-[19:01:42] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v20.1
-[19:01:42] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.3.77
-[19:01:42] [Server thread/INFO]: [WorldBorder] Loading WorldBorder v1.9.10 (beta)
-[19:01:42] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-CMI
-[19:01:42] [Server thread/INFO]: [CMILib] Loading CMILib v1.1.2.6
-[19:01:42] [Server thread/INFO]: [CMI] Loading CMI v9.0.2.9
-[19:01:42] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[19:01:42] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.3.77
-[19:01:42] [Server thread/INFO]:         __    
-[19:01:42] [Server thread/INFO]:   |    |__)   LuckPerms v5.3.77
-[19:01:42] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[19:01:42] [Server thread/INFO]: 
-[19:01:42] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[19:01:42] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[19:01:42] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[19:01:42] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[19:01:42] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 491ms)
-[19:01:42] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-CMI
-[19:01:42] [Server thread/WARN]: [Vault] Loaded class com.Zrips.CMI.Modules.Economy.Economy from CMI v9.0.2.9 which is not a depend, softdepend or loadbefore of this plugin.
-[19:01:42] [Server thread/INFO]: [Vault] [Economy] CMI Economy found: Waiting
-[19:01:42] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[19:01:42] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-CMI
-[19:01:42] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[19:01:42] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
-[19:01:42] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
-[19:01:42] [Server thread/INFO]: [ClearLag] Loading modules...
-[19:01:42] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
-[19:01:42] [Server thread/INFO]: [ClearLag] Modules have been loaded!
-[19:01:42] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
-[19:01:42] [Thread-36/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.16]...
-[19:01:42] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v20.1
-[19:01:42] [Server thread/INFO]: [CoreProtect] CoreProtect был успешно запущен! 
-[19:01:42] [Server thread/INFO]: [CoreProtect] Для хранения данных используется SQLite.
-[19:01:42] [Server thread/INFO]: --------------------
-[19:01:42] [Server thread/INFO]: [CoreProtect] Нравится CoreProtect? Присоединяйтесь к нашему Discord!
-[19:01:42] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
-[19:01:42] [Server thread/INFO]: --------------------
-[19:01:42] [Server thread/INFO]: [WorldBorder] Enabling WorldBorder v1.9.10 (beta)
-[19:01:42] [Server thread/INFO]: [WorldBorder] [CONFIG] Using elliptic/round border, knockback of 3.0 blocks, and timer delay of 5.
-[19:01:42] [Server thread/INFO]: [WorldBorder] [CONFIG] Border-checking timed task started.
-[19:01:42] [Server thread/INFO]: [WorldBorder] For reference, the main world's spawn location is at X: 256,0 Y: 71,0 Z: 208,0
-[19:01:42] [Server thread/INFO]: [CMILib] Enabling CMILib v1.1.2.6
-[19:01:43] [Thread-36/INFO]: [ClearLag] No updates found!
-[19:01:43] [Server thread/INFO]: Server version: v1_16_R3 - 1.16.5 - paper
-[19:01:44] [Server thread/INFO]: CMI hooked.
-[19:01:44] [Server thread/INFO]: Updated (EN) language file. Took 31ms
-[19:01:44] [Server thread/INFO]: Updated (RU) language file. Took 15ms
-[19:01:44] [Server thread/INFO]: [CMI] Enabling CMI v9.0.2.9
-[19:01:44] [Server thread/INFO]: ┏━━━┓ ┏━┓┏━┓ ┏━━┓
-[19:01:44] [Server thread/INFO]: ┃┏━┓┃ ┃ ┗┛ ┃ ┗┫┣┛
-[19:01:44] [Server thread/INFO]: ┃┃ ┗┛ ┃┏┓┏┓┃  ┃┃ 
-[19:01:44] [Server thread/INFO]: ┃┃ ┏┓ ┃┃┃┃┃┃  ┃┃ 
-[19:01:44] [Server thread/INFO]: ┃┗━┛┃ ┃┃┃┃┃┃ ┏┫┣┓
-[19:01:44] [Server thread/INFO]: ┗━━━┛ ┗┛┗┛┗┛ ┗━━┛
-[19:01:44] [Server thread/INFO]: _______________________________________________________
-[19:01:44] [Server thread/INFO]: [CMI] Re-Leaked Aternosv2
-[19:01:44] [Server thread/INFO]:   Integrating PaperSpigot async methods
-[19:01:44] [Server thread/INFO]:   21 Enabled and 35 Disabled modules
-[19:01:44] [Server thread/INFO]:   Permission plugin: LuckPerms5.3.77
-[19:01:44] [Server thread/INFO]:   Initialized Cipher256 AES
-[19:01:44] [Server thread/INFO]:   Loaded (56) regular alias into memory. Took 30ms
-[19:01:44] [Server thread/INFO]:   Loaded (1) custom text's into memory. Took 1ms
-[19:01:44] [Server thread/INFO]:   3.34.0 data base type detected
-[19:01:44] [Server thread/INFO]:   Started SqLite data base. Took 127ms
-[19:01:44] [Server thread/INFO]:   Vault was found - Enabling capabilities. Economy: CMIEconomy
-[19:01:44] [Server thread/INFO]:   Loaded (5) warning categories into memory. Took 0ms
-[19:01:44] [Server thread/INFO]:   Loaded (3) warning commands into memory. Took 0ms
-[19:01:44] [Server thread/INFO]:   Loaded (135) custom mob heads into memory. Took 12ms
-[19:01:44] [Server thread/INFO]:   Loaded (0) cooldowns into memory. Took 18ms
-[19:01:44] [Server thread/INFO]:   Initializing BungeeCord
-[19:01:44] [Server thread/INFO]:   Loaded (1) player data into memory. Took 3ms
-[19:01:44] [Server thread/INFO]:   Loaded (0) playtime records into memory. Took 0ms
-[19:01:44] [Server thread/INFO]:   Loaded (0) playtime reward records into memory. Took 0ms
-[19:01:44] [Server thread/INFO]:   Registered events. Took 93ms
-[19:01:44] [Server thread/INFO]:   Loaded (0) event action commands into memory. Took 3ms
-[19:01:44] [Server thread/INFO]:   Updated (EN) language file. Took 66ms
-[19:01:45] [Server thread/INFO]:   Updated (RU) language file. Took 63ms
-[19:01:45] [Server thread/INFO]:   Vault permissions was found - Enabling capabilities.
-[19:01:45] [Server thread/INFO]:   Starting world timer.
-[19:01:45] [Server thread/INFO]:   Initializing world manager.
-[19:01:45] [Server thread/INFO]:   Loaded GeoIP
-[19:01:45] [Server thread/INFO]:   Loaded (0) skin cache entries into memory. Took 1ms
-[19:01:45] [Server thread/INFO]:   Version 9.0.2.9 has been enabled
-[19:01:45] [Server thread/INFO]: ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
-[19:01:45] [Server thread/INFO]: [CMI] Downloaded from https://directleaks.net
-[19:01:45] [Server thread/INFO]: [Vault][Economy] CMI Economy hooked.
-[19:01:45] [Server thread/INFO]: CONSOLE: Reload complete.
-[19:01:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5336ms or 106 ticks behind
-[19:01:45] [Server thread/INFO]: Timings Reset
-[19:01:45] [Craft Scheduler Thread - 30/INFO]: [Vault] Checking for Updates ... 
-[19:01:45] [Craft Scheduler Thread - 30/INFO]: [Vault] No new version available
-[19:01:46] [Thread-39/INFO]: --------------------
-[19:01:46] [Thread-39/INFO]: [CoreProtect] Версия 21.2 уже доступна!
-[19:01:46] [Thread-39/INFO]: [CoreProtect] Загрузить: www.coreprotect.net/download/
-[19:01:46] [Thread-39/INFO]: --------------------
-[19:02:00] [Server thread/INFO]: youube1233 issued server command: /cmi:cmi
-[19:02:07] [Server thread/INFO]: youube1233 issued server command: /cmi
-[19:05:59] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
-[19:05:59] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
-[19:05:59] [Server thread/INFO]: Debug logging is disabled
-[19:05:59] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[19:05:59] [Server thread/INFO]: Using 4 threads for Netty based IO
-[19:05:59] [Server thread/INFO]: [CMI] Disabling CMI v9.0.2.9
-[19:05:59] [Server thread/INFO]: [Vault][Economy] CMI Economy unhooked.
-[19:05:59] [Server thread/INFO]: [CMI] Closed db connections
-[19:05:59] [Server thread/INFO]: [CMILib] Disabling CMILib v1.1.2.6
-[19:05:59] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-CMI
-[19:05:59] [Server thread/INFO]: [WorldBorder] Disabling WorldBorder v1.9.10 (beta)
-[19:05:59] [Server thread/INFO]: [WorldBorder] [CONFIG] Border-checking timed task stopped.
-[19:05:59] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.3.77
-[19:05:59] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[19:05:59] [Server thread/INFO]: [LuckPerms] Closing storage...
-[19:05:59] [Server thread/INFO]: [LuckPerms] Goodbye!
-[19:05:59] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v20.1
-[19:05:59] [Server thread/INFO]: [CoreProtect] Завершение регистрации данных. Пожалуйста, подождите...
-[19:06:01] [Server thread/INFO]: [CoreProtect] CoreProtect v20.1 был успешно отключён!
-[19:06:01] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.2.2
-[19:06:01] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
-[19:06:01] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
-[19:06:01] [Server thread/INFO]: Loaded 7 recipes
-[19:06:01] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
-[19:06:01] [Server thread/INFO]: Loaded 7 recipes
-[19:06:02] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.2.2
-[19:06:02] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v20.1
-[19:06:02] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.3.77
-[19:06:02] [Server thread/INFO]: [WorldBorder] Loading WorldBorder v1.9.10 (beta)
-[19:06:02] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-CMI
-[19:06:02] [Server thread/INFO]: [CMILib] Loading CMILib v1.1.2.6
-[19:06:02] [Server thread/INFO]: [CMI] Loading CMI v9.0.2.9
-[19:06:02] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[19:06:02] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.3.77
-[19:06:02] [Server thread/INFO]:         __    
-[19:06:02] [Server thread/INFO]:   |    |__)   LuckPerms v5.3.77
-[19:06:02] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[19:06:02] [Server thread/INFO]: 
-[19:06:02] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[19:06:02] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[19:06:02] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[19:06:02] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[19:06:02] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 479ms)
-[19:06:02] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-CMI
-[19:06:02] [Server thread/WARN]: [Vault] Loaded class com.Zrips.CMI.Modules.Economy.Economy from CMI v9.0.2.9 which is not a depend, softdepend or loadbefore of this plugin.
-[19:06:02] [Server thread/INFO]: [Vault] [Economy] CMI Economy found: Waiting
-[19:06:02] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[19:06:02] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-CMI
-[19:06:02] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[19:06:02] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
-[19:06:02] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
-[19:06:02] [Server thread/INFO]: [ClearLag] Loading modules...
-[19:06:02] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
-[19:06:02] [Server thread/INFO]: [ClearLag] Modules have been loaded!
-[19:06:02] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
-[19:06:02] [Thread-42/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.16]...
-[19:06:02] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v20.1
-[19:06:02] [Server thread/INFO]: [CoreProtect] CoreProtect был успешно запущен! 
-[19:06:02] [Server thread/INFO]: [CoreProtect] Для хранения данных используется SQLite.
-[19:06:02] [Server thread/INFO]: --------------------
-[19:06:02] [Server thread/INFO]: [CoreProtect] Нравится CoreProtect? Присоединяйтесь к нашему Discord!
-[19:06:02] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
-[19:06:02] [Server thread/INFO]: --------------------
-[19:06:02] [Server thread/INFO]: [WorldBorder] Enabling WorldBorder v1.9.10 (beta)
-[19:06:02] [Server thread/INFO]: [WorldBorder] [CONFIG] Using elliptic/round border, knockback of 3.0 blocks, and timer delay of 5.
-[19:06:02] [Server thread/INFO]: [WorldBorder] [CONFIG] Border-checking timed task started.
-[19:06:02] [Server thread/INFO]: [WorldBorder] For reference, the main world's spawn location is at X: 256,0 Y: 71,0 Z: 208,0
-[19:06:02] [Server thread/INFO]: [CMILib] Enabling CMILib v1.1.2.6
-[19:06:03] [Thread-42/INFO]: [ClearLag] No updates found!
-[19:06:03] [Server thread/INFO]: Server version: v1_16_R3 - 1.16.5 - paper
-[19:06:03] [Server thread/INFO]: CMI hooked.
-[19:06:04] [Server thread/INFO]: Updated (EN) language file. Took 24ms
-[19:06:04] [Server thread/INFO]: Updated (RU) language file. Took 11ms
-[19:06:04] [Server thread/INFO]: [CMI] Enabling CMI v9.0.2.9
-[19:06:04] [Server thread/INFO]: ┏━━━┓ ┏━┓┏━┓ ┏━━┓
-[19:06:04] [Server thread/INFO]: ┃┏━┓┃ ┃ ┗┛ ┃ ┗┫┣┛
-[19:06:04] [Server thread/INFO]: ┃┃ ┗┛ ┃┏┓┏┓┃  ┃┃ 
-[19:06:04] [Server thread/INFO]: ┃┃ ┏┓ ┃┃┃┃┃┃  ┃┃ 
-[19:06:04] [Server thread/INFO]: ┃┗━┛┃ ┃┃┃┃┃┃ ┏┫┣┓
-[19:06:04] [Server thread/INFO]: ┗━━━┛ ┗┛┗┛┗┛ ┗━━┛
-[19:06:04] [Server thread/INFO]: _______________________________________________________
-[19:06:04] [Server thread/INFO]: [CMI] Re-Leaked Aternosv2
-[19:06:04] [Server thread/INFO]:   Integrating PaperSpigot async methods
-[19:06:04] [Server thread/INFO]:   21 Enabled and 35 Disabled modules
-[19:06:04] [Server thread/INFO]:   Permission plugin: LuckPerms5.3.77
-[19:06:04] [Server thread/INFO]:   Initialized Cipher256 AES
-[19:06:04] [Server thread/INFO]:   Loaded (56) regular alias into memory. Took 25ms
-[19:06:04] [Server thread/INFO]:   Loaded (1) custom text's into memory. Took 1ms
-[19:06:04] [Server thread/INFO]:   3.34.0 data base type detected
-[19:06:04] [Server thread/INFO]:   Started SqLite data base. Took 98ms
-[19:06:04] [Server thread/INFO]:   Vault was found - Enabling capabilities. Economy: CMIEconomy
-[19:06:04] [Server thread/INFO]:   Loaded (5) warning categories into memory. Took 0ms
-[19:06:04] [Server thread/INFO]:   Loaded (3) warning commands into memory. Took 1ms
-[19:06:04] [Server thread/INFO]:   Loaded (135) custom mob heads into memory. Took 14ms
-[19:06:04] [Server thread/INFO]:   Loaded (0) cooldowns into memory. Took 20ms
-[19:06:04] [Server thread/INFO]:   Initializing BungeeCord
-[19:06:04] [Server thread/INFO]:   Loaded (1) player data into memory. Took 4ms
-[19:06:04] [Server thread/INFO]:   Loaded (0) playtime records into memory. Took 0ms
-[19:06:04] [Server thread/INFO]:   Loaded (0) playtime reward records into memory. Took 0ms
-[19:06:04] [Server thread/INFO]:   Registered events. Took 88ms
-[19:06:04] [Server thread/INFO]:   Loaded (0) event action commands into memory. Took 4ms
-[19:06:04] [Server thread/INFO]:   Updated (EN) language file. Took 63ms
-[19:06:04] [Server thread/INFO]:   Updated (RU) language file. Took 64ms
-[19:06:04] [Server thread/INFO]:   Vault permissions was found - Enabling capabilities.
-[19:06:04] [Server thread/INFO]:   Starting world timer.
-[19:06:04] [Server thread/INFO]:   Initializing world manager.
-[19:06:04] [Server thread/INFO]:   Loaded GeoIP
-[19:06:04] [Server thread/INFO]:   Loaded (0) skin cache entries into memory. Took 1ms
-[19:06:04] [Server thread/INFO]:   Version 9.0.2.9 has been enabled
-[19:06:04] [Server thread/INFO]: ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
-[19:06:04] [Server thread/INFO]: [CMI] Downloaded from https://directleaks.net
-[19:06:04] [Server thread/INFO]: [Vault][Economy] CMI Economy hooked.
-[19:06:04] [Server thread/INFO]: CONSOLE: Reload complete.
-[19:06:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5448ms or 108 ticks behind
-[19:06:04] [Server thread/INFO]: Timings Reset
-[19:06:04] [Craft Scheduler Thread - 39/INFO]: [Vault] Checking for Updates ... 
-[19:06:05] [Craft Scheduler Thread - 39/INFO]: [Vault] No new version available
-[19:06:06] [Thread-45/INFO]: --------------------
-[19:06:06] [Thread-45/INFO]: [CoreProtect] Версия 21.2 уже доступна!
-[19:06:06] [Thread-45/INFO]: [CoreProtect] Загрузить: www.coreprotect.net/download/
-[19:06:06] [Thread-45/INFO]: --------------------
-[19:06:13] [Server thread/INFO]: youube1233 issued server command: /w
-[19:06:15] [Server thread/INFO]: youube1233 issued server command: /w youube1233
-[19:17:06] [Server thread/INFO]: youube1233 issued server command: /cmi
-[19:18:47] [Server thread/INFO]: youube1233 was slain by Zombie
-[19:19:01] [Server thread/INFO]: youube1233 issued server command: /co
-[19:19:37] [Server thread/INFO]: youube1233 was slain by Spider
-[19:19:59] [Server thread/INFO]: youube1233 issued server command: /wborder
-[19:20:17] [luckperms-command-executor/INFO]: [LP] Подготовка новой сессии веб-редактора, пожалуйста, подождите...
-[19:20:17] [luckperms-command-executor/INFO]: [LP] Нажмите на ссылку ниже, чтобы открыть веб-редактор:
-[19:20:17] [luckperms-command-executor/INFO]: https://luckperms.net/editor/Uc1NfnfFkR
-[19:21:02] [luckperms-command-executor/INFO]: [LP] Данные веб-редактора были успешно применены к group default.
-[19:21:02] [luckperms-command-executor/INFO]: [LP] (3 добавлено и 0 удалено)
-[19:21:02] [luckperms-command-executor/INFO]: +  wb (false)
-[19:21:02] [luckperms-command-executor/INFO]: +  wborder (false)
-[19:21:02] [luckperms-command-executor/INFO]: +  cmi (false)
-[19:21:06] [Server thread/INFO]: youube1233 issued server command: /wb
-[19:21:12] [luckperms-command-executor/INFO]: [LP] Ничего не произошло, так как в веб-редакторе не было выполнено никаких изменений.
-[19:21:14] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
-[19:21:14] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
-[19:21:14] [Server thread/INFO]: Debug logging is disabled
-[19:21:14] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[19:21:14] [Server thread/INFO]: Using 4 threads for Netty based IO
-[19:21:14] [Server thread/INFO]: [CMI] Disabling CMI v9.0.2.9
-[19:21:14] [Server thread/INFO]: [Vault][Economy] CMI Economy unhooked.
-[19:21:14] [Server thread/INFO]: [CMI] Closed db connections
-[19:21:14] [Server thread/INFO]: [CMILib] Disabling CMILib v1.1.2.6
-[19:21:14] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-CMI
-[19:21:14] [Server thread/INFO]: [WorldBorder] Disabling WorldBorder v1.9.10 (beta)
-[19:21:14] [Server thread/INFO]: [WorldBorder] [CONFIG] Border-checking timed task stopped.
-[19:21:14] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.3.77
-[19:21:14] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[19:21:14] [Server thread/INFO]: [LuckPerms] Closing storage...
-[19:21:14] [Server thread/INFO]: [LuckPerms] Goodbye!
-[19:21:14] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v20.1
-[19:21:14] [Server thread/INFO]: [CoreProtect] Завершение регистрации данных. Пожалуйста, подождите...
-[19:21:15] [Server thread/INFO]: [CoreProtect] CoreProtect v20.1 был успешно отключён!
-[19:21:15] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.2.2
-[19:21:15] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
-[19:21:15] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
-[19:21:15] [Server thread/INFO]: Loaded 7 recipes
-[19:21:15] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
-[19:21:15] [Server thread/INFO]: Loaded 7 recipes
-[19:21:16] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.2.2
-[19:21:16] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v20.1
-[19:21:16] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.3.77
-[19:21:16] [Server thread/INFO]: [WorldBorder] Loading WorldBorder v1.9.10 (beta)
-[19:21:16] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-CMI
-[19:21:16] [Server thread/INFO]: [CMILib] Loading CMILib v1.1.2.6
-[19:21:16] [Server thread/INFO]: [CMI] Loading CMI v9.0.2.9
-[19:21:16] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[19:21:16] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.3.77
-[19:21:16] [Server thread/INFO]:         __    
-[19:21:16] [Server thread/INFO]:   |    |__)   LuckPerms v5.3.77
-[19:21:16] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[19:21:16] [Server thread/INFO]: 
-[19:21:16] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[19:21:16] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[19:21:17] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[19:21:17] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[19:21:17] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 451ms)
-[19:21:17] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-CMI
-[19:21:17] [Server thread/WARN]: [Vault] Loaded class com.Zrips.CMI.Modules.Economy.Economy from CMI v9.0.2.9 which is not a depend, softdepend or loadbefore of this plugin.
-[19:21:17] [Server thread/INFO]: [Vault] [Economy] CMI Economy found: Waiting
-[19:21:17] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[19:21:17] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-CMI
-[19:21:17] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[19:21:17] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
-[19:21:17] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
-[19:21:17] [Server thread/INFO]: [ClearLag] Loading modules...
-[19:21:17] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
-[19:21:17] [Server thread/INFO]: [ClearLag] Modules have been loaded!
-[19:21:17] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
-[19:21:17] [Thread-49/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.16]...
-[19:21:17] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v20.1
-[19:21:17] [Server thread/INFO]: [CoreProtect] CoreProtect был успешно запущен! 
-[19:21:17] [Server thread/INFO]: [CoreProtect] Для хранения данных используется SQLite.
-[19:21:17] [Server thread/INFO]: --------------------
-[19:21:17] [Server thread/INFO]: [CoreProtect] Нравится CoreProtect? Присоединяйтесь к нашему Discord!
-[19:21:17] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
-[19:21:17] [Server thread/INFO]: --------------------
-[19:21:17] [Server thread/INFO]: [WorldBorder] Enabling WorldBorder v1.9.10 (beta)
-[19:21:17] [Server thread/INFO]: [WorldBorder] [CONFIG] Using elliptic/round border, knockback of 3.0 blocks, and timer delay of 5.
-[19:21:17] [Server thread/INFO]: [WorldBorder] [CONFIG] Border-checking timed task started.
-[19:21:17] [Server thread/INFO]: [WorldBorder] For reference, the main world's spawn location is at X: 256,0 Y: 71,0 Z: 208,0
-[19:21:17] [Server thread/INFO]: [CMILib] Enabling CMILib v1.1.2.6
-[19:21:17] [Thread-49/INFO]: [ClearLag] No updates found!
-[19:21:18] [Server thread/INFO]: Server version: v1_16_R3 - 1.16.5 - paper
-[19:21:18] [Server thread/INFO]: CMI hooked.
-[19:21:18] [Server thread/INFO]: Updated (EN) language file. Took 29ms
-[19:21:18] [Server thread/INFO]: Updated (RU) language file. Took 11ms
-[19:21:18] [Server thread/INFO]: [CMI] Enabling CMI v9.0.2.9
-[19:21:18] [Server thread/INFO]: ┏━━━┓ ┏━┓┏━┓ ┏━━┓
-[19:21:18] [Server thread/INFO]: ┃┏━┓┃ ┃ ┗┛ ┃ ┗┫┣┛
-[19:21:18] [Server thread/INFO]: ┃┃ ┗┛ ┃┏┓┏┓┃  ┃┃ 
-[19:21:18] [Server thread/INFO]: ┃┃ ┏┓ ┃┃┃┃┃┃  ┃┃ 
-[19:21:18] [Server thread/INFO]: ┃┗━┛┃ ┃┃┃┃┃┃ ┏┫┣┓
-[19:21:18] [Server thread/INFO]: ┗━━━┛ ┗┛┗┛┗┛ ┗━━┛
-[19:21:18] [Server thread/INFO]: _______________________________________________________
-[19:21:18] [Server thread/INFO]: [CMI] Re-Leaked Aternosv2
-[19:21:18] [Server thread/INFO]:   Integrating PaperSpigot async methods
-[19:21:18] [Server thread/INFO]:   21 Enabled and 35 Disabled modules
-[19:21:18] [Server thread/INFO]:   Permission plugin: LuckPerms5.3.77
-[19:21:18] [Server thread/INFO]:   Initialized Cipher256 AES
-[19:21:18] [Server thread/INFO]:   Loaded (56) regular alias into memory. Took 23ms
-[19:21:18] [Server thread/INFO]:   Loaded (1) custom text's into memory. Took 1ms
-[19:21:18] [Server thread/INFO]:   3.34.0 data base type detected
-[19:21:18] [Server thread/INFO]:   Started SqLite data base. Took 106ms
-[19:21:18] [Server thread/INFO]:   Vault was found - Enabling capabilities. Economy: CMIEconomy
-[19:21:18] [Server thread/INFO]:   Loaded (5) warning categories into memory. Took 0ms
-[19:21:18] [Server thread/INFO]:   Loaded (3) warning commands into memory. Took 0ms
-[19:21:18] [Server thread/INFO]:   Loaded (135) custom mob heads into memory. Took 13ms
-[19:21:18] [Server thread/INFO]:   Loaded (0) cooldowns into memory. Took 19ms
-[19:21:19] [Server thread/INFO]:   Initializing BungeeCord
-[19:21:19] [Server thread/INFO]:   Loaded (1) player data into memory. Took 5ms
-[19:21:19] [Server thread/INFO]:   Loaded (0) playtime records into memory. Took 0ms
-[19:21:19] [Server thread/INFO]:   Loaded (0) playtime reward records into memory. Took 0ms
-[19:21:19] [Server thread/INFO]:   Registered events. Took 88ms
-[19:21:19] [Server thread/INFO]:   Loaded (0) event action commands into memory. Took 3ms
-[19:21:19] [Server thread/INFO]:   Updated (EN) language file. Took 62ms
-[19:21:19] [Server thread/INFO]:   Updated (RU) language file. Took 74ms
-[19:21:19] [Server thread/INFO]:   Vault permissions was found - Enabling capabilities.
-[19:21:19] [Server thread/INFO]:   Starting world timer.
-[19:21:19] [Server thread/INFO]:   Initializing world manager.
-[19:21:19] [Server thread/INFO]:   Loaded GeoIP
-[19:21:19] [Server thread/INFO]:   Loaded (0) skin cache entries into memory. Took 1ms
-[19:21:19] [Server thread/INFO]:   Version 9.0.2.9 has been enabled
-[19:21:19] [Server thread/INFO]: ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
-[19:21:19] [Server thread/INFO]: [CMI] Downloaded from https://directleaks.net
-[19:21:19] [Server thread/INFO]: [Vault][Economy] CMI Economy hooked.
-[19:21:19] [Server thread/INFO]: CONSOLE: Reload complete.
-[19:21:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5224ms or 104 ticks behind
-[19:21:19] [Server thread/INFO]: Timings Reset
-[19:21:19] [Craft Scheduler Thread - 70/INFO]: [Vault] Checking for Updates ... 
-[19:21:19] [Craft Scheduler Thread - 70/INFO]: [Vault] No new version available
-[19:21:20] [Thread-52/INFO]: --------------------
-[19:21:20] [Thread-52/INFO]: [CoreProtect] Версия 21.2 уже доступна!
-[19:21:20] [Thread-52/INFO]: [CoreProtect] Загрузить: www.coreprotect.net/download/
-[19:21:20] [Thread-52/INFO]: --------------------
-[19:21:23] [Server thread/INFO]: youube1233 issued server command: /w
-[19:21:24] [Server thread/INFO]: youube1233 issued server command: /w
-[19:21:25] [Server thread/INFO]: youube1233 issued server command: /wb
-[19:21:48] [Server thread/INFO]: youube1233 was slain by Spider
-[19:23:32] [Server thread/INFO]: youube1233 issued server command: /cmi
-[19:23:34] [Server thread/INFO]: youube1233 issued server command: /cmi
-[19:23:35] [Server thread/INFO]: youube1233 issued server command: /cmil
-[19:23:35] [Server thread/INFO]: youube1233 не имеет разрешения: cmil.command
-[19:23:55] [luckperms-command-executor/INFO]: [LP] Данные веб-редактора были успешно применены к group default.
-[19:23:55] [luckperms-command-executor/INFO]: [LP] (1 дополнение и 0 удалено)
-[19:23:55] [luckperms-command-executor/INFO]: +  cmi.command (false)
-[19:24:00] [Server thread/INFO]: youube1233 issued server command: /cmi
-[19:24:00] [Server thread/INFO]: youube1233 не имеет разрешения: cmi.command
-[19:24:02] [Server thread/INFO]: youube1233 issued server command: /cmi
-[19:24:02] [Server thread/INFO]: youube1233 не имеет разрешения: cmi.command
-[19:24:23] [Server thread/INFO]: youube1233 issued server command: /co
-[19:24:38] [luckperms-command-executor/INFO]: [LP] Данные веб-редактора были успешно применены к group default.
-[19:24:38] [luckperms-command-executor/INFO]: [LP] (1 дополнение и 0 удалено)
-[19:24:38] [luckperms-command-executor/INFO]: +  co (false)
-[19:24:39] [Server thread/INFO]: youube1233 issued server command: /co
-[19:24:40] [Server thread/INFO]: youube1233 issued server command: /co
-[19:24:40] [Server thread/INFO]: youube1233 issued server command: /co
-[19:24:41] [Server thread/INFO]: youube1233 issued server command: /co
-[19:24:41] [Server thread/INFO]: youube1233 issued server command: /co
-[19:25:14] [luckperms-command-executor/INFO]: [LP] Данные веб-редактора были успешно применены к group default.
-[19:25:14] [luckperms-command-executor/INFO]: [LP] (4 добавлено и 1 удаление)
-[19:25:14] [luckperms-command-executor/INFO]: +  coreprotect (false)
-[19:25:14] [luckperms-command-executor/INFO]: +  coreprotect.* (false)
-[19:25:14] [luckperms-command-executor/INFO]: +  coreprotect.co (false)
-[19:25:14] [luckperms-command-executor/INFO]: +  coreprotect.coreprotect (false)
-[19:25:14] [luckperms-command-executor/INFO]: -  co (false)
-[19:25:25] [Server thread/INFO]: youube1233 issued server command: /co
-[19:25:26] [Server thread/INFO]: youube1233 issued server command: /co4
-[19:25:27] [Server thread/INFO]: youube1233 issued server command: /co4
-[19:25:27] [Server thread/INFO]: youube1233 issued server command: /co4
-[19:25:28] [Server thread/INFO]: youube1233 issued server command: /co
-[19:25:52] [luckperms-command-executor/INFO]: [LP] Данные веб-редактора были успешно применены к group default.
-[19:25:52] [luckperms-command-executor/INFO]: [LP] (2 добавлено и 0 удалено)
-[19:25:52] [luckperms-command-executor/INFO]: +  coreprotect.status (false)
-[19:25:52] [luckperms-command-executor/INFO]: +  coreprotect.help (false)
-[19:25:54] [Server thread/INFO]: youube1233 issued server command: /co
-[19:25:55] [Server thread/INFO]: youube1233 issued server command: /co
-[19:25:56] [Server thread/INFO]: youube1233 issued server command: /co
-[19:26:26] [Server thread/INFO]: youube1233 fell from a high place
-[19:26:33] [luckperms-command-executor/INFO]: [LP] Данные веб-редактора были успешно применены к group default.
-[19:26:33] [luckperms-command-executor/INFO]: [LP] (0 добавлено и 6 удалено)
-[19:26:33] [luckperms-command-executor/INFO]: -  coreprotect.* (false)
-[19:26:33] [luckperms-command-executor/INFO]: -  coreprotect (false)
-[19:26:33] [luckperms-command-executor/INFO]: -  coreprotect.co (false)
-[19:26:33] [luckperms-command-executor/INFO]: -  coreprotect.coreprotect (false)
-[19:26:33] [luckperms-command-executor/INFO]: -  coreprotect.help (false)
-[19:26:33] [luckperms-command-executor/INFO]: -  coreprotect.status (false)
-[19:26:42] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
-[19:26:42] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
-[19:26:42] [Server thread/INFO]: Debug logging is disabled
-[19:26:42] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[19:26:42] [Server thread/INFO]: Using 4 threads for Netty based IO
-[19:26:42] [Server thread/INFO]: [CMI] Disabling CMI v9.0.2.9
-[19:26:42] [Server thread/INFO]: [Vault][Economy] CMI Economy unhooked.
-[19:26:42] [Server thread/INFO]: [CMI] Closed db connections
-[19:26:42] [Server thread/INFO]: [CMILib] Disabling CMILib v1.1.2.6
-[19:26:42] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-CMI
-[19:26:42] [Server thread/INFO]: [WorldBorder] Disabling WorldBorder v1.9.10 (beta)
-[19:26:42] [Server thread/INFO]: [WorldBorder] [CONFIG] Border-checking timed task stopped.
-[19:26:42] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.3.77
-[19:26:42] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[19:26:42] [Server thread/INFO]: [LuckPerms] Closing storage...
-[19:26:42] [Server thread/INFO]: [LuckPerms] Goodbye!
-[19:26:42] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v20.1
-[19:26:42] [Server thread/INFO]: [CoreProtect] Завершение регистрации данных. Пожалуйста, подождите...
-[19:26:43] [Server thread/INFO]: [CoreProtect] CoreProtect v20.1 был успешно отключён!
-[19:26:43] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.2.2
-[19:26:43] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
-[19:26:43] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
-[19:26:43] [Server thread/INFO]: Loaded 7 recipes
-[19:26:43] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
-[19:26:43] [Server thread/INFO]: Loaded 7 recipes
-[19:26:44] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.2.2
-[19:26:44] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v20.1
-[19:26:44] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.3.77
-[19:26:44] [Server thread/INFO]: [WorldBorder] Loading WorldBorder v1.9.10 (beta)
-[19:26:44] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-CMI
-[19:26:44] [Server thread/INFO]: [CMILib] Loading CMILib v1.1.2.6
-[19:26:44] [Server thread/INFO]: [CMI] Loading CMI v9.0.2.9
-[19:26:44] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[19:26:44] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.3.77
-[19:26:44] [Server thread/INFO]:         __    
-[19:26:44] [Server thread/INFO]:   |    |__)   LuckPerms v5.3.77
-[19:26:44] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[19:26:44] [Server thread/INFO]: 
-[19:26:44] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[19:26:44] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[19:26:44] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[19:26:44] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[19:26:44] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 505ms)
-[19:26:44] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-CMI
-[19:26:44] [Server thread/WARN]: [Vault] Loaded class com.Zrips.CMI.Modules.Economy.Economy from CMI v9.0.2.9 which is not a depend, softdepend or loadbefore of this plugin.
-[19:26:45] [Server thread/INFO]: [Vault] [Economy] CMI Economy found: Waiting
-[19:26:45] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[19:26:45] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-CMI
-[19:26:45] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[19:26:45] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
-[19:26:45] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
-[19:26:45] [Server thread/INFO]: [ClearLag] Loading modules...
-[19:26:45] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
-[19:26:45] [Server thread/INFO]: [ClearLag] Modules have been loaded!
-[19:26:45] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
-[19:26:45] [Thread-56/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.16]...
-[19:26:45] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v20.1
-[19:26:45] [Server thread/INFO]: [CoreProtect] CoreProtect был успешно запущен! 
-[19:26:45] [Server thread/INFO]: [CoreProtect] Для хранения данных используется SQLite.
-[19:26:45] [Server thread/INFO]: --------------------
-[19:26:45] [Server thread/INFO]: [CoreProtect] Нравится CoreProtect? Присоединяйтесь к нашему Discord!
-[19:26:45] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
-[19:26:45] [Server thread/INFO]: --------------------
-[19:26:45] [Server thread/INFO]: [WorldBorder] Enabling WorldBorder v1.9.10 (beta)
-[19:26:45] [Server thread/INFO]: [WorldBorder] [CONFIG] Using elliptic/round border, knockback of 3.0 blocks, and timer delay of 5.
-[19:26:45] [Server thread/INFO]: [WorldBorder] [CONFIG] Border-checking timed task started.
-[19:26:45] [Server thread/INFO]: [WorldBorder] For reference, the main world's spawn location is at X: 256,0 Y: 71,0 Z: 208,0
-[19:26:45] [Server thread/INFO]: [CMILib] Enabling CMILib v1.1.2.6
-[19:26:45] [Thread-56/INFO]: [ClearLag] No updates found!
-[19:26:46] [Server thread/INFO]: Server version: v1_16_R3 - 1.16.5 - paper
-[19:26:46] [Server thread/INFO]: CMI hooked.
-[19:26:46] [Server thread/INFO]: Updated (EN) language file. Took 28ms
-[19:26:46] [Server thread/INFO]: Updated (RU) language file. Took 12ms
-[19:26:46] [Server thread/INFO]: [CMI] Enabling CMI v9.0.2.9
-[19:26:46] [Server thread/INFO]: ┏━━━┓ ┏━┓┏━┓ ┏━━┓
-[19:26:46] [Server thread/INFO]: ┃┏━┓┃ ┃ ┗┛ ┃ ┗┫┣┛
-[19:26:46] [Server thread/INFO]: ┃┃ ┗┛ ┃┏┓┏┓┃  ┃┃ 
-[19:26:46] [Server thread/INFO]: ┃┃ ┏┓ ┃┃┃┃┃┃  ┃┃ 
-[19:26:46] [Server thread/INFO]: ┃┗━┛┃ ┃┃┃┃┃┃ ┏┫┣┓
-[19:26:46] [Server thread/INFO]: ┗━━━┛ ┗┛┗┛┗┛ ┗━━┛
-[19:26:46] [Server thread/INFO]: _______________________________________________________
-[19:26:46] [Server thread/INFO]: [CMI] Re-Leaked Aternosv2
-[19:26:46] [Server thread/INFO]:   Integrating PaperSpigot async methods
-[19:26:46] [Server thread/INFO]:   21 Enabled and 35 Disabled modules
-[19:26:46] [Server thread/INFO]:   Permission plugin: LuckPerms5.3.77
-[19:26:46] [Server thread/INFO]:   Initialized Cipher256 AES
-[19:26:46] [Server thread/INFO]:   Loaded (56) regular alias into memory. Took 26ms
-[19:26:46] [Server thread/INFO]:   Loaded (1) custom text's into memory. Took 1ms
-[19:26:46] [Server thread/INFO]:   3.34.0 data base type detected
-[19:26:46] [Server thread/INFO]:   Started SqLite data base. Took 98ms
-[19:26:46] [Server thread/INFO]:   Vault was found - Enabling capabilities. Economy: CMIEconomy
-[19:26:46] [Server thread/INFO]:   Loaded (5) warning categories into memory. Took 1ms
-[19:26:46] [Server thread/INFO]:   Loaded (3) warning commands into memory. Took 0ms
-[19:26:46] [Server thread/INFO]:   Loaded (135) custom mob heads into memory. Took 13ms
-[19:26:46] [Server thread/INFO]:   Loaded (0) cooldowns into memory. Took 18ms
-[19:26:47] [Server thread/INFO]:   Initializing BungeeCord
-[19:26:47] [Server thread/INFO]:   Loaded (1) player data into memory. Took 3ms
-[19:26:47] [Server thread/INFO]:   Loaded (0) playtime records into memory. Took 0ms
-[19:26:47] [Server thread/INFO]:   Loaded (0) playtime reward records into memory. Took 1ms
-[19:26:47] [Server thread/INFO]:   Registered events. Took 88ms
-[19:26:47] [Server thread/INFO]:   Loaded (0) event action commands into memory. Took 3ms
-[19:26:47] [Server thread/INFO]:   Updated (EN) language file. Took 65ms
-[19:26:47] [Server thread/INFO]:   Updated (RU) language file. Took 61ms
-[19:26:47] [Server thread/INFO]:   Vault permissions was found - Enabling capabilities.
-[19:26:47] [Server thread/INFO]:   Starting world timer.
-[19:26:47] [Server thread/INFO]:   Initializing world manager.
-[19:26:47] [Server thread/INFO]:   Loaded GeoIP
-[19:26:47] [Server thread/INFO]:   Loaded (0) skin cache entries into memory. Took 1ms
-[19:26:47] [Server thread/INFO]:   Version 9.0.2.9 has been enabled
-[19:26:47] [Server thread/INFO]: ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
-[19:26:47] [Server thread/INFO]: [CMI] Downloaded from https://directleaks.net
-[19:26:47] [Server thread/INFO]: [Vault][Economy] CMI Economy hooked.
-[19:26:47] [Server thread/INFO]: CONSOLE: Reload complete.
-[19:26:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5216ms or 104 ticks behind
-[19:26:47] [Server thread/INFO]: Timings Reset
-[19:26:47] [Craft Scheduler Thread - 82/INFO]: [Vault] Checking for Updates ... 
-[19:26:47] [Craft Scheduler Thread - 82/INFO]: [Vault] No new version available
-[19:26:48] [Thread-59/INFO]: --------------------
-[19:26:48] [Thread-59/INFO]: [CoreProtect] Версия 21.2 уже доступна!
-[19:26:48] [Thread-59/INFO]: [CoreProtect] Загрузить: www.coreprotect.net/download/
-[19:26:48] [Thread-59/INFO]: --------------------
-[19:28:47] [Server thread/INFO]: youube1233 issued server command: /stop
-[19:28:52] [Server thread/INFO]: Stopping the server
-[19:28:52] [Server thread/WARN]: java.lang.Throwable: Server stopped
-[19:28:52] [Server thread/WARN]: 	at io.papermc.paper.util.TraceUtil.dumpTraceForThread(TraceUtil.java:16)
-[19:28:52] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.safeShutdown(MinecraftServer.java:1001)
-[19:28:52] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.safeShutdown(MinecraftServer.java:995)
-[19:28:52] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.CommandStop.a(SourceFile:17)
-[19:28:52] [Server thread/WARN]: 	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:262)
-[19:28:52] [Server thread/WARN]: 	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:176)
-[19:28:52] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.CommandDispatcher.a(CommandDispatcher.java:276)
-[19:28:52] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.command.VanillaCommandWrapper.execute(VanillaCommandWrapper.java:45)
-[19:28:52] [Server thread/WARN]: 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:159)
-[19:28:52] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.dispatchCommand(CraftServer.java:826)
-[19:28:52] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.dispatchServerCommand(CraftServer.java:788)
-[19:28:52] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.DedicatedServer.handleCommandQueue(DedicatedServer.java:470)
-[19:28:52] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.DedicatedServer.b(DedicatedServer.java:437)
-[19:28:52] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.a(MinecraftServer.java:1347)
-[19:28:52] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:1135)
-[19:28:52] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:291)
-[19:28:52] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:831)
-[19:28:52] [Server thread/INFO]: Stopping server
-[19:28:52] [Server thread/INFO]: [CMI] Disabling CMI v9.0.2.9
-[19:28:52] [Server thread/INFO]: [Vault][Economy] CMI Economy unhooked.
-[19:28:52] [Server thread/INFO]: [CMI] Closed db connections
-[19:28:52] [Server thread/INFO]: [CMILib] Disabling CMILib v1.1.2.6
-[19:28:52] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-CMI
-[19:28:52] [Server thread/INFO]: [WorldBorder] Disabling WorldBorder v1.9.10 (beta)
-[19:28:52] [Server thread/INFO]: [WorldBorder] [CONFIG] Border-checking timed task stopped.
-[19:28:52] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.3.77
-[19:28:52] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[19:28:52] [Server thread/INFO]: [LuckPerms] Closing storage...
-[19:28:52] [Server thread/INFO]: [LuckPerms] Goodbye!
-[19:28:52] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v20.1
-[19:28:52] [Server thread/INFO]: [CoreProtect] Завершение регистрации данных. Пожалуйста, подождите...
-[19:28:53] [Server thread/INFO]: [CoreProtect] CoreProtect v20.1 был успешно отключён!
-[19:28:53] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.2.2
-[19:28:53] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
-[19:28:53] [Server thread/INFO]: Saving players
-[19:28:53] [Server thread/INFO]: youube1233 lost connection: Сервер закрыт.
-[19:28:53] [Server thread/INFO]: youube1233 left the game
-[19:28:53] [Server thread/INFO]: Saving worlds
-[19:28:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[19:28:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[19:28:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[19:28:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[19:28:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[19:28:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[19:28:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[19:28:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[19:28:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[19:28:55] [Server thread/INFO]: Flushing Chunk IO
-[19:28:55] [Server thread/INFO]: Closing Thread Pool
-[19:28:55] [Server thread/INFO]: Closing Server
-[19:28:55] [Thread-1/WARN]: java.lang.Throwable: Server stopped
-[19:28:55] [Thread-1/WARN]: 	at io.papermc.paper.util.TraceUtil.dumpTraceForThread(TraceUtil.java:16)
-[19:28:55] [Thread-1/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.safeShutdown(MinecraftServer.java:1001)
-[19:28:55] [Thread-1/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.util.ServerShutdownThread.run(ServerShutdownThread.java:16)
+[20:49:48] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20:49:48] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[20:49:49] [Worker-Main-4/INFO]: Loaded 7 recipes
+[20:49:50] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[20:49:50] [Server thread/INFO]: Loading properties
+[20:49:50] [Server thread/INFO]: This server is running Paper version git-Paper-790 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
+[20:49:50] [Server thread/INFO]: Debug logging is disabled
+[20:49:50] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:49:50] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:49:50] [Server thread/INFO]: Default game type: SURVIVAL
+[20:49:50] [Server thread/INFO]: Generating keypair
+[20:49:50] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[20:49:50] [Server thread/INFO]: Using default channel type
+[20:49:51] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.2.2
+[20:49:51] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v20.1
+[20:49:51] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.3.77
+[20:49:51] [Server thread/INFO]: [WorldBorder] Loading WorldBorder v1.9.10 (beta)
+[20:49:51] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-CMI
+[20:49:51] [Server thread/INFO]: [CMILib] Loading CMILib v1.1.2.6
+[20:49:51] [Server thread/INFO]: [CMI] Loading CMI v9.0.2.9
+[20:49:51] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:49:51] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.3.77
+[20:49:51] [Server thread/INFO]:         __    
+[20:49:51] [Server thread/INFO]:   |    |__)   LuckPerms v5.3.77
+[20:49:51] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[20:49:51] [Server thread/INFO]: 
+[20:49:51] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[20:49:52] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[20:49:52] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[20:49:52] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[20:49:52] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1177ms)
+[20:49:52] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-CMI
+[20:49:52] [Server thread/WARN]: [Vault] Loaded class com.Zrips.CMI.Modules.Economy.Economy from CMI v9.0.2.9 which is not a depend, softdepend or loadbefore of this plugin.
+[20:49:52] [Server thread/INFO]: [Vault] [Economy] CMI Economy found: Waiting
+[20:49:52] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[20:49:52] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-CMI
+[20:49:52] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[20:49:52] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:49:52] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:49:52] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:49:52] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:49:52] [Server thread/INFO]: Preparing level "world"
+[20:49:53] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:49:53] [Server thread/INFO]: Preparing spawn area: 0%
+[20:49:53] [Server thread/INFO]: Preparing spawn area: 0%
+[20:49:53] [Server thread/INFO]: Time elapsed: 607 ms
+[20:49:53] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[20:49:54] [Server thread/INFO]: Preparing spawn area: 0%
+[20:49:54] [Server thread/INFO]: Preparing spawn area: 0%
+[20:49:54] [Server thread/INFO]: Time elapsed: 548 ms
+[20:49:54] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[20:49:54] [Server thread/INFO]: Preparing spawn area: 0%
+[20:49:55] [Server thread/INFO]: Preparing spawn area: 0%
+[20:49:55] [Server thread/INFO]: Time elapsed: 809 ms
+[20:49:55] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[20:49:55] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
+[20:49:55] [Server thread/INFO]: [ClearLag] Loading modules...
+[20:49:55] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[20:49:55] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[20:49:55] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[20:49:55] [Thread-16/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.16]...
+[20:49:55] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v20.1
+[20:49:55] [Server thread/INFO]: [CoreProtect] CoreProtect был успешно запущен! 
+[20:49:55] [Server thread/INFO]: [CoreProtect] Для хранения данных используется SQLite.
+[20:49:55] [Server thread/INFO]: --------------------
+[20:49:55] [Server thread/INFO]: [CoreProtect] Нравится CoreProtect? Присоединяйтесь к нашему Discord!
+[20:49:55] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
+[20:49:55] [Server thread/INFO]: --------------------
+[20:49:55] [Server thread/INFO]: [WorldBorder] Enabling WorldBorder v1.9.10 (beta)
+[20:49:55] [Server thread/INFO]: [WorldBorder] [CONFIG] Using elliptic/round border, knockback of 3.0 blocks, and timer delay of 5.
+[20:49:55] [Server thread/INFO]: [WorldBorder] [CONFIG] Border-checking timed task started.
+[20:49:55] [Server thread/INFO]: [WorldBorder] For reference, the main world's spawn location is at X: 256,0 Y: 71,0 Z: 208,0
+[20:49:55] [Server thread/INFO]: [CMILib] Enabling CMILib v1.1.2.6
+[20:49:55] [Thread-16/INFO]: [ClearLag] No updates found!
+[20:49:56] [Server thread/INFO]: Server version: v1_16_R3 - 1.16.5 - paper
+[20:49:56] [Server thread/INFO]: CMI hooked.
+[20:49:56] [Server thread/INFO]: Updated (EN) language file. Took 55ms
+[20:49:57] [Server thread/INFO]: Updated (RU) language file. Took 26ms
+[20:49:57] [Server thread/INFO]: [CMI] Enabling CMI v9.0.2.9
+[20:49:57] [Server thread/INFO]: ┏━━━┓ ┏━┓┏━┓ ┏━━┓
+[20:49:57] [Server thread/INFO]: ┃┏━┓┃ ┃ ┗┛ ┃ ┗┫┣┛
+[20:49:57] [Server thread/INFO]: ┃┃ ┗┛ ┃┏┓┏┓┃  ┃┃ 
+[20:49:57] [Server thread/INFO]: ┃┃ ┏┓ ┃┃┃┃┃┃  ┃┃ 
+[20:49:57] [Server thread/INFO]: ┃┗━┛┃ ┃┃┃┃┃┃ ┏┫┣┓
+[20:49:57] [Server thread/INFO]: ┗━━━┛ ┗┛┗┛┗┛ ┗━━┛
+[20:49:57] [Server thread/INFO]: _______________________________________________________
+[20:49:57] [Server thread/INFO]: [CMI] Re-Leaked Aternosv2
+[20:49:57] [Server thread/INFO]:   Integrating PaperSpigot async methods
+[20:49:57] [Server thread/INFO]:   21 Enabled and 35 Disabled modules
+[20:49:57] [Server thread/INFO]:   Permission plugin: LuckPerms5.3.77
+[20:49:57] [Server thread/INFO]:   Initialized Cipher256 AES
+[20:49:57] [Server thread/INFO]:   Loaded (56) regular alias into memory. Took 57ms
+[20:49:57] [Server thread/INFO]:   Loaded (1) custom text's into memory. Took 2ms
+[20:49:57] [Server thread/INFO]:   3.34.0 data base type detected
+[20:49:57] [Server thread/INFO]:   Started SqLite data base. Took 190ms
+[20:49:57] [Server thread/INFO]:   Vault was found - Enabling capabilities. Economy: CMIEconomy
+[20:49:58] [Server thread/INFO]:   Loaded (5) warning categories into memory. Took 1ms
+[20:49:58] [Server thread/INFO]:   Loaded (3) warning commands into memory. Took 0ms
+[20:49:58] [Server thread/INFO]:   Loaded (135) custom mob heads into memory. Took 23ms
+[20:49:58] [Server thread/INFO]:   Loaded (0) cooldowns into memory. Took 32ms
+[20:49:58] [Server thread/INFO]:   Initializing BungeeCord
+[20:49:58] [Server thread/INFO]:   Loaded (1) player data into memory. Took 4ms
+[20:49:58] [Server thread/INFO]:   Loaded (0) playtime records into memory. Took 0ms
+[20:49:58] [Server thread/INFO]:   Loaded (0) playtime reward records into memory. Took 0ms
+[20:49:58] [Server thread/INFO]:   Registered events. Took 110ms
+[20:49:58] [Server thread/INFO]:   Loaded (0) event action commands into memory. Took 7ms
+[20:49:58] [Server thread/INFO]:   Updated (EN) language file. Took 93ms
+[20:49:58] [Server thread/INFO]:   Updated (RU) language file. Took 81ms
+[20:49:58] [Server thread/INFO]:   Vault permissions was found - Enabling capabilities.
+[20:49:58] [Server thread/INFO]:   Starting world timer.
+[20:49:58] [Server thread/INFO]:   Initializing world manager.
+[20:49:58] [Server thread/INFO]:   Loaded GeoIP
+[20:49:58] [Server thread/INFO]:   Loaded (0) skin cache entries into memory. Took 0ms
+[20:49:58] [Server thread/INFO]:   Version 9.0.2.9 has been enabled
+[20:49:58] [Server thread/INFO]: ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+[20:49:58] [Server thread/INFO]: [CMI] Downloaded from https://directleaks.net
+[20:49:58] [Server thread/INFO]: [Vault][Economy] CMI Economy hooked.
+[20:49:58] [Server thread/INFO]: Running delayed init tasks
+[20:49:58] [Server thread/INFO]: Done (8.430s)! For help, type "help"
+[20:49:58] [Server thread/INFO]: Timings Reset
+[20:49:58] [Craft Scheduler Thread - 4/INFO]: [Vault] Checking for Updates ... 
+[20:49:58] [Craft Scheduler Thread - 4/INFO]: [Vault] No new version available
+[20:50:00] [Thread-19/INFO]: --------------------
+[20:50:00] [Thread-19/INFO]: [CoreProtect] Версия 21.2 уже доступна!
+[20:50:00] [Thread-19/INFO]: [CoreProtect] Загрузить: www.coreprotect.net/download/
+[20:50:00] [Thread-19/INFO]: --------------------
+[20:50:07] [Server thread/INFO]: [Server] f
+[20:50:19] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
+[20:50:19] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
+[20:50:19] [Server thread/INFO]: Debug logging is disabled
+[20:50:19] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:50:19] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:50:19] [Server thread/INFO]: [CMI] Disabling CMI v9.0.2.9
+[20:50:19] [Server thread/INFO]: [Vault][Economy] CMI Economy unhooked.
+[20:50:19] [Server thread/INFO]: [CMI] Closed db connections
+[20:50:19] [Server thread/INFO]: [CMILib] Disabling CMILib v1.1.2.6
+[20:50:19] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-CMI
+[20:50:19] [Server thread/INFO]: [WorldBorder] Disabling WorldBorder v1.9.10 (beta)
+[20:50:19] [Server thread/INFO]: [WorldBorder] [CONFIG] Border-checking timed task stopped.
+[20:50:19] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.3.77
+[20:50:19] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[20:50:19] [Server thread/INFO]: [LuckPerms] Closing storage...
+[20:50:19] [Server thread/INFO]: [LuckPerms] Goodbye!
+[20:50:19] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v20.1
+[20:50:19] [Server thread/INFO]: [CoreProtect] Завершение регистрации данных. Пожалуйста, подождите...
+[20:50:20] [Server thread/INFO]: [CoreProtect] CoreProtect v20.1 был успешно отключён!
+[20:50:20] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.2.2
+[20:50:20] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
+[20:50:20] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[20:50:20] [Server thread/INFO]: Loaded 7 recipes
+[20:50:21] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[20:50:21] [Server thread/INFO]: Loaded 7 recipes
+[20:50:21] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.2.2
+[20:50:21] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v20.1
+[20:50:21] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.3.77
+[20:50:22] [Server thread/INFO]: [WorldBorder] Loading WorldBorder v1.9.10 (beta)
+[20:50:22] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-CMI
+[20:50:22] [Server thread/INFO]: [CMILib] Loading CMILib v1.1.2.6
+[20:50:22] [Server thread/INFO]: [CMI] Loading CMI v9.0.2.9
+[20:50:22] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:50:22] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.3.77
+[20:50:22] [Server thread/INFO]:         __    
+[20:50:22] [Server thread/INFO]:   |    |__)   LuckPerms v5.3.77
+[20:50:22] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[20:50:22] [Server thread/INFO]: 
+[20:50:22] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[20:50:22] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[20:50:22] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[20:50:22] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[20:50:22] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 678ms)
+[20:50:22] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-CMI
+[20:50:22] [Server thread/WARN]: [Vault] Loaded class com.Zrips.CMI.Modules.Economy.Economy from CMI v9.0.2.9 which is not a depend, softdepend or loadbefore of this plugin.
+[20:50:22] [Server thread/INFO]: [Vault] [Economy] CMI Economy found: Waiting
+[20:50:22] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[20:50:22] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-CMI
+[20:50:22] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[20:50:22] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[20:50:22] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
+[20:50:22] [Server thread/INFO]: [ClearLag] Loading modules...
+[20:50:22] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[20:50:22] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[20:50:22] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[20:50:22] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v20.1
+[20:50:22] [Thread-22/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.16]...
+[20:50:23] [Server thread/INFO]: [CoreProtect] CoreProtect был успешно запущен! 
+[20:50:23] [Server thread/INFO]: [CoreProtect] Для хранения данных используется SQLite.
+[20:50:23] [Server thread/INFO]: --------------------
+[20:50:23] [Server thread/INFO]: [CoreProtect] Нравится CoreProtect? Присоединяйтесь к нашему Discord!
+[20:50:23] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
+[20:50:23] [Server thread/INFO]: --------------------
+[20:50:23] [Server thread/INFO]: [WorldBorder] Enabling WorldBorder v1.9.10 (beta)
+[20:50:23] [Server thread/INFO]: [WorldBorder] [CONFIG] Using elliptic/round border, knockback of 3.0 blocks, and timer delay of 5.
+[20:50:23] [Server thread/INFO]: [WorldBorder] [CONFIG] Border-checking timed task started.
+[20:50:23] [Server thread/INFO]: [WorldBorder] For reference, the main world's spawn location is at X: 256,0 Y: 71,0 Z: 208,0
+[20:50:23] [Server thread/INFO]: [CMILib] Enabling CMILib v1.1.2.6
+[20:50:23] [Thread-22/INFO]: [ClearLag] No updates found!
+[20:50:24] [Server thread/INFO]: Server version: v1_16_R3 - 1.16.5 - paper
+[20:50:24] [Server thread/INFO]: CMI hooked.
+[20:50:24] [Server thread/INFO]: Updated (EN) language file. Took 34ms
+[20:50:24] [Server thread/INFO]: Updated (RU) language file. Took 21ms
+[20:50:24] [Server thread/INFO]: [CMI] Enabling CMI v9.0.2.9
+[20:50:24] [Server thread/INFO]: ┏━━━┓ ┏━┓┏━┓ ┏━━┓
+[20:50:24] [Server thread/INFO]: ┃┏━┓┃ ┃ ┗┛ ┃ ┗┫┣┛
+[20:50:24] [Server thread/INFO]: ┃┃ ┗┛ ┃┏┓┏┓┃  ┃┃ 
+[20:50:24] [Server thread/INFO]: ┃┃ ┏┓ ┃┃┃┃┃┃  ┃┃ 
+[20:50:24] [Server thread/INFO]: ┃┗━┛┃ ┃┃┃┃┃┃ ┏┫┣┓
+[20:50:24] [Server thread/INFO]: ┗━━━┛ ┗┛┗┛┗┛ ┗━━┛
+[20:50:24] [Server thread/INFO]: _______________________________________________________
+[20:50:24] [Server thread/INFO]: [CMI] Re-Leaked Aternosv2
+[20:50:24] [Server thread/INFO]:   Integrating PaperSpigot async methods
+[20:50:24] [Server thread/INFO]:   21 Enabled and 35 Disabled modules
+[20:50:24] [Server thread/INFO]:   Permission plugin: LuckPerms5.3.77
+[20:50:24] [Server thread/INFO]:   Initialized Cipher256 AES
+[20:50:24] [Server thread/INFO]:   Loaded (56) regular alias into memory. Took 29ms
+[20:50:24] [Server thread/INFO]:   Loaded (1) custom text's into memory. Took 1ms
+[20:50:24] [Server thread/INFO]:   3.34.0 data base type detected
+[20:50:25] [Server thread/INFO]:   Started SqLite data base. Took 114ms
+[20:50:25] [Server thread/INFO]:   Vault was found - Enabling capabilities. Economy: CMIEconomy
+[20:50:25] [Server thread/INFO]:   Loaded (5) warning categories into memory. Took 0ms
+[20:50:25] [Server thread/INFO]:   Loaded (3) warning commands into memory. Took 0ms
+[20:50:25] [Server thread/INFO]:   Loaded (135) custom mob heads into memory. Took 15ms
+[20:50:25] [Server thread/INFO]:   Loaded (0) cooldowns into memory. Took 21ms
+[20:50:25] [Server thread/INFO]:   Initializing BungeeCord
+[20:50:25] [Server thread/INFO]:   Loaded (1) player data into memory. Took 3ms
+[20:50:25] [Server thread/INFO]:   Loaded (0) playtime records into memory. Took 1ms
+[20:50:25] [Server thread/INFO]:   Loaded (0) playtime reward records into memory. Took 0ms
+[20:50:25] [User Authenticator #1/INFO]: UUID of player youube1233 is e17fe5c2-00e9-3fc0-a4bc-54a26aa6c13e
+[20:50:25] [Server thread/INFO]:   Registered events. Took 128ms
+[20:50:25] [Server thread/INFO]:   Loaded (0) event action commands into memory. Took 6ms
+[20:50:25] [Server thread/INFO]:   Updated (EN) language file. Took 98ms
+[20:50:25] [Server thread/INFO]:   Updated (RU) language file. Took 87ms
+[20:50:25] [Server thread/INFO]:   Vault permissions was found - Enabling capabilities.
+[20:50:25] [Server thread/INFO]:   Starting world timer.
+[20:50:25] [Server thread/INFO]:   Initializing world manager.
+[20:50:25] [Server thread/INFO]:   Loaded GeoIP
+[20:50:25] [Server thread/INFO]:   Loaded (0) skin cache entries into memory. Took 0ms
+[20:50:25] [Server thread/INFO]:   Version 9.0.2.9 has been enabled
+[20:50:25] [Server thread/INFO]: ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+[20:50:25] [Server thread/INFO]: [CMI] Downloaded from https://directleaks.net
+[20:50:25] [Server thread/INFO]: [Vault][Economy] CMI Economy hooked.
+[20:50:25] [Server thread/INFO]: CONSOLE: Reload complete.
+[20:50:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6312ms or 126 ticks behind
+[20:50:25] [Server thread/INFO]: Timings Reset
+[20:50:25] [Craft Scheduler Thread - 5/INFO]: [Vault] Checking for Updates ... 
+[20:50:25] [Server thread/INFO]: youube1233 joined the game
+[20:50:25] [Craft Scheduler Thread - 5/INFO]: [Vault] No new version available
+[20:50:25] [Server thread/INFO]: youube1233[/127.0.0.1:53120] logged in with entity id 331 at ([world]315.859925394936, 74.0, 257.76109933192606)
+[20:50:26] [Thread-25/INFO]: --------------------
+[20:50:26] [Thread-25/INFO]: [CoreProtect] Версия 21.2 уже доступна!
+[20:50:26] [Thread-25/INFO]: [CoreProtect] Загрузить: www.coreprotect.net/download/
+[20:50:26] [Thread-25/INFO]: --------------------
+[20:50:27] [Server thread/INFO]: youube1233 issued server command: /i
+[20:50:30] [Server thread/INFO]: youube1233 issued server command: /i
+[20:50:46] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
+[20:50:46] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
+[20:50:46] [Server thread/ERROR]: Cannot load commands.yml
+org.bukkit.configuration.InvalidConfigurationException: while parsing a block mapping
+ in 'string', line 14, column 3:
+      :
+      ^
+expected <block end>, but found ':'
+ in 'string', line 14, column 3:
+      :
+      ^
+
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:59) ~[patched_1.16.5.jar:git-Paper-790]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160) ~[patched_1.16.5.jar:git-Paper-790]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:128) ~[patched_1.16.5.jar:git-Paper-790]
+	at org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(YamlConfiguration.java:188) ~[patched_1.16.5.jar:git-Paper-790]
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.reload(CraftServer.java:850) ~[patched_1.16.5.jar:git-Paper-790]
+	at org.bukkit.Bukkit.reload(Bukkit.java:726) ~[patched_1.16.5.jar:git-Paper-790]
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:54) ~[patched_1.16.5.jar:git-Paper-790]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:159) ~[patched_1.16.5.jar:git-Paper-790]
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.dispatchCommand(CraftServer.java:826) ~[patched_1.16.5.jar:git-Paper-790]
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.dispatchServerCommand(CraftServer.java:788) ~[patched_1.16.5.jar:git-Paper-790]
+	at net.minecraft.server.v1_16_R3.DedicatedServer.handleCommandQueue(DedicatedServer.java:470) ~[patched_1.16.5.jar:git-Paper-790]
+	at net.minecraft.server.v1_16_R3.DedicatedServer.b(DedicatedServer.java:437) ~[patched_1.16.5.jar:git-Paper-790]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.a(MinecraftServer.java:1347) ~[patched_1.16.5.jar:git-Paper-790]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:1135) ~[patched_1.16.5.jar:git-Paper-790]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:291) ~[patched_1.16.5.jar:git-Paper-790]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: org.yaml.snakeyaml.parser.ParserException: while parsing a block mapping
+ in 'string', line 14, column 3:
+      :
+      ^
+expected <block end>, but found ':'
+ in 'string', line 14, column 3:
+      :
+      ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:570) ~[patched_1.16.5.jar:git-Paper-790]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingFirstKey.produce(ParserImpl.java:552) ~[patched_1.16.5.jar:git-Paper-790]
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:158) ~[patched_1.16.5.jar:git-Paper-790]
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:148) ~[patched_1.16.5.jar:git-Paper-790]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:235) ~[patched_1.16.5.jar:git-Paper-790]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:162) ~[patched_1.16.5.jar:git-Paper-790]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:257) ~[patched_1.16.5.jar:git-Paper-790]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:248) ~[patched_1.16.5.jar:git-Paper-790]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:236) ~[patched_1.16.5.jar:git-Paper-790]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:162) ~[patched_1.16.5.jar:git-Paper-790]
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:95) ~[patched_1.16.5.jar:git-Paper-790]
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:119) ~[patched_1.16.5.jar:git-Paper-790]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:150) ~[patched_1.16.5.jar:git-Paper-790]
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:490) ~[patched_1.16.5.jar:git-Paper-790]
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:416) ~[patched_1.16.5.jar:git-Paper-790]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:57) ~[patched_1.16.5.jar:git-Paper-790]
+	... 15 more
+[20:50:46] [Server thread/INFO]: Debug logging is disabled
+[20:50:46] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:50:46] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:50:46] [Server thread/INFO]: [CMI] Disabling CMI v9.0.2.9
+[20:50:46] [Server thread/INFO]: [Vault][Economy] CMI Economy unhooked.
+[20:50:46] [Server thread/INFO]: [CMI] Closed db connections
+[20:50:46] [Server thread/INFO]: [CMILib] Disabling CMILib v1.1.2.6
+[20:50:46] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-CMI
+[20:50:46] [Server thread/INFO]: [WorldBorder] Disabling WorldBorder v1.9.10 (beta)
+[20:50:46] [Server thread/INFO]: [WorldBorder] [CONFIG] Border-checking timed task stopped.
+[20:50:46] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.3.77
+[20:50:46] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[20:50:46] [Server thread/INFO]: [LuckPerms] Closing storage...
+[20:50:46] [Server thread/INFO]: [LuckPerms] Goodbye!
+[20:50:46] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v20.1
+[20:50:46] [Server thread/INFO]: [CoreProtect] Завершение регистрации данных. Пожалуйста, подождите...
+[20:50:47] [Server thread/INFO]: [CoreProtect] CoreProtect v20.1 был успешно отключён!
+[20:50:47] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.2.2
+[20:50:47] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
+[20:50:47] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[20:50:47] [Server thread/INFO]: Loaded 7 recipes
+[20:50:48] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[20:50:48] [Server thread/INFO]: Loaded 7 recipes
+[20:50:48] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.2.2
+[20:50:48] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v20.1
+[20:50:48] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.3.77
+[20:50:48] [Server thread/INFO]: [WorldBorder] Loading WorldBorder v1.9.10 (beta)
+[20:50:48] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-CMI
+[20:50:48] [Server thread/INFO]: [CMILib] Loading CMILib v1.1.2.6
+[20:50:48] [Server thread/INFO]: [CMI] Loading CMI v9.0.2.9
+[20:50:48] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:50:48] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.3.77
+[20:50:48] [Server thread/INFO]:         __    
+[20:50:48] [Server thread/INFO]:   |    |__)   LuckPerms v5.3.77
+[20:50:48] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[20:50:48] [Server thread/INFO]: 
+[20:50:48] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[20:50:49] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[20:50:49] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[20:50:49] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[20:50:49] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 587ms)
+[20:50:49] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-CMI
+[20:50:49] [Server thread/WARN]: [Vault] Loaded class com.Zrips.CMI.Modules.Economy.Economy from CMI v9.0.2.9 which is not a depend, softdepend or loadbefore of this plugin.
+[20:50:49] [Server thread/INFO]: [Vault] [Economy] CMI Economy found: Waiting
+[20:50:49] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[20:50:49] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-CMI
+[20:50:49] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[20:50:49] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[20:50:49] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
+[20:50:49] [Server thread/INFO]: [ClearLag] Loading modules...
+[20:50:49] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[20:50:49] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[20:50:49] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[20:50:49] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v20.1
+[20:50:49] [Thread-28/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.16]...
+[20:50:49] [Server thread/INFO]: [CoreProtect] CoreProtect был успешно запущен! 
+[20:50:49] [Server thread/INFO]: [CoreProtect] Для хранения данных используется SQLite.
+[20:50:49] [Server thread/INFO]: --------------------
+[20:50:49] [Server thread/INFO]: [CoreProtect] Нравится CoreProtect? Присоединяйтесь к нашему Discord!
+[20:50:49] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
+[20:50:49] [Server thread/INFO]: --------------------
+[20:50:49] [Server thread/INFO]: [WorldBorder] Enabling WorldBorder v1.9.10 (beta)
+[20:50:49] [Server thread/INFO]: [WorldBorder] [CONFIG] Using elliptic/round border, knockback of 3.0 blocks, and timer delay of 5.
+[20:50:49] [Server thread/INFO]: [WorldBorder] [CONFIG] Border-checking timed task started.
+[20:50:49] [Server thread/INFO]: [WorldBorder] For reference, the main world's spawn location is at X: 256,0 Y: 71,0 Z: 208,0
+[20:50:49] [Server thread/INFO]: [CMILib] Enabling CMILib v1.1.2.6
+[20:50:49] [Thread-28/INFO]: [ClearLag] No updates found!
+[20:50:50] [Server thread/INFO]: Server version: v1_16_R3 - 1.16.5 - paper
+[20:50:50] [Server thread/INFO]: CMI hooked.
+[20:50:50] [Server thread/INFO]: Updated (EN) language file. Took 32ms
+[20:50:50] [Server thread/INFO]: Updated (RU) language file. Took 13ms
+[20:50:50] [Server thread/INFO]: [CMI] Enabling CMI v9.0.2.9
+[20:50:51] [Server thread/INFO]: ┏━━━┓ ┏━┓┏━┓ ┏━━┓
+[20:50:51] [Server thread/INFO]: ┃┏━┓┃ ┃ ┗┛ ┃ ┗┫┣┛
+[20:50:51] [Server thread/INFO]: ┃┃ ┗┛ ┃┏┓┏┓┃  ┃┃ 
+[20:50:51] [Server thread/INFO]: ┃┃ ┏┓ ┃┃┃┃┃┃  ┃┃ 
+[20:50:51] [Server thread/INFO]: ┃┗━┛┃ ┃┃┃┃┃┃ ┏┫┣┓
+[20:50:51] [Server thread/INFO]: ┗━━━┛ ┗┛┗┛┗┛ ┗━━┛
+[20:50:51] [Server thread/INFO]: _______________________________________________________
+[20:50:51] [Server thread/INFO]: [CMI] Re-Leaked Aternosv2
+[20:50:51] [Server thread/INFO]:   Integrating PaperSpigot async methods
+[20:50:51] [Server thread/INFO]:   21 Enabled and 35 Disabled modules
+[20:50:51] [Server thread/INFO]:   Permission plugin: LuckPerms5.3.77
+[20:50:51] [Server thread/INFO]:   Initialized Cipher256 AES
+[20:50:51] [Server thread/INFO]:   Loaded (56) regular alias into memory. Took 36ms
+[20:50:51] [Server thread/INFO]:   Loaded (1) custom text's into memory. Took 1ms
+[20:50:51] [Server thread/INFO]:   3.34.0 data base type detected
+[20:50:51] [Server thread/INFO]:   Started SqLite data base. Took 143ms
+[20:50:51] [Server thread/INFO]:   Vault was found - Enabling capabilities. Economy: CMIEconomy
+[20:50:51] [Server thread/INFO]:   Loaded (5) warning categories into memory. Took 0ms
+[20:50:51] [Server thread/INFO]:   Loaded (3) warning commands into memory. Took 0ms
+[20:50:51] [Server thread/INFO]:   Loaded (135) custom mob heads into memory. Took 18ms
+[20:50:51] [Server thread/INFO]:   Loaded (0) cooldowns into memory. Took 25ms
+[20:50:51] [Server thread/INFO]:   Initializing BungeeCord
+[20:50:51] [Server thread/INFO]:   Loaded (1) player data into memory. Took 4ms
+[20:50:51] [Server thread/INFO]:   Loaded (0) playtime records into memory. Took 0ms
+[20:50:51] [Server thread/INFO]:   Loaded (0) playtime reward records into memory. Took 0ms
+[20:50:51] [Server thread/INFO]:   Registered events. Took 99ms
+[20:50:51] [Server thread/INFO]:   Loaded (0) event action commands into memory. Took 3ms
+[20:50:51] [Server thread/INFO]:   Updated (EN) language file. Took 69ms
+[20:50:51] [Server thread/INFO]:   Updated (RU) language file. Took 80ms
+[20:50:51] [Server thread/INFO]:   Vault permissions was found - Enabling capabilities.
+[20:50:51] [Server thread/INFO]:   Starting world timer.
+[20:50:51] [Server thread/INFO]:   Initializing world manager.
+[20:50:51] [Server thread/INFO]:   Loaded GeoIP
+[20:50:51] [Server thread/INFO]:   Loaded (0) skin cache entries into memory. Took 1ms
+[20:50:51] [Server thread/INFO]:   Version 9.0.2.9 has been enabled
+[20:50:51] [Server thread/INFO]: ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+[20:50:51] [Server thread/INFO]: [CMI] Downloaded from https://directleaks.net
+[20:50:51] [Server thread/INFO]: [Vault][Economy] CMI Economy hooked.
+[20:50:52] [Server thread/INFO]: CONSOLE: Reload complete.
+[20:50:52] [Server thread/INFO]: Timings Reset
+[20:50:52] [Craft Scheduler Thread - 0/INFO]: [Vault] Checking for Updates ... 
+[20:50:52] [Craft Scheduler Thread - 0/INFO]: [Vault] No new version available
+[20:50:53] [Thread-31/INFO]: --------------------
+[20:50:53] [Thread-31/INFO]: [CoreProtect] Версия 21.2 уже доступна!
+[20:50:53] [Thread-31/INFO]: [CoreProtect] Загрузить: www.coreprotect.net/download/
+[20:50:53] [Thread-31/INFO]: --------------------
+[20:51:46] [Server thread/INFO]: Stopping the server
+[20:51:46] [Server thread/WARN]: java.lang.Throwable: Server stopped
+[20:51:46] [Server thread/WARN]: 	at io.papermc.paper.util.TraceUtil.dumpTraceForThread(TraceUtil.java:16)
+[20:51:46] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.safeShutdown(MinecraftServer.java:1001)
+[20:51:46] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.safeShutdown(MinecraftServer.java:995)
+[20:51:46] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.CommandStop.a(SourceFile:17)
+[20:51:46] [Server thread/WARN]: 	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:262)
+[20:51:46] [Server thread/WARN]: 	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:176)
+[20:51:46] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.CommandDispatcher.a(CommandDispatcher.java:276)
+[20:51:46] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.command.VanillaCommandWrapper.execute(VanillaCommandWrapper.java:45)
+[20:51:46] [Server thread/WARN]: 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:159)
+[20:51:46] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.dispatchCommand(CraftServer.java:826)
+[20:51:46] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.dispatchServerCommand(CraftServer.java:788)
+[20:51:46] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.DedicatedServer.handleCommandQueue(DedicatedServer.java:470)
+[20:51:46] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.DedicatedServer.b(DedicatedServer.java:437)
+[20:51:46] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.a(MinecraftServer.java:1347)
+[20:51:46] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:1135)
+[20:51:46] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:291)
+[20:51:46] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:831)
+[20:51:46] [Server thread/INFO]: Stopping server
+[20:51:46] [Server thread/INFO]: [CMI] Disabling CMI v9.0.2.9
+[20:51:46] [Server thread/INFO]: [Vault][Economy] CMI Economy unhooked.
+[20:51:46] [Server thread/INFO]: [CMI] Closed db connections
+[20:51:46] [Server thread/INFO]: [CMILib] Disabling CMILib v1.1.2.6
+[20:51:46] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-CMI
+[20:51:46] [Server thread/INFO]: [WorldBorder] Disabling WorldBorder v1.9.10 (beta)
+[20:51:46] [Server thread/INFO]: [WorldBorder] [CONFIG] Border-checking timed task stopped.
+[20:51:46] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.3.77
+[20:51:46] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[20:51:46] [Server thread/INFO]: [LuckPerms] Closing storage...
+[20:51:47] [Server thread/INFO]: [LuckPerms] Goodbye!
+[20:51:47] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v20.1
+[20:51:47] [Server thread/INFO]: [CoreProtect] Завершение регистрации данных. Пожалуйста, подождите...
+[20:51:48] [Server thread/INFO]: [CoreProtect] CoreProtect v20.1 был успешно отключён!
+[20:51:48] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.2.2
+[20:51:48] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
+[20:51:48] [Server thread/INFO]: Saving players
+[20:51:48] [Server thread/INFO]: youube1233 lost connection: Сервер закрыт.
+[20:51:48] [Server thread/INFO]: youube1233 left the game
+[20:51:48] [Server thread/INFO]: Saving worlds
+[20:51:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20:51:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:51:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[20:51:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:51:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[20:51:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:51:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:51:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:51:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:51:50] [Server thread/INFO]: Flushing Chunk IO
+[20:51:50] [Server thread/INFO]: Closing Thread Pool
+[20:51:50] [Server thread/INFO]: Closing Server
+[20:51:50] [Thread-1/WARN]: java.lang.Throwable: Server stopped
+[20:51:50] [Thread-1/WARN]: 	at io.papermc.paper.util.TraceUtil.dumpTraceForThread(TraceUtil.java:16)
+[20:51:50] [Thread-1/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.safeShutdown(MinecraftServer.java:1001)
+[20:51:50] [Thread-1/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.util.ServerShutdownThread.run(ServerShutdownThread.java:16)

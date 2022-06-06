@@ -11,6 +11,6 @@
 # Bug tracker: https://www.spigotmc.org/go/bugs
 
 aliases:
-  
+  :
 command-block-overrides: []
 ignore-vanilla-permissions: true
