@@ -1,30 +1,887 @@
-[04:24:25] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[04:24:25] [main/INFO]: Reloading ResourceManager: Default, bukkit
-[04:24:25] [Worker-Main-4/INFO]: Loaded 7 recipes
-[04:24:26] [Server thread/INFO]: Starting minecraft server version 1.16.5
-[04:24:26] [Server thread/INFO]: Loading properties
-[04:24:26] [Server thread/INFO]: This server is running Paper version git-Paper-790 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
-[04:24:26] [Server thread/INFO]: Debug logging is disabled
-[04:24:26] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[04:24:26] [Server thread/INFO]: Using 4 threads for Netty based IO
-[04:24:26] [Server thread/INFO]: Default game type: SURVIVAL
-[04:24:26] [Server thread/INFO]: Generating keypair
-[04:24:26] [Server thread/INFO]: Starting Minecraft server on 45.83.122.27:25565
-[04:24:26] [Server thread/INFO]: Using default channel type
-[04:24:27] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
-[04:24:27] [Server thread/WARN]: The exception was: java.net.BindException: Cannot assign requested address: bind
-[04:24:27] [Server thread/WARN]: Perhaps a server is already running on that port?
-[04:24:27] [Server thread/WARN]: java.lang.Throwable: Server stopped
-[04:24:27] [Server thread/WARN]: 	at io.papermc.paper.util.TraceUtil.dumpTraceForThread(TraceUtil.java:16)
-[04:24:27] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.stop(MinecraftServer.java:883)
-[04:24:27] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.DedicatedServer.stop(DedicatedServer.java:763)
-[04:24:27] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:1182)
-[04:24:27] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:291)
-[04:24:27] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:831)
-[04:24:27] [Server thread/INFO]: Stopping server
-[04:24:27] [Server thread/INFO]: Saving players
-[04:24:27] [Server thread/INFO]: Saving worlds
-[04:24:27] [Server thread/INFO]: Flushing Chunk IO
-[04:24:27] [Server thread/INFO]: Closing Thread Pool
-[04:24:27] [Server thread/INFO]: Closing Server
-[04:24:27] [Thread-1/WARN]: java.lang.Throwable: Server stopped
+[05:00:03] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[05:00:04] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[05:00:04] [Worker-Main-4/INFO]: Loaded 7 recipes
+[05:00:05] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[05:00:05] [Server thread/INFO]: Loading properties
+[05:00:05] [Server thread/INFO]: This server is running Paper version git-Paper-790 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
+[05:00:05] [Server thread/INFO]: Debug logging is disabled
+[05:00:05] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[05:00:05] [Server thread/INFO]: Using 4 threads for Netty based IO
+[05:00:05] [Server thread/INFO]: Default game type: SURVIVAL
+[05:00:05] [Server thread/INFO]: Generating keypair
+[05:00:05] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[05:00:05] [Server thread/INFO]: Using default channel type
+[05:00:06] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.2.2
+[05:00:06] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v20.1
+[05:00:06] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.3.77
+[05:00:07] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser-Spigot v1.2.1-SNAPSHOT
+[05:00:07] [Server thread/INFO]: [WorldBorder] Loading WorldBorder v1.9.10 (beta)
+[05:00:07] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-CMI
+[05:00:07] [Server thread/INFO]: [CMILib] Loading CMILib v1.1.2.6
+[05:00:07] [Server thread/INFO]: [CMI] Loading CMI v9.0.2.9
+[05:00:07] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[05:00:07] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.3.77
+[05:00:07] [Server thread/INFO]:         __    
+[05:00:07] [Server thread/INFO]:   |    |__)   LuckPerms v5.3.77
+[05:00:07] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[05:00:07] [Server thread/INFO]: 
+[05:00:07] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[05:00:07] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[05:00:07] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[05:00:08] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[05:00:08] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1077ms)
+[05:00:08] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-CMI
+[05:00:08] [Server thread/WARN]: [Vault] Loaded class com.Zrips.CMI.Modules.Economy.Economy from CMI v9.0.2.9 which is not a depend, softdepend or loadbefore of this plugin.
+[05:00:08] [Server thread/INFO]: [Vault] [Economy] CMI Economy found: Waiting
+[05:00:08] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[05:00:08] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-CMI
+[05:00:08] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[05:00:08] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[05:00:08] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[05:00:08] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[05:00:08] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[05:00:08] [Server thread/INFO]: Preparing level "world"
+[05:00:08] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[05:00:08] [Server thread/INFO]: Time elapsed: 203 ms
+[05:00:08] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[05:00:08] [Server thread/INFO]: Time elapsed: 163 ms
+[05:00:08] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[05:00:09] [Server thread/INFO]: Time elapsed: 173 ms
+[05:00:09] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[05:00:09] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
+[05:00:09] [Server thread/INFO]: [ClearLag] Loading modules...
+[05:00:09] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[05:00:09] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[05:00:09] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[05:00:09] [Thread-14/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.16]...
+[05:00:09] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v20.1
+[05:00:09] [Thread-14/INFO]: [ClearLag] No updates found!
+[05:00:09] [Server thread/INFO]: [CoreProtect] CoreProtect был успешно запущен! 
+[05:00:09] [Server thread/INFO]: [CoreProtect] Для хранения данных используется SQLite.
+[05:00:09] [Server thread/INFO]: --------------------
+[05:00:09] [Server thread/INFO]: [CoreProtect] Нравится CoreProtect? Присоединяйтесь к нашему Discord!
+[05:00:09] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
+[05:00:09] [Server thread/INFO]: --------------------
+[05:00:09] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v1.2.1-SNAPSHOT
+[05:00:11] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[05:00:11] [Server thread/INFO]: [Geyser-Spigot] 
+[05:00:11] [Server thread/INFO]: [Geyser-Spigot] Загрузка Geyser версии 1.2.1-SNAPSHOT (git-master-aaa100b)
+[05:00:11] [Server thread/INFO]: [Geyser-Spigot] 
+[05:00:11] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[05:00:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.entity.player.JavaPlayerSetExperienceTranslator : ServerPlayerSetExperiencePacket
+[05:00:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.bedrock.BedrockCommandBlockUpdateTranslator : CommandBlockUpdatePacket
+[05:00:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.window.JavaSetSlotTranslator : ServerSetSlotPacket
+[05:00:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.entity.JavaEntityRemoveEffectTranslator : ServerEntityRemoveEffectPacket
+[05:00:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.JavaKeepAliveTranslator : ServerKeepAlivePacket
+[05:00:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.scoreboard.JavaUpdateScoreTranslator : ServerUpdateScorePacket
+[05:00:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.entity.JavaEntityEquipmentTranslator : ServerEntityEquipmentPacket
+[05:00:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.bedrock.BedrockContainerCloseTranslator : ContainerClosePacket
+[05:00:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.world.JavaVehicleMoveTranslator : ServerVehicleMovePacket
+[05:00:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.entity.JavaEntityHeadLookTranslator : ServerEntityHeadLookPacket
+[05:00:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.bedrock.BedrockBlockEntityDataTranslator : BlockEntityDataPacket
+[05:00:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.JavaDeclareRecipesTranslator : ServerDeclareRecipesPacket
+[05:00:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.entity.spawn.JavaSpawnPlayerTranslator : ServerSpawnPlayerPacket
+[05:00:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.entity.JavaEntityStatusTranslator : ServerEntityStatusPacket
+[05:00:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.JavaTitleTranslator : ServerTitlePacket
+[05:00:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.entity.JavaEntityMetadataTranslator : ServerEntityMetadataPacket
+[05:00:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.JavaRespawnTranslator : ServerRespawnPacket
+[05:00:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.world.JavaTradeListTranslator : ServerTradeListPacket
+[05:00:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.entity.JavaEntityAttachTranslator : ServerEntityAttachPacket
+[05:00:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.entity.spawn.JavaSpawnLivingEntityTranslator : ServerSpawnLivingEntityPacket
+[05:00:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.world.JavaUpdateViewDistanceTranslator : ServerUpdateViewDistancePacket
+[05:00:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.entity.player.JavaPlayerListEntryTranslator : ServerPlayerListEntryPacket
+[05:00:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.JavaAdvancementsTabTranslator : ServerAdvancementTabPacket
+[05:00:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.bedrock.BedrockServerSettingsRequestTranslator : ServerSettingsRequestPacket
+[05:00:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.entity.JavaEntityDestroyTranslator : ServerEntityDestroyPacket
+[05:00:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.bedrock.entity.player.BedrockSetPlayerGameTypeTranslator : SetPlayerGameTypePacket
+[05:00:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.bedrock.entity.player.BedrockActionTranslator : PlayerActionPacket
+[05:00:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.JavaAdvancementsTranslator : ServerAdvancementsPacket
+[05:00:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.window.JavaWindowPropertyTranslator : ServerWindowPropertyPacket
+[05:00:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.bedrock.entity.player.BedrockRiderJumpTranslator : RiderJumpPacket
+[05:00:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.bedrock.BedrockMobEquipmentTranslator : MobEquipmentPacket
+[05:00:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.JavaDifficultyTranslator : ServerDifficultyPacket
+[05:00:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.world.JavaMultiBlockChangeTranslator : ServerMultiBlockChangePacket
+[05:00:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.JavaLoginPluginRequestTranslator : LoginPluginRequestPacket
+[05:00:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.JavaDisconnectPacket : ServerDisconnectPacket
+[05:00:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.bedrock.BedrockPositionTrackingDBClientRequestTranslator : PositionTrackingDBClientRequestPacket
+[05:00:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.world.JavaBlockValueTranslator : ServerBlockValuePacket
+[05:00:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.world.JavaSpawnParticleTranslator : ServerSpawnParticlePacket
+[05:00:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.world.JavaUpdateTileEntityTranslator : ServerUpdateTileEntityPacket
+[05:00:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.bedrock.BedrockPacketViolationWarningTranslator : PacketViolationWarningPacket
+[05:00:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.bedrock.BedrockPlayerInputTranslator : PlayerInputPacket
+[05:00:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.world.JavaUnloadChunkTranslator : ServerUnloadChunkPacket
+[05:00:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.JavaStatisticsTranslator : ServerStatisticsPacket
+[05:00:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.entity.player.JavaPlayerActionAckTranslator : ServerPlayerActionAckPacket
+[05:00:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.world.JavaChunkDataTranslator : ServerChunkDataPacket
+[05:00:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.bedrock.entity.BedrockEntityEventTranslator : EntityEventPacket
+[05:00:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.world.JavaMapDataTranslator : ServerMapDataPacket
+[05:00:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.world.JavaBlockBreakAnimTranslator : ServerBlockBreakAnimPacket
+[05:00:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.entity.JavaEntityRotationTranslator : ServerEntityRotationPacket
+[05:00:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.entity.player.JavaPlayerHealthTranslator : ServerPlayerHealthPacket
+[05:00:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.bedrock.BedrockEmoteListTranslator : EmoteListPacket
+[05:00:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.entity.JavaEntitySetPassengersTranslator : ServerEntitySetPassengersPacket
+[05:00:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.bedrock.BedrockMapInfoRequestTranslator : MapInfoRequestPacket
+[05:00:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.JavaJoinGameTranslator : ServerJoinGamePacket
+[05:00:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.entity.player.JavaPlayerAbilitiesTranslator : ServerPlayerAbilitiesPacket
+[05:00:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.world.JavaExplosionTranslator : ServerExplosionPacket
+[05:00:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.entity.spawn.JavaSpawnExpOrbTranslator : ServerSpawnExpOrbPacket
+[05:00:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.JavaDeclareCommandsTranslator : ServerDeclareCommandsPacket
+[05:00:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.JavaChatTranslator : ServerChatPacket
+[05:00:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.world.JavaSpawnPositionTranslator : ServerSpawnPositionPacket
+[05:00:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.entity.player.JavaPlayerChangeHeldItemTranslator : ServerPlayerChangeHeldItemPacket
+[05:00:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.bedrock.BedrockItemStackRequestTranslator : ItemStackRequestPacket
+[05:00:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.world.JavaStopSoundTranslator : ServerStopSoundPacket
+[05:00:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.bedrock.entity.player.BedrockEmoteTranslator : EmotePacket
+[05:00:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.JavaUnlockRecipesTranslator : ServerUnlockRecipesPacket
+[05:00:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.bedrock.BedrockAdventureSettingsTranslator : AdventureSettingsPacket
+[05:00:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.window.JavaOpenWindowTranslator : ServerOpenWindowPacket
+[05:00:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.bedrock.BedrockEntityPickRequestTranslator : EntityPickRequestPacket
+[05:00:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.bedrock.BedrockFilterTextTranslator : FilterTextPacket
+[05:00:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.JavaDeclareTagsTranslator : ServerDeclareTagsPacket
+[05:00:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.bedrock.entity.player.BedrockMovePlayerTranslator : MovePlayerPacket
+[05:00:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.bedrock.BedrockLecternUpdateTranslator : LecternUpdatePacket
+[05:00:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.world.JavaUpdateTimeTranslator : ServerUpdateTimePacket
+[05:00:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.bedrock.BedrockMoveEntityAbsoluteTranslator : MoveEntityAbsolutePacket
+[05:00:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.entity.JavaEntityAnimationTranslator : ServerEntityAnimationPacket
+[05:00:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.bedrock.BedrockAnimateTranslator : AnimatePacket
+[05:00:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.world.JavaUpdateViewPositionTranslator : ServerUpdateViewPositionPacket
+[05:00:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.bedrock.world.BedrockLevelSoundEventTranslator : LevelSoundEventPacket
+[05:00:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.scoreboard.JavaScoreboardObjectiveTranslator : ServerScoreboardObjectivePacket
+[05:00:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.JavaLoginDisconnectTranslator : LoginDisconnectPacket
+[05:00:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.entity.JavaEntityCollectItemTranslator : ServerEntityCollectItemPacket
+[05:00:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.entity.spawn.JavaSpawnPaintingTranslator : ServerSpawnPaintingPacket
+[05:00:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.window.JavaConfirmTransactionTranslator : ServerConfirmTransactionPacket
+[05:00:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.world.JavaNotifyClientTranslator : ServerNotifyClientPacket
+[05:00:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.bedrock.BedrockTextTranslator : TextPacket
+[05:00:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.entity.spawn.JavaSpawnEntityTranslator : ServerSpawnEntityPacket
+[05:00:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.entity.player.JavaPlayerPositionRotationTranslator : ServerPlayerPositionRotationPacket
+[05:00:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.entity.JavaEntityPositionTranslator : ServerEntityPositionPacket
+[05:00:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.scoreboard.JavaDisplayScoreboardTranslator : ServerDisplayScoreboardPacket
+[05:00:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.bedrock.BedrockItemFrameDropItemTranslator : ItemFrameDropItemPacket
+[05:00:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.entity.JavaEntityEffectTranslator : ServerEntityEffectPacket
+[05:00:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.world.JavaPlayBuiltinSoundTranslator : ServerPlayBuiltinSoundPacket
+[05:00:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.window.JavaWindowItemsTranslator : ServerWindowItemsPacket
+[05:00:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.entity.JavaEntityPositionRotationTranslator : ServerEntityPositionRotationPacket
+[05:00:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.bedrock.BedrockNetworkStackLatencyTranslator : NetworkStackLatencyPacket
+[05:00:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.bedrock.BedrockInventoryTransactionTranslator : InventoryTransactionPacket
+[05:00:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.bedrock.BedrockBookEditTranslator : BookEditPacket
+[05:00:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.entity.JavaEntityPropertiesTranslator : ServerEntityPropertiesPacket
+[05:00:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.world.JavaBlockChangeTranslator : ServerBlockChangePacket
+[05:00:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.JavaBossBarTranslator : ServerBossBarPacket
+[05:00:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.world.JavaPlaySoundTranslator : ServerPlaySoundPacket
+[05:00:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.bedrock.BedrockCommandRequestTranslator : CommandRequestPacket
+[05:00:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.world.JavaPlayEffectTranslator : ServerPlayEffectPacket
+[05:00:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.window.JavaCloseWindowTranslator : ServerCloseWindowPacket
+[05:00:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.bedrock.BedrockShowCreditsTranslator : ShowCreditsPacket
+[05:00:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.bedrock.entity.player.BedrockInteractTranslator : InteractPacket
+[05:00:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.bedrock.BedrockRespawnTranslator : RespawnPacket
+[05:00:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.scoreboard.JavaTeamTranslator : ServerTeamPacket
+[05:00:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.entity.JavaEntityVelocityTranslator : ServerEntityVelocityPacket
+[05:00:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.bedrock.BedrockSetLocalPlayerAsInitializedTranslator : SetLocalPlayerAsInitializedPacket
+[05:00:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.bedrock.BedrockBlockPickRequestTranslator : BlockPickRequestPacket
+[05:00:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.entity.JavaEntityTeleportTranslator : ServerEntityTeleportPacket
+[05:00:12] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.connector.network.translators.java.window.JavaOpenHorseWindowTranslator : ServerOpenHorseWindowPacket
+[05:00:13] [Server thread/INFO]: [Geyser-Spigot] Found annotated block entity: org.geysermc.connector.network.translators.world.block.entity.BannerBlockEntityTranslator
+[05:00:13] [Server thread/INFO]: [Geyser-Spigot] Found annotated block entity: org.geysermc.connector.network.translators.world.block.entity.CampfireBlockEntityTranslator
+[05:00:13] [Server thread/INFO]: [Geyser-Spigot] Found annotated block entity: org.geysermc.connector.network.translators.world.block.entity.JigsawBlockBlockEntityTranslator
+[05:00:13] [Server thread/INFO]: [Geyser-Spigot] Found annotated block entity: org.geysermc.connector.network.translators.world.block.entity.DoubleChestBlockEntityTranslator
+[05:00:13] [Server thread/INFO]: [Geyser-Spigot] Found annotated block entity: org.geysermc.connector.network.translators.world.block.entity.CommandBlockBlockEntityTranslator
+[05:00:13] [Server thread/INFO]: [Geyser-Spigot] Found annotated block entity: org.geysermc.connector.network.translators.world.block.entity.EmptyBlockEntityTranslator
+[05:00:13] [Server thread/INFO]: [Geyser-Spigot] Found annotated block entity: org.geysermc.connector.network.translators.world.block.entity.EndGatewayBlockEntityTranslator
+[05:00:13] [Server thread/INFO]: [Geyser-Spigot] Found annotated block entity: org.geysermc.connector.network.translators.world.block.entity.SpawnerBlockEntityTranslator
+[05:00:13] [Server thread/INFO]: [Geyser-Spigot] Found annotated block entity: org.geysermc.connector.network.translators.world.block.entity.SkullBlockEntityTranslator
+[05:00:13] [Server thread/INFO]: [Geyser-Spigot] Found annotated block entity: org.geysermc.connector.network.translators.world.block.entity.BedBlockEntityTranslator
+[05:00:13] [Server thread/INFO]: [Geyser-Spigot] Found annotated block entity: org.geysermc.connector.network.translators.world.block.entity.ShulkerBoxBlockEntityTranslator
+[05:00:13] [Server thread/INFO]: [Geyser-Spigot] Found annotated block entity: org.geysermc.connector.network.translators.world.block.entity.BeaconBlockEntityTranslator
+[05:00:13] [Server thread/INFO]: [Geyser-Spigot] Found annotated block entity: org.geysermc.connector.network.translators.world.block.entity.SignBlockEntityTranslator
+[05:00:13] [Server thread/INFO]: [Geyser-Spigot] Found block entity that requires block state: org.geysermc.connector.network.translators.world.block.entity.DoubleChestBlockEntityTranslator
+[05:00:13] [Server thread/INFO]: [Geyser-Spigot] Found block entity that requires block state: org.geysermc.connector.network.translators.world.block.entity.NoteblockBlockEntityTranslator
+[05:00:13] [Server thread/INFO]: [Geyser-Spigot] Not adding because cache chunks is enabled.
+[05:00:13] [Server thread/INFO]: [Geyser-Spigot] Found block entity that requires block state: org.geysermc.connector.network.translators.world.block.entity.BannerBlockEntityTranslator
+[05:00:13] [Server thread/INFO]: [Geyser-Spigot] Not adding because cache chunks is enabled.
+[05:00:13] [Server thread/INFO]: [Geyser-Spigot] Found block entity that requires block state: org.geysermc.connector.network.translators.world.block.entity.FlowerPotBlockEntityTranslator
+[05:00:13] [Server thread/INFO]: [Geyser-Spigot] Found block entity that requires block state: org.geysermc.connector.network.translators.world.block.entity.CommandBlockBlockEntityTranslator
+[05:00:13] [Server thread/INFO]: [Geyser-Spigot] Not adding because cache chunks is enabled.
+[05:00:13] [Server thread/INFO]: [Geyser-Spigot] Found block entity that requires block state: org.geysermc.connector.network.translators.world.block.entity.SkullBlockEntityTranslator
+[05:00:13] [Server thread/INFO]: [Geyser-Spigot] Not adding because cache chunks is enabled.
+[05:00:13] [Server thread/INFO]: [Geyser-Spigot] Found block entity that requires block state: org.geysermc.connector.network.translators.world.block.entity.BedBlockEntityTranslator
+[05:00:13] [Server thread/INFO]: [Geyser-Spigot] Not adding because cache chunks is enabled.
+[05:00:16] [Server thread/INFO]: [Geyser-Spigot] Found annotated item translator: org.geysermc.connector.network.translators.item.translators.nbt.LeatherArmorTranslator
+[05:00:16] [Server thread/INFO]: [Geyser-Spigot] Found annotated item translator: org.geysermc.connector.network.translators.item.translators.nbt.MapItemTranslator
+[05:00:16] [Server thread/INFO]: [Geyser-Spigot] Found annotated item translator: org.geysermc.connector.network.translators.item.translators.nbt.CrossbowTranslator
+[05:00:16] [Server thread/INFO]: [Geyser-Spigot] Found annotated item translator: org.geysermc.connector.network.translators.item.translators.nbt.FireworkStarTranslator
+[05:00:16] [Server thread/INFO]: [Geyser-Spigot] Found annotated item translator: org.geysermc.connector.network.translators.item.translators.nbt.BasicItemTranslator
+[05:00:16] [Server thread/INFO]: [Geyser-Spigot] Found annotated item translator: org.geysermc.connector.network.translators.item.translators.nbt.EnchantmentTranslator
+[05:00:16] [Server thread/INFO]: [Geyser-Spigot] Found annotated item translator: org.geysermc.connector.network.translators.item.translators.CompassTranslator
+[05:00:16] [Server thread/INFO]: [Geyser-Spigot] Found annotated item translator: org.geysermc.connector.network.translators.item.translators.nbt.ShulkerBoxItemTranslator
+[05:00:16] [Server thread/INFO]: [Geyser-Spigot] Found annotated item translator: org.geysermc.connector.network.translators.item.translators.PotionTranslator
+[05:00:16] [Server thread/INFO]: [Geyser-Spigot] Found annotated item translator: org.geysermc.connector.network.translators.item.translators.nbt.PlayerHeadTranslator
+[05:00:16] [Server thread/INFO]: [Geyser-Spigot] Found annotated item translator: org.geysermc.connector.network.translators.item.translators.nbt.BookPagesTranslator
+[05:00:16] [Server thread/INFO]: [Geyser-Spigot] Found annotated item translator: org.geysermc.connector.network.translators.item.translators.TippedArrowTranslator
+[05:00:16] [Server thread/INFO]: [Geyser-Spigot] Found annotated item translator: org.geysermc.connector.network.translators.item.translators.nbt.FireworkRocketTranslator
+[05:00:16] [Server thread/INFO]: [Geyser-Spigot] Found annotated item translator: org.geysermc.connector.network.translators.item.translators.nbt.EnchantedBookTranslator
+[05:00:16] [Server thread/INFO]: [Geyser-Spigot] Found annotated item translator: org.geysermc.connector.network.translators.item.translators.BannerTranslator
+[05:00:16] [Server thread/INFO]: [Geyser-Spigot] Found annotated collision translator: org.geysermc.connector.network.translators.collision.translators.TrapdoorCollision
+[05:00:16] [Server thread/INFO]: [Geyser-Spigot] Found annotated collision translator: org.geysermc.connector.network.translators.collision.translators.GrassPathCollision
+[05:00:16] [Server thread/INFO]: [Geyser-Spigot] Found annotated collision translator: org.geysermc.connector.network.translators.collision.translators.ScaffoldingCollision
+[05:00:16] [Server thread/INFO]: [Geyser-Spigot] Found annotated collision translator: org.geysermc.connector.network.translators.collision.translators.DoorCollision
+[05:00:16] [Server thread/INFO]: [Geyser-Spigot] Found annotated collision translator: org.geysermc.connector.network.translators.collision.translators.SolidCollision
+[05:00:16] [Server thread/INFO]: [Geyser-Spigot] Found annotated collision translator: org.geysermc.connector.network.translators.collision.translators.SnowCollision
+[05:00:18] [Server thread/INFO]: [Geyser-Spigot] {"client":{"sha1":"37fd3c903861eeff3bc24b71eed48f828b5269c8","size":17547153,"url":"https://launcher.mojang.com/v1/objects/37fd3c903861eeff3bc24b71eed48f828b5269c8/client.jar"},"client_mappings":{"sha1":"374c6b789574afbdc901371207155661e0509e17","size":5746047,"url":"https://launcher.mojang.com/v1/objects/374c6b789574afbdc901371207155661e0509e17/client.txt"},"server":{"sha1":"1b557e7b033b583cd9f66746b7a9ab1ec1673ced","size":37962360,"url":"https://launcher.mojang.com/v1/objects/1b557e7b033b583cd9f66746b7a9ab1ec1673ced/server.jar"},"server_mappings":{"sha1":"41285beda6d251d190f2bf33beadd4fee187df7a","size":4400926,"url":"https://launcher.mojang.com/v1/objects/41285beda6d251d190f2bf33beadd4fee187df7a/server.txt"}}
+[05:00:18] [Server thread/INFO]: [Geyser-Spigot] {"sha1":"37fd3c903861eeff3bc24b71eed48f828b5269c8","size":17547153,"url":"https://launcher.mojang.com/v1/objects/37fd3c903861eeff3bc24b71eed48f828b5269c8/client.jar"}
+[05:00:18] [Server thread/INFO]: [Geyser-Spigot] Downloading and loading locale: ru_ru
+[05:00:18] [Server thread/INFO]: [Geyser-Spigot] Locale already downloaded and up-to date: ru_ru
+[05:00:19] [Server thread/INFO]: [Geyser-Spigot] Missing mapping for bedrock item 510:10
+[05:00:19] [Server thread/INFO]: [Geyser-Spigot] Missing mapping for bedrock item 510:11
+[05:00:19] [Server thread/INFO]: [Geyser-Spigot] Missing mapping for bedrock item 510:12
+[05:00:19] [Server thread/INFO]: [Geyser-Spigot] Missing mapping for bedrock item 510:13
+[05:00:19] [Server thread/INFO]: [Geyser-Spigot] Missing mapping for bedrock item 510:14
+[05:00:19] [Server thread/INFO]: [Geyser-Spigot] Missing mapping for bedrock item 510:3
+[05:00:19] [Server thread/INFO]: [Geyser-Spigot] Missing mapping for bedrock item 510:4
+[05:00:19] [Server thread/INFO]: [Geyser-Spigot] Missing mapping for bedrock item 510:15
+[05:00:19] [Server thread/INFO]: [Geyser-Spigot] Missing mapping for bedrock item 510:1
+[05:00:19] [Server thread/INFO]: [Geyser-Spigot] Missing mapping for bedrock item 510:2
+[05:00:19] [Server thread/INFO]: [Geyser-Spigot] Missing mapping for bedrock item 510:5
+[05:00:19] [Server thread/INFO]: [Geyser-Spigot] Missing mapping for bedrock item 510:6
+[05:00:19] [Server thread/INFO]: [Geyser-Spigot] Missing mapping for bedrock item 510:7
+[05:00:19] [Server thread/INFO]: [Geyser-Spigot] Missing mapping for bedrock item 510:8
+[05:00:19] [Server thread/INFO]: [Geyser-Spigot] Missing mapping for bedrock item 510:9
+[05:00:19] [Server thread/INFO]: [Geyser-Spigot] Missing mapping for bedrock item 579:7
+[05:00:19] [Server thread/INFO]: [Geyser-Spigot] Missing mapping for bedrock item 579:3
+[05:00:19] [Server thread/INFO]: [Geyser-Spigot] Missing mapping for bedrock item 579:6
+[05:00:19] [Server thread/INFO]: [Geyser-Spigot] Missing mapping for bedrock item 579:1
+[05:00:19] [Server thread/INFO]: [Geyser-Spigot] Missing mapping for bedrock item 579:5
+[05:00:19] [Server thread/INFO]: [Geyser-Spigot] Missing mapping for bedrock item 579:4
+[05:00:19] [Server thread/INFO]: [Geyser-Spigot] Missing mapping for bedrock item 579:8
+[05:00:19] [Server thread/INFO]: [Geyser-Spigot] Missing mapping for bedrock item 579:2
+[05:00:19] [Server thread/INFO]: [Geyser-Spigot] Missing mapping for bedrock item 579:2
+[05:00:19] [Server thread/INFO]: [Geyser-Spigot] Missing mapping for bedrock item 579:2
+[05:00:19] [Server thread/INFO]: [Geyser-Spigot] Missing mapping for bedrock item 579:2
+[05:00:19] [Server thread/INFO]: [Geyser-Spigot] Missing mapping for bedrock item 579:9
+[05:00:19] [Server thread/INFO]: [Geyser-Spigot] Setting MTU to 1400
+[05:00:19] [Server thread/INFO]: [Geyser-Spigot] EventLoop type: NIO
+[05:00:19] [Server thread/INFO]: [Geyser-Spigot] Reason for no Epoll: java.lang.ExceptionInInitializerError
+[05:00:19] [Server thread/INFO]: [Geyser-Spigot] Reason for no KQueue: java.lang.ExceptionInInitializerError
+[05:00:20] [Network Listener - #1/INFO]: [Geyser-Spigot] Geyser запущен на 0.0.0.0:25565
+[05:00:20] [Server thread/INFO]: [Geyser-Spigot] Выполнено (8,963сек.)! Используйте команду /geyser help для помощи!
+[05:00:20] [Server thread/INFO]: [Geyser-Spigot] Зарегистрирована команда help
+[05:00:20] [Server thread/INFO]: [Geyser-Spigot] Зарегистрирована команда list
+[05:00:20] [Server thread/INFO]: [Geyser-Spigot] Зарегистрирована команда reload
+[05:00:20] [Server thread/INFO]: [Geyser-Spigot] Зарегистрирована команда stop
+[05:00:20] [Server thread/INFO]: [Geyser-Spigot] Зарегистрирована команда offhand
+[05:00:20] [Server thread/INFO]: [Geyser-Spigot] Зарегистрирована команда dump
+[05:00:20] [Server thread/INFO]: [Geyser-Spigot] Зарегистрирована команда version
+[05:00:20] [Server thread/INFO]: [Geyser-Spigot] Зарегистрирована команда settings
+[05:00:20] [Server thread/INFO]: [Geyser-Spigot] Зарегистрирована команда statistics
+[05:00:20] [Server thread/INFO]: [Geyser-Spigot] Зарегистрирована команда advancements
+[05:00:20] [Server thread/INFO]: [Geyser-Spigot] No biome mapping found for CUSTOM, defaulting to 0
+[05:00:20] [Server thread/INFO]: [Geyser-Spigot] Using NMS adapter: class org.geysermc.platform.spigot.world.manager.GeyserSpigotNativeWorldManager, v1_16_R3
+[05:00:20] [Server thread/INFO]: [WorldBorder] Enabling WorldBorder v1.9.10 (beta)
+[05:00:20] [Server thread/INFO]: [WorldBorder] [CONFIG] Using elliptic/round border, knockback of 3.0 blocks, and timer delay of 5.
+[05:00:20] [Server thread/INFO]: [WorldBorder] [CONFIG] Border-checking timed task started.
+[05:00:20] [Server thread/INFO]: [WorldBorder] For reference, the main world's spawn location is at X: 256,0 Y: 71,0 Z: 208,0
+[05:00:20] [Server thread/INFO]: [CMILib] Enabling CMILib v1.1.2.6
+[05:00:22] [Server thread/INFO]: Server version: v1_16_R3 - 1.16.5 - paper
+[05:00:26] [Server thread/INFO]: CMI hooked.
+[05:00:26] [Server thread/INFO]: Updated (EN) language file. Took 170ms
+[05:00:26] [Server thread/INFO]: Updated (RU) language file. Took 116ms
+[05:00:26] [Server thread/INFO]: [CMI] Enabling CMI v9.0.2.9
+[05:00:26] [Server thread/INFO]: ┏━━━┓ ┏━┓┏━┓ ┏━━┓
+[05:00:26] [Server thread/INFO]: ┃┏━┓┃ ┃ ┗┛ ┃ ┗┫┣┛
+[05:00:26] [Server thread/INFO]: ┃┃ ┗┛ ┃┏┓┏┓┃  ┃┃ 
+[05:00:26] [Server thread/INFO]: ┃┃ ┏┓ ┃┃┃┃┃┃  ┃┃ 
+[05:00:26] [Server thread/INFO]: ┃┗━┛┃ ┃┃┃┃┃┃ ┏┫┣┓
+[05:00:26] [Server thread/INFO]: ┗━━━┛ ┗┛┗┛┗┛ ┗━━┛
+[05:00:26] [Server thread/INFO]: _______________________________________________________
+[05:00:26] [Server thread/INFO]: [CMI] Re-Leaked Aternosv2
+[05:00:26] [Server thread/INFO]:   Integrating PaperSpigot async methods
+[05:00:27] [Server thread/INFO]:   21 Enabled and 35 Disabled modules
+[05:00:27] [Server thread/INFO]:   Permission plugin: LuckPerms5.3.77
+[05:00:27] [Server thread/INFO]:   Initialized Cipher256 AES
+[05:00:28] [Server thread/INFO]:   Loaded (56) regular alias into memory. Took 137ms
+[05:00:28] [Server thread/INFO]:   Loaded (1) custom text's into memory. Took 18ms
+[05:00:28] [Server thread/INFO]:   3.34.0 data base type detected
+[05:00:28] [Server thread/INFO]:   Started SqLite data base. Took 222ms
+[05:00:28] [Server thread/INFO]:   Vault was found - Enabling capabilities. Economy: CMIEconomy
+[05:00:28] [Server thread/INFO]:   Loaded (5) warning categories into memory. Took 1ms
+[05:00:28] [Server thread/INFO]:   Loaded (3) warning commands into memory. Took 0ms
+[05:00:28] [Server thread/INFO]:   Loaded (135) custom mob heads into memory. Took 49ms
+[05:00:28] [Server thread/INFO]:   Loaded (0) cooldowns into memory. Took 61ms
+[05:00:28] [Server thread/INFO]:   Initializing BungeeCord
+[05:00:28] [Server thread/INFO]:   Loaded (1) player data into memory. Took 6ms
+[05:00:28] [Server thread/INFO]:   Loaded (0) playtime records into memory. Took 0ms
+[05:00:28] [Server thread/INFO]:   Loaded (0) playtime reward records into memory. Took 1ms
+[05:00:29] [Server thread/INFO]:   Registered events. Took 136ms
+[05:00:29] [Server thread/INFO]:   Loaded (0) event action commands into memory. Took 5ms
+[05:00:29] [Server thread/INFO]:   Updated (EN) language file. Took 234ms
+[05:00:29] [Server thread/INFO]:   Updated (RU) language file. Took 256ms
+[05:00:29] [Server thread/INFO]:   Vault permissions was found - Enabling capabilities.
+[05:00:29] [Server thread/INFO]:   Starting world timer.
+[05:00:29] [Server thread/INFO]:   Initializing world manager.
+[05:00:29] [Server thread/INFO]:   Loaded GeoIP
+[05:00:29] [Server thread/INFO]:   Loaded (0) skin cache entries into memory. Took 1ms
+[05:00:29] [Server thread/INFO]:   Version 9.0.2.9 has been enabled
+[05:00:29] [Server thread/INFO]: ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+[05:00:29] [Server thread/INFO]: [CMI] Downloaded from https://directleaks.net
+[05:00:29] [Server thread/INFO]: [Vault][Economy] CMI Economy hooked.
+[05:00:30] [Server thread/INFO]: Running delayed init tasks
+[05:00:30] [Server thread/INFO]: Done (24.988s)! For help, type "help"
+[05:00:30] [Craft Scheduler Thread - 7/INFO]: [Vault] Checking for Updates ... 
+[05:00:30] [Server thread/INFO]: Timings Reset
+[05:00:30] [Craft Scheduler Thread - 7/INFO]: [Vault] No new version available
+[05:00:31] [Netty Server IO #1/WARN]: java.io.IOException: Программа на вашем хост-компьютере разорвала установленное подключение
+[05:00:31] [Netty Server IO #1/WARN]: 	at java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)
+[05:00:31] [Netty Server IO #1/WARN]: 	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:54)
+[05:00:31] [Netty Server IO #1/WARN]: 	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:113)
+[05:00:31] [Netty Server IO #1/WARN]: 	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:58)
+[05:00:31] [Netty Server IO #1/WARN]: 	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:50)
+[05:00:31] [Netty Server IO #1/WARN]: 	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:532)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.socket.nio.NioSocketChannel.doWrite(NioSocketChannel.java:408)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.flush0(AbstractChannel.java:930)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.flush0(AbstractNioChannel.java:354)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.flush(AbstractChannel.java:897)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.DefaultChannelPipeline$HeadContext.flush(DefaultChannelPipeline.java:1372)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush0(AbstractChannelHandlerContext.java:750)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush(AbstractChannelHandlerContext.java:742)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.flush(AbstractChannelHandlerContext.java:728)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.handler.flush.FlushConsolidationHandler.flushNow(FlushConsolidationHandler.java:204)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.handler.flush.FlushConsolidationHandler.flush(FlushConsolidationHandler.java:138)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush0(AbstractChannelHandlerContext.java:750)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush(AbstractChannelHandlerContext.java:742)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.flush(AbstractChannelHandlerContext.java:728)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.ChannelOutboundHandlerAdapter.flush(ChannelOutboundHandlerAdapter.java:125)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush0(AbstractChannelHandlerContext.java:750)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:765)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:790)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:758)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:808)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1025)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:294)
+[05:00:31] [Netty Server IO #1/WARN]: 	at net.minecraft.server.v1_16_R3.NetworkManager.b(NetworkManager.java:291)
+[05:00:31] [Netty Server IO #1/WARN]: 	at net.minecraft.server.v1_16_R3.NetworkManager.dispatchPacket(NetworkManager.java:267)
+[05:00:31] [Netty Server IO #1/WARN]: 	at net.minecraft.server.v1_16_R3.NetworkManager.sendPacket(NetworkManager.java:243)
+[05:00:31] [Netty Server IO #1/WARN]: 	at net.minecraft.server.v1_16_R3.NetworkManager.exceptionCaught(NetworkManager.java:151)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:302)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:281)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:273)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.handler.flush.FlushConsolidationHandler.exceptionCaught(FlushConsolidationHandler.java:159)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:302)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:281)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:273)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1377)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:302)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:281)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:907)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.handleReadException(AbstractNioByteChannel.java:125)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:174)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:714)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[05:00:31] [Netty Server IO #1/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:831)
+[05:00:31] [Netty Server IO #1/WARN]: java.io.IOException: Программа на вашем хост-компьютере разорвала установленное подключение
+[05:00:31] [Netty Server IO #1/WARN]: 	at java.base/sun.nio.ch.SocketDispatcher.read0(Native Method)
+[05:00:31] [Netty Server IO #1/WARN]: 	at java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:46)
+[05:00:31] [Netty Server IO #1/WARN]: 	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276)
+[05:00:31] [Netty Server IO #1/WARN]: 	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:233)
+[05:00:31] [Netty Server IO #1/WARN]: 	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:223)
+[05:00:31] [Netty Server IO #1/WARN]: 	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:417)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1133)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:714)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[05:00:31] [Netty Server IO #1/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:831)
+[05:00:31] [Netty Server IO #3/WARN]: java.io.IOException: Программа на вашем хост-компьютере разорвала установленное подключение
+[05:00:31] [Netty Server IO #3/WARN]: 	at java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)
+[05:00:31] [Netty Server IO #3/WARN]: 	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:54)
+[05:00:31] [Netty Server IO #3/WARN]: 	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:113)
+[05:00:31] [Netty Server IO #3/WARN]: 	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:58)
+[05:00:31] [Netty Server IO #3/WARN]: 	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:50)
+[05:00:31] [Netty Server IO #3/WARN]: 	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:532)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.socket.nio.NioSocketChannel.doWrite(NioSocketChannel.java:408)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.flush0(AbstractChannel.java:930)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.flush0(AbstractNioChannel.java:354)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.flush(AbstractChannel.java:897)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.DefaultChannelPipeline$HeadContext.flush(DefaultChannelPipeline.java:1372)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush0(AbstractChannelHandlerContext.java:750)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush(AbstractChannelHandlerContext.java:742)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.flush(AbstractChannelHandlerContext.java:728)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.handler.flush.FlushConsolidationHandler.flushNow(FlushConsolidationHandler.java:204)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.handler.flush.FlushConsolidationHandler.flush(FlushConsolidationHandler.java:138)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush0(AbstractChannelHandlerContext.java:750)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush(AbstractChannelHandlerContext.java:742)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.flush(AbstractChannelHandlerContext.java:728)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.ChannelOutboundHandlerAdapter.flush(ChannelOutboundHandlerAdapter.java:125)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush0(AbstractChannelHandlerContext.java:750)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:765)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:790)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:758)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:808)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1025)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:294)
+[05:00:31] [Netty Server IO #3/WARN]: 	at net.minecraft.server.v1_16_R3.NetworkManager.b(NetworkManager.java:291)
+[05:00:31] [Netty Server IO #3/WARN]: 	at net.minecraft.server.v1_16_R3.NetworkManager.dispatchPacket(NetworkManager.java:267)
+[05:00:31] [Netty Server IO #3/WARN]: 	at net.minecraft.server.v1_16_R3.NetworkManager.sendPacket(NetworkManager.java:243)
+[05:00:31] [Netty Server IO #3/WARN]: 	at net.minecraft.server.v1_16_R3.NetworkManager.exceptionCaught(NetworkManager.java:151)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:302)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:281)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:273)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.handler.flush.FlushConsolidationHandler.exceptionCaught(FlushConsolidationHandler.java:159)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:302)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:281)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:273)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1377)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:302)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:281)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:907)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.handleReadException(AbstractNioByteChannel.java:125)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:174)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:714)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[05:00:31] [Netty Server IO #3/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:831)
+[05:00:31] [Netty Server IO #3/WARN]: java.io.IOException: Программа на вашем хост-компьютере разорвала установленное подключение
+[05:00:31] [Netty Server IO #3/WARN]: 	at java.base/sun.nio.ch.SocketDispatcher.read0(Native Method)
+[05:00:31] [Netty Server IO #3/WARN]: 	at java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:46)
+[05:00:31] [Netty Server IO #3/WARN]: 	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276)
+[05:00:31] [Netty Server IO #3/WARN]: 	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:233)
+[05:00:31] [Netty Server IO #3/WARN]: 	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:223)
+[05:00:31] [Netty Server IO #3/WARN]: 	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:417)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1133)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:714)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[05:00:31] [Netty Server IO #3/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:831)
+[05:00:31] [Netty Server IO #0/WARN]: java.io.IOException: Программа на вашем хост-компьютере разорвала установленное подключение
+[05:00:31] [Netty Server IO #0/WARN]: 	at java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)
+[05:00:31] [Netty Server IO #0/WARN]: 	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:54)
+[05:00:31] [Netty Server IO #0/WARN]: 	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:113)
+[05:00:31] [Netty Server IO #0/WARN]: 	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:58)
+[05:00:31] [Netty Server IO #0/WARN]: 	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:50)
+[05:00:31] [Netty Server IO #0/WARN]: 	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:532)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.socket.nio.NioSocketChannel.doWrite(NioSocketChannel.java:408)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.flush0(AbstractChannel.java:930)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.flush0(AbstractNioChannel.java:354)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.flush(AbstractChannel.java:897)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.DefaultChannelPipeline$HeadContext.flush(DefaultChannelPipeline.java:1372)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush0(AbstractChannelHandlerContext.java:750)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush(AbstractChannelHandlerContext.java:742)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.flush(AbstractChannelHandlerContext.java:728)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.handler.flush.FlushConsolidationHandler.flushNow(FlushConsolidationHandler.java:204)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.handler.flush.FlushConsolidationHandler.flush(FlushConsolidationHandler.java:138)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush0(AbstractChannelHandlerContext.java:750)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush(AbstractChannelHandlerContext.java:742)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.flush(AbstractChannelHandlerContext.java:728)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.ChannelOutboundHandlerAdapter.flush(ChannelOutboundHandlerAdapter.java:125)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush0(AbstractChannelHandlerContext.java:750)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:765)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:790)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:758)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:808)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1025)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:294)
+[05:00:31] [Netty Server IO #0/WARN]: 	at net.minecraft.server.v1_16_R3.NetworkManager.b(NetworkManager.java:291)
+[05:00:31] [Netty Server IO #0/WARN]: 	at net.minecraft.server.v1_16_R3.NetworkManager.dispatchPacket(NetworkManager.java:267)
+[05:00:31] [Netty Server IO #0/WARN]: 	at net.minecraft.server.v1_16_R3.NetworkManager.sendPacket(NetworkManager.java:243)
+[05:00:31] [Netty Server IO #0/WARN]: 	at net.minecraft.server.v1_16_R3.NetworkManager.exceptionCaught(NetworkManager.java:151)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:302)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:281)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:273)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.handler.flush.FlushConsolidationHandler.exceptionCaught(FlushConsolidationHandler.java:159)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:302)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:281)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:273)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1377)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:302)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:281)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:907)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.handleReadException(AbstractNioByteChannel.java:125)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:174)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:714)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[05:00:31] [Netty Server IO #0/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:831)
+[05:00:31] [Netty Server IO #0/WARN]: java.io.IOException: Программа на вашем хост-компьютере разорвала установленное подключение
+[05:00:31] [Netty Server IO #0/WARN]: 	at java.base/sun.nio.ch.SocketDispatcher.read0(Native Method)
+[05:00:31] [Netty Server IO #0/WARN]: 	at java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:46)
+[05:00:31] [Netty Server IO #0/WARN]: 	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276)
+[05:00:31] [Netty Server IO #0/WARN]: 	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:233)
+[05:00:31] [Netty Server IO #0/WARN]: 	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:223)
+[05:00:31] [Netty Server IO #0/WARN]: 	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:417)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1133)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:714)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[05:00:31] [Netty Server IO #0/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:831)
+[05:00:31] [Netty Server IO #1/WARN]: java.io.IOException: Программа на вашем хост-компьютере разорвала установленное подключение
+[05:00:31] [Netty Server IO #1/WARN]: 	at java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)
+[05:00:31] [Netty Server IO #1/WARN]: 	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:54)
+[05:00:31] [Netty Server IO #1/WARN]: 	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:113)
+[05:00:31] [Netty Server IO #1/WARN]: 	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:58)
+[05:00:31] [Netty Server IO #1/WARN]: 	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:50)
+[05:00:31] [Netty Server IO #1/WARN]: 	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:532)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.socket.nio.NioSocketChannel.doWrite(NioSocketChannel.java:408)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.flush0(AbstractChannel.java:930)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.flush0(AbstractNioChannel.java:354)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.flush(AbstractChannel.java:897)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.DefaultChannelPipeline$HeadContext.flush(DefaultChannelPipeline.java:1372)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush0(AbstractChannelHandlerContext.java:750)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush(AbstractChannelHandlerContext.java:742)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.flush(AbstractChannelHandlerContext.java:728)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.handler.flush.FlushConsolidationHandler.flushNow(FlushConsolidationHandler.java:204)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.handler.flush.FlushConsolidationHandler.flush(FlushConsolidationHandler.java:138)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush0(AbstractChannelHandlerContext.java:750)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush(AbstractChannelHandlerContext.java:742)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.flush(AbstractChannelHandlerContext.java:728)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.ChannelOutboundHandlerAdapter.flush(ChannelOutboundHandlerAdapter.java:125)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush0(AbstractChannelHandlerContext.java:750)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:765)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:790)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:758)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:808)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1025)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:294)
+[05:00:31] [Netty Server IO #1/WARN]: 	at net.minecraft.server.v1_16_R3.NetworkManager.b(NetworkManager.java:291)
+[05:00:31] [Netty Server IO #1/WARN]: 	at net.minecraft.server.v1_16_R3.NetworkManager.dispatchPacket(NetworkManager.java:267)
+[05:00:31] [Netty Server IO #1/WARN]: 	at net.minecraft.server.v1_16_R3.NetworkManager.sendPacket(NetworkManager.java:243)
+[05:00:31] [Netty Server IO #1/WARN]: 	at net.minecraft.server.v1_16_R3.NetworkManager.exceptionCaught(NetworkManager.java:151)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:302)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:281)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:273)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.handler.flush.FlushConsolidationHandler.exceptionCaught(FlushConsolidationHandler.java:159)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:302)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:281)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:273)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1377)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:302)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:281)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:907)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.handleReadException(AbstractNioByteChannel.java:125)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:174)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:714)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[05:00:31] [Netty Server IO #1/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:831)
+[05:00:31] [Netty Server IO #1/WARN]: java.io.IOException: Программа на вашем хост-компьютере разорвала установленное подключение
+[05:00:31] [Netty Server IO #1/WARN]: 	at java.base/sun.nio.ch.SocketDispatcher.read0(Native Method)
+[05:00:31] [Netty Server IO #1/WARN]: 	at java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:46)
+[05:00:31] [Netty Server IO #1/WARN]: 	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276)
+[05:00:31] [Netty Server IO #1/WARN]: 	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:233)
+[05:00:31] [Netty Server IO #1/WARN]: 	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:223)
+[05:00:31] [Netty Server IO #1/WARN]: 	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:417)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1133)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:714)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+[05:00:31] [Netty Server IO #1/WARN]: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[05:00:31] [Netty Server IO #1/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:831)
+[05:00:31] [Netty Server IO #0/WARN]: java.io.IOException: Программа на вашем хост-компьютере разорвала установленное подключение
+[05:00:31] [Netty Server IO #0/WARN]: 	at java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)
+[05:00:31] [Netty Server IO #0/WARN]: 	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:54)
+[05:00:31] [Netty Server IO #0/WARN]: 	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:113)
+[05:00:31] [Netty Server IO #0/WARN]: 	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:58)
+[05:00:31] [Netty Server IO #0/WARN]: 	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:50)
+[05:00:31] [Netty Server IO #0/WARN]: 	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:532)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.socket.nio.NioSocketChannel.doWrite(NioSocketChannel.java:408)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.flush0(AbstractChannel.java:930)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.flush0(AbstractNioChannel.java:354)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.flush(AbstractChannel.java:897)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.DefaultChannelPipeline$HeadContext.flush(DefaultChannelPipeline.java:1372)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush0(AbstractChannelHandlerContext.java:750)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush(AbstractChannelHandlerContext.java:742)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.flush(AbstractChannelHandlerContext.java:728)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.handler.flush.FlushConsolidationHandler.flushNow(FlushConsolidationHandler.java:204)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.handler.flush.FlushConsolidationHandler.flush(FlushConsolidationHandler.java:138)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush0(AbstractChannelHandlerContext.java:750)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush(AbstractChannelHandlerContext.java:742)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.flush(AbstractChannelHandlerContext.java:728)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.ChannelOutboundHandlerAdapter.flush(ChannelOutboundHandlerAdapter.java:125)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush0(AbstractChannelHandlerContext.java:750)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:765)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:790)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:758)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:808)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1025)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:294)
+[05:00:31] [Netty Server IO #0/WARN]: 	at net.minecraft.server.v1_16_R3.NetworkManager.b(NetworkManager.java:291)
+[05:00:31] [Netty Server IO #0/WARN]: 	at net.minecraft.server.v1_16_R3.NetworkManager.dispatchPacket(NetworkManager.java:267)
+[05:00:31] [Netty Server IO #0/WARN]: 	at net.minecraft.server.v1_16_R3.NetworkManager.sendPacket(NetworkManager.java:243)
+[05:00:31] [Netty Server IO #0/WARN]: 	at net.minecraft.server.v1_16_R3.NetworkManager.exceptionCaught(NetworkManager.java:151)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:302)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:281)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:273)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.handler.flush.FlushConsolidationHandler.exceptionCaught(FlushConsolidationHandler.java:159)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:302)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:281)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:273)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1377)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:302)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:281)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:907)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.handleReadException(AbstractNioByteChannel.java:125)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:174)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:714)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[05:00:31] [Netty Server IO #0/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:831)
+[05:00:31] [Netty Server IO #0/WARN]: java.io.IOException: Программа на вашем хост-компьютере разорвала установленное подключение
+[05:00:31] [Netty Server IO #0/WARN]: 	at java.base/sun.nio.ch.SocketDispatcher.read0(Native Method)
+[05:00:31] [Netty Server IO #0/WARN]: 	at java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:46)
+[05:00:31] [Netty Server IO #0/WARN]: 	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276)
+[05:00:31] [Netty Server IO #0/WARN]: 	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:233)
+[05:00:31] [Netty Server IO #0/WARN]: 	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:223)
+[05:00:31] [Netty Server IO #0/WARN]: 	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:417)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1133)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:714)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+[05:00:31] [Netty Server IO #0/WARN]: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[05:00:31] [Netty Server IO #0/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:831)
+[05:00:31] [Netty Server IO #2/WARN]: java.io.IOException: Программа на вашем хост-компьютере разорвала установленное подключение
+[05:00:31] [Netty Server IO #2/WARN]: 	at java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)
+[05:00:31] [Netty Server IO #2/WARN]: 	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:54)
+[05:00:31] [Netty Server IO #2/WARN]: 	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:113)
+[05:00:31] [Netty Server IO #2/WARN]: 	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:58)
+[05:00:31] [Netty Server IO #2/WARN]: 	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:50)
+[05:00:31] [Netty Server IO #2/WARN]: 	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:532)
+[05:00:31] [Netty Server IO #2/WARN]: 	at io.netty.channel.socket.nio.NioSocketChannel.doWrite(NioSocketChannel.java:408)
+[05:00:31] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.flush0(AbstractChannel.java:930)
+[05:00:31] [Netty Server IO #2/WARN]: 	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.flush0(AbstractNioChannel.java:354)
+[05:00:31] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.flush(AbstractChannel.java:897)
+[05:00:31] [Netty Server IO #2/WARN]: 	at io.netty.channel.DefaultChannelPipeline$HeadContext.flush(DefaultChannelPipeline.java:1372)
+[05:00:31] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush0(AbstractChannelHandlerContext.java:750)
+[05:00:31] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush(AbstractChannelHandlerContext.java:742)
+[05:00:31] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.flush(AbstractChannelHandlerContext.java:728)
+[05:00:31] [Netty Server IO #2/WARN]: 	at io.netty.handler.flush.FlushConsolidationHandler.flushNow(FlushConsolidationHandler.java:204)
+[05:00:31] [Netty Server IO #2/WARN]: 	at io.netty.handler.flush.FlushConsolidationHandler.flush(FlushConsolidationHandler.java:138)
+[05:00:31] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush0(AbstractChannelHandlerContext.java:750)
+[05:00:31] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush(AbstractChannelHandlerContext.java:742)
+[05:00:31] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.flush(AbstractChannelHandlerContext.java:728)
+[05:00:31] [Netty Server IO #2/WARN]: 	at io.netty.channel.ChannelOutboundHandlerAdapter.flush(ChannelOutboundHandlerAdapter.java:125)
+[05:00:31] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush0(AbstractChannelHandlerContext.java:750)
+[05:00:31] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:765)
+[05:00:31] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:790)
+[05:00:31] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:758)
+[05:00:31] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:808)
+[05:00:31] [Netty Server IO #2/WARN]: 	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1025)
+[05:00:31] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:294)
+[05:00:31] [Netty Server IO #2/WARN]: 	at net.minecraft.server.v1_16_R3.NetworkManager.b(NetworkManager.java:291)
+[05:00:31] [Netty Server IO #2/WARN]: 	at net.minecraft.server.v1_16_R3.NetworkManager.dispatchPacket(NetworkManager.java:267)
+[05:00:31] [Netty Server IO #2/WARN]: 	at net.minecraft.server.v1_16_R3.NetworkManager.sendPacket(NetworkManager.java:243)
+[05:00:31] [Netty Server IO #2/WARN]: 	at net.minecraft.server.v1_16_R3.NetworkManager.exceptionCaught(NetworkManager.java:151)
+[05:00:31] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:302)
+[05:00:31] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:281)
+[05:00:31] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:273)
+[05:00:31] [Netty Server IO #2/WARN]: 	at io.netty.handler.flush.FlushConsolidationHandler.exceptionCaught(FlushConsolidationHandler.java:159)
+[05:00:31] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:302)
+[05:00:31] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:281)
+[05:00:31] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:273)
+[05:00:31] [Netty Server IO #2/WARN]: 	at io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1377)
+[05:00:31] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:302)
+[05:00:31] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:281)
+[05:00:31] [Netty Server IO #2/WARN]: 	at io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:907)
+[05:00:31] [Netty Server IO #2/WARN]: 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.handleReadException(AbstractNioByteChannel.java:125)
+[05:00:31] [Netty Server IO #2/WARN]: 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:174)
+[05:00:31] [Netty Server IO #2/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:714)
+[05:00:31] [Netty Server IO #2/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+[05:00:31] [Netty Server IO #2/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+[05:00:31] [Netty Server IO #2/WARN]: 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+[05:00:31] [Netty Server IO #2/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+[05:00:31] [Netty Server IO #2/WARN]: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[05:00:31] [Netty Server IO #2/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:831)
+[05:00:31] [Netty Server IO #2/WARN]: java.io.IOException: Программа на вашем хост-компьютере разорвала установленное подключение
+[05:00:31] [Netty Server IO #2/WARN]: 	at java.base/sun.nio.ch.SocketDispatcher.read0(Native Method)
+[05:00:31] [Netty Server IO #2/WARN]: 	at java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:46)
+[05:00:31] [Netty Server IO #2/WARN]: 	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276)
+[05:00:31] [Netty Server IO #2/WARN]: 	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:233)
+[05:00:31] [Netty Server IO #2/WARN]: 	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:223)
+[05:00:31] [Netty Server IO #2/WARN]: 	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:417)
+[05:00:31] [Netty Server IO #2/WARN]: 	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+[05:00:31] [Netty Server IO #2/WARN]: 	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1133)
+[05:00:31] [Netty Server IO #2/WARN]: 	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+[05:00:31] [Netty Server IO #2/WARN]: 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+[05:00:31] [Netty Server IO #2/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:714)
+[05:00:31] [Netty Server IO #2/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+[05:00:31] [Netty Server IO #2/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+[05:00:31] [Netty Server IO #2/WARN]: 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+[05:00:31] [Netty Server IO #2/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+[05:00:31] [Netty Server IO #2/WARN]: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[05:00:31] [Netty Server IO #2/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:831)
+[05:00:31] [Netty Server IO #3/WARN]: java.io.IOException: Программа на вашем хост-компьютере разорвала установленное подключение
+[05:00:31] [Netty Server IO #3/WARN]: 	at java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)
+[05:00:31] [Netty Server IO #3/WARN]: 	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:54)
+[05:00:31] [Netty Server IO #3/WARN]: 	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:113)
+[05:00:31] [Netty Server IO #3/WARN]: 	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:58)
+[05:00:31] [Netty Server IO #3/WARN]: 	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:50)
+[05:00:31] [Netty Server IO #3/WARN]: 	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:532)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.socket.nio.NioSocketChannel.doWrite(NioSocketChannel.java:408)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.flush0(AbstractChannel.java:930)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.flush0(AbstractNioChannel.java:354)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.flush(AbstractChannel.java:897)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.DefaultChannelPipeline$HeadContext.flush(DefaultChannelPipeline.java:1372)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush0(AbstractChannelHandlerContext.java:750)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush(AbstractChannelHandlerContext.java:742)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.flush(AbstractChannelHandlerContext.java:728)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.handler.flush.FlushConsolidationHandler.flushNow(FlushConsolidationHandler.java:204)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.handler.flush.FlushConsolidationHandler.flush(FlushConsolidationHandler.java:138)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush0(AbstractChannelHandlerContext.java:750)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush(AbstractChannelHandlerContext.java:742)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.flush(AbstractChannelHandlerContext.java:728)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.ChannelOutboundHandlerAdapter.flush(ChannelOutboundHandlerAdapter.java:125)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush0(AbstractChannelHandlerContext.java:750)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:765)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:790)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:758)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:808)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1025)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:294)
+[05:00:31] [Netty Server IO #3/WARN]: 	at net.minecraft.server.v1_16_R3.NetworkManager.b(NetworkManager.java:291)
+[05:00:31] [Netty Server IO #3/WARN]: 	at net.minecraft.server.v1_16_R3.NetworkManager.dispatchPacket(NetworkManager.java:267)
+[05:00:31] [Netty Server IO #3/WARN]: 	at net.minecraft.server.v1_16_R3.NetworkManager.sendPacket(NetworkManager.java:243)
+[05:00:31] [Netty Server IO #3/WARN]: 	at net.minecraft.server.v1_16_R3.NetworkManager.exceptionCaught(NetworkManager.java:151)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:302)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:281)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:273)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.handler.flush.FlushConsolidationHandler.exceptionCaught(FlushConsolidationHandler.java:159)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:302)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:281)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:273)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1377)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:302)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:281)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:907)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.handleReadException(AbstractNioByteChannel.java:125)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:174)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:714)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[05:00:31] [Netty Server IO #3/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:831)
+[05:00:31] [Netty Server IO #3/WARN]: java.io.IOException: Программа на вашем хост-компьютере разорвала установленное подключение
+[05:00:31] [Netty Server IO #3/WARN]: 	at java.base/sun.nio.ch.SocketDispatcher.read0(Native Method)
+[05:00:31] [Netty Server IO #3/WARN]: 	at java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:46)
+[05:00:31] [Netty Server IO #3/WARN]: 	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276)
+[05:00:31] [Netty Server IO #3/WARN]: 	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:233)
+[05:00:31] [Netty Server IO #3/WARN]: 	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:223)
+[05:00:31] [Netty Server IO #3/WARN]: 	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:417)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1133)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:714)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+[05:00:31] [Netty Server IO #3/WARN]: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[05:00:31] [Netty Server IO #3/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:831)
+[05:00:32] [Thread-17/INFO]: --------------------
+[05:00:32] [Thread-17/INFO]: [CoreProtect] Версия 21.2 уже доступна!
+[05:00:32] [Thread-17/INFO]: [CoreProtect] Загрузить: www.coreprotect.net/download/
+[05:00:32] [Thread-17/INFO]: --------------------
+[05:00:42] [User Authenticator #1/INFO]: UUID of player youube1233 is e17fe5c2-00e9-3fc0-a4bc-54a26aa6c13e
+[05:00:43] [Server thread/INFO]: youube1233 joined the game
+[05:00:45] [Server thread/INFO]: youube1233[/127.0.0.1:59794] logged in with entity id 234 at ([world]266.5, 72.0, 209.5)
+[05:00:47] [Server thread/INFO]: youube1233 lost connection: Disconnected
+[05:00:47] [Server thread/INFO]: youube1233 left the game
+[05:00:51] [Server thread/INFO]: Stopping the server
+[05:00:51] [Server thread/WARN]: java.lang.Throwable: Server stopped
+[05:00:51] [Server thread/WARN]: 	at io.papermc.paper.util.TraceUtil.dumpTraceForThread(TraceUtil.java:16)
+[05:00:51] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.safeShutdown(MinecraftServer.java:1001)
+[05:00:51] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.safeShutdown(MinecraftServer.java:995)
+[05:00:51] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.CommandStop.a(SourceFile:17)
+[05:00:51] [Server thread/WARN]: 	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:262)
+[05:00:51] [Server thread/WARN]: 	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:176)
+[05:00:51] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.CommandDispatcher.a(CommandDispatcher.java:276)
+[05:00:51] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.command.VanillaCommandWrapper.execute(VanillaCommandWrapper.java:45)
+[05:00:51] [Server thread/WARN]: 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:159)
+[05:00:51] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.dispatchCommand(CraftServer.java:826)
+[05:00:51] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.dispatchServerCommand(CraftServer.java:788)
+[05:00:51] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.DedicatedServer.handleCommandQueue(DedicatedServer.java:470)
+[05:00:51] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.DedicatedServer.b(DedicatedServer.java:437)
+[05:00:51] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.a(MinecraftServer.java:1347)
+[05:00:51] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:1135)
+[05:00:51] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:291)
+[05:00:51] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:831)
+[05:00:51] [Server thread/INFO]: Stopping server
+[05:00:51] [Server thread/INFO]: [CMI] Disabling CMI v9.0.2.9
+[05:00:51] [Server thread/INFO]: [Vault][Economy] CMI Economy unhooked.
+[05:00:52] [Server thread/INFO]: [CMI] Closed db connections
+[05:00:52] [Server thread/INFO]: [CMILib] Disabling CMILib v1.1.2.6
+[05:00:53] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-CMI
+[05:00:53] [Server thread/INFO]: [WorldBorder] Disabling WorldBorder v1.9.10 (beta)
+[05:00:53] [Server thread/INFO]: [WorldBorder] [CONFIG] Border-checking timed task stopped.
+[05:00:53] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v1.2.1-SNAPSHOT
+[05:00:53] [Server thread/INFO]: [Geyser-Spigot] Выключение Geyser.
+[05:00:53] [Server thread/INFO]: [Geyser-Spigot] Geyser успешно выключен.
+[05:00:53] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.3.77
+[05:00:53] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[05:00:53] [Server thread/INFO]: [LuckPerms] Closing storage...
+[05:00:53] [Server thread/INFO]: [LuckPerms] Goodbye!
+[05:00:53] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v20.1
+[05:00:53] [Server thread/INFO]: [CoreProtect] Завершение регистрации данных. Пожалуйста, подождите...
+[05:00:54] [Server thread/INFO]: [CoreProtect] CoreProtect v20.1 был успешно отключён!
+[05:00:54] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.2.2
+[05:00:54] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
+[05:00:54] [Server thread/INFO]: Saving players
+[05:00:54] [Server thread/INFO]: Saving worlds
+[05:00:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[05:00:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[05:00:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[05:00:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[05:00:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[05:00:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[05:00:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[05:00:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[05:00:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[05:00:56] [Server thread/INFO]: Flushing Chunk IO
+[05:00:56] [Server thread/INFO]: Closing Thread Pool
+[05:00:56] [Server thread/INFO]: Closing Server
+[05:00:56] [Thread-1/WARN]: java.lang.Throwable: Server stopped
+[05:00:56] [Thread-1/WARN]: 	at io.papermc.paper.util.TraceUtil.dumpTraceForThread(TraceUtil.java:16)
+[05:00:56] [Thread-1/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.safeShutdown(MinecraftServer.java:1001)
+[05:00:56] [Thread-1/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.util.ServerShutdownThread.run(ServerShutdownThread.java:16)

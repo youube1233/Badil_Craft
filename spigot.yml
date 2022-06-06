@@ -33,12 +33,12 @@ settings:
     attackDamage:
       max: 2048.0
 messages:
-  whitelist: You are not whitelisted on this server!
-  unknown-command: Unknown command. Type "/help" for help.
-  server-full: The server is full!
+  whitelist: Вы не в WhiteList'е
+  unknown-command: Неизвестная команда.
+  server-full: Сервер полон.
   outdated-client: Outdated client! Please use {0}
   outdated-server: Outdated server! I'm still on {0}
-  restart: Server is restarting
+  restart: Сервер перезапускается
 advancements:
   disable-saving: false
   disabled:
