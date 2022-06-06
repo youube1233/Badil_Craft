@@ -44,10 +44,10 @@ TabList:
       - '&0------------------------------------'
       - '&3Корды: &f%player_x%:&f%player_y%:&f%player_z%'
       - '&3Денег: &f%vault_eco_balance_formatted%'
+      - '&7Real Life: &f%server_time_HH:mm:ss%'
       - '&0--------'
       - '&5zabi.fun'
       - '&0--------'
-      - '&f%server_time_HH:mm:ss%'
   useGeneralName: false
   # When this set to true, in case you dint defined PlayerName, Header or Footer in GroupFormat, then default one from GeneralFormat will be used
   useGeneralHeader: false
