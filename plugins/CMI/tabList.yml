@@ -42,10 +42,11 @@ TabList:
     Footer:
       '1':
       - '&0------------------------------------'
-      - '&3Real Life: &f%server_time_HH:mm:ss%'
+      - '&3Время: &f%server_time_HH:mm:ss%'
       - '&3Корды: &f%player_x%:&f%player_y%:&f%player_z%'
       - '&3Денег: &f%vault_eco_balance_formatted%'
       - '&0--------'
+      - '&6discord.gg/XuDnWYD'
       - '&5zabi.fun'
       - '&0--------'
   useGeneralName: false

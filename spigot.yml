@@ -49,8 +49,8 @@ stats:
 commands:
   silent-commandblock-console: false
   log: true
-  tab-complete: 0
-  send-namespaced: true
+  tab-complete: 2
+  send-namespaced: false
   spam-exclusions:
   - /skill
   replace-commands:
