@@ -5,12 +5,12 @@
 # You can add as many levels as you want, simply duplicate line and set new number, in example
 # Lvl33: 35.5
 LootMobBonus:
-  Enabled: true
+  Enabled: false
   Lvl1: 5.0
   Lvl2: 15.0
   Lvl3: 30.0
 # Defines if you want to use default head lore which will be used in case head doesnt have defined lore
-useDefaultHeadLore: true
+useDefaultHeadLore: false
 # Default lore used when head doesnt have defined head lore set
 defaultHeadLore:
 - '&7Killed by &6[playerName]'

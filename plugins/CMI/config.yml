@@ -443,7 +443,7 @@ BossBar:
   # Enables or disbales bossbar hp bar on 1.9+ servers
   # Only players with cmi.bossbar.hpbar permission node can see it
   # Permission node is been rechecked no more often than every minute for efficiency
-  HpBarEnabled: true
+  HpBarEnabled: false
   # List of mob types which will be excluded from hp boss bar
   HpBarBlackList:
   - Ender_dragon
@@ -453,9 +453,9 @@ Ban:
 Homes:
   # When enabled we will require player to click on ingame chat to confirm hoime location override in case home with same name already exist
   # This can be dirrectly confirmed with /cmi sethome [homeName] -override
-  Confirmation: true
+  Confirmation: false
   # Open gui when using /cmi home command if you have more then one home in your saved list
-  Gui: true
+  Gui: false
   # Homes groups to define max amount homes player can have. Permission: cmi.command.sethome.[groupname]
   # If players home group if not find then amount will be set to 1
   # To have unlimited homes use cmi.command.sethome.unlimited permission
@@ -467,7 +467,7 @@ Homes:
   # Requires cmi.bedhome permission node
   # When set to true by interacting with bed, regular home location will be created
   # When set to false vanilla bed home location will be set
-  BedInteraction: true
+  BedInteraction: false
   # When set to true, you can only set home location when you shift click a bed
   onlyShiftBed: false
   # Removes bed location when home location was created by clicking on that bed
@@ -529,7 +529,7 @@ ReSpawn:
     - worldSpawn
 Afk:
   # Enable or disable auto afk system entirely
-  Enabled: false
+  Enabled: true
   # When enabled shows title message informing that player is in afk mode
   TitleMessage: true
   # When enabled shows random subtitle message
@@ -550,14 +550,14 @@ Afk:
   # Defines commands to be performed when player enters afk mode automatically while addling
   # Supports specialized commands
   AutoAfkCmds:
-  - cmi broadcast !&6[playerDisplayName] &eis now AFK
+  - cmi broadcast !&6[playerDisplayName] &eвстал в AFK
   # Defines commands to be performed when player enters /cmi afk
   # Supports specialized commands
   ManualAfkCmds:
-  - cmi broadcast !&6[playerDisplayName] &eis now AFK
+  - cmi broadcast !&6[playerDisplayName] &eсейчас в AFK
   # Defines commands to be performed when player leaves afk mode
   AfkLeaveCmds:
-  - cmi broadcast !&6[playerDisplayName] &eis no longer AFK
+  - cmi broadcast !&6[playerDisplayName] &eбольше не в AFK
   # Defines how long to wait after player stops moving to kick player
   # This is additional timer to AutoAfkIn and in case player entered afk mode manually he will get kicked after AutoAfkIn+AutoKickIn seconds
   # This can be used not only to kick but to perform repeating action every x seconds if needed
@@ -686,7 +686,7 @@ Ranks:
     # Keep it longer or same as general delay time
     PlayerDelay: 120
     # Enable or disable progression bar in rank info window
-    progressBar: true
+    progressBar: false
   # When set to true, command /cmi ranklist will output ranks from your rankup path which will exclude any rank from different paths or different rankup trees all together
   # When set to false, all set ranks will be shown in the list
   ListSamePathOnly: false
@@ -726,27 +726,27 @@ Alert:
   Timer: 1440
 Notes:
   # When enebled, when player logs in who has alert set on him, staff member will get notification that this player have some notes attached to him
-  ShowOnAlertEvent: true
+  ShowOnAlertEvent: false
 GroundClean:
   # List of item types not to be removed on ground clean action
   WhiteList:
   - itemType
 Chat:
   # Will try to modify chat to display it in defined format
-  ModifyChatFormat: false
+  ModifyChatFormat: true
   # When set to true, regular and private messages (excludes clean messages) will have additional information when hovering over it (PlaceHolderAPI supported) and can be clicked for quick reply option
   # To change default hover over messages seen on sent message, go to your locale file to Chat section
   ClickHoverMessages: false
   DiscordSRV:
     # Enables support for DiscordSRV plugin
-    Enabled: true
+    Enabled: false
     # Defines name of global chat channel in discordsrv
     GlobalChannel: global
     # Indicator which can be used as {discord} in chat format to indicate that message came from discord and not ingame
     Label: '&2[&7D&2]'
     UnlinkedLabel: '&4[&cD&4]'
   # Enables support for DynMap web chat
-  DynMapChat: true
+  DynMapChat: false
   # When set to false, each time you will use /r you will reply to person you previously sent message directly or to person who sent you message if there is none you have conversion before
   # When this set to true, players with /r will reply to person who last sent private message. This can result in confusion when using /r while getting private messages from multiple players
   ReplyToLastMessenger: false
@@ -774,14 +774,14 @@ Chat:
   # Attention! This will require you to have CMI Bungee plugin which can be found at zrips.net
   # Or direct download https://www.zrips.net/cmi/
   # Do you want to enable private messaging over bungeecord
-  BungeeMessages: true
+  BungeeMessages: false
   # Do you want to enable public messaging over bungeecord
   # Player needs to have cmi.bungee.publicmessages.[servername] permission node to be able to send messages to target server
-  BungeePublicMessages: true
+  BungeePublicMessages: false
   # Do you want to enable staff messaging over bungeecord
   BungeeStaffMessages: true
   # Used for simple chat messages. Optional variables: {displayName} {world} {prefix} {suffix} {group} {shout} {message}. Supporting PlaceHolderAPI variables like %player_server%
-  GeneralFormat: '{prefix}&f{displayName}&7: &r{message}'
+  GeneralFormat: '{prefix}&f{displayName}&7{suffix}&7: &r{message}'
   # Will define message format itself, this allows to have gradients in messages
   # It NEEDS to contain {message} otherwise we will ignore this setup
   # For 1.16+ servers you can use color gradients like '{#b3a28f>}{message}{#d7b8e6<}'
@@ -855,7 +855,7 @@ Chat:
   IgnorePublicMessage: true
   Tag:
     # Enable or not tag system. This will inform player with his name mentioning in public chat if name have @ in front of it
-    Enabled: true
+    Enabled: false
     # When this is set to true, any player mentionings in public messages will be colorized and player will get informed as usual
     # This is allot more heavier on server than usual tagging with @, so enable if you know what you are doing
     HardCoreMode: false
@@ -1302,12 +1302,12 @@ Spawn:
     Yaw: 0.0
 Newbie:
   # Kit name to give for new players joining server
-  Kit: Newbie
+  Kit: none
 Kits:
   # When set to true, kit list will be shown in GUI instead of chat list
-  GUI: true
+  GUI: false
   # When set to true, kit selection gui empty fields will get filled with definet item
-  FillEmptyFields: true
+  FillEmptyFields: false
   Buttons:
     Cooldown: Watch
     Usages: STONE_PLATE
@@ -1317,9 +1317,9 @@ Kits:
     Back: Fence
 Warps:
   # When set to true, warps list will be shown in GUI instead of chat list
-  GUI: true
+  GUI: false
   # Automatically opens GUI when created new warp point
-  GUIOnCreation: true
+  GUIOnCreation: false
   # Minimal length of warp name
   MinLength: 4
   # Maximal length of warp name

@@ -19,7 +19,7 @@ worldLimits: true
 #  
 # World limitations: elytra mode
 # Applies for servers from 1.9.x and up
-worldLimitsElytra: true
+worldLimitsElytra: false
 #  
 # Login, logout and death messages
 # Applies for servers from 1.7.x and up
@@ -35,7 +35,7 @@ cuffed: true
 #  
 # Handling of messages appearing when item durability gets low
 # Applies for servers from 1.7.x and up
-durabilityLoss: true
+durabilityLoss: false
 #  
 # Handling of mirror feature, which checks block place and break actions
 # Applies for servers from 1.7.x and up
@@ -43,19 +43,19 @@ mirror: true
 #  
 # Spawner handling, like drop, place, egg interactions
 # Applies for servers from 1.7.x and up
-spawners: true
+spawners: false
 #  
 # Checking spawner place proximity
 # Applies for servers from 1.7.x and up
-spawnerProximity: true
+spawnerProximity: false
 #  
 # Checking spawner charges
 # Applies for servers from 1.7.x and up
-spawnerCharge: true
+spawnerCharge: false
 #  
 # Handling of command cooldowns
 # Applies for servers from 1.7.x and up
-cooldown: true
+cooldown: false
 #  
 # Handling of command warmups
 # Applies for servers from 1.7.x and up
@@ -63,7 +63,7 @@ warmup: true
 #  
 # Handling of interactive commands
 # Applies for servers from 1.8.x and up
-interactiveCommands: true
+interactiveCommands: false
 #  
 # Handling of attached commands
 # Applies for servers from 1.8.x and up
@@ -79,7 +79,7 @@ tablist: true
 #  
 # Handling of painting editing with shift+right click
 # Applies for servers from 1.7.x and up
-paintingEditor: true
+paintingEditor: false
 #  
 # Handles player vanish mode
 # Applies for servers from 1.7.x and up
@@ -91,7 +91,7 @@ moneyCheque: true
 #  
 # Handles armor stand editor
 # Applies for servers from 1.8.x and up
-armorstand: true
+armorstand: false
 #  
 # Handles dedicated CMI playtime tracker
 # Applies for servers from 1.7.x and up
@@ -107,23 +107,23 @@ portals: true
 #  
 # Handles home bed interactions and bed destroy events. Disabling this homes will still work
 # Applies for servers from 1.7.x and up
-homeInteractions: true
+homeInteractions: false
 #  
 # Handles dynamic signs
 # Applies for servers from 1.7.x and up
-dynamicSigns: true
+dynamicSigns: false
 #  
 # Handles leather armor which has dynamic colors
 # Applies for servers from 1.7.x and up
-coloredArmor: true
+coloredArmor: false
 #  
 # Handles entity target prevention on player /cmi notarget
 # Applies for servers from 1.7.x and up
-noTarget: true
+noTarget: false
 #  
 # Handles rankup system
 # Applies for servers from 1.7.x and up
-ranks: true
+ranks: false
 #  
 # Handles votifier system
 # Applies for servers from 1.7.x and up
@@ -131,31 +131,31 @@ votifier: true
 #  
 # Handles player combat system
 # Applies for servers from 1.7.x and up
-playerCombat: true
+playerCombat: false
 #  
 # Handles head drops system
 # Applies for servers from 1.7.x and up
-headDrop: true
+headDrop: false
 #  
 # Handles kit listener, mainly to give out new player kit
 # Applies for servers from 1.7.x and up
-kits: true
+kits: false
 #  
 # Handles schedule system
 # Applies for servers from 1.7.x and up
-schedule: true
+schedule: false
 #  
 # Handles player name plates
 # Applies for servers from 1.7.x and up
-namePlates: true
+namePlates: false
 #  
 # Handles jail system
 # Applies for servers from 1.7.x and up
-jail: true
+jail: false
 #  
 # Handles cmi flight charge system
 # Applies for servers from 1.7.x and up
-flightCharge: true
+flightCharge: false
 #  
 # Handles shulker box as backpacks
 # Applies for servers from 1.11.x and up
@@ -167,11 +167,11 @@ skin: true
 #  
 # Handles selection areas. While this is disabled, command can still be used
 # Applies for servers from 1.7.x and up
-selection: true
+selection: false
 #  
 # Handles mob and player hp bars as boss bar
 # Applies for servers from 1.9.x and up
-hpBossBar: true
+hpBossBar: false
 #  
 # Handling of afk feature. This will disable any checks related to afk and players will never get into afk mode
 # Applies for servers from 1.8.x and up
@@ -179,51 +179,51 @@ afk: true
 #  
 # Handling timed commands like tfly and tgod
 # Applies for servers from 1.7.x and up
-timedCommands: true
+timedCommands: false
 #  
 # Handling of eventCommands.yml feature 
 # Applies for servers from 1.9.x and up
-eventCommands: true
+eventCommands: false
 #  
 # Handling of disabled enchants in inventory
 # Applies for servers from 1.7.x and up
-disabledEnchants: true
+disabledEnchants: false
 #  
 # Handling of siting on blocks
 # Applies for servers from 1.8.x and up
-sitAnimation: true
+sitAnimation: false
 #  
 # Handling of ride suffocation detection
 # Applies for servers from 1.7.x and up
-rideAnimation: true
+rideAnimation: false
 #  
 # Handling of boss bar compass
 # Applies for servers from 1.9.x and up
-bossBarCompass: true
+bossBarCompass: false
 #  
 # Elytra boost
 # Applies for servers from 1.9.x and up
-elytraBoost: true
+elytraBoost: false
 #  
 # Elytra launch
 # Applies for servers from 1.9.x and up
-elytraLaunch: true
+elytraLaunch: false
 #  
 # Exploit prevention, like using trident for infinite flight or self damage with arrow
 # Applies for servers from 1.9.x and up
-elytraExploit: true
+elytraExploit: false
 #  
 # Handling of custom totem behavior
 # Applies for servers from 1.11.x and up
-totemBehavior: true
+totemBehavior: false
 #  
 # Handling of anvil item renaming and colorization
 # Applies for servers from 1.9.x and up
-anvilRenameColor: true
+anvilRenameColor: false
 #  
 # Handling of launch command falldamage
 # Applies for servers from 1.7.x and up
-launchPad: true
+launchPad: false
 #  
 # Handling of launch custom death messages
 # Applies for servers from 1.7.x and up
