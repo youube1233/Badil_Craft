@@ -1,237 +1,525 @@
-[00:01:19] [Server thread/INFO]: TheDwyn lost connection: Disconnected
-[00:01:20] [Server thread/INFO]: TheDwyn left the game
-[00:10:29] [User Authenticator #3/INFO]: UUID of player TheDwyn is d54e4672-2b6d-34c0-a1dc-4aa8317d231d
-[00:10:29] [Server thread/INFO]: TheDwyn joined the game
-[00:10:29] [Server thread/INFO]: TheDwyn[/89.251.31.112:57597] logged in with entity id 32615 at ([world]5813.0141690762575, 63.0, -1495.6039142930538)
-[00:12:23] [Server thread/INFO]: TheDwyn lost connection: Disconnected
-[00:12:23] [Server thread/INFO]: TheDwyn left the game
-[00:17:09] [Server thread/INFO]: youube1233 has made the advancement [Hot Stuff]
-[00:21:18] [User Authenticator #4/INFO]: UUID of player TheDwyn is d54e4672-2b6d-34c0-a1dc-4aa8317d231d
-[00:21:18] [Server thread/INFO]: TheDwyn joined the game
-[00:21:18] [Server thread/INFO]: TheDwyn[/89.251.31.112:57713] logged in with entity id 34601 at ([world]5809.560312238897, 62.0, -1508.8974822322314)
-[00:21:26] [Server thread/INFO]: youube1233 has made the advancement [We Need to Go Deeper]
-[00:33:41] [Server thread/INFO]: youube1233 has made the advancement [Best Friends Forever]
-[01:10:12] [Server thread/INFO]: TheDwyn suffocated in a wall
-[01:10:13] [Server thread/INFO]: Attempt to teleport dead player TheDwyn restricted
-[01:10:13] [Server thread/INFO]: Attempt to teleport dead player TheDwyn restricted
-[01:10:13] [Server thread/INFO]: Villager EntityVillager['Villager'/40276, uuid='08f07c48-5989-43c9-9380-a6d181b652e9', l='ServerLevel[world]', x=5477.14, y=62.90, z=-1353.98, cx=342, cz=-85, tl=210204, v=true, d=false] died, message: 'Villager suffocated in a wall'
-[01:11:12] [Server thread/INFO]: 
+[00:00:00] [luckperms-command-executor/INFO]: [LP] Web editor data was applied to user youube1233 successfully.
+[00:00:00] [luckperms-command-executor/INFO]: [LP] (1 addition and 0 deletions)
+[00:00:00] [luckperms-command-executor/INFO]: +  coreprotect.* (true)
+[00:00:02] [Server thread/INFO]: youube1233 issued server command: /coreprotect
+[00:04:13] [Server thread/INFO]: Неизвестная команда.
+[00:08:34] [Async Chat Thread - #0/INFO]: danik8513: я.л.к.в.м.о.м
+[00:11:05] [Async Chat Thread - #1/INFO]: TheDwyn: спать
+[00:13:27] [Server thread/INFO]: youube1233 встал в AFK
+[00:20:40] [Server thread/INFO]: youube1233 больше не в AFK
+[00:21:16] [Server thread/INFO]: youube1233 issued server command: /msg TheDwyn Ds
+[00:22:33] [Async Chat Thread - #2/INFO]: danik8513: найс
+[00:23:51] [Async Chat Thread - #3/INFO]: danik8513: что?
+[00:24:20] [Async Chat Thread - #3/INFO]: danik8513: бялть напеши в чате
+[00:24:35] [Async Chat Thread - #3/INFO]: danik8513: да
+[00:30:57] [Server thread/INFO]: youube1233 встал в AFK
+[00:31:48] [Async Chat Thread - #4/INFO]: danik8513: -170 69 1003
+[00:32:49] [Server thread/INFO]: youube1233 больше не в AFK
+[00:33:59] [Server thread/INFO]: youube1233 has made the advancement [A Seedy Place]
+[00:34:48] [Server thread/INFO]: 
 --------------------------------------------------
-TheDwyn Группа: default Онлайн for: 49 мин, 53 сек.  Время игры: 4 часов, 21 мин, 54 сек.  (0.00 БадыльКоинов)  
-UUID: d54e4672-2b6d-34c0-a1dc-4aa8317d231d 
-IP: 89.251.31.112 N/A (--)  Пинг: 53 FПервый вход: 08/06/22 20:06:06 
+danik8513 Группа: default Онлайн for: 36 мин, 48 сек.  Время игры: 1 час, 28 мин, 8 сек.  (0.00 БадыльКоинов)  
+UUID: 9bf99514-9671-3a21-aa24-ff7f2b691818 
+IP: 95.79.210.12 N/A (--)  Пинг: 47 FПервый вход: 09/06/22 22:54:59 
 CanFly(Flying)  Скорость полета: 1 
-Игровой режим: Выживание  Скорость ходьбы: 1 Здоровье: 20.0/20.0 Голод: 20/20 Saturation +0.0 Exp: 0exp -> 0/7 (0lvl) 
-Местоположение  world (77.2:71.24:155.66) 
-Следующий респавн  world (-112:65:64) 
-Место смерти  world (5476:62:-1355) 
+Игровой режим: Выживание  Скорость ходьбы: 1 Здоровье: 20.0/20.0 Голод: 20/20 Saturation +5.6000004 Exp: 305exp -> 25/35 (14lvl) 
+Местоположение  world (-166.5:70.68:1002.5) 
+Расположение кровати  world (-167:70:1004) 
+Следующий респавн  world (-167:70:1004) 
+Место смерти  world (-98:65:68) 
 --------------------------------------------------
-[01:11:25] [Async Chat Thread - #0/INFO]: youube1233: world (5476:62:-1355)
-[01:20:05] [Server thread/INFO]: 
---------------------------------------------------
-ramzecb Оффлайн for: 3 часов, 44 мин, 19 сек.  Время игры: 1 час, 23 мин, 33 сек.  (0.00 БадыльКоинов)  
-UUID: c9672c8f-15a2-3efd-9669-9329c4e5c719 
-IP: 213.231.59.211 N/A (--)  FПервый вход: 08/06/22 20:06:21 
-CanFly(Flying)  Скорость полета: 1 
-Игровой режим: Выживание  Скорость ходьбы: 1 Здоровье: 20.0/20.0 Голод: 20/20 Saturation +2.0 Exp: 193exp -> 6/29 (11lvl) 
-Местоположение  world (-410.62:68.0:278.62) 
-Расположение кровати  world (-412:68:279) 
-Следующий респавн  world (-412:68:279) 
-Место смерти  world (-412:11:276) 
---------------------------------------------------
-[01:21:51] [Server thread/INFO]: youube1233 was shot by Skeleton
-[01:34:55] [Async Chat Thread - #1/INFO]: youube1233: x2 Магма
-[01:35:02] [Async Chat Thread - #1/INFO]: youube1233: x4 Магма
-[01:36:11] [Server thread/INFO]: Villager EntityVillager['Villager'/68034, uuid='92175c45-655c-4635-a24d-fcfddd757513', l='ServerLevel[world]', x=5477.14, y=62.90, z=-1353.98, cx=342, cz=-85, tl=208827, v=true, d=false] died, message: 'Villager suffocated in a wall'
-[01:41:20] [Server thread/WARN]: youube1233 was kicked for floating too long!
-[01:41:20] [Server thread/INFO]: youube1233 lost connection: Flying is not enabled on this server
-[01:41:20] [Server thread/INFO]: youube1233 left the game
-[01:41:38] [User Authenticator #5/INFO]: UUID of player youube1233 is e17fe5c2-00e9-3fc0-a4bc-54a26aa6c13e
-[01:41:39] [Server thread/INFO]: youube1233 joined the game
-[01:41:39] [Server thread/INFO]: youube1233[/178.34.158.138:30689] logged in with entity id 69537 at ([world]-6134.849957473257, 62.0, 4016.2077999185185)
-[01:44:45] [luckperms-command-executor/INFO]: [LP] Preparing a new editor session, please wait...
-[01:44:45] [luckperms-command-executor/INFO]: [LP] Click the link below to open the editor:
-[01:44:45] [luckperms-command-executor/INFO]: https://luckperms.net/editor/tl0u6SwdkT
-[01:45:42] [luckperms-command-executor/INFO]: [LP] Web editor data was applied to user youube1233 successfully.
-[01:45:42] [luckperms-command-executor/INFO]: [LP] (1 addition and 0 deletions)
-[01:45:42] [luckperms-command-executor/INFO]: +  suffix.0.&4<dev> (true)
-[01:45:45] [Async Chat Thread - #2/INFO]: youube1233<dev>: fd
-[02:02:00] [Server thread/INFO]: Villager EntityVillager['Leatherworker'/67790, uuid='39e77196-f7c7-4144-89c6-ae4d0e2bd7d1', l='ServerLevel[world]', x=5356.70, y=73.00, z=-1296.70, cx=334, cz=-82, tl=241387, v=true, d=false] died, message: 'Leatherworker was slain by Zombie'
-[02:08:44] [Server thread/INFO]: Команда fixchun не была найдена, возможно вы имели в виду fixchunk?
-[02:08:44] [Server thread/INFO]: Использование: /fixchunk w [worldName] r [range in chunks] c [x:z] 
-[02:08:44] [Server thread/INFO]: * Сканирование поврежденных чанков
-[02:09:10] [Server thread/INFO]: Версия сервера не поддерживается для этой функции
-[02:14:38] [Server thread/INFO]: youube1233 lost connection: Disconnected
-[02:14:38] [Server thread/INFO]: youube1233 left the game
-[02:16:30] [User Authenticator #6/INFO]: UUID of player youube1233 is e17fe5c2-00e9-3fc0-a4bc-54a26aa6c13e
-[02:16:31] [Server thread/INFO]: youube1233 joined the game
-[02:16:31] [Server thread/INFO]: youube1233[/178.34.158.138:22754] logged in with entity id 78462 at ([world]-6162.4337317531135, 174.0, 4023.4091124963174)
-[02:18:25] [Server thread/INFO]: youube1233 issued server command: /dynmap fullrender
-[02:18:30] [Server thread/INFO]: youube1233 lost connection: Disconnected
-[02:18:30] [Server thread/INFO]: youube1233 left the game
-[02:18:43] [User Authenticator #7/INFO]: UUID of player youube1233 is e17fe5c2-00e9-3fc0-a4bc-54a26aa6c13e
-[02:18:43] [Server thread/INFO]: youube1233 joined the game
-[02:18:43] [Server thread/INFO]: youube1233[/178.34.158.138:16127] logged in with entity id 79089 at ([world]-6162.361344274277, 175.0, 4022.2939358659905)
-[02:20:44] [Server thread/INFO]: youube1233 issued server command: /dynamic
-[02:20:55] [Server thread/INFO]: youube1233 issued server command: /dynmap
-[02:20:57] [Server thread/INFO]: youube1233 issued server command: /dynmap
-[02:20:59] [Server thread/INFO]: youube1233 lost connection: Disconnected
-[02:20:59] [Server thread/INFO]: youube1233 left the game
-[02:22:38] [User Authenticator #8/INFO]: UUID of player youube1233 is e17fe5c2-00e9-3fc0-a4bc-54a26aa6c13e
-[02:22:38] [Server thread/INFO]: youube1233 joined the game
-[02:22:38] [Server thread/INFO]: youube1233[/178.34.158.138:30482] logged in with entity id 80022 at ([world]-6162.5039712313355, 174.0, 4023.774740900682)
-[02:22:51] [Server thread/INFO]: youube1233 issued server command: /dmap
-[02:23:14] [Server thread/INFO]: youube1233 lost connection: Disconnected
-[02:23:14] [Server thread/INFO]: youube1233 left the game
-[02:25:06] [User Authenticator #9/INFO]: UUID of player youube1233 is e17fe5c2-00e9-3fc0-a4bc-54a26aa6c13e
-[02:25:07] [Server thread/INFO]: youube1233 joined the game
-[02:25:07] [Server thread/INFO]: youube1233[/178.34.158.138:61403] logged in with entity id 80471 at ([world]-6162.501757497099, 174.0, 4023.436507433886)
-[02:25:17] [Server thread/INFO]: youube1233 issued server command: /bl
-[02:25:41] [Server thread/INFO]: youube1233 lost connection: Disconnected
-[02:25:41] [Server thread/INFO]: youube1233 left the game
-[02:26:06] [User Authenticator #9/INFO]: UUID of player youube1233 is e17fe5c2-00e9-3fc0-a4bc-54a26aa6c13e
-[02:26:06] [Server thread/INFO]: youube1233 joined the game
-[02:26:06] [Server thread/INFO]: youube1233[/178.34.158.138:39307] logged in with entity id 80731 at ([world]-6162.501757497099, 174.0, 4023.436507433886)
-[02:29:32] [Server thread/INFO]: youube1233 lost connection: Disconnected
-[02:29:32] [Server thread/INFO]: youube1233 left the game
-[02:33:33] [Server thread/INFO]: TheDwyn lost connection: Disconnected
-[02:33:33] [Server thread/INFO]: TheDwyn left the game
-[02:51:30] [User Authenticator #10/INFO]: UUID of player youube1233 is e17fe5c2-00e9-3fc0-a4bc-54a26aa6c13e
-[02:51:30] [Server thread/INFO]: youube1233 joined the game
-[02:51:30] [Server thread/INFO]: youube1233[/178.34.158.138:15509] logged in with entity id 82247 at ([world]-6162.475312327307, 147.0, 4021.346735884625)
-[02:52:48] [Server thread/INFO]: 
---------------------------------------------------
-youube1233 Группа: default Онлайн for: 1 мин, 18 сек.  Время игры: 5 часов, 25 мин, 5 сек.  (0.00 БадыльКоинов)  
-UUID: e17fe5c2-00e9-3fc0-a4bc-54a26aa6c13e 
-IP: 178.34.158.138 N/A (--)  Пинг: 52 FПервый вход: 06/06/22 21:45:54 
-CanFly(Flying)  Скорость полета: 1 
-Игровой режим: Выживание  Скорость ходьбы: 1 Здоровье: 20.0/20.0 Голод: 20/20 Saturation +1.0 Exp: 125exp -> 13/23 (8lvl) 
-Местоположение  world (-6162.3:184.0:4021.6) 
-Расположение кровати  world (-6105:68:4231) 
-Следующий респавн  world (-6105:68:4231) 
-Место смерти  world (-6107:63:4087) 
-Back  world_nether (-759:80:522) 
---------------------------------------------------
-[02:54:46] [Server thread/INFO]: youube1233 lost connection: Disconnected
-[02:54:46] [Server thread/INFO]: youube1233 left the game
-[03:26:04] [User Authenticator #11/INFO]: UUID of player youube1233 is e17fe5c2-00e9-3fc0-a4bc-54a26aa6c13e
-[03:26:04] [Server thread/INFO]: youube1233 joined the game
-[03:26:04] [Server thread/INFO]: youube1233[/178.34.158.138:62305] logged in with entity id 82448 at ([world]-6162.478494890363, 184.0, 4021.606560854959)
-[03:32:47] [Server thread/INFO]: youube1233 встал в AFK
-[03:38:34] [Server thread/INFO]: youube1233 больше не в AFK
-[03:42:11] [Server thread/WARN]: Boat (vehicle of youube1233) moved wrongly! 0.39249725453646533
-[03:44:41] [User Authenticator #12/INFO]: UUID of player TheDwyn is d54e4672-2b6d-34c0-a1dc-4aa8317d231d
-[03:44:41] [Server thread/INFO]: TheDwyn joined the game
-[03:44:41] [Server thread/INFO]: TheDwyn[/89.251.31.112:59390] logged in with entity id 84109 at ([world]5488.859935641754, 69.0, -1348.2368060062627)
-[03:50:56] [Async Chat Thread - #3/INFO]: youube1233<dev>: О
-[03:51:36] [Async Chat Thread - #3/INFO]: youube1233<dev>: Ты играть или на 5 сек зашёл?
-[03:51:40] [Async Chat Thread - #3/INFO]: TheDwyn: играть
-[03:51:43] [Async Chat Thread - #3/INFO]: TheDwyn: но без дс
-[03:52:03] [Async Chat Thread - #3/INFO]: youube1233<dev>: Я ток мир хотел отгрузить, ладно, позже сделаю
-[03:53:25] [Async Chat Thread - #4/INFO]: youube1233<dev>: чек дс
-[03:53:35] [Async Chat Thread - #4/INFO]: youube1233<dev>: для этого отгруз хочу сделать
-[03:54:09] [Async Chat Thread - #4/INFO]: TheDwyn: чекнул
-[03:54:12] [Async Chat Thread - #4/INFO]: TheDwyn: а нахуя?
-[03:54:25] [Async Chat Thread - #4/INFO]: youube1233<dev>: Можешь так планировать местность
-[03:55:00] [Async Chat Thread - #4/INFO]: TheDwyn: та нахуй надо
-[03:55:04] [Async Chat Thread - #4/INFO]: TheDwyn: я так всё делаю
-[03:56:40] [Async Chat Thread - #5/INFO]: youube1233<dev>: Посмотрел, что ещё скинул?
-[03:56:56] [Async Chat Thread - #5/INFO]: TheDwyn: твой остров?
-[03:57:04] [Async Chat Thread - #5/INFO]: youube1233<dev>: Да, масштаб ебанутый
-[03:57:13] [Async Chat Thread - #5/INFO]: youube1233<dev>: это он уменьшен сильно
-[03:57:45] [Async Chat Thread - #5/INFO]: youube1233<dev>: Ты до скольки?
-[03:58:56] [Async Chat Thread - #6/INFO]: TheDwyn: пока хуй знает
-[03:59:02] [User Authenticator #13/INFO]: UUID of player Stepashka is f5e8dd60-0a31-36ef-9a9a-765d9228acf6
-[03:59:02] [Server thread/INFO]: Stepashka joined the game
-[03:59:02] [Server thread/INFO]: Stepashka[/91.215.249.158:4605] logged in with entity id 87612 at ([world]-110.5, 67.0, 70.5)
-[03:59:11] [Async Chat Thread - #6/INFO]: youube1233<dev>: Макс, вовремя зашёл
-[03:59:38] [Server thread/INFO]: Stepashka lost connection: Disconnected
-[03:59:38] [Server thread/INFO]: Stepashka left the game
-[04:00:09] [Server thread/INFO]: Данные еще не загружены. Начинается процес сканирования, вы получите результат после его завершения
-[04:00:09] [Craft Scheduler Thread - 275/INFO]: Stats loaded!
-[04:00:15] [Server thread/INFO]: ----- Топ по времени игры -----
-[04:00:15] [Server thread/INFO]: 1. youube1233 - 6 часов, 1 мин, 9 сек. 
-[04:00:15] [Server thread/INFO]: 2. TheDwyn - 5 часов, 59 мин, 44 сек. 
-[04:00:15] [Server thread/INFO]: 3. kW1n - 1 час, 54 мин, 58 сек. 
-[04:00:15] [Server thread/INFO]: 4. puzrik - 1 час, 30 мин, 5 сек. 
-[04:00:15] [Server thread/INFO]: 5. ramzecb - 1 час, 23 мин, 33 сек. 
-[04:00:15] [Server thread/INFO]: 6. TITANik0803 - 1 час, 10 мин, 25 сек. 
-[04:00:15] [Server thread/INFO]: 7. Lapd - 26 мин, 39 сек. 
-[04:00:15] [Server thread/INFO]: 8. __Dimooon__ - 17 мин, 9 сек. 
-[04:00:15] [Server thread/INFO]: 9. Stepashka - 35 сек. 
-[04:00:41] [Async Chat Thread - #7/INFO]: youube1233<dev>: Чек скрин
-[04:01:33] [Server thread/INFO]: TheDwyn: Играет
-[04:02:20] [Server thread/INFO]: ----- Топ по времени игры -----
-[04:02:20] [Server thread/INFO]: 1. youube1233 - 6 часов, 3 мин, 9 сек. 
-[04:02:20] [Server thread/INFO]: 2. TheDwyn - 6 часов, 1 мин, 44 сек. 
-[04:02:20] [Server thread/INFO]: 3. kW1n - 1 час, 54 мин, 58 сек. 
-[04:02:20] [Server thread/INFO]: 4. puzrik - 1 час, 30 мин, 5 сек. 
-[04:02:20] [Server thread/INFO]: 5. ramzecb - 1 час, 23 мин, 33 сек. 
-[04:02:20] [Server thread/INFO]: 6. TITANik0803 - 1 час, 10 мин, 25 сек. 
-[04:02:20] [Server thread/INFO]: 7. Lapd - 26 мин, 39 сек. 
-[04:02:20] [Server thread/INFO]: 8. __Dimooon__ - 17 мин, 9 сек. 
-[04:02:20] [Server thread/INFO]: 9. Stepashka - 35 сек. 
-[04:02:27] [Async Chat Thread - #8/INFO]: TheDwyn: ебать разница 2 минуты
-[04:17:27] [Server thread/INFO]: youube1233 встал в AFK
-[04:40:08] [Server thread/INFO]: TheDwyn was blown up by Creeper
-[04:50:34] [Server thread/INFO]: TheDwyn lost connection: Disconnected
-[04:50:34] [Server thread/INFO]: TheDwyn left the game
-[04:52:14] [Server thread/INFO]: youube1233 больше не в AFK
-[04:52:40] [Server thread/INFO]: youube1233 lost connection: Disconnected
-[04:52:40] [Server thread/INFO]: youube1233 left the game
-[04:56:44] [Craft Scheduler Thread - 295/INFO]: [Vault] Checking for Updates ... 
-[04:56:44] [Craft Scheduler Thread - 295/INFO]: [Vault] No new version available
-[05:02:04] [Server thread/INFO]: Stopping the server
-[05:02:04] [Server thread/WARN]: java.lang.Throwable: Server stopped
-[05:02:04] [Server thread/WARN]: 	at io.papermc.paper.util.TraceUtil.dumpTraceForThread(TraceUtil.java:16)
-[05:02:04] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.safeShutdown(MinecraftServer.java:1001)
-[05:02:04] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.safeShutdown(MinecraftServer.java:995)
-[05:02:04] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.CommandStop.a(SourceFile:17)
-[05:02:04] [Server thread/WARN]: 	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:262)
-[05:02:04] [Server thread/WARN]: 	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:176)
-[05:02:04] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.CommandDispatcher.a(CommandDispatcher.java:276)
-[05:02:04] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.command.VanillaCommandWrapper.execute(VanillaCommandWrapper.java:45)
-[05:02:04] [Server thread/WARN]: 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:159)
-[05:02:04] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.dispatchCommand(CraftServer.java:826)
-[05:02:04] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.dispatchServerCommand(CraftServer.java:788)
-[05:02:04] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.DedicatedServer.handleCommandQueue(DedicatedServer.java:470)
-[05:02:04] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.DedicatedServer.b(DedicatedServer.java:437)
-[05:02:04] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.a(MinecraftServer.java:1347)
-[05:02:04] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:1135)
-[05:02:04] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:291)
-[05:02:04] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:829)
-[05:02:04] [Server thread/INFO]: Stopping server
-[05:02:04] [Server thread/INFO]: [CMI] Disabling CMI v9.0.2.9
-[05:02:04] [Server thread/INFO]: [Vault][Economy] CMI Economy unhooked.
-[05:02:04] [Server thread/INFO]: [CMI] Closed db connections
-[05:02:04] [Server thread/INFO]: [CMILib] Disabling CMILib v1.1.2.6
-[05:02:04] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-CMI
-[05:02:04] [Server thread/INFO]: [WorldBorder] Disabling WorldBorder v1.9.10 (beta)
-[05:02:04] [Server thread/INFO]: [WorldBorder] [CONFIG] Border-checking timed task stopped.
-[05:02:04] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.3.77
-[05:02:04] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[05:02:04] [Server thread/INFO]: [LuckPerms] Closing storage...
-[05:02:05] [Server thread/INFO]: [LuckPerms] Goodbye!
-[05:02:05] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.2.2
-[05:02:05] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
-[05:02:05] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v20.1
-[05:02:05] [Server thread/INFO]: [CoreProtect] Завершение регистрации данных. Пожалуйста, подождите...
-[05:02:06] [Server thread/INFO]: [CoreProtect] CoreProtect v20.1 был успешно отключён!
-[05:02:06] [Server thread/INFO]: Saving players
-[05:02:06] [Server thread/INFO]: Saving worlds
-[05:02:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[05:02:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[05:02:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[05:02:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[05:02:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[05:02:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[05:02:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[05:02:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[05:02:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[05:02:06] [Server thread/INFO]: Flushing Chunk IO
-[05:02:06] [Server thread/INFO]: Closing Thread Pool
-[05:02:06] [Server thread/INFO]: Closing Server
-[05:02:06] [Thread-1/WARN]: java.lang.Throwable: Server stopped
-[05:02:06] [Thread-1/WARN]: 	at io.papermc.paper.util.TraceUtil.dumpTraceForThread(TraceUtil.java:16)
-[05:02:06] [Thread-1/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.safeShutdown(MinecraftServer.java:1001)
-[05:02:06] [Thread-1/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.util.ServerShutdownThread.run(ServerShutdownThread.java:16)
+[00:36:42] [Server thread/INFO]: danik8513 was slain by Zombie
+[00:37:16] [Async Chat Thread - #5/INFO]: youube1233<dev>: ./sleep
+[00:37:43] [Server thread/INFO]: danik8513 was shot by Skeleton
+[00:47:49] [Server thread/INFO]: danik8513 lost connection: Disconnected
+[00:47:49] [Server thread/INFO]: danik8513 left the game
+[00:47:53] [Async Chat Thread - #6/INFO]: youube1233<dev>: ееееееееееееееееее
+[00:49:56] [Server thread/INFO]: youube1233 issued server command: /playtimetop
+[00:51:23] [Server thread/INFO]: youube1233 has made the advancement [Take Aim]
+[00:55:00] [Async Chat Thread - #7/INFO]: youube1233<dev>: Димас
+[01:00:30] [Async Chat Thread - #8/INFO]: youube1233<dev>: ./sleep
+[01:01:44] [Async Chat Thread - #9/INFO]: youube1233<dev>: Ты забор построил?
+[01:01:49] [Async Chat Thread - #9/INFO]: TheDwyn: -
+[01:01:56] [Async Chat Thread - #9/INFO]: youube1233<dev>: мне нужно ночь не скипать
+[01:02:14] [Async Chat Thread - #9/INFO]: TheDwyn: та я ливаю уже
+[01:02:18] [Async Chat Thread - #9/INFO]: youube1233<dev>: Окей
+[01:06:02] [Server thread/INFO]: TheDwyn lost connection: Disconnected
+[01:06:02] [Server thread/INFO]: TheDwyn left the game
+[01:06:02] [User Authenticator #2/INFO]: UUID of player danik8513 is 9bf99514-9671-3a21-aa24-ff7f2b691818
+[01:06:02] [Server thread/INFO]: danik8513 joined the game
+[01:06:02] [Server thread/INFO]: danik8513[/95.79.210.12:56617] logged in with entity id 22958 at ([world]-172.8306164959931, 69.0, 1009.9132799992437)
+[01:12:04] [Async Chat Thread - #10/INFO]: danik8513: спать
+[01:12:31] [Async Chat Thread - #10/INFO]: youube1233<dev>: Мне ночь нужна была\
+[01:12:42] [Async Chat Thread - #10/INFO]: danik8513: сори незнал
+[01:20:56] [Server thread/INFO]: youube1233 issued server command: /note youube1233 list
+[01:22:10] [Async Chat Thread - #11/INFO]: youube1233<dev>: Ночь не скипать
+[01:22:29] [Async Chat Thread - #11/INFO]: danik8513: я в шахте
+[01:28:21] [Async Chat Thread - #12/INFO]: danik8513: лад я спать спокойной
+[01:28:24] [Async Chat Thread - #12/INFO]: youube1233<dev>: Спокойной
+[01:28:27] [Server thread/INFO]: danik8513 lost connection: Disconnected
+[01:28:27] [Server thread/INFO]: danik8513 left the game
+[01:32:31] [User Authenticator #3/INFO]: UUID of player danik8513 is 9bf99514-9671-3a21-aa24-ff7f2b691818
+[01:32:31] [Server thread/INFO]: danik8513 joined the game
+[01:32:31] [Server thread/INFO]: danik8513[/95.79.210.12:61772] logged in with entity id 29877 at ([world]-169.63755311199492, 69.0, 1012.3558227553247)
+[01:35:40] [Server thread/INFO]: danik8513 has made the advancement [Diamonds!]
+[01:37:00] [Async Chat Thread - #13/INFO]: danik8513: я алмазы нашол)
+[01:38:23] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
+[01:38:23] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
+[01:38:23] [Server thread/INFO]: Debug logging is disabled
+[01:38:23] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:38:23] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:38:23] [Server thread/INFO]: [CMI] Disabling CMI v9.0.2.9
+[01:38:23] [Server thread/INFO]: [Vault][Economy] CMI Economy unhooked.
+[01:38:23] [Server thread/INFO]: [CMI] Closed db connections
+[01:38:23] [Server thread/INFO]: [CMILib] Disabling CMILib v1.1.2.6
+[01:38:23] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-CMI
+[01:38:23] [Server thread/INFO]: [WorldBorder] Disabling WorldBorder v1.9.10 (beta)
+[01:38:23] [Server thread/INFO]: [WorldBorder] [CONFIG] Border-checking timed task stopped.
+[01:38:23] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.3.77
+[01:38:23] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[01:38:23] [Server thread/INFO]: [LuckPerms] Closing storage...
+[01:38:23] [Server thread/INFO]: [LuckPerms] Goodbye!
+[01:38:23] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.2.2
+[01:38:23] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
+[01:38:23] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v20.1
+[01:38:23] [Server thread/INFO]: [CoreProtect] Завершение регистрации данных. Пожалуйста, подождите...
+[01:38:24] [Server thread/INFO]: [CoreProtect] CoreProtect v20.1 был успешно отключён!
+[01:38:24] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[01:38:24] [Server thread/INFO]: Loaded 7 recipes
+[01:38:25] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[01:38:26] [Server thread/INFO]: Loaded 7 recipes
+[01:38:27] [Server thread/ERROR]: Ambiguous plugin name `CMILib' for files `plugins/CMILib1.2.0.1.jar' and `plugins/CMILib1.1.2.6.jar' in `plugins'
+[01:38:27] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v20.1
+[01:38:27] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.2.2
+[01:38:27] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.3.77
+[01:38:27] [Server thread/INFO]: [WorldBorder] Loading WorldBorder v1.9.10 (beta)
+[01:38:27] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-CMI
+[01:38:27] [Server thread/INFO]: [AuthMe] Loading AuthMe v5.6.0-SNAPSHOT-b2501
+[01:38:27] [Server thread/INFO]: [CMILib] Loading CMILib v1.2.0.1
+[01:38:27] [Server thread/INFO]: [CMI] Loading CMI v9.0.2.9
+[01:38:27] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:38:27] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.3.77
+[01:38:27] [Server thread/INFO]:         __    
+[01:38:27] [Server thread/INFO]:   |    |__)   LuckPerms v5.3.77
+[01:38:27] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[01:38:27] [Server thread/INFO]: 
+[01:38:27] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[01:38:27] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[01:38:28] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[01:38:28] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[01:38:28] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 962ms)
+[01:38:28] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-CMI
+[01:38:28] [Server thread/WARN]: [Vault] Loaded class com.Zrips.CMI.Modules.Economy.Economy from CMI v9.0.2.9 which is not a depend, softdepend or loadbefore of this plugin.
+[01:38:28] [Server thread/INFO]: [Vault] [Economy] CMI Economy found: Waiting
+[01:38:28] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[01:38:28] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-CMI
+[01:38:28] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[01:38:28] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v20.1
+[01:38:28] [Server thread/INFO]: [CoreProtect] CoreProtect был успешно запущен! 
+[01:38:28] [Server thread/INFO]: [CoreProtect] Для хранения данных используется SQLite.
+[01:38:28] [Server thread/INFO]: --------------------
+[01:38:28] [Server thread/INFO]: [CoreProtect] Нравится CoreProtect? Присоединяйтесь к нашему Discord!
+[01:38:28] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
+[01:38:28] [Server thread/INFO]: --------------------
+[01:38:28] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[01:38:28] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
+[01:38:28] [Server thread/INFO]: [ClearLag] Loading modules...
+[01:38:28] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[01:38:28] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[01:38:28] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[01:38:28] [Server thread/INFO]: [WorldBorder] Enabling WorldBorder v1.9.10 (beta)
+[01:38:28] [Thread-15/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.16]...
+[01:38:28] [Server thread/INFO]: [WorldBorder] [CONFIG] Using elliptic/round border, knockback of 3.0 blocks, and timer delay of 5.
+[01:38:28] [Server thread/INFO]: [WorldBorder] [CONFIG] Border-checking timed task started.
+[01:38:28] [Server thread/INFO]: [WorldBorder] For reference, the main world's spawn location is at X: -112.0 Y: 65.0 Z: 64.0
+[01:38:28] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.6.0-SNAPSHOT-b2501
+[01:38:28] [Thread-15/INFO]: [ClearLag] No updates found!
+[01:38:28] [Server thread/INFO]: [AuthMe] Created column 'regdate' and set the current timestamp, 1654814308966, to all 0 rows
+[01:38:28] [Server thread/INFO]: [AuthMe] SQLite Setup finished
+[01:38:29] [Server thread/INFO]: [AuthMe] Hooked into LuckPerms!
+[01:38:29] [Server thread/WARN]: [AuthMe] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[01:38:29] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0-SNAPSHOT build n.2501 successfully enabled!
+[01:38:29] [Server thread/INFO]: [CMILib] Enabling CMILib v1.2.0.1
+[01:38:30] [Server thread/INFO]: Server version: v1_16_R3 - 1.16.5 - paper
+[01:38:30] [Server thread/INFO]: CMI hooked.
+[01:38:30] [Server thread/INFO]: Updated (EN) language file. Took 36ms
+[01:38:30] [Server thread/INFO]: Updated (RU) language file. Took 26ms
+[01:38:30] [Server thread/INFO]: [CMI] Enabling CMI v9.0.2.9
+[01:38:31] [Server thread/INFO]: ┏━━━┓ ┏━┓┏━┓ ┏━━┓
+[01:38:31] [Server thread/INFO]: ┃┏━┓┃ ┃ ┗┛ ┃ ┗┫┣┛
+[01:38:31] [Server thread/INFO]: ┃┃ ┗┛ ┃┏┓┏┓┃  ┃┃ 
+[01:38:31] [Server thread/INFO]: ┃┃ ┏┓ ┃┃┃┃┃┃  ┃┃ 
+[01:38:31] [Server thread/INFO]: ┃┗━┛┃ ┃┃┃┃┃┃ ┏┫┣┓
+[01:38:31] [Server thread/INFO]: ┗━━━┛ ┗┛┗┛┗┛ ┗━━┛
+[01:38:31] [Server thread/INFO]: _______________________________________________________
+[01:38:31] [Server thread/INFO]: [CMI] Re-Leaked Aternosv2
+[01:38:31] [Server thread/INFO]:   Integrating PaperSpigot async methods
+[01:38:31] [Server thread/INFO]:   21 Enabled and 35 Disabled modules
+[01:38:31] [Server thread/INFO]:   Permission plugin: LuckPerms5.3.77
+[01:38:31] [Server thread/INFO]:   Initialized Cipher256 AES
+[01:38:31] [Server thread/INFO]:   Loaded (56) regular alias into memory. Took 40ms
+[01:38:31] [Server thread/INFO]:   Loaded (1) custom text's into memory. Took 1ms
+[01:38:31] [Server thread/INFO]:   3.34.0 data base type detected
+[01:38:31] [Server thread/INFO]:   Started SqLite data base. Took 145ms
+[01:38:31] [Server thread/INFO]:   Vault was found - Enabling capabilities. Economy: CMIEconomy
+[01:38:31] [Server thread/INFO]:   Loaded (5) warning categories into memory. Took 0ms
+[01:38:31] [Server thread/INFO]:   Loaded (3) warning commands into memory. Took 0ms
+[01:38:31] [Server thread/INFO]:   Loaded (135) custom mob heads into memory. Took 16ms
+[01:38:31] [Server thread/INFO]:   Loaded (0) cooldowns into memory. Took 22ms
+[01:38:31] [Server thread/INFO]:   Initializing BungeeCord
+[01:38:31] [Server thread/INFO]:   Loaded (10) player data into memory. Took 7ms
+[01:38:31] [Server thread/INFO]:   Loaded (0) playtime records into memory. Took 0ms
+[01:38:31] [Server thread/INFO]:   Loaded (0) playtime reward records into memory. Took 1ms
+[01:38:34] [Server thread/INFO]:   Registered events. Took 143ms
+[01:38:34] [Server thread/INFO]:   Loaded (0) event action commands into memory. Took 5ms
+[01:38:34] [Server thread/INFO]:   Updated (EN) language file. Took 153ms
+[01:38:34] [Server thread/INFO]:   Updated (RU) language file. Took 113ms
+[01:38:34] [Server thread/INFO]:   Vault permissions was found - Enabling capabilities.
+[01:38:34] [Server thread/INFO]:   Starting world timer.
+[01:38:34] [Server thread/INFO]:   Initializing world manager.
+[01:38:34] [Server thread/INFO]:   Loaded GeoIP
+[01:38:34] [Server thread/INFO]:   Loaded (0) skin cache entries into memory. Took 0ms
+[01:38:34] [Server thread/INFO]:   Version 9.0.2.9 has been enabled
+[01:38:34] [Server thread/INFO]: ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+[01:38:34] [Server thread/INFO]: [CMI] Downloaded from https://directleaks.net
+[01:38:34] [Server thread/INFO]: [AuthMe] Hooked successfully into CMI
+[01:38:34] [Server thread/INFO]: [Vault][Economy] CMI Economy hooked.
+[01:38:34] [Server thread/INFO]: CONSOLE: Reload complete.
+[01:38:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11495ms or 229 ticks behind
+[01:38:34] [Server thread/INFO]: Timings Reset
+[01:38:34] [Craft Scheduler Thread - 57/INFO]: [AuthMe] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[01:38:34] [Craft Scheduler Thread - 57/WARN]: [AuthMe] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[01:38:34] [Craft Scheduler Thread - 57/INFO]: [AuthMe] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[01:38:34] [Craft Scheduler Thread - 57/WARN]: [AuthMe] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[01:38:34] [Craft Scheduler Thread - 59/INFO]: [Vault] Checking for Updates ... 
+[01:38:34] [Craft Scheduler Thread - 59/INFO]: [Vault] No new version available
+[01:38:35] [Thread-16/INFO]: --------------------
+[01:38:35] [Thread-16/INFO]: [CoreProtect] Версия 21.2 уже доступна!
+[01:38:35] [Thread-16/INFO]: [CoreProtect] Загрузить: www.coreprotect.net/download/
+[01:38:35] [Thread-16/INFO]: --------------------
+[01:38:50] [Server thread/INFO]: danik8513 lost connection: Disconnected
+[01:38:50] [Server thread/INFO]: danik8513 left the game
+[01:38:50] [Server thread/INFO]: [AuthMe] youube1233 registered 178.34.158.138
+[01:38:51] [Craft Scheduler Thread - 62/INFO]: [AuthMe] youube1233 logged in 178.34.158.138
+[01:38:53] [User Authenticator #4/INFO]: UUID of player danik8513 is 9bf99514-9671-3a21-aa24-ff7f2b691818
+[01:38:53] [Server thread/INFO]: danik8513 joined the game
+[01:38:53] [Server thread/INFO]: danik8513[/95.79.210.12:61926] logged in with entity id 31557 at ([world]-186.86160684841133, 10.0, 941.0772586623712)
+[01:38:57] [Async Chat Thread - #14/INFO]: youube1233<dev>: ./reg
+[01:39:21] [Server thread/INFO]: [AuthMe] danik8513 registered 95.79.210.12
+[01:39:21] [Craft Scheduler Thread - 59/INFO]: [AuthMe] danik8513 logged in 95.79.210.12
+[01:41:58] [Async Chat Thread - #15/INFO]: youube1233<dev>: Ещё один лаг будет сейчас
+[01:42:04] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
+[01:42:04] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
+[01:42:04] [Server thread/INFO]: Debug logging is disabled
+[01:42:04] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:42:04] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:42:04] [Server thread/INFO]: [CMI] Disabling CMI v9.0.2.9
+[01:42:04] [Server thread/INFO]: [AuthMe] CMI has been disabled: unhooking
+[01:42:04] [Server thread/INFO]: [Vault][Economy] CMI Economy unhooked.
+[01:42:04] [Server thread/INFO]: [CMI] Closed db connections
+[01:42:04] [Server thread/INFO]: [CMILib] Disabling CMILib v1.2.0.1
+[01:42:04] [Server thread/INFO]: [AuthMe] Disabling AuthMe v5.6.0-SNAPSHOT-b2501
+[01:42:04] [Server thread/INFO]: [AuthMe] Waiting for 0 tasks to finish
+[01:42:04] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0-SNAPSHOT-b2501 disabled!
+[01:42:04] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-CMI
+[01:42:04] [Server thread/INFO]: [WorldBorder] Disabling WorldBorder v1.9.10 (beta)
+[01:42:04] [Server thread/INFO]: [WorldBorder] [CONFIG] Border-checking timed task stopped.
+[01:42:04] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.3.77
+[01:42:04] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[01:42:04] [Server thread/INFO]: [LuckPerms] Closing storage...
+[01:42:04] [Server thread/INFO]: [LuckPerms] Goodbye!
+[01:42:04] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.2.2
+[01:42:04] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
+[01:42:04] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v20.1
+[01:42:04] [Server thread/INFO]: [CoreProtect] Завершение регистрации данных. Пожалуйста, подождите...
+[01:42:05] [Server thread/INFO]: [CoreProtect] CoreProtect v20.1 был успешно отключён!
+[01:42:05] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[01:42:05] [Server thread/INFO]: Loaded 7 recipes
+[01:42:06] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[01:42:07] [Server thread/INFO]: Loaded 7 recipes
+[01:42:07] [Async Chat Thread - #15/INFO]: <danik8513> ok
+[01:42:08] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v20.1
+[01:42:08] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.2.2
+[01:42:08] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.3.77
+[01:42:08] [Server thread/INFO]: [WorldBorder] Loading WorldBorder v1.9.10 (beta)
+[01:42:08] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-CMI
+[01:42:08] [Server thread/INFO]: [AuthMe] Loading AuthMe v5.6.0-SNAPSHOT-b2501
+[01:42:08] [Server thread/INFO]: [CMILib] Loading CMILib v1.2.0.1
+[01:42:08] [Server thread/INFO]: [CMI] Loading CMI v9.0.2.9
+[01:42:08] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:42:08] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.3.77
+[01:42:08] [Server thread/INFO]:         __    
+[01:42:08] [Server thread/INFO]:   |    |__)   LuckPerms v5.3.77
+[01:42:08] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[01:42:08] [Server thread/INFO]: 
+[01:42:08] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[01:42:08] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[01:42:09] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[01:42:09] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[01:42:09] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 975ms)
+[01:42:09] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-CMI
+[01:42:09] [Server thread/WARN]: [Vault] Loaded class com.Zrips.CMI.Modules.Economy.Economy from CMI v9.0.2.9 which is not a depend, softdepend or loadbefore of this plugin.
+[01:42:09] [Server thread/INFO]: [Vault] [Economy] CMI Economy found: Waiting
+[01:42:09] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[01:42:09] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-CMI
+[01:42:09] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[01:42:09] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v20.1
+[01:42:09] [Server thread/INFO]: [CoreProtect] CoreProtect был успешно запущен! 
+[01:42:09] [Server thread/INFO]: [CoreProtect] Для хранения данных используется SQLite.
+[01:42:09] [Server thread/INFO]: --------------------
+[01:42:09] [Server thread/INFO]: [CoreProtect] Нравится CoreProtect? Присоединяйтесь к нашему Discord!
+[01:42:09] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
+[01:42:09] [Server thread/INFO]: --------------------
+[01:42:09] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[01:42:09] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
+[01:42:09] [Server thread/INFO]: [ClearLag] Loading modules...
+[01:42:09] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[01:42:09] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[01:42:09] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[01:42:09] [Thread-20/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.16]...
+[01:42:09] [Server thread/INFO]: [WorldBorder] Enabling WorldBorder v1.9.10 (beta)
+[01:42:09] [Server thread/INFO]: [WorldBorder] [CONFIG] Using elliptic/round border, knockback of 3.0 blocks, and timer delay of 5.
+[01:42:09] [Server thread/INFO]: [WorldBorder] [CONFIG] Border-checking timed task started.
+[01:42:09] [Server thread/INFO]: [WorldBorder] For reference, the main world's spawn location is at X: -112.0 Y: 65.0 Z: 64.0
+[01:42:09] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.6.0-SNAPSHOT-b2501
+[01:42:09] [Thread-20/INFO]: [ClearLag] No updates found!
+[01:42:10] [Server thread/INFO]: [AuthMe] SQLite Setup finished
+[01:42:10] [Server thread/INFO]: [AuthMe] Hooked into LuckPerms!
+[01:42:10] [Server thread/WARN]: [AuthMe] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[01:42:10] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0-SNAPSHOT build n.2501 successfully enabled!
+[01:42:10] [Server thread/INFO]: [CMILib] Enabling CMILib v1.2.0.1
+[01:42:11] [Server thread/INFO]: Server version: v1_16_R3 - 1.16.5 - paper
+[01:42:12] [Server thread/INFO]: CMI hooked.
+[01:42:12] [Server thread/INFO]: Updated (EN) language file. Took 32ms
+[01:42:12] [Server thread/INFO]: Updated (RU) language file. Took 26ms
+[01:42:12] [Server thread/INFO]: [CMI] Enabling CMI v9.0.2.9
+[01:42:12] [Server thread/INFO]: ┏━━━┓ ┏━┓┏━┓ ┏━━┓
+[01:42:12] [Server thread/INFO]: ┃┏━┓┃ ┃ ┗┛ ┃ ┗┫┣┛
+[01:42:12] [Server thread/INFO]: ┃┃ ┗┛ ┃┏┓┏┓┃  ┃┃ 
+[01:42:12] [Server thread/INFO]: ┃┃ ┏┓ ┃┃┃┃┃┃  ┃┃ 
+[01:42:12] [Server thread/INFO]: ┃┗━┛┃ ┃┃┃┃┃┃ ┏┫┣┓
+[01:42:12] [Server thread/INFO]: ┗━━━┛ ┗┛┗┛┗┛ ┗━━┛
+[01:42:12] [Server thread/INFO]: _______________________________________________________
+[01:42:12] [Server thread/INFO]: [CMI] Re-Leaked Aternosv2
+[01:42:12] [Server thread/INFO]:   Integrating PaperSpigot async methods
+[01:42:12] [Server thread/INFO]:   21 Enabled and 35 Disabled modules
+[01:42:12] [Server thread/INFO]:   Permission plugin: LuckPerms5.3.77
+[01:42:12] [Server thread/INFO]:   Initialized Cipher256 AES
+[01:42:12] [Server thread/INFO]:   Loaded (56) regular alias into memory. Took 37ms
+[01:42:12] [Server thread/INFO]:   Loaded (1) custom text's into memory. Took 1ms
+[01:42:12] [Server thread/INFO]:   3.34.0 data base type detected
+[01:42:13] [Server thread/INFO]:   Started SqLite data base. Took 141ms
+[01:42:13] [Server thread/INFO]:   Vault was found - Enabling capabilities. Economy: CMIEconomy
+[01:42:13] [Server thread/INFO]:   Loaded (5) warning categories into memory. Took 1ms
+[01:42:13] [Server thread/INFO]:   Loaded (3) warning commands into memory. Took 0ms
+[01:42:13] [Server thread/INFO]:   Loaded (135) custom mob heads into memory. Took 22ms
+[01:42:13] [Server thread/INFO]:   Loaded (0) cooldowns into memory. Took 30ms
+[01:42:13] [Server thread/INFO]:   Initializing BungeeCord
+[01:42:13] [Server thread/INFO]:   Loaded (10) player data into memory. Took 18ms
+[01:42:13] [Server thread/INFO]:   Loaded (0) playtime records into memory. Took 1ms
+[01:42:13] [Server thread/INFO]:   Loaded (0) playtime reward records into memory. Took 0ms
+[01:42:13] [Server thread/INFO]:   Registered events. Took 136ms
+[01:42:13] [Server thread/INFO]:   Loaded (0) event action commands into memory. Took 4ms
+[01:42:13] [Server thread/INFO]:   Updated (EN) language file. Took 114ms
+[01:42:13] [Server thread/INFO]:   Updated (RU) language file. Took 106ms
+[01:42:13] [Server thread/INFO]:   Vault permissions was found - Enabling capabilities.
+[01:42:13] [Server thread/INFO]:   Starting world timer.
+[01:42:13] [Server thread/INFO]:   Initializing world manager.
+[01:42:13] [Server thread/INFO]:   Loaded GeoIP
+[01:42:13] [Server thread/INFO]:   Loaded (0) skin cache entries into memory. Took 0ms
+[01:42:13] [Server thread/INFO]:   Version 9.0.2.9 has been enabled
+[01:42:13] [Server thread/INFO]: ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+[01:42:13] [Server thread/INFO]: [CMI] Downloaded from https://directleaks.net
+[01:42:13] [Server thread/INFO]: [AuthMe] Hooked successfully into CMI
+[01:42:13] [Server thread/INFO]: [Vault][Economy] CMI Economy hooked.
+[01:42:13] [Server thread/INFO]: CONSOLE: Reload complete.
+[01:42:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9688ms or 193 ticks behind
+[01:42:13] [Server thread/INFO]: Timings Reset
+[01:42:13] [Craft Scheduler Thread - 57/INFO]: [AuthMe] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[01:42:13] [Craft Scheduler Thread - 57/WARN]: [AuthMe] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[01:42:13] [Craft Scheduler Thread - 57/INFO]: [AuthMe] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[01:42:13] [Craft Scheduler Thread - 57/WARN]: [AuthMe] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[01:42:13] [Craft Scheduler Thread - 62/INFO]: [Vault] Checking for Updates ... 
+[01:42:13] [Craft Scheduler Thread - 62/INFO]: [Vault] No new version available
+[01:42:15] [Thread-21/INFO]: --------------------
+[01:42:15] [Thread-21/INFO]: [CoreProtect] Версия 21.2 уже доступна!
+[01:42:15] [Thread-21/INFO]: [CoreProtect] Загрузить: www.coreprotect.net/download/
+[01:42:15] [Thread-21/INFO]: --------------------
+[01:42:17] [Server thread/INFO]: danik8513 lost connection: Disconnected
+[01:42:17] [Server thread/INFO]: danik8513 left the game
+[01:42:19] [User Authenticator #5/INFO]: UUID of player danik8513 is 9bf99514-9671-3a21-aa24-ff7f2b691818
+[01:42:19] [Server thread/INFO]: danik8513 joined the game
+[01:42:19] [Server thread/INFO]: danik8513[/95.79.210.12:61975] logged in with entity id 32324 at ([world]-230.9516839978079, 24.0, 944.6870840536528)
+[01:42:24] [Craft Scheduler Thread - 62/INFO]: [AuthMe] youube1233 logged in 178.34.158.138
+[01:42:29] [Async Chat Thread - #15/INFO]: youube1233<dev>: Всё
+[01:42:31] [Server thread/INFO]: youube1233 lost connection: Disconnected
+[01:42:31] [Server thread/INFO]: youube1233 left the game
+[01:42:32] [User Authenticator #5/INFO]: UUID of player youube1233 is e17fe5c2-00e9-3fc0-a4bc-54a26aa6c13e
+[01:42:32] [Craft Scheduler Thread - 64/INFO]: [AuthMe] danik8513 logged in 95.79.210.12
+[01:42:32] [Server thread/INFO]: youube1233 joined the game
+[01:42:33] [Server thread/INFO]: youube1233[/178.34.158.138:32528] logged in with entity id 32468 at ([world]-6199.471708299735, 73.0, 4187.504910509029)
+[01:42:33] [Craft Scheduler Thread - 62/INFO]: [AuthMe] youube1233 logged in 178.34.158.138
+[01:43:41] [Server thread/INFO]: This server is running AuthMeReloaded v5.6.0-SNAPSHOT b2501! <3
+[01:43:41] [Server thread/INFO]: Use the command /authme help to view help.
+[01:43:41] [Server thread/INFO]: Use the command /authme about to view about.
+[01:43:45] [Server thread/INFO]: ==========[ Помощь по AuthMeReloaded ]==========
+[01:43:45] [Server thread/INFO]: Команда: /authme
+[01:43:45] [Server thread/INFO]: Краткое описание: AuthMe op commands
+[01:43:45] [Server thread/INFO]: Команды:
+[01:43:45] [Server thread/INFO]:  /authme register: Регистрация игрока
+[01:43:45] [Server thread/INFO]:  /authme unregister: Удаление регистрации игрока
+[01:43:45] [Server thread/INFO]:  /authme forcelogin: Авторизация игрока
+[01:43:45] [Server thread/INFO]:  /authme password: Изменение пароля игрока
+[01:43:45] [Server thread/INFO]:  /authme lastlogin: Последний вход игрока
+[01:43:45] [Server thread/INFO]:  /authme accounts: Учётные записи игрока
+[01:43:45] [Server thread/INFO]:  /authme email: Электронная почта игрока
+[01:43:45] [Server thread/INFO]:  /authme setemail: Смена эл. почты игрока
+[01:43:45] [Server thread/INFO]:  /authme getip: IP-адрес игрока
+[01:43:45] [Server thread/INFO]:  /authme totp: See if a player has enabled TOTP
+[01:43:45] [Server thread/INFO]:  /authme disabletotp: Delete TOTP token of a player
+[01:43:45] [Server thread/INFO]:  /authme spawn: Перемещение на точку возрождения
+[01:43:45] [Server thread/INFO]:  /authme setspawn: Перемещение точки возрождения
+[01:43:45] [Server thread/INFO]:  /authme firstspawn: Перемещение на начальную точку появления
+[01:43:45] [Server thread/INFO]:  /authme setfirstspawn: Перемещение начальной точки появления
+[01:43:45] [Server thread/INFO]:  /authme purge: Удаление старых данных
+[01:43:45] [Server thread/INFO]:  /authme purgeplayer: Purges the data of one player
+[01:43:45] [Server thread/INFO]:  /authme backup: Создание резервной копии
+[01:43:45] [Server thread/INFO]:  /authme resetpos: Удаление последнего местоположения игрока
+[01:43:45] [Server thread/INFO]:  /authme purgebannedplayers: Удаление данных о заблокированных
+[01:43:45] [Server thread/INFO]:  /authme switchantibot: Изменение AntiBot-режима
+[01:43:45] [Server thread/INFO]:  /authme reload: Перезагрузка плагина
+[01:43:45] [Server thread/INFO]:  /authme version: Информация о версии
+[01:43:45] [Server thread/INFO]:  /authme converter: Преобразователь
+[01:43:45] [Server thread/INFO]:  /authme messages: Add missing help messages
+[01:43:45] [Server thread/INFO]:  /authme recent: See players who have recently logged in
+[01:43:45] [Server thread/INFO]:  /authme debug: Debug features
+[01:43:45] [Server thread/INFO]:  /authme help: Просмотр помощи
+[01:43:52] [Craft Scheduler Thread - 63/INFO]: Игрок с таким именем не зарегистрирован.
+[01:44:02] [Server thread/INFO]: Unknown command!
+[01:44:02] [Server thread/INFO]: Did you mean /authme register?
+[01:44:02] [Server thread/INFO]: Use the command /authme help to view help.
+[01:44:08] [Server thread/INFO]: Incorrect command arguments!
+[01:44:08] [Server thread/INFO]: ==========[ Помощь по AuthMeReloaded ]==========
+[01:44:08] [Server thread/INFO]: Аргументы:
+[01:44:08] [Server thread/INFO]:  игрок: имя игрока
+[01:44:08] [Server thread/INFO]:  пароль: пароль
+[01:44:08] [Server thread/INFO]: Detailed help: /authme help register
+[01:44:25] [Async Chat Thread - #16/INFO]: youube1233<dev>: Не скипай
+[01:44:37] [Async Chat Thread - #16/INFO]: danik8513: всм
+[01:44:39] [Async Chat Thread - #16/INFO]: youube1233<dev>: ночь
+[01:44:41] [Server thread/WARN]: Boat (vehicle of youube1233) moved wrongly! 0.2966394528421006
+[01:44:49] [Async Chat Thread - #16/INFO]: danik8513: Я В ШАХТЕ МНЕ ПОФИК
+[01:49:26] [Async Chat Thread - #17/INFO]: danik8513: надо корды спавнера паука мелкого?
+[01:49:26] [Server thread/INFO]: youube1233 has made the advancement [Suit Up]
+[01:49:32] [Async Chat Thread - #17/INFO]: youube1233<dev>: не=
+[01:49:37] [Async Chat Thread - #17/INFO]: youube1233<dev>: уже есть
+[01:52:38] [Server thread/INFO]: danik8513 tried to swim in lava
+[01:52:45] [Async Chat Thread - #18/INFO]: youube1233<dev>: Всё потерял?
+[01:52:48] [Async Chat Thread - #18/INFO]: danik8513: СУКА
+[01:52:51] [Async Chat Thread - #18/INFO]: danik8513: ДА
+[01:53:03] [Async Chat Thread - #18/INFO]: danik8513: -23 АЛМАЗА
+[01:53:11] [Async Chat Thread - #18/INFO]: youube1233<dev>: Норм
+[01:53:31] [Async Chat Thread - #18/INFO]: danik8513: лад я пойду спать
+[01:53:34] [Async Chat Thread - #18/INFO]: danik8513: споки
+[01:53:39] [Async Chat Thread - #18/INFO]: youube1233<dev>: Давай
+[01:53:43] [Server thread/INFO]: danik8513 lost connection: Disconnected
+[01:53:43] [Server thread/INFO]: danik8513 left the game
+[01:56:24] [Server thread/INFO]: youube1233 has made the advancement [Not Today, Thank You]
+[02:04:56] [Server thread/INFO]: youube1233 issued server command: /note youube1233 list
+[02:25:56] [Server thread/INFO]: youube1233 issued server command: /cmi playtimetop
+[02:26:18] [Server thread/INFO]: youube1233 issued server command: /verification
+[02:26:35] [Server thread/INFO]: youube1233 issued server command: /trigger
+[02:26:36] [Server thread/INFO]: youube1233 issued server command: /trigger
+[02:26:40] [Server thread/INFO]: youube1233 lost connection: Disconnected
+[02:26:40] [Server thread/INFO]: youube1233 left the game
+[02:26:43] [User Authenticator #6/INFO]: UUID of player youube1233 is e17fe5c2-00e9-3fc0-a4bc-54a26aa6c13e
+[02:26:43] [Server thread/INFO]: youube1233 joined the game
+[02:26:43] [Server thread/INFO]: youube1233[/178.34.158.138:62472] logged in with entity id 40225 at ([world]-6157.971196271339, 63.0, 3935.224399337152)
+[02:26:43] [Craft Scheduler Thread - 124/INFO]: [AuthMe] youube1233 logged in 178.34.158.138
+[02:26:50] [Server thread/INFO]: youube1233 lost connection: Disconnected
+[02:26:50] [Server thread/INFO]: youube1233 left the game
+[02:27:21] [Server thread/INFO]: Unknown command!
+[02:27:21] [Server thread/INFO]: Use the command /authme:logout help to view help.
+[02:27:25] [Server thread/INFO]: ==========[ Помощь по AuthMeReloaded ]==========
+[02:27:25] [Server thread/INFO]: Команда: /logout
+[02:27:25] [Server thread/INFO]: Краткое описание: Logout command
+[02:27:25] [Server thread/INFO]: Команды:
+[02:27:25] [Server thread/INFO]:  /logout help: View help
+[02:27:27] [User Authenticator #6/INFO]: UUID of player youube1233 is e17fe5c2-00e9-3fc0-a4bc-54a26aa6c13e
+[02:27:27] [Server thread/INFO]: youube1233 joined the game
+[02:27:27] [Server thread/INFO]: youube1233[/178.34.158.138:62492] logged in with entity id 40236 at ([world]-6158.782726105922, 63.0, 3934.9501079375736)
+[02:27:27] [Craft Scheduler Thread - 125/INFO]: [AuthMe] youube1233 logged in 178.34.158.138
+[02:27:30] [Server thread/INFO]: youube1233 issued server command: /logout
+[02:27:30] [Server thread/INFO]: [AuthMe] youube1233 logged out
+[02:27:32] [Server thread/INFO]: youube1233 lost connection: Disconnected
+[02:27:32] [Server thread/INFO]: youube1233 left the game
+[02:27:33] [User Authenticator #6/INFO]: UUID of player youube1233 is e17fe5c2-00e9-3fc0-a4bc-54a26aa6c13e
+[02:27:33] [Server thread/INFO]: youube1233 joined the game
+[02:27:33] [Server thread/INFO]: youube1233[/178.34.158.138:62553] logged in with entity id 40375 at ([world]-6158.782726105922, 63.0, 3934.9501079375736)
+[02:27:38] [Craft Scheduler Thread - 125/INFO]: [AuthMe] youube1233 used the wrong password
+[02:27:38] [Server thread/INFO]: youube1233 lost connection: Неправильный пароль!
+[02:27:38] [Server thread/INFO]: youube1233 left the game
+[02:27:40] [User Authenticator #6/INFO]: UUID of player youube1233 is e17fe5c2-00e9-3fc0-a4bc-54a26aa6c13e
+[02:27:40] [Server thread/INFO]: youube1233 joined the game
+[02:27:40] [Server thread/INFO]: youube1233[/178.34.158.138:62481] logged in with entity id 40377 at ([world]-6158.782726105922, 63.0, 3934.9501079375736)
+[02:27:45] [Craft Scheduler Thread - 115/INFO]: [AuthMe] youube1233 logged in 178.34.158.138
+[02:27:54] [Server thread/INFO]: youube1233 lost connection: Disconnected
+[02:27:54] [Server thread/INFO]: youube1233 left the game
+[02:33:35] [Server thread/INFO]: Stopping the server
+[02:33:35] [Server thread/WARN]: java.lang.Throwable: Server stopped
+[02:33:35] [Server thread/WARN]: 	at io.papermc.paper.util.TraceUtil.dumpTraceForThread(TraceUtil.java:16)
+[02:33:35] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.safeShutdown(MinecraftServer.java:1001)
+[02:33:35] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.safeShutdown(MinecraftServer.java:995)
+[02:33:35] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.CommandStop.a(SourceFile:17)
+[02:33:35] [Server thread/WARN]: 	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:262)
+[02:33:35] [Server thread/WARN]: 	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:176)
+[02:33:35] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.CommandDispatcher.a(CommandDispatcher.java:276)
+[02:33:35] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.command.VanillaCommandWrapper.execute(VanillaCommandWrapper.java:45)
+[02:33:35] [Server thread/WARN]: 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:159)
+[02:33:35] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.dispatchCommand(CraftServer.java:826)
+[02:33:35] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.dispatchServerCommand(CraftServer.java:788)
+[02:33:35] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.DedicatedServer.handleCommandQueue(DedicatedServer.java:470)
+[02:33:35] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.DedicatedServer.b(DedicatedServer.java:437)
+[02:33:35] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.a(MinecraftServer.java:1347)
+[02:33:35] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:1135)
+[02:33:35] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:291)
+[02:33:35] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:829)
+[02:33:35] [Server thread/INFO]: Stopping server
+[02:33:35] [Server thread/INFO]: [CMI] Disabling CMI v9.0.2.9
+[02:33:35] [Server thread/INFO]: [AuthMe] CMI has been disabled: unhooking
+[02:33:35] [Server thread/INFO]: [Vault][Economy] CMI Economy unhooked.
+[02:33:35] [Server thread/INFO]: [CMI] Closed db connections
+[02:33:35] [Server thread/INFO]: [CMILib] Disabling CMILib v1.2.0.1
+[02:33:35] [Server thread/INFO]: [AuthMe] Disabling AuthMe v5.6.0-SNAPSHOT-b2501
+[02:33:35] [Server thread/INFO]: [AuthMe] Waiting for 0 tasks to finish
+[02:33:35] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0-SNAPSHOT-b2501 disabled!
+[02:33:35] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-CMI
+[02:33:35] [Server thread/INFO]: [WorldBorder] Disabling WorldBorder v1.9.10 (beta)
+[02:33:35] [Server thread/INFO]: [WorldBorder] [CONFIG] Border-checking timed task stopped.
+[02:33:35] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.3.77
+[02:33:35] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[02:33:35] [Server thread/INFO]: [LuckPerms] Closing storage...
+[02:33:35] [Server thread/INFO]: [LuckPerms] Goodbye!
+[02:33:35] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.2.2
+[02:33:35] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
+[02:33:35] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v20.1
+[02:33:35] [Server thread/INFO]: [CoreProtect] Завершение регистрации данных. Пожалуйста, подождите...
+[02:33:36] [Server thread/INFO]: [CoreProtect] CoreProtect v20.1 был успешно отключён!
+[02:33:36] [Server thread/INFO]: Saving players
+[02:33:36] [Server thread/INFO]: Saving worlds
+[02:33:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[02:33:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02:33:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[02:33:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:33:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[02:33:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02:33:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02:33:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:33:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02:33:37] [Server thread/INFO]: Flushing Chunk IO
+[02:33:37] [Server thread/INFO]: Closing Thread Pool
+[02:33:37] [Server thread/INFO]: Closing Server
+[02:33:37] [Thread-1/WARN]: java.lang.Throwable: Server stopped
+[02:33:37] [Thread-1/WARN]: 	at io.papermc.paper.util.TraceUtil.dumpTraceForThread(TraceUtil.java:16)
+[02:33:37] [Thread-1/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.safeShutdown(MinecraftServer.java:1001)
+[02:33:37] [Thread-1/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.util.ServerShutdownThread.run(ServerShutdownThread.java:16)

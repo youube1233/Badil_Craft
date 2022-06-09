@@ -893,8 +893,8 @@ Alias:
   #  
   # /cmi note $1-
   /note:
-    Enabled: false
-    Tab: false
+    Enabled: true
+    Tab: true
   #  
   # /cmi openbook $1-
   /openbook:
