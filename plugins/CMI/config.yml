@@ -542,7 +542,7 @@ Afk:
   CheckInterval: 10
   # When set to true, players playtime counter stops
   # As of nature how this system works you can see +-1second jumping up and down while checking players playtime
-  StopPlayTime: false
+  StopPlayTime: true
   # Defines how long to wait after player stops moving to set him as afk
   # Player needs to have cmi.command.afk.auto permission node
   # Set to 0 if you want to disable it
