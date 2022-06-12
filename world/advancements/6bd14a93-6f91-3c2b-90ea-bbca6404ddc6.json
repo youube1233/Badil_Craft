@@ -996,6 +996,7 @@
     "criteria": {
       "minecraft:skeleton": "2022-06-08 20:48:18 +0300",
       "minecraft:ghast": "2022-06-10 10:57:58 +0300",
+      "minecraft:magma_cube": "2022-06-11 14:01:51 +0300",
       "minecraft:spider": "2022-06-08 20:48:29 +0300",
       "minecraft:piglin_brute": "2022-06-10 10:32:01 +0300",
       "minecraft:creeper": "2022-06-08 22:23:35 +0300",
@@ -1246,12 +1247,6 @@
   "minecraft:recipes/building_blocks/cyan_concrete_powder": {
     "criteria": {
       "has_gravel": "2022-06-09 10:36:41 +0300"
-    },
-    "done": true
-  },
-  "cmilib:cmi/commandtoast": {
-    "criteria": {
-      "IMPOSSIBLE": "2022-06-10 20:22:35 +0300"
     },
     "done": true
   },
