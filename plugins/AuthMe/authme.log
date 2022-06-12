@@ -380,3 +380,133 @@
 [06-12 05:07:35]: [FINE] youube1233 logged in 178.34.158.235
 [06-12 05:07:45]: [INFO] CMI has been disabled: unhooking
 [06-12 05:07:45]: [INFO] AuthMe 5.6.0-SNAPSHOT-b2501 disabled!
+[06-12 05:11:56]: [INFO] SQLite Setup finished
+[06-12 05:11:56]: [INFO] Hooked into LuckPerms!
+[06-12 05:11:56]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[06-12 05:11:56]: [INFO] AuthMe 5.6.0-SNAPSHOT build n.2501 successfully enabled!
+[06-12 05:12:03]: [INFO] Hooked successfully into CMI
+[06-12 05:12:03]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[06-12 05:12:03]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[06-12 05:12:03]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[06-12 05:12:03]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[06-12 05:12:03]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:345)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:259)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:214)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:101)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+[06-12 05:13:31]: [FINE] The user youube1233 has 2 accounts:
+[06-12 05:13:31]: [FINE] §7§ayouube1233§7, shizik.
+[06-12 05:13:31]: [FINE] youube1233 logged in 178.34.158.235
+[06-12 13:23:49]: [FINE] The user youube1233 has 2 accounts:
+[06-12 13:23:49]: [FINE] §7§ayouube1233§7, shizik.
+[06-12 13:23:49]: [FINE] youube1233 logged in 178.34.158.235
+[06-12 13:52:48]: [FINE] ramzecb logged in 213.231.59.211
+[06-12 16:59:20]: [FINE] Tars_Play logged in 2.63.176.39
+[06-12 17:09:19]: [FINE] The user youube1233 has 2 accounts:
+[06-12 17:09:19]: [FINE] §7§ayouube1233§7, shizik.
+[06-12 17:09:19]: [FINE] youube1233 logged in 178.34.158.235
+[06-12 17:13:08]: [FINE] The user youube1233 has 2 accounts:
+[06-12 17:13:08]: [FINE] §7§ayouube1233§7, shizik.
+[06-12 17:13:08]: [FINE] youube1233 logged in 178.34.158.235
+[06-12 17:14:03]: [FINE] The user youube1233 has 2 accounts:
+[06-12 17:14:03]: [FINE] §7§ayouube1233§7, shizik.
+[06-12 17:14:03]: [FINE] youube1233 logged in 178.34.158.235
+[06-12 17:36:35]: [FINE] Tars_Play logged in 2.63.176.39
+[06-12 17:59:28]: [FINE] Shizik used the wrong password
+[06-12 17:59:35]: [FINE] The user Shizik has 2 accounts:
+[06-12 17:59:35]: [FINE] §7§ayouube1233§7, §aShizik§7.
+[06-12 17:59:35]: [FINE] Shizik logged in 178.34.158.235
+[06-12 18:07:51]: [INFO] CMI has been disabled: unhooking
+[06-12 18:07:51]: [INFO] AuthMe 5.6.0-SNAPSHOT-b2501 disabled!
+[06-12 18:07:57]: [INFO] SQLite Setup finished
+[06-12 18:07:57]: [INFO] Hooked into LuckPerms!
+[06-12 18:07:58]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[06-12 18:07:58]: [INFO] AuthMe 5.6.0-SNAPSHOT build n.2501 successfully enabled!
+[06-12 18:08:03]: [INFO] Hooked successfully into CMI
+[06-12 18:08:04]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[06-12 18:08:04]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[06-12 18:08:04]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[06-12 18:08:04]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[06-12 18:08:04]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:345)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:259)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:214)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:101)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+[06-12 18:08:19]: [FINE] The user youube1233 has 2 accounts:
+[06-12 18:08:19]: [FINE] §7§ayouube1233§7, §aShizik§7.
+[06-12 18:08:19]: [FINE] youube1233 logged in 178.34.158.235
+[06-12 18:08:31]: [FINE] Tars_Play logged in 2.63.176.39
+[06-12 18:09:06]: [FINE] The user Shizik has 2 accounts:
+[06-12 18:09:06]: [FINE] §7§ayouube1233§7, §aShizik§7.
+[06-12 18:09:06]: [FINE] Shizik logged in 178.34.158.235
+[06-12 18:10:30]: [FINE] The user Shizik has 2 accounts:
+[06-12 18:10:30]: [FINE] §7§ayouube1233§7, §aShizik§7.
+[06-12 18:10:30]: [FINE] Shizik logged in 178.34.158.235
+[06-12 18:10:53]: [FINE] The user Shizik has 2 accounts:
+[06-12 18:10:53]: [FINE] §7§ayouube1233§7, §aShizik§7.
+[06-12 18:10:53]: [FINE] Shizik logged in 178.34.158.235
+[06-12 18:12:41]: [FINE] The user Shizik has 2 accounts:
+[06-12 18:12:41]: [FINE] §7§ayouube1233§7, §aShizik§7.
+[06-12 18:12:41]: [FINE] Shizik logged in 178.34.158.235
+[06-12 18:14:46]: [FINE] The user Shizik has 2 accounts:
+[06-12 18:14:46]: [FINE] §7§ayouube1233§7, §aShizik§7.
+[06-12 18:14:46]: [FINE] Shizik logged in 178.34.158.235
+[06-12 18:16:36]: [FINE] The user youube1233 has 2 accounts:
+[06-12 18:16:36]: [FINE] §7§ayouube1233§7, §aShizik§7.
+[06-12 18:16:36]: [FINE] youube1233 logged in 178.34.158.235
+[06-12 18:22:17]: [FINE] The user youube1233 has 2 accounts:
+[06-12 18:22:17]: [FINE] §7§ayouube1233§7, shizik.
+[06-12 18:22:17]: [FINE] youube1233 logged in 178.34.158.235
+[06-12 18:23:13]: [INFO] CMI has been disabled: unhooking
+[06-12 18:25:02]: [INFO] SQLite Setup finished
+[06-12 18:25:02]: [INFO] Hooked into LuckPerms!
+[06-12 18:25:02]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[06-12 18:25:02]: [INFO] AuthMe 5.6.0-SNAPSHOT build n.2501 successfully enabled!
+[06-12 18:25:10]: [INFO] Hooked successfully into CMI
+[06-12 18:25:10]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[06-12 18:25:10]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[06-12 18:25:10]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[06-12 18:25:10]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[06-12 18:25:10]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:345)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:259)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:214)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:101)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+[06-12 18:25:29]: [FINE] The user youube1233 has 2 accounts:
+[06-12 18:25:29]: [FINE] §7§ayouube1233§7, shizik.
+[06-12 18:25:29]: [FINE] youube1233 logged in 178.34.158.235
+[06-12 18:25:47]: [INFO] CMI has been disabled: unhooking
+[06-12 18:25:47]: [INFO] AuthMe 5.6.0-SNAPSHOT-b2501 disabled!

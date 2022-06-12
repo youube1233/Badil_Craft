@@ -259,6 +259,8 @@ Optimizations:
   - Here
   - Shizik
   - shizik
+  - shizoid
+  - Shizoid
   ItemName:
     # For black listed materials check ItemRenaming.list section
 
@@ -377,7 +379,7 @@ Sleeping:
     # When set to true online players will be informed about missing sleeping people count
     Inform: true
     # Time in seconds between information messages can be shown when player starts or stops sleeping
-    InformDelay: 30
+    InformDelay: 1
 Compass:
   # Enable EXPERIMENTAL boss bar compass
   # Only for 1.9+ servers

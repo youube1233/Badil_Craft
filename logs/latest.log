@@ -1,222 +1,238 @@
-[05:07:14] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[05:07:14] [main/INFO]: Reloading ResourceManager: Default, bukkit
-[05:07:15] [Worker-Main-1/INFO]: Loaded 7 recipes
-[05:07:17] [Server thread/INFO]: Starting minecraft server version 1.16.5
-[05:07:17] [Server thread/INFO]: Loading properties
-[05:07:17] [Server thread/INFO]: This server is running Paper version git-Paper-790 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
-[05:07:18] [Server thread/INFO]: Debug logging is disabled
-[05:07:18] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[05:07:18] [Server thread/INFO]: Using 4 threads for Netty based IO
-[05:07:18] [Server thread/INFO]: Default game type: SURVIVAL
-[05:07:18] [Server thread/INFO]: Generating keypair
-[05:07:18] [Server thread/INFO]: Starting Minecraft server on 45.83.122.27:25565
-[05:07:18] [Server thread/INFO]: Using epoll channel type
-[05:07:19] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v20.1
-[05:07:19] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.2.2
-[05:07:19] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.3.77
-[05:07:20] [Server thread/INFO]: [WorldBorder] Loading WorldBorder v1.9.10 (beta)
-[05:07:20] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-CMI
-[05:07:20] [Server thread/INFO]: [AuthMe] Loading AuthMe v5.6.0-SNAPSHOT-b2501
-[05:07:20] [Server thread/INFO]: [CMILib] Loading CMILib v1.2.0.1
-[05:07:20] [Server thread/INFO]: [CMI] Loading CMI v9.0.2.9
-[05:07:20] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[05:07:20] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.3.77
-[05:07:20] [Server thread/INFO]:         __    
-[05:07:20] [Server thread/INFO]:   |    |__)   LuckPerms v5.3.77
-[05:07:20] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[05:07:20] [Server thread/INFO]: 
-[05:07:20] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[05:07:21] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[05:07:21] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[05:07:21] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[05:07:21] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1758ms)
-[05:07:21] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-CMI
-[05:07:21] [Server thread/WARN]: [Vault] Loaded class com.Zrips.CMI.Modules.Economy.Economy from CMI v9.0.2.9 which is not a depend, softdepend or loadbefore of this plugin.
-[05:07:22] [Server thread/INFO]: [Vault] [Economy] CMI Economy found: Waiting
-[05:07:22] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[05:07:22] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-CMI
-[05:07:22] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[05:07:22] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[05:07:22] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[05:07:22] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[05:07:22] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[05:07:22] [Server thread/INFO]: Preparing level "world"
-[05:07:22] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[05:07:23] [Server thread/INFO]: Preparing spawn area: 0%
-[05:07:23] [Server thread/INFO]: Preparing spawn area: 0%
-[05:07:23] [Server thread/INFO]: Preparing spawn area: 2%
-[05:07:24] [Server thread/INFO]: Preparing spawn area: 2%
-[05:07:24] [Server thread/INFO]: Preparing spawn area: 4%
-[05:07:25] [Server thread/INFO]: Time elapsed: 2609 ms
-[05:07:25] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[05:07:25] [Server thread/INFO]: Preparing spawn area: 0%
-[05:07:25] [Server thread/INFO]: Preparing spawn area: 14%
-[05:07:25] [Server thread/INFO]: Time elapsed: 798 ms
-[05:07:25] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[05:07:25] [Server thread/INFO]: Preparing spawn area: 0%
-[05:07:26] [Worker-Main-1/INFO]: Preparing spawn area: 100%
-[05:07:26] [Worker-Main-1/INFO]: Preparing spawn area: 100%
-[05:07:27] [Server thread/INFO]: Time elapsed: 1233 ms
-[05:07:27] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v20.1
-[05:07:27] [Server thread/INFO]: [CoreProtect] CoreProtect был успешно запущен! 
-[05:07:27] [Server thread/INFO]: [CoreProtect] Для хранения данных используется SQLite.
-[05:07:27] [Server thread/INFO]: --------------------
-[05:07:27] [Server thread/INFO]: [CoreProtect] Нравится CoreProtect? Присоединяйтесь к нашему Discord!
-[05:07:27] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
-[05:07:27] [Server thread/INFO]: --------------------
-[05:07:27] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
-[05:07:27] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
-[05:07:27] [Server thread/INFO]: [ClearLag] Loading modules...
-[05:07:27] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
-[05:07:27] [Server thread/INFO]: [ClearLag] Modules have been loaded!
-[05:07:27] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
-[05:07:27] [Thread-10/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.16]...
-[05:07:27] [Server thread/INFO]: [WorldBorder] Enabling WorldBorder v1.9.10 (beta)
-[05:07:27] [Server thread/INFO]: [WorldBorder] [CONFIG] Using elliptic/round border, knockback of 3.0 blocks, and timer delay of 5.
-[05:07:27] [Server thread/INFO]: [WorldBorder] [CONFIG] Border-checking timed task started.
-[05:07:27] [Server thread/INFO]: [WorldBorder] For reference, the main world's spawn location is at X: -112.0 Y: 65.0 Z: 64.0
-[05:07:27] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.6.0-SNAPSHOT-b2501
-[05:07:27] [Thread-10/INFO]: [ClearLag] No updates found!
-[05:07:27] [Server thread/INFO]: [AuthMe] SQLite Setup finished
-[05:07:27] [Server thread/INFO]: [AuthMe] Hooked into LuckPerms!
-[05:07:27] [Server thread/WARN]: [AuthMe] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
-[05:07:28] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0-SNAPSHOT build n.2501 successfully enabled!
-[05:07:28] [Server thread/INFO]: [CMILib] Enabling CMILib v1.2.0.1
-[05:07:30] [Server thread/INFO]: Server version: v1_16_R3 - 1.16.5 - paper
-[05:07:31] [Server thread/INFO]: CMI hooked.
-[05:07:31] [Server thread/INFO]: Updated (EN) language file. Took 82ms
-[05:07:31] [Server thread/INFO]: Updated (RU) language file. Took 67ms
-[05:07:31] [Server thread/INFO]: [CMI] Enabling CMI v9.0.2.9
-[05:07:32] [Server thread/INFO]: ┏━━━┓ ┏━┓┏━┓ ┏━━┓
-[05:07:32] [Server thread/INFO]: ┃┏━┓┃ ┃ ┗┛ ┃ ┗┫┣┛
-[05:07:32] [Server thread/INFO]: ┃┃ ┗┛ ┃┏┓┏┓┃  ┃┃ 
-[05:07:32] [Server thread/INFO]: ┃┃ ┏┓ ┃┃┃┃┃┃  ┃┃ 
-[05:07:32] [Server thread/INFO]: ┃┗━┛┃ ┃┃┃┃┃┃ ┏┫┣┓
-[05:07:32] [Server thread/INFO]: ┗━━━┛ ┗┛┗┛┗┛ ┗━━┛
-[05:07:32] [Server thread/INFO]: _______________________________________________________
-[05:07:32] [Server thread/INFO]: [CMI] Re-Leaked Aternosv2
-[05:07:32] [Server thread/INFO]:   Integrating PaperSpigot async methods
-[05:07:32] [Server thread/INFO]:   21 Enabled and 35 Disabled modules
-[05:07:32] [Server thread/INFO]:   Permission plugin: LuckPerms5.3.77
-[05:07:32] [Server thread/INFO]:   Initialized Cipher256 AES
-[05:07:33] [Server thread/INFO]:   Loaded (56) regular alias into memory. Took 92ms
-[05:07:33] [Server thread/INFO]:   Loaded (1) custom text's into memory. Took 3ms
-[05:07:33] [Server thread/INFO]:   3.34.0 data base type detected
-[05:07:33] [Server thread/INFO]:   Started SqLite data base. Took 246ms
-[05:07:33] [Server thread/INFO]:   Vault was found - Enabling capabilities. Economy: CMIEconomy
-[05:07:33] [Server thread/INFO]:   Loaded (5) warning categories into memory. Took 1ms
-[05:07:33] [Server thread/INFO]:   Loaded (3) warning commands into memory. Took 0ms
-[05:07:33] [Server thread/INFO]:   Loaded (135) custom mob heads into memory. Took 27ms
-[05:07:33] [Server thread/INFO]:   Loaded (0) cooldowns into memory. Took 38ms
-[05:07:33] [Server thread/INFO]:   Initializing BungeeCord
-[05:07:33] [Server thread/INFO]:   Loaded (14) player data into memory. Took 12ms
-[05:07:33] [Server thread/INFO]:   Loaded (0) playtime records into memory. Took 0ms
-[05:07:33] [Server thread/INFO]:   Loaded (0) playtime reward records into memory. Took 0ms
-[05:07:33] [Server thread/INFO]:   Registered events. Took 190ms
-[05:07:33] [Server thread/INFO]:   Loaded (0) event action commands into memory. Took 6ms
-[05:07:34] [Server thread/INFO]:   Updated (EN) language file. Took 275ms
-[05:07:34] [Server thread/INFO]:   Updated (RU) language file. Took 174ms
-[05:07:34] [Server thread/INFO]:   Vault permissions was found - Enabling capabilities.
-[05:07:34] [Server thread/INFO]:   Starting world timer.
-[05:07:34] [Server thread/INFO]:   Initializing world manager.
-[05:07:34] [Server thread/INFO]:   Loaded GeoIP
-[05:07:34] [Server thread/INFO]:   Loaded (0) skin cache entries into memory. Took 1ms
-[05:07:34] [Server thread/INFO]:   Version 9.0.2.9 has been enabled
-[05:07:34] [Server thread/INFO]: ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
-[05:07:34] [Server thread/INFO]: [CMI] Downloaded from https://directleaks.net
-[05:07:34] [Server thread/INFO]: [AuthMe] Hooked successfully into CMI
-[05:07:34] [Server thread/INFO]: [Vault][Economy] CMI Economy hooked.
-[05:07:34] [Server thread/INFO]: Running delayed init tasks
-[05:07:34] [Server thread/INFO]: Done (16.789s)! For help, type "help"
-[05:07:34] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] ************************************************************
-[05:07:34] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * WARNING - YOU ARE RUNNING AN OUTDATED VERSION OF JAVA.
-[05:07:34] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * PAPER WILL STOP BEING COMPATIBLE WITH THIS VERSION OF
-[05:07:34] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * JAVA WHEN MINECRAFT 1.17 IS RELEASED.
-[05:07:34] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
-[05:07:34] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Please update the version of Java you use to run Paper
-[05:07:34] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * to at least Java 16. When Paper for Minecraft 1.17 is
-[05:07:34] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * released support for versions of Java before 16 will
-[05:07:34] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * be dropped.
-[05:07:34] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
-[05:07:34] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Current Java version: 11.0.15
-[05:07:34] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
-[05:07:34] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Check this forum post for more information: 
-[05:07:34] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *   https://papermc.io/java16
-[05:07:34] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] ************************************************************
-[05:07:34] [Server thread/INFO]: Timings Reset
-[05:07:34] [Craft Scheduler Thread - 2/INFO]: [AuthMe] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
-[05:07:34] [Craft Scheduler Thread - 2/WARN]: [AuthMe] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
-[05:07:34] [Craft Scheduler Thread - 2/INFO]: [AuthMe] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
-[05:07:34] [Craft Scheduler Thread - 2/WARN]: [AuthMe] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
-[05:07:34] [Craft Scheduler Thread - 3/INFO]: [Vault] Checking for Updates ... 
-[05:07:34] [Craft Scheduler Thread - 3/INFO]: [Vault] No new version available
-[05:07:34] [User Authenticator #1/INFO]: UUID of player youube1233 is e17fe5c2-00e9-3fc0-a4bc-54a26aa6c13e
-[05:07:35] [Server thread/INFO]: youube1233 joined the game
-[05:07:35] [Server thread/INFO]: youube1233[/178.34.158.235:48263] logged in with entity id 197 at ([world]-6107.485494636583, 68.0, 4231.076798422406)
-[05:07:35] [Craft Scheduler Thread - 3/INFO]: [AuthMe] The user youube1233 has 2 accounts:
-[05:07:35] [Craft Scheduler Thread - 3/INFO]: [AuthMe] youube1233, shizik.
-[05:07:35] [Craft Scheduler Thread - 3/INFO]: [AuthMe] youube1233 logged in 178.34.158.235
-[05:07:35] [Thread-11/INFO]: --------------------
-[05:07:35] [Thread-11/INFO]: [CoreProtect] Версия 21.2 уже доступна!
-[05:07:35] [Thread-11/INFO]: [CoreProtect] Загрузить: www.coreprotect.net/download/
-[05:07:35] [Thread-11/INFO]: --------------------
-[05:07:39] [Server thread/INFO]: youube1233 lost connection: Disconnected
-[05:07:39] [Server thread/INFO]: youube1233 left the game
-[05:07:45] [Server thread/INFO]: Stopping the server
-[05:07:45] [Server thread/WARN]: java.lang.Throwable: Server stopped
-[05:07:45] [Server thread/WARN]: 	at io.papermc.paper.util.TraceUtil.dumpTraceForThread(TraceUtil.java:16)
-[05:07:45] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.safeShutdown(MinecraftServer.java:1001)
-[05:07:45] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.safeShutdown(MinecraftServer.java:995)
-[05:07:45] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.CommandStop.a(SourceFile:17)
-[05:07:45] [Server thread/WARN]: 	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:262)
-[05:07:45] [Server thread/WARN]: 	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:176)
-[05:07:45] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.CommandDispatcher.a(CommandDispatcher.java:276)
-[05:07:45] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.command.VanillaCommandWrapper.execute(VanillaCommandWrapper.java:45)
-[05:07:45] [Server thread/WARN]: 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:159)
-[05:07:45] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.dispatchCommand(CraftServer.java:826)
-[05:07:45] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.dispatchServerCommand(CraftServer.java:788)
-[05:07:45] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.DedicatedServer.handleCommandQueue(DedicatedServer.java:470)
-[05:07:45] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.DedicatedServer.b(DedicatedServer.java:437)
-[05:07:45] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.a(MinecraftServer.java:1347)
-[05:07:45] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:1135)
-[05:07:45] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:291)
-[05:07:45] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:829)
-[05:07:45] [Server thread/INFO]: Stopping server
-[05:07:45] [Server thread/INFO]: [CMI] Disabling CMI v9.0.2.9
-[05:07:45] [Server thread/INFO]: [AuthMe] CMI has been disabled: unhooking
-[05:07:45] [Server thread/INFO]: [Vault][Economy] CMI Economy unhooked.
-[05:07:45] [Server thread/INFO]: [CMI] Closed db connections
-[05:07:45] [Server thread/INFO]: [CMILib] Disabling CMILib v1.2.0.1
-[05:07:45] [Server thread/INFO]: [AuthMe] Disabling AuthMe v5.6.0-SNAPSHOT-b2501
-[05:07:45] [Server thread/INFO]: [AuthMe] Waiting for 0 tasks to finish
-[05:07:45] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0-SNAPSHOT-b2501 disabled!
-[05:07:45] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-CMI
-[05:07:45] [Server thread/INFO]: [WorldBorder] Disabling WorldBorder v1.9.10 (beta)
-[05:07:45] [Server thread/INFO]: [WorldBorder] [CONFIG] Border-checking timed task stopped.
-[05:07:45] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.3.77
-[05:07:45] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[05:07:45] [Server thread/INFO]: [LuckPerms] Closing storage...
-[05:07:45] [Server thread/INFO]: [LuckPerms] Goodbye!
-[05:07:45] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.2.2
-[05:07:45] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
-[05:07:45] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v20.1
-[05:07:45] [Server thread/INFO]: [CoreProtect] Завершение регистрации данных. Пожалуйста, подождите...
-[05:07:46] [Server thread/INFO]: [CoreProtect] CoreProtect v20.1 был успешно отключён!
-[05:07:46] [Server thread/INFO]: Saving players
-[05:07:46] [Server thread/INFO]: Saving worlds
-[05:07:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[05:07:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[05:07:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[05:07:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[05:07:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[05:07:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[05:07:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[05:07:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[05:07:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[05:07:48] [Server thread/INFO]: Flushing Chunk IO
-[05:07:48] [Server thread/INFO]: Closing Thread Pool
-[05:07:48] [Server thread/INFO]: Closing Server
-[05:07:48] [Thread-1/WARN]: java.lang.Throwable: Server stopped
-[05:07:48] [Thread-1/WARN]: 	at io.papermc.paper.util.TraceUtil.dumpTraceForThread(TraceUtil.java:16)
-[05:07:48] [Thread-1/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.safeShutdown(MinecraftServer.java:1001)
-[05:07:48] [Thread-1/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.util.ServerShutdownThread.run(ServerShutdownThread.java:16)
+[18:24:39] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[18:24:41] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[18:24:42] [Worker-Main-1/INFO]: Loaded 7 recipes
+[18:24:45] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[18:24:45] [Server thread/INFO]: Loading properties
+[18:24:45] [Server thread/INFO]: This server is running Paper version git-Paper-790 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
+[18:24:45] [Server thread/INFO]: Debug logging is disabled
+[18:24:45] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:24:45] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:24:45] [Server thread/WARN]: Failed to load operators list: 
+java.lang.IllegalStateException: The file "ops.json" is either empty or corrupt
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:444) ~[patched_1.16.5.jar:git-Paper-790]
+	at net.minecraft.server.v1_16_R3.JsonList.load(JsonList.java:192) ~[patched_1.16.5.jar:git-Paper-790]
+	at net.minecraft.server.v1_16_R3.DedicatedPlayerList.z(DedicatedPlayerList.java:100) ~[patched_1.16.5.jar:git-Paper-790]
+	at net.minecraft.server.v1_16_R3.DedicatedPlayerList.loadAndSaveFiles(DedicatedPlayerList.java:30) ~[patched_1.16.5.jar:git-Paper-790]
+	at net.minecraft.server.v1_16_R3.DedicatedServer.init(DedicatedServer.java:205) ~[patched_1.16.5.jar:git-Paper-790]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:1074) ~[patched_1.16.5.jar:git-Paper-790]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:291) ~[patched_1.16.5.jar:git-Paper-790]
+	at java.lang.Thread.run(Thread.java:829) [?:?]
+[18:24:46] [Server thread/INFO]: Default game type: SURVIVAL
+[18:24:46] [Server thread/INFO]: Generating keypair
+[18:24:46] [Server thread/INFO]: Starting Minecraft server on 45.83.122.27:25565
+[18:24:46] [Server thread/INFO]: Using epoll channel type
+[18:24:48] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v20.1
+[18:24:48] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.2.2
+[18:24:48] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.3.77
+[18:24:48] [Server thread/INFO]: [WorldBorder] Loading WorldBorder v1.9.10 (beta)
+[18:24:48] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-CMI
+[18:24:48] [Server thread/INFO]: [AuthMe] Loading AuthMe v5.6.0-SNAPSHOT-b2501
+[18:24:48] [Server thread/INFO]: [CMILib] Loading CMILib v1.2.0.1
+[18:24:48] [Server thread/INFO]: [CMI] Loading CMI v9.0.2.9
+[18:24:48] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:24:48] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.3.77
+[18:24:49] [Server thread/INFO]:         __    
+[18:24:49] [Server thread/INFO]:   |    |__)   LuckPerms v5.3.77
+[18:24:49] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[18:24:49] [Server thread/INFO]: 
+[18:24:49] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[18:24:49] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[18:24:50] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[18:24:50] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[18:24:51] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2598ms)
+[18:24:51] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-CMI
+[18:24:51] [Server thread/WARN]: [Vault] Loaded class com.Zrips.CMI.Modules.Economy.Economy from CMI v9.0.2.9 which is not a depend, softdepend or loadbefore of this plugin.
+[18:24:51] [Server thread/INFO]: [Vault] [Economy] CMI Economy found: Waiting
+[18:24:51] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[18:24:51] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-CMI
+[18:24:51] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[18:24:51] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:24:51] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:24:51] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:24:51] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:24:51] [Server thread/INFO]: Preparing level "world"
+[18:24:52] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:24:53] [Server thread/INFO]: Preparing spawn area: 0%
+[18:24:53] [Server thread/INFO]: Preparing spawn area: 0%
+[18:24:53] [Server thread/INFO]: Preparing spawn area: 0%
+[18:24:54] [Server thread/INFO]: Preparing spawn area: 0%
+[18:24:54] [Server thread/INFO]: Preparing spawn area: 7%
+[18:24:54] [Server thread/INFO]: Preparing spawn area: 22%
+[18:24:55] [Server thread/INFO]: Preparing spawn area: 34%
+[18:24:56] [Server thread/INFO]: Time elapsed: 4148 ms
+[18:24:56] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[18:24:56] [Server thread/INFO]: Preparing spawn area: 0%
+[18:24:56] [Server thread/INFO]: Preparing spawn area: 3%
+[18:24:57] [Server thread/INFO]: Preparing spawn area: 78%
+[18:24:58] [Server thread/INFO]: Time elapsed: 1592 ms
+[18:24:58] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[18:24:58] [Server thread/INFO]: Preparing spawn area: 0%
+[18:24:58] [Server thread/INFO]: Preparing spawn area: 71%
+[18:24:59] [Worker-Main-1/INFO]: Preparing spawn area: 100%
+[18:24:59] [Worker-Main-1/INFO]: Preparing spawn area: 100%
+[18:25:00] [Worker-Main-1/INFO]: Preparing spawn area: 100%
+[18:25:00] [Worker-Main-1/INFO]: Preparing spawn area: 100%
+[18:25:00] [Server thread/INFO]: Time elapsed: 2815 ms
+[18:25:00] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v20.1
+[18:25:01] [Server thread/INFO]: [CoreProtect] CoreProtect был успешно запущен! 
+[18:25:01] [Server thread/INFO]: [CoreProtect] Для хранения данных используется SQLite.
+[18:25:01] [Server thread/INFO]: --------------------
+[18:25:01] [Server thread/INFO]: [CoreProtect] Нравится CoreProtect? Присоединяйтесь к нашему Discord!
+[18:25:01] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
+[18:25:01] [Server thread/INFO]: --------------------
+[18:25:01] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[18:25:01] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
+[18:25:01] [Server thread/INFO]: [ClearLag] Loading modules...
+[18:25:01] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[18:25:01] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[18:25:01] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[18:25:01] [Thread-10/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.16]...
+[18:25:01] [Server thread/INFO]: [WorldBorder] Enabling WorldBorder v1.9.10 (beta)
+[18:25:01] [Server thread/INFO]: [WorldBorder] [CONFIG] Using elliptic/round border, knockback of 3.0 blocks, and timer delay of 5.
+[18:25:01] [Server thread/INFO]: [WorldBorder] [CONFIG] Border-checking timed task started.
+[18:25:01] [Server thread/INFO]: [WorldBorder] For reference, the main world's spawn location is at X: -112.0 Y: 65.0 Z: 64.0
+[18:25:01] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.6.0-SNAPSHOT-b2501
+[18:25:01] [Thread-10/INFO]: [ClearLag] No updates found!
+[18:25:02] [Server thread/INFO]: [AuthMe] SQLite Setup finished
+[18:25:02] [Server thread/INFO]: [AuthMe] Hooked into LuckPerms!
+[18:25:02] [Server thread/WARN]: [AuthMe] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[18:25:02] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0-SNAPSHOT build n.2501 successfully enabled!
+[18:25:02] [Server thread/INFO]: [CMILib] Enabling CMILib v1.2.0.1
+[18:25:05] [Server thread/INFO]: Server version: v1_16_R3 - 1.16.5 - paper
+[18:25:07] [Server thread/INFO]: CMI hooked.
+[18:25:07] [Server thread/INFO]: Updated (EN) language file. Took 98ms
+[18:25:07] [Server thread/INFO]: Updated (RU) language file. Took 82ms
+[18:25:07] [Server thread/INFO]: [CMI] Enabling CMI v9.0.2.9
+[18:25:08] [Server thread/INFO]: ┏━━━┓ ┏━┓┏━┓ ┏━━┓
+[18:25:08] [Server thread/INFO]: ┃┏━┓┃ ┃ ┗┛ ┃ ┗┫┣┛
+[18:25:08] [Server thread/INFO]: ┃┃ ┗┛ ┃┏┓┏┓┃  ┃┃ 
+[18:25:08] [Server thread/INFO]: ┃┃ ┏┓ ┃┃┃┃┃┃  ┃┃ 
+[18:25:08] [Server thread/INFO]: ┃┗━┛┃ ┃┃┃┃┃┃ ┏┫┣┓
+[18:25:08] [Server thread/INFO]: ┗━━━┛ ┗┛┗┛┗┛ ┗━━┛
+[18:25:08] [Server thread/INFO]: _______________________________________________________
+[18:25:08] [Server thread/INFO]: [CMI] Re-Leaked Aternosv2
+[18:25:08] [Server thread/INFO]:   Integrating PaperSpigot async methods
+[18:25:08] [Server thread/INFO]:   21 Enabled and 35 Disabled modules
+[18:25:08] [Server thread/INFO]:   Permission plugin: LuckPerms5.3.77
+[18:25:08] [Server thread/INFO]:   Initialized Cipher256 AES
+[18:25:08] [Server thread/INFO]:   Loaded (56) regular alias into memory. Took 85ms
+[18:25:08] [Server thread/INFO]:   Loaded (1) custom text's into memory. Took 1ms
+[18:25:09] [Server thread/INFO]:   3.34.0 data base type detected
+[18:25:09] [Server thread/INFO]:   Started SqLite data base. Took 254ms
+[18:25:09] [Server thread/INFO]:   Vault was found - Enabling capabilities. Economy: CMIEconomy
+[18:25:09] [Server thread/INFO]:   Loaded (5) warning categories into memory. Took 0ms
+[18:25:09] [Server thread/INFO]:   Loaded (3) warning commands into memory. Took 0ms
+[18:25:09] [Server thread/INFO]:   Loaded (135) custom mob heads into memory. Took 42ms
+[18:25:09] [Server thread/INFO]:   Loaded (0) cooldowns into memory. Took 52ms
+[18:25:09] [Server thread/INFO]:   Initializing BungeeCord
+[18:25:09] [Server thread/INFO]:   Loaded (14) player data into memory. Took 18ms
+[18:25:09] [Server thread/INFO]:   Loaded (0) playtime records into memory. Took 1ms
+[18:25:09] [Server thread/INFO]:   Loaded (0) playtime reward records into memory. Took 0ms
+[18:25:09] [Server thread/INFO]:   Registered events. Took 188ms
+[18:25:09] [Server thread/INFO]:   Loaded (0) event action commands into memory. Took 12ms
+[18:25:10] [Server thread/INFO]:   Updated (EN) language file. Took 215ms
+[18:25:10] [Server thread/INFO]:   Updated (RU) language file. Took 213ms
+[18:25:10] [Server thread/INFO]:   Vault permissions was found - Enabling capabilities.
+[18:25:10] [Server thread/INFO]:   Starting world timer.
+[18:25:10] [Server thread/INFO]:   Initializing world manager.
+[18:25:10] [Server thread/INFO]:   Loaded GeoIP
+[18:25:10] [Server thread/INFO]:   Loaded (0) skin cache entries into memory. Took 0ms
+[18:25:10] [Server thread/INFO]:   Version 9.0.2.9 has been enabled
+[18:25:10] [Server thread/INFO]: ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+[18:25:10] [Server thread/INFO]: [CMI] Downloaded from https://directleaks.net
+[18:25:10] [Server thread/INFO]: [AuthMe] Hooked successfully into CMI
+[18:25:10] [Server thread/INFO]: [Vault][Economy] CMI Economy hooked.
+[18:25:10] [Server thread/INFO]: Running delayed init tasks
+[18:25:10] [Server thread/INFO]: Done (25.355s)! For help, type "help"
+[18:25:10] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] ************************************************************
+[18:25:10] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * WARNING - YOU ARE RUNNING AN OUTDATED VERSION OF JAVA.
+[18:25:10] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * PAPER WILL STOP BEING COMPATIBLE WITH THIS VERSION OF
+[18:25:10] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * JAVA WHEN MINECRAFT 1.17 IS RELEASED.
+[18:25:10] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
+[18:25:10] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Please update the version of Java you use to run Paper
+[18:25:10] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * to at least Java 16. When Paper for Minecraft 1.17 is
+[18:25:10] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * released support for versions of Java before 16 will
+[18:25:10] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * be dropped.
+[18:25:10] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
+[18:25:10] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Current Java version: 11.0.15
+[18:25:10] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
+[18:25:10] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Check this forum post for more information: 
+[18:25:10] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *   https://papermc.io/java16
+[18:25:10] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] ************************************************************
+[18:25:10] [Server thread/INFO]: Timings Reset
+[18:25:10] [Craft Scheduler Thread - 2/INFO]: [AuthMe] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[18:25:10] [Craft Scheduler Thread - 2/WARN]: [AuthMe] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[18:25:10] [Craft Scheduler Thread - 2/INFO]: [AuthMe] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[18:25:10] [Craft Scheduler Thread - 2/WARN]: [AuthMe] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[18:25:10] [Craft Scheduler Thread - 3/INFO]: [Vault] Checking for Updates ... 
+[18:25:10] [Craft Scheduler Thread - 3/INFO]: [Vault] No new version available
+[18:25:11] [Thread-11/INFO]: --------------------
+[18:25:11] [Thread-11/INFO]: [CoreProtect] Версия 21.2 уже доступна!
+[18:25:11] [Thread-11/INFO]: [CoreProtect] Загрузить: www.coreprotect.net/download/
+[18:25:11] [Thread-11/INFO]: --------------------
+[18:25:28] [User Authenticator #1/INFO]: UUID of player youube1233 is e17fe5c2-00e9-3fc0-a4bc-54a26aa6c13e
+[18:25:28] [Server thread/INFO]: youube1233 joined the game
+[18:25:28] [Server thread/INFO]: youube1233[/178.34.158.235:7374] logged in with entity id 249 at ([world]-6327.184253018385, 69.0, 4285.477802548542)
+[18:25:29] [Craft Scheduler Thread - 3/INFO]: [AuthMe] The user youube1233 has 2 accounts:
+[18:25:29] [Craft Scheduler Thread - 3/INFO]: [AuthMe] youube1233, shizik.
+[18:25:29] [Craft Scheduler Thread - 3/INFO]: [AuthMe] youube1233 logged in 178.34.158.235
+[18:25:38] [Server thread/INFO]: youube1233 lost connection: Disconnected
+[18:25:38] [Server thread/INFO]: youube1233 left the game
+[18:25:47] [Server thread/INFO]: Stopping the server
+[18:25:47] [Server thread/WARN]: java.lang.Throwable: Server stopped
+[18:25:47] [Server thread/WARN]: 	at io.papermc.paper.util.TraceUtil.dumpTraceForThread(TraceUtil.java:16)
+[18:25:47] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.safeShutdown(MinecraftServer.java:1001)
+[18:25:47] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.safeShutdown(MinecraftServer.java:995)
+[18:25:47] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.CommandStop.a(SourceFile:17)
+[18:25:47] [Server thread/WARN]: 	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:262)
+[18:25:47] [Server thread/WARN]: 	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:176)
+[18:25:47] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.CommandDispatcher.a(CommandDispatcher.java:276)
+[18:25:47] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.command.VanillaCommandWrapper.execute(VanillaCommandWrapper.java:45)
+[18:25:47] [Server thread/WARN]: 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:159)
+[18:25:47] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.dispatchCommand(CraftServer.java:826)
+[18:25:47] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.dispatchServerCommand(CraftServer.java:788)
+[18:25:47] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.DedicatedServer.handleCommandQueue(DedicatedServer.java:470)
+[18:25:47] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.DedicatedServer.b(DedicatedServer.java:437)
+[18:25:47] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.a(MinecraftServer.java:1347)
+[18:25:47] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:1135)
+[18:25:47] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:291)
+[18:25:47] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:829)
+[18:25:47] [Server thread/INFO]: Stopping server
+[18:25:47] [Server thread/INFO]: [CMI] Disabling CMI v9.0.2.9
+[18:25:47] [Server thread/INFO]: [AuthMe] CMI has been disabled: unhooking
+[18:25:47] [Server thread/INFO]: [Vault][Economy] CMI Economy unhooked.
+[18:25:47] [Server thread/INFO]: [CMI] Closed db connections
+[18:25:47] [Server thread/INFO]: [CMILib] Disabling CMILib v1.2.0.1
+[18:25:47] [Server thread/INFO]: [AuthMe] Disabling AuthMe v5.6.0-SNAPSHOT-b2501
+[18:25:47] [Server thread/INFO]: [AuthMe] Waiting for 0 tasks to finish
+[18:25:47] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0-SNAPSHOT-b2501 disabled!
+[18:25:47] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-CMI
+[18:25:47] [Server thread/INFO]: [WorldBorder] Disabling WorldBorder v1.9.10 (beta)
+[18:25:47] [Server thread/INFO]: [WorldBorder] [CONFIG] Border-checking timed task stopped.
+[18:25:47] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.3.77
+[18:25:47] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[18:25:47] [Server thread/INFO]: [LuckPerms] Closing storage...
+[18:25:48] [Server thread/INFO]: [LuckPerms] Goodbye!
+[18:25:48] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.2.2
+[18:25:48] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
+[18:25:48] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v20.1
+[18:25:48] [Server thread/INFO]: [CoreProtect] Завершение регистрации данных. Пожалуйста, подождите...
+[18:25:49] [Server thread/INFO]: [CoreProtect] CoreProtect v20.1 был успешно отключён!
+[18:25:49] [Server thread/INFO]: Saving players
+[18:25:49] [Server thread/INFO]: Saving worlds
+[18:25:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[18:25:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:25:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[18:25:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:25:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[18:25:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:25:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:25:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:25:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:25:52] [Server thread/INFO]: Flushing Chunk IO
+[18:25:52] [Server thread/INFO]: Closing Thread Pool
+[18:25:52] [Server thread/INFO]: Closing Server
+[18:25:52] [Thread-1/WARN]: java.lang.Throwable: Server stopped
+[18:25:52] [Thread-1/WARN]: 	at io.papermc.paper.util.TraceUtil.dumpTraceForThread(TraceUtil.java:16)
+[18:25:52] [Thread-1/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.safeShutdown(MinecraftServer.java:1001)
+[18:25:52] [Thread-1/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.util.ServerShutdownThread.run(ServerShutdownThread.java:16)
