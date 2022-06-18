@@ -585,6 +585,7 @@
     "criteria": {
       "minecraft:pillager": "2022-06-14 12:59:02 +0300",
       "minecraft:skeleton": "2022-06-10 23:40:45 +0300",
+      "minecraft:hoglin": "2022-06-16 00:59:50 +0300",
       "minecraft:spider": "2022-06-10 23:40:50 +0300",
       "minecraft:creeper": "2022-06-13 00:02:51 +0300",
       "minecraft:zombified_piglin": "2022-06-15 01:22:40 +0300",
@@ -1719,6 +1720,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/sugar_from_sugar_cane": {
+    "criteria": {
+      "has_reeds": "2022-06-16 03:06:18 +0300"
+    },
+    "done": true
+  },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2022-06-12 18:16:15 +0300",
@@ -2275,6 +2282,12 @@
     },
     "done": true
   },
+  "cmilib:cmi/commandtoast": {
+    "criteria": {
+      "IMPOSSIBLE": "2022-06-16 00:28:32 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_brick_stairs": {
     "criteria": {
       "has_stone_bricks": "2022-06-14 12:30:52 +0300"
@@ -2302,6 +2315,12 @@
   "minecraft:recipes/decorations/spruce_sign": {
     "criteria": {
       "has_spruce_planks": "2022-06-12 19:17:32 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/paper": {
+    "criteria": {
+      "has_reeds": "2022-06-16 03:06:18 +0300"
     },
     "done": true
   },

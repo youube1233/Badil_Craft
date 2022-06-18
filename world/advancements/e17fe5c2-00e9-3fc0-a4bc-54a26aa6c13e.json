@@ -53,6 +53,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/magenta_dye_from_lilac": {
+    "criteria": {
+      "has_double_plant": "2022-06-16 02:37:22 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/observer": {
     "criteria": {
       "has_quartz": "2022-06-09 20:44:11 +0300"
@@ -113,6 +119,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/pumpkin_seeds": {
+    "criteria": {
+      "has_pumpkin": "2022-06-16 02:03:22 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
       "has_planks": "2022-06-08 20:16:53 +0300"
@@ -152,6 +164,12 @@
   "minecraft:recipes/combat/golden_sword": {
     "criteria": {
       "has_gold_ingot": "2022-06-08 23:10:01 +0300"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_boots": "2022-06-16 02:23:10 +0300"
     },
     "done": true
   },
@@ -350,6 +368,12 @@
   "minecraft:recipes/misc/brick": {
     "criteria": {
       "has_clay_ball": "2022-06-08 20:43:42 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_birch_wood": {
+    "criteria": {
+      "has_log": "2022-06-16 03:30:40 +0300"
     },
     "done": true
   },
@@ -2387,6 +2411,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_the_recipe": "2022-06-16 01:17:08 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/sandstone_wall_from_sandstone_stonecutting": {
     "criteria": {
       "has_sandstone": "2022-06-08 21:10:25 +0300"
@@ -2413,7 +2443,7 @@
   },
   "cmilib:cmi/commandtoast": {
     "criteria": {
-      "IMPOSSIBLE": "2022-06-15 18:43:09 +0300"
+      "IMPOSSIBLE": "2022-06-16 02:43:40 +0300"
     },
     "done": true
   },
@@ -2474,6 +2504,12 @@
   "minecraft:recipes/decorations/loom": {
     "criteria": {
       "has_string": "2022-06-09 00:35:19 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_sandstone": {
+    "criteria": {
+      "has_stone_slab": "2022-06-16 04:23:59 +0300"
     },
     "done": true
   },
@@ -2924,6 +2960,12 @@
   "minecraft:recipes/redstone/daylight_detector": {
     "criteria": {
       "has_quartz": "2022-06-09 20:44:11 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/pumpkin_pie": {
+    "criteria": {
+      "has_pumpkin": "2022-06-16 02:03:22 +0300"
     },
     "done": true
   },

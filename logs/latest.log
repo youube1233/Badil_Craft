@@ -1,693 +1,379 @@
-[01:07:56] [User Authenticator #45/INFO]: UUID of player youube1233 is e17fe5c2-00e9-3fc0-a4bc-54a26aa6c13e
-[01:07:56] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@1983ad27[id=e17fe5c2-00e9-3fc0-a4bc-54a26aa6c13e,name=youube1233,properties={},legacy=false] (/178.34.158.152:50534): Вы не можете войти с этого IP-адреса
-[01:07:56] [Server thread/INFO]: com.mojang.authlib.GameProfile@1983ad27[id=e17fe5c2-00e9-3fc0-a4bc-54a26aa6c13e,name=youube1233,properties={},legacy=false] (/178.34.158.152:50534) lost connection: Вы не можете войти с этого IP-адреса
-[01:08:12] [Server thread/INFO]: Не удалось найти игрока с таким ником! (lockip -> cllear)
-[01:08:13] [Server thread/INFO]: Все IP удалены для игрока youube1233
-[01:08:15] [User Authenticator #45/INFO]: UUID of player youube1233 is e17fe5c2-00e9-3fc0-a4bc-54a26aa6c13e
-[01:08:15] [Server thread/INFO]: youube1233 joined the game
-[01:08:15] [Server thread/INFO]: youube1233[/178.34.158.152:50440] logged in with entity id 461431 at ([world]-6108.209564071381, 68.875, 4227.700611665447)
-[01:08:26] [Craft Scheduler Thread - 5775/INFO]: [AuthMe] youube1233 logged in 178.34.158.152
-[01:08:27] [Async Chat Thread - #68/INFO]: [тима гениев] youube1233<Night Gaming>: qq
-[01:08:34] [Async Chat Thread - #68/INFO]: [YT] Жека_Бро<ver. 2.0>: q
-[01:08:38] [Async Chat Thread - #68/INFO]: [YT] Бре_нд<ver. 2.0>: q
-[01:08:40] [Server thread/INFO]: youube1233 issued server command: /playtimetop
-[01:08:43] [Server thread/INFO]: Tars_Play issued server command: /playtimetop
-[01:08:51] [Async Chat Thread - #68/INFO]: [тима гениев] youube1233<Night Gaming>: Жека, ты 17 часов отыграл
-[01:08:58] [Async Chat Thread - #68/INFO]: [тима гениев] youube1233<Night Gaming>: когда успел?
-[01:09:00] [Async Chat Thread - #68/INFO]: [YT] Жека_Бро<ver. 2.0>: Ага
-[01:09:09] [Async Chat Thread - #68/INFO]: [YT] Жека_Бро<ver. 2.0>: Сегодня
-[01:09:09] [Async Chat Thread - #68/INFO]: [тима гениев] youube1233<Night Gaming>: Было только 9
-[01:09:17] [Async Chat Thread - #68/INFO]: [тима гениев] youube1233<Night Gaming>: Со скольки играешь?*
-[01:09:21] [Async Chat Thread - #68/INFO]: [YT] Жека_Бро<ver. 2.0>: 12
-[01:10:48] [Async Chat Thread - #69/INFO]: [YT] Жека_Бро<ver. 2.0>: Добрый вечерок
-[01:14:26] [Server thread/INFO]: youube1233 встал в AFK
-[01:18:35] [Server thread/INFO]: Tars_Play was blown up by Creeper
-[01:24:34] [Server thread/INFO]: AvelGn was shot by Skeleton
-[01:43:55] [Server thread/INFO]: AvelGn was slain by Zombie
-[01:44:54] [Server thread/INFO]: AvelGn was shot by Skeleton
-[01:48:09] [Server thread/INFO]: AvelGn issued server command: /
-[01:48:27] [Async Chat Thread - #70/INFO]: [YT] Жека_Бро<ver. 2.0>: ./playtimetop
-[01:48:32] [Server thread/INFO]: AvelGn issued server command: /
-[01:48:40] [Server thread/INFO]: AvelGn issued server command: /p
-[01:48:57] [Async Chat Thread - #70/INFO]: [YT] Бре_нд<ver. 2.0>: ./playtimetop
-[01:49:09] [Server thread/INFO]: AvelGn issued server command: /playtimetop
-[01:49:22] [Server thread/INFO]: AvelGn issued server command: /playtimetop
-[01:49:34] [Server thread/INFO]: AvelGn issued server command: /playtimetop
-[01:49:56] [Server thread/INFO]: youube1233 больше не в AFK
-[01:50:00] [Server thread/INFO]: AvelGn issued server command: /cmi playtimetop 2
-[01:50:01] [Server thread/INFO]: AvelGn issued server command: /cmi playtimetop 2
-[01:50:01] [Server thread/INFO]: AvelGn issued server command: /cmi playtimetop 2
-[01:50:02] [Server thread/INFO]: AvelGn issued server command: /cmi playtimetop 2
-[01:50:02] [Server thread/INFO]: AvelGn issued server command: /cmi playtimetop 2
-[01:50:06] [Server thread/INFO]: AvelGn issued server command: /cmi playtimetop 2
-[01:51:02] [Async Chat Thread - #71/INFO]: [тима гениев] youube1233<Night Gaming>: Вы в лс?
-[01:51:17] [Async Chat Thread - #71/INFO]: [YT] Жека_Бро<ver. 2.0>: да
-[01:51:24] [Async Chat Thread - #71/INFO]: [тима гениев] youube1233<Night Gaming>: Зайдите в группу
-[01:52:52] [Server thread/INFO]: AvelGn lost connection: Disconnected
-[01:52:53] [Server thread/INFO]: AvelGn left the game
-[01:53:53] [Server thread/INFO]: youube1233 issued server command: /playtimetop
-[01:55:45] [Server thread/INFO]: youube1233 issued server command: /cmi playtimetop 2
-[01:55:47] [Server thread/INFO]: youube1233 issued server command: /cmi playtimetop 1
-[01:57:25] [Server thread/INFO]: Не удалось найти игрока с таким ником! (lockip -> 1231)
-[01:57:34] [Server thread/INFO]: Новый IP (123.123.123.123) добавлено для игрока Жека_Бро
-[01:57:38] [Server thread/INFO]: --------------------------------------------------
-[01:57:38] [Server thread/INFO]: 1. 123.123.123.123
-[01:57:38] [Server thread/INFO]: --------------------------------------------------
-[01:57:57] [Server thread/INFO]: Tars_Play lost connection: Disconnected
-[01:57:57] [Server thread/INFO]: Tars_Play left the game
-[01:58:00] [User Authenticator #46/INFO]: UUID of player Tars_Play is 3d6142ca-6be4-334b-88cf-a3b0c404e1ba
-[01:58:00] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@2fc293c3[id=3d6142ca-6be4-334b-88cf-a3b0c404e1ba,name=Tars_Play,properties={},legacy=false] (/2.63.176.53:22721): Вы не можете войти с этого IP-адреса
-[01:58:00] [Server thread/INFO]: com.mojang.authlib.GameProfile@2fc293c3[id=3d6142ca-6be4-334b-88cf-a3b0c404e1ba,name=Tars_Play,properties={},legacy=false] (/2.63.176.53:22721) lost connection: Вы не можете войти с этого IP-адреса
-[01:58:05] [Server thread/INFO]: Все IP удалены для игрока Жека_Бро
-[01:58:07] [User Authenticator #46/INFO]: UUID of player Tars_Play is 3d6142ca-6be4-334b-88cf-a3b0c404e1ba
-[01:58:07] [Server thread/INFO]: Tars_Play joined the game
-[01:58:07] [Server thread/INFO]: Tars_Play[/2.63.176.53:22679] logged in with entity id 471895 at ([world_nether]-806.210761174339, 45.0, 612.9307514857179)
-[01:58:07] [Craft Scheduler Thread - 5809/INFO]: [AuthMe] Tars_Play logged in 2.63.176.53
-[02:01:26] [luckperms-command-executor/INFO]: [LP] Preparing a new editor session, please wait...
-[02:01:26] [luckperms-command-executor/INFO]: [LP] Click the link below to open the editor:
-[02:01:26] [luckperms-command-executor/INFO]: https://luckperms.net/editor/6xjb2Tku0H
-[02:02:05] [luckperms-command-executor/INFO]: [LP] Web editor data was applied to group default successfully.
-[02:02:05] [luckperms-command-executor/INFO]: [LP] (1 addition and 0 deletions)
-[02:02:05] [luckperms-command-executor/INFO]: +  cmi.command.lastonline (true)
-[02:02:09] [Server thread/INFO]: youube1233 lost connection: Disconnected
-[02:02:09] [Server thread/INFO]: youube1233 left the game
-[02:02:09] [User Authenticator #47/INFO]: UUID of player youube1233 is e17fe5c2-00e9-3fc0-a4bc-54a26aa6c13e
-[02:02:10] [Server thread/INFO]: youube1233 joined the game
-[02:02:10] [Server thread/INFO]: youube1233[/178.34.158.152:40108] logged in with entity id 473038 at ([world]-6242.7728181869315, 62.07326475307475, 4306.0708284373595)
-[02:02:10] [Craft Scheduler Thread - 5812/INFO]: [AuthMe] youube1233 logged in 178.34.158.152
-[02:02:17] [Server thread/INFO]: youube1233 issued server command: /lastonline
-[02:02:20] [Async Chat Thread - #72/INFO]: [тима гениев] youube1233<Night Gaming>: ./lastonline
-[02:02:36] [Server thread/INFO]: Tars_Play was shot by Skeleton
-[02:02:38] [Server thread/INFO]: youube1233 issued server command: /lastonline -p:2
-[02:04:35] [Server thread/INFO]: Tars_Play was slain by Piglin
-[02:04:55] [Server thread/WARN]: Boat (vehicle of youube1233) moved wrongly! 0.724853515625
-[02:04:55] [Server thread/WARN]: Boat (vehicle of youube1233) moved wrongly! 0.724853515625
-[02:04:55] [Server thread/WARN]: Boat (vehicle of youube1233) moved wrongly! 0.724853515625
-[02:04:55] [Server thread/WARN]: Boat (vehicle of youube1233) moved wrongly! 0.724853515625
-[02:07:33] [Server thread/INFO]: Tars_Play fell from a high place
-[02:08:00] [Server thread/INFO]: Tars_Play issued server command: /lastonline
-[02:09:05] [Server thread/INFO]: Tars_Play issued server command: /lastonline
-[02:09:09] [Server thread/INFO]: Tars_Play issued server command: /lastonline -p:2
-[02:14:12] [Server thread/INFO]: Tars_Play went up in flames
-[02:17:43] [Server thread/INFO]: Tars_Play lost connection: Disconnected
-[02:17:43] [Server thread/INFO]: Tars_Play left the game
-[02:30:59] [Server thread/INFO]: youube1233 has made the advancement [Enchanter]
-[02:37:33] [Server thread/INFO]: youube1233 has made the advancement [Who is Cutting Onions?]
-[02:50:37] [Craft Scheduler Thread - 5884/INFO]: [Vault] Checking for Updates ... 
-[02:50:38] [Craft Scheduler Thread - 5884/INFO]: [Vault] No new version available
-[03:39:19] [Server thread/INFO]: youube1233 lost connection: Disconnected
-[03:39:19] [Server thread/INFO]: youube1233 left the game
-[03:46:57] [User Authenticator #48/INFO]: UUID of player youube1233 is e17fe5c2-00e9-3fc0-a4bc-54a26aa6c13e
-[03:46:57] [Server thread/INFO]: youube1233 joined the game
-[03:46:57] [Server thread/INFO]: youube1233[/178.34.158.152:64855] logged in with entity id 491400 at ([world]-6254.207350381257, 63.0, 4244.79074875739)
-[03:46:57] [Craft Scheduler Thread - 6012/INFO]: [AuthMe] youube1233 logged in 178.34.158.152
-[04:18:54] [Server thread/INFO]: youube1233 issued server command: /playtimetop
-[04:19:08] [Server thread/INFO]: youube1233 issued server command: /placeholders
-[04:19:08] [Server thread/INFO]: youube1233 не имеет разрешения: cmi.command.placeholders
-[04:34:29] [Server thread/INFO]: youube1233 встал в AFK
-[05:13:25] [Server thread/INFO]: youube1233 больше не в AFK
-[05:14:16] [Server thread/INFO]: youube1233 lost connection: Disconnected
-[05:14:16] [Server thread/INFO]: youube1233 left the game
-[07:06:32] [User Authenticator #49/INFO]: UUID of player Aptekoc is 46f5b895-c21b-38fa-bbb5-32cc6756ecbe
-[07:06:32] [Server thread/INFO]: Aptekoc joined the game
-[07:06:32] [Server thread/INFO]: Aptekoc[/185.16.29.183:1186] logged in with entity id 505139 at ([world_nether]414.5098036395329, 82.0, -247.03425593693413)
-[07:07:02] [Server thread/INFO]: Aptekoc lost connection: Время авторизации истекло.
-[07:07:02] [Server thread/INFO]: Aptekoc left the game
-[07:07:06] [User Authenticator #49/INFO]: UUID of player Aptekoc is 46f5b895-c21b-38fa-bbb5-32cc6756ecbe
-[07:07:06] [Server thread/INFO]: Aptekoc joined the game
-[07:07:06] [Server thread/INFO]: Aptekoc[/185.16.29.183:5666] logged in with entity id 505242 at ([world_nether]414.5098036395329, 82.0, -247.03425593693413)
-[07:07:13] [Server thread/INFO]: Aptekoc issued server command: /l
-[07:07:28] [Craft Scheduler Thread - 6478/INFO]: [AuthMe] Aptekoc used the wrong password
-[07:07:28] [Server thread/INFO]: Aptekoc lost connection: Неправильный пароль!
-[07:07:28] [Server thread/INFO]: Aptekoc left the game
-[07:07:32] [User Authenticator #49/INFO]: UUID of player Aptekoc is 46f5b895-c21b-38fa-bbb5-32cc6756ecbe
-[07:07:32] [Server thread/INFO]: Aptekoc joined the game
-[07:07:32] [Server thread/INFO]: Aptekoc[/185.16.29.183:10692] logged in with entity id 505267 at ([world_nether]414.5098036395329, 82.0, -247.03425593693413)
-[07:07:42] [Craft Scheduler Thread - 6478/INFO]: [AuthMe] Aptekoc logged in 185.16.29.183
-[07:17:21] [Server thread/INFO]: Aptekoc burned to death
-[07:17:36] [Server thread/INFO]: Aptekoc lost connection: Disconnected
-[07:17:36] [Server thread/INFO]: Aptekoc left the game
-[08:50:37] [Craft Scheduler Thread - 6788/INFO]: [Vault] Checking for Updates ... 
-[08:50:38] [Craft Scheduler Thread - 6788/INFO]: [Vault] No new version available
-[10:34:42] [Netty Epoll Server IO #2/WARN]: io.netty.channel.unix.Errors$NativeIoException: writeAddress(..) failed: Broken pipe
-[10:34:42] [Netty Epoll Server IO #2/WARN]: io.netty.channel.unix.Errors$NativeIoException: readAddress(..) failed: Connection reset by peer
-[12:52:43] [User Authenticator #50/INFO]: UUID of player Aptekoc is 46f5b895-c21b-38fa-bbb5-32cc6756ecbe
-[12:52:43] [Server thread/INFO]: Aptekoc joined the game
-[12:52:43] [Server thread/INFO]: Aptekoc[/185.16.29.183:4117] logged in with entity id 506652 at ([world]-369.40848579464216, 88.0, -146.01558955235913)
-[12:52:43] [Craft Scheduler Thread - 7588/INFO]: [AuthMe] Aptekoc logged in 185.16.29.183
-[12:52:47] [Netty Epoll Server IO #1/WARN]: io.netty.handler.timeout.ReadTimeoutException
-[12:52:50] [Netty Epoll Server IO #3/WARN]: io.netty.handler.timeout.ReadTimeoutException
-[12:52:51] [Netty Epoll Server IO #2/WARN]: io.netty.handler.timeout.ReadTimeoutException
-[13:01:57] [Server thread/INFO]: Aptekoc was shot by Skeleton
-[13:15:15] [User Authenticator #51/INFO]: UUID of player DAYMOON4ik is e592a984-8fee-39f6-a261-99a3317df011
-[13:15:15] [Server thread/INFO]: DAYMOON4ik joined the game
-[13:15:15] [Server thread/INFO]: DAYMOON4ik[/185.16.28.125:2725] logged in with entity id 509741 at ([world]-367.4857538335836, 88.0, -143.41971397237202)
-[13:15:28] [Async Chat Thread - #73/INFO]: Aptekoc: ЩЯЭ
-[13:15:37] [Craft Scheduler Thread - 7639/INFO]: [AuthMe] DAYMOON4ik logged in 185.16.28.125
-[13:15:49] [Async Chat Thread - #73/INFO]: DAYMOON4ik: [TQ
-[13:15:54] [Async Chat Thread - #73/INFO]: DAYMOON4ik: ХЕЙ
-[13:16:10] [Async Chat Thread - #73/INFO]: DAYMOON4ik: Я ПОКА ПОЖРУ ПОТОМ ПОИГРАЮ
-[13:17:17] [Async Chat Thread - #74/INFO]: Aptekoc: Я ТОЖЕ
-[13:17:20] [Async Chat Thread - #74/INFO]: DAYMOON4ik: Я ПЛАТКУ ПОСТАВИЛ НА ВИНЧИ
-[13:17:39] [Async Chat Thread - #74/INFO]: Aptekoc: ПОЗВОНИШ
-[13:17:48] [Async Chat Thread - #74/INFO]: DAYMOON4ik: ОК
-[13:27:22] [Server thread/INFO]: Aptekoc burned to death
-[13:32:51] [Server thread/INFO]: DAYMOON4ik was shot by Skeleton
-[13:37:36] [Server thread/INFO]: Aptekoc встал в AFK
-[13:40:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5417ms or 108 ticks behind
-[13:45:37] [Server thread/INFO]: Aptekoc больше не в AFK
-[13:45:57] [Async Chat Thread - #75/INFO]: DAYMOON4ik: ЩА ПОГОДИ 1 МИН
-[13:51:36] [Server thread/INFO]: DAYMOON4ik lost connection: Disconnected
-[13:51:36] [Server thread/INFO]: DAYMOON4ik left the game
-[13:51:38] [User Authenticator #52/INFO]: UUID of player DAYMOON4ik is e592a984-8fee-39f6-a261-99a3317df011
-[13:51:38] [Server thread/INFO]: DAYMOON4ik joined the game
-[13:51:38] [Server thread/INFO]: DAYMOON4ik[/185.16.28.125:3486] logged in with entity id 517760 at ([world]-365.95276584688133, 88.5625, -140.99324920627174)
-[13:51:38] [Craft Scheduler Thread - 7653/INFO]: [AuthMe] DAYMOON4ik logged in 185.16.28.125
-[13:57:32] [Server thread/INFO]: Aptekoc tried to swim in lava
-[14:02:38] [Server thread/INFO]: DAYMOON4ik lost connection: Disconnected
-[14:02:38] [Server thread/INFO]: DAYMOON4ik left the game
-[14:02:39] [User Authenticator #53/INFO]: UUID of player DAYMOON4ik is e592a984-8fee-39f6-a261-99a3317df011
-[14:02:39] [Server thread/INFO]: DAYMOON4ik joined the game
-[14:02:39] [Server thread/INFO]: DAYMOON4ik[/185.16.28.125:10709] logged in with entity id 520078 at ([world]-292.0330175033286, 65.0, -251.02271100609636)
-[14:02:39] [Craft Scheduler Thread - 7663/INFO]: [AuthMe] DAYMOON4ik logged in 185.16.28.125
-[14:24:38] [Server thread/INFO]: Aptekoc was blown up by Creeper
-[14:24:50] [Async Chat Thread - #76/INFO]: DAYMOON4ik: ВАНЬ ПРИНЕСИ СРОЧНО ФАКЕЛЫ
-[14:25:03] [Async Chat Thread - #76/INFO]: DAYMOON4ik: А НЕ НАДО
-[14:37:07] [Server thread/INFO]: DAYMOON4ik was shot by Skeleton
-[14:37:18] [Async Chat Thread - #77/INFO]: DAYMOON4ik: БЛЯ
-[14:38:35] [Server thread/INFO]: DAYMOON4ik was slain by Zombie
-[14:40:13] [Async Chat Thread - #78/INFO]: DAYMOON4ik: НА ОСВЕТИ ТУТ
-[14:40:28] [Async Chat Thread - #78/INFO]: Aptekoc: не я в шахту
-[14:46:32] [Server thread/INFO]: DAYMOON4ik has completed the challenge [Return to Sender]
-[14:46:59] [Async Chat Thread - #79/INFO]: DAYMOON4ik: Я ГАСТА ЕГО ЖЕ ШАРИКОМ УБИЛ
-[14:47:12] [Async Chat Thread - #79/INFO]: Aptekoc: крос
-[14:47:14] [Async Chat Thread - #79/INFO]: DAYMOON4ik: ТОЛЬКО В ЭТОТ ШАРИК Я СТРЕЛОЙ ПОПАЛ
-[14:50:43] [Craft Scheduler Thread - 7700/INFO]: [Vault] Checking for Updates ... 
-[14:50:43] [Craft Scheduler Thread - 7700/INFO]: [Vault] No new version available
-[14:57:25] [Async Chat Thread - #80/INFO]: DAYMOON4ik: как светильник крафтиться
-[14:59:31] [Server thread/INFO]: Aptekoc встал в AFK
-[14:59:55] [Async Chat Thread - #81/INFO]: DAYMOON4ik: 23
-[14:59:57] [Async Chat Thread - #81/INFO]: DAYMOON4ik: 23
-[14:59:59] [Async Chat Thread - #81/INFO]: DAYMOON4ik: 23
-[15:00:35] [Server thread/INFO]: Aptekoc больше не в AFK
-[15:00:36] [Server thread/INFO]: Aptekoc lost connection: Disconnected
-[15:00:36] [Server thread/INFO]: Aptekoc left the game
-[15:03:25] [User Authenticator #54/INFO]: UUID of player Aptekoc is 46f5b895-c21b-38fa-bbb5-32cc6756ecbe
-[15:03:26] [Server thread/INFO]: Aptekoc joined the game
-[15:03:26] [Server thread/INFO]: Aptekoc[/185.16.29.183:4093] logged in with entity id 532482 at ([world]-442.18589400561916, 5.0, -124.3566919784015)
-[15:03:26] [Craft Scheduler Thread - 7713/INFO]: [AuthMe] Aptekoc logged in 185.16.29.183
-[15:05:21] [Server thread/INFO]: DAYMOON4ik fell from a high place
-[15:06:05] [Async Chat Thread - #82/INFO]: DAYMOON4ik: DAYMOON4ik
-[15:06:09] [Async Chat Thread - #82/INFO]: DAYMOON4ik: Aptekoc
-[15:06:10] [Async Chat Thread - #82/INFO]: DAYMOON4ik: Aptekoc
-[15:06:11] [Async Chat Thread - #82/INFO]: DAYMOON4ik: Aptekoc
-[15:06:12] [Async Chat Thread - #82/INFO]: DAYMOON4ik: Aptekoc
-[15:06:14] [Async Chat Thread - #82/INFO]: DAYMOON4ik: Aptekoc
-[15:06:14] [Async Chat Thread - #82/INFO]: DAYMOON4ik: Aptekoc
-[15:06:15] [Async Chat Thread - #82/INFO]: DAYMOON4ik: Aptekoc
-[15:06:16] [Async Chat Thread - #82/INFO]: DAYMOON4ik: Aptekoc
-[15:06:17] [Async Chat Thread - #82/INFO]: Aptekoc: DAYMOON4ik
-[15:06:17] [Async Chat Thread - #82/INFO]: DAYMOON4ik: DAYMOON4ik
-[15:06:21] [Async Chat Thread - #82/INFO]: Aptekoc: DAYMOON4ik
-[15:07:50] [Server thread/INFO]: Aptekoc lost connection: Disconnected
-[15:07:50] [Server thread/INFO]: Aptekoc left the game
-[15:08:56] [User Authenticator #55/INFO]: UUID of player Aptekoc is 46f5b895-c21b-38fa-bbb5-32cc6756ecbe
-[15:08:56] [Server thread/INFO]: Aptekoc joined the game
-[15:08:56] [Server thread/INFO]: Aptekoc[/185.16.29.183:3640] logged in with entity id 533692 at ([world]-480.51442792799054, 5.0, -115.82957206048083)
-[15:08:56] [Craft Scheduler Thread - 7696/INFO]: [AuthMe] Aptekoc logged in 185.16.29.183
-[15:10:55] [Server thread/INFO]: DAYMOON4ik was blown up by Creeper
-[15:47:06] [Server thread/WARN]: Horse (vehicle of Aptekoc) moved wrongly! 0.2977108558498571
-[15:47:06] [Server thread/WARN]: Horse (vehicle of Aptekoc) moved wrongly! 0.25509023629018657
-[15:47:07] [Server thread/WARN]: Horse (vehicle of Aptekoc) moved wrongly! 0.36724394534820703
-[15:47:07] [Server thread/WARN]: Horse (vehicle of Aptekoc) moved wrongly! 0.3186830906047362
-[15:47:07] [Server thread/WARN]: Horse (vehicle of Aptekoc) moved wrongly! 0.31868715007868786
-[15:47:07] [Server thread/WARN]: Horse (vehicle of Aptekoc) moved wrongly! 0.2701278293561131
-[15:47:07] [Server thread/WARN]: Horse (vehicle of Aptekoc) moved wrongly! 0.27012816212669577
-[15:47:08] [Server thread/WARN]: Horse (vehicle of Aptekoc) moved wrongly! 0.38165470027973925
-[15:47:08] [Server thread/WARN]: Horse (vehicle of Aptekoc) moved wrongly! 0.3330955165137084
-[15:47:08] [Server thread/WARN]: Horse (vehicle of Aptekoc) moved wrongly! 0.3330955165662317
-[15:47:08] [Server thread/WARN]: Horse (vehicle of Aptekoc) moved wrongly! 0.2845363328200392
-[15:47:08] [Server thread/WARN]: Horse (vehicle of Aptekoc) moved wrongly! 0.2845363328243593
-[15:47:09] [Server thread/WARN]: Horse (vehicle of Aptekoc) moved wrongly! 0.3163543492383951
-[15:47:09] [Server thread/WARN]: Horse (vehicle of Aptekoc) moved wrongly! 0.25206094206151874
-[15:47:09] [Server thread/WARN]: Horse (vehicle of Aptekoc) moved wrongly! 0.3690548137141718
-[15:47:09] [Server thread/WARN]: Horse (vehicle of Aptekoc) moved wrongly! 0.3204810632793169
-[15:47:10] [Server thread/WARN]: Horse (vehicle of Aptekoc) moved wrongly! 0.32051645115137717
-[15:47:10] [Server thread/WARN]: Horse (vehicle of Aptekoc) moved wrongly! 0.27195607331998417
-[15:47:10] [Server thread/WARN]: Horse (vehicle of Aptekoc) moved wrongly! 0.2719589741982986
-[15:47:10] [Server thread/WARN]: Horse (vehicle of Aptekoc) moved wrongly! 0.38348557492582813
-[15:47:10] [Server thread/WARN]: Horse (vehicle of Aptekoc) moved wrongly! 0.33492639099307553
-[15:47:10] [Server thread/WARN]: Horse (vehicle of Aptekoc) moved wrongly! 0.3349263914506082
-[15:47:10] [Server thread/WARN]: Horse (vehicle of Aptekoc) moved wrongly! 0.2863672076907733
-[15:47:11] [Server thread/WARN]: Horse (vehicle of Aptekoc) moved wrongly! 0.28636720772828994
-[15:47:11] [Server thread/WARN]: Horse (vehicle of Aptekoc) moved wrongly! 0.39789373777387027
-[15:47:11] [Server thread/WARN]: Horse (vehicle of Aptekoc) moved wrongly! 0.3493345540294399
-[15:47:11] [Server thread/WARN]: Horse (vehicle of Aptekoc) moved wrongly! 0.3493345540294399
-[15:47:11] [Server thread/WARN]: Horse (vehicle of Aptekoc) moved wrongly! 0.30077537028500956
-[15:47:12] [Server thread/WARN]: Horse (vehicle of Aptekoc) moved wrongly! 0.30077537028500956
-[15:47:12] [Server thread/WARN]: Horse (vehicle of Aptekoc) moved wrongly! 0.2522161865405792
-[15:47:12] [Server thread/WARN]: Horse (vehicle of Aptekoc) moved wrongly! 0.25256176304708333
-[15:47:12] [Server thread/WARN]: Horse (vehicle of Aptekoc) moved wrongly! 0.3677719287406944
-[15:47:12] [Server thread/WARN]: Horse (vehicle of Aptekoc) moved wrongly! 0.31973437165140695
-[15:47:12] [Server thread/WARN]: Horse (vehicle of Aptekoc) moved wrongly! 0.27168648903449366
-[15:47:12] [Server thread/WARN]: Horse (vehicle of Aptekoc) moved wrongly! 0.9806941863339489
-[15:47:12] [Server thread/WARN]: Horse (vehicle of Aptekoc) moved wrongly! 0.9806941863339489
-[15:47:12] [Server thread/WARN]: Horse (vehicle of Aptekoc) moved wrongly! 0.9806941863339489
-[15:47:12] [Server thread/WARN]: Horse (vehicle of Aptekoc) moved wrongly! 0.5287505502436716
-[15:47:13] [Server thread/WARN]: Horse (vehicle of Aptekoc) moved wrongly! 0.3872167859938713
-[15:47:13] [Server thread/WARN]: Horse (vehicle of Aptekoc) moved wrongly! 0.33915703187858526
-[15:47:13] [Server thread/WARN]: Horse (vehicle of Aptekoc) moved wrongly! 0.3372162737103963
-[15:47:13] [Server thread/WARN]: Horse (vehicle of Aptekoc) moved wrongly! 0.2823418971582896
-[15:47:13] [Server thread/WARN]: Horse (vehicle of Aptekoc) moved wrongly! 0.721016570313509
-[15:54:42] [Server thread/INFO]: Aptekoc lost connection: Disconnected
-[15:54:42] [Server thread/INFO]: Aptekoc left the game
-[15:59:03] [Server thread/INFO]: DAYMOON4ik fell from a high place
-[16:01:29] [Server thread/INFO]: DAYMOON4ik fell from a high place
-[16:01:31] [User Authenticator #56/INFO]: UUID of player ramzecb is c9672c8f-15a2-3efd-9669-9329c4e5c719
-[16:01:31] [Server thread/INFO]: ramzecb joined the game
-[16:01:31] [Server thread/INFO]: ramzecb[/109.200.234.108:50143] logged in with entity id 543961 at ([world]-409.2668889174371, 68.0, 277.01645623481147)
-[16:01:38] [Async Chat Thread - #83/INFO]: DAYMOON4ik: привет
-[16:01:46] [Craft Scheduler Thread - 7762/INFO]: [AuthMe] ramzecb logged in 109.200.234.108
-[16:01:48] [Async Chat Thread - #83/INFO]: [тима гениев] ramzecb<Легенда>: q
-[16:03:51] [Server thread/INFO]: DAYMOON4ik was shot by Skeleton
-[16:04:42] [Server thread/INFO]: DAYMOON4ik was slain by Skeleton
-[16:09:41] [Async Chat Thread - #84/INFO]: DAYMOON4ik: как тебя зовут
-[16:09:45] [Async Chat Thread - #84/INFO]: [тима гениев] ramzecb<Легенда>: roma
-[16:10:05] [Async Chat Thread - #84/INFO]: DAYMOON4ik: с Инкермана?
-[16:10:24] [Async Chat Thread - #84/INFO]: [тима гениев] ramzecb<Легенда>: я с Одессы
-[16:10:58] [Async Chat Thread - #84/INFO]: DAYMOON4ik: а понял
-[16:11:13] [Async Chat Thread - #84/INFO]: DAYMOON4ik: значит не знакомые
-[16:12:06] [Server thread/INFO]: ramzecb issued server command: /note ramzecb add -353 y 38 cimson forest
-[16:13:17] [Server thread/INFO]: DAYMOON4ik was blown up by Creeper
-[16:13:22] [User Authenticator #57/INFO]: UUID of player Aptekoc is 46f5b895-c21b-38fa-bbb5-32cc6756ecbe
-[16:13:22] [Server thread/INFO]: Aptekoc joined the game
-[16:13:22] [Server thread/INFO]: Aptekoc[/185.16.28.125:9724] logged in with entity id 546287 at ([world]-502.53071197531017, 5.0, -124.42211587629069)
-[16:13:42] [Craft Scheduler Thread - 7763/INFO]: [AuthMe] The user Aptekoc has 2 accounts:
-[16:13:42] [Craft Scheduler Thread - 7763/INFO]: [AuthMe] DAYMOON4ik, Aptekoc.
-[16:13:42] [Craft Scheduler Thread - 7763/INFO]: [AuthMe] Aptekoc logged in 185.16.28.125
-[16:14:35] [Async Chat Thread - #85/INFO]: Aptekoc: crf;b g; rjls
-[16:14:46] [Async Chat Thread - #85/INFO]: Aptekoc: скажи пж коды
-[16:15:04] [Async Chat Thread - #85/INFO]: Aptekoc: корды
-[16:17:10] [Server thread/INFO]: ramzecb issued server command: /afk
-[16:17:10] [Server thread/INFO]: ramzecb сейчас в AFK
-[16:26:56] [Server thread/INFO]: Команды с этим названием не существует!
-[16:27:01] [Server thread/INFO]: ========================
-[16:27:01] [Server thread/INFO]: Онлайн 3/50
-[16:27:01] [Server thread/INFO]: default: DAYMOON4ik, Aptekoc 
-тима-гениев: [AFK]ramzecb
-[16:27:01] [Server thread/INFO]: ========================
-[16:27:10] [Server thread/INFO]: --------------------------------------------------
-[16:27:10] [Server thread/INFO]:  1. Aptekoc -> 32 мин, 27 сек. .
-[16:27:10] [Server thread/INFO]:  2. DAYMOON4ik -> 2 часов, 24 мин, 31 сек. .
-[16:27:10] [Server thread/INFO]:  3. youube1233 -> 11 часов, 12 мин, 53 сек. .
-[16:27:10] [Server thread/INFO]:  4. Tars_Play -> 14 часов, 9 мин, 26 сек. .
-[16:27:10] [Server thread/INFO]:  5. AvelGn -> 14 часов, 34 мин, 17 сек. .
-[16:27:10] [Server thread/INFO]:  6. ramzecb -> 18 часов, 43 мин, 58 сек. .
-[16:27:10] [Server thread/INFO]:  7. Stepashka -> 18 часов, 45 мин, 3 сек. .
-[16:27:10] [Server thread/INFO]:  8. Shizik -> 1 день, 12 часов, 23 мин, 49 сек. .
-[16:27:10] [Server thread/INFO]:  9. _Ri_Vi_ -> 1 день, 14 часов, 22 мин, 2 сек. .
-[16:27:10] [Server thread/INFO]:  10. TheDwyn -> 2 дней, 17 часов, 44 мин, 34 сек. .
-[16:27:10] [Server thread/INFO]: For next page perform lastonline -p:2
-[16:27:16] [Server thread/INFO]: --------------------------------------------------
-[16:27:16] [Server thread/INFO]:  11. shizoid -> 3 дней, 12 часов, 10 мин, 50 сек. .
-[16:27:16] [Server thread/INFO]:  12. kW1n -> 3 дней, 19 часов, 10 мин, 44 сек. .
-[16:27:16] [Server thread/INFO]:  13. Lapd -> 4 дней, 15 часов, 41 мин, 13 сек. .
-[16:27:16] [Server thread/INFO]:  14. danik8513 -> 5 дней, 14 часов, 33 мин, 33 сек. .
-[16:27:16] [Server thread/INFO]:  15. __Dimooon__ -> 6 дней, 18 часов, 20 мин, 48 сек. .
-[16:27:16] [Server thread/INFO]:  16. TITANik0803 -> 6 дней, 18 часов, 20 мин, 51 сек. .
-[16:27:16] [Server thread/INFO]:  17. puzrik -> 6 дней, 18 часов, 36 мин, 47 сек. .
-[16:31:44] [Server thread/INFO]: Aptekoc was slain by Cave Spider
-[16:51:34] [Server thread/WARN]: Horse (vehicle of Aptekoc) moved wrongly! 0.385818554008722
-[16:51:34] [Server thread/WARN]: Horse (vehicle of Aptekoc) moved wrongly! 0.33764519961385986
-[16:51:35] [Server thread/WARN]: Horse (vehicle of Aptekoc) moved wrongly! 0.3338012172755498
-[16:51:35] [Server thread/WARN]: Horse (vehicle of Aptekoc) moved wrongly! 0.7741415836989063
-[16:51:37] [Server thread/WARN]: Horse (vehicle of Aptekoc) moved wrongly! 1.4662610727691723
-[16:51:45] [Server thread/INFO]: ramzecb больше не в AFK
-[16:52:02] [Async Chat Thread - #86/INFO]: Aptekoc: скажи свои корды пж
-[16:52:18] [Async Chat Thread - #86/INFO]: [тима гениев] ramzecb<Легенда>: ты мне?
-[16:52:22] [Async Chat Thread - #86/INFO]: DAYMOON4ik: да
-[16:52:23] [Async Chat Thread - #86/INFO]: Aptekoc: дадададад
-[16:52:28] [Async Chat Thread - #86/INFO]: [тима гениев] ramzecb<Легенда>: зачем?
-[16:52:44] [Async Chat Thread - #86/INFO]: Aptekoc: просто
-[16:52:48] [Async Chat Thread - #86/INFO]: Aptekoc: пж
-[16:52:59] [Async Chat Thread - #86/INFO]: Aptekoc: я взрывать не буду
-[16:53:10] [Async Chat Thread - #86/INFO]: [тима гениев] ramzecb<Легенда>: молодец
-[16:53:14] [Async Chat Thread - #86/INFO]: Aptekoc: мне бан не нужен
-[16:53:40] [Async Chat Thread - #86/INFO]: [тима гениев] ramzecb<Легенда>: помимо взрыва можно еще кучу всего сделать
-[16:53:49] [Async Chat Thread - #86/INFO]: [тима гениев] ramzecb<Легенда>: сами найдете если захотите
-[16:53:52] [Async Chat Thread - #86/INFO]: [тима гениев] ramzecb<Легенда>: я не далеко
-[16:54:16] [Async Chat Thread - #86/INFO]: DAYMOON4ik: кстати можешь к нам на огонёк заскочить
-[16:54:47] [Server thread/INFO]: ramzecb issued server command: /note ramzecb add -34 y 33
-[16:54:55] [Server thread/INFO]: ramzecb issued server command: /note ramzecb add -34 y 36
-[16:55:05] [Async Chat Thread - #86/INFO]: DAYMOON4ik: -370.88,-150
-[16:58:40] [Server thread/WARN]: Horse (vehicle of Aptekoc) moved wrongly! 0.37529223178243853
-[16:58:40] [Server thread/WARN]: Horse (vehicle of Aptekoc) moved wrongly! 0.32719454650120383
-[16:58:40] [Server thread/WARN]: Horse (vehicle of Aptekoc) moved wrongly! 0.32799851473751573
-[16:58:40] [Server thread/WARN]: Horse (vehicle of Aptekoc) moved wrongly! 0.7802074787351643
-[16:58:40] [Server thread/WARN]: Horse (vehicle of Aptekoc) moved wrongly! 0.39813732091053566
-[16:58:40] [Server thread/WARN]: Horse (vehicle of Aptekoc) moved wrongly! 0.35037144407199605
-[16:58:41] [Server thread/WARN]: Horse (vehicle of Aptekoc) moved wrongly! 0.3503714724631095
-[16:58:41] [Server thread/WARN]: Horse (vehicle of Aptekoc) moved wrongly! 0.3026056117160465
-[16:58:41] [Server thread/WARN]: Horse (vehicle of Aptekoc) moved wrongly! 0.7547985792486145
-[16:58:41] [Server thread/WARN]: Horse (vehicle of Aptekoc) moved wrongly! 0.27758545543427715
-[16:58:42] [Server thread/WARN]: Horse (vehicle of Aptekoc) moved wrongly! 0.37157553420213674
-[16:58:42] [Server thread/WARN]: Horse (vehicle of Aptekoc) moved wrongly! 0.30366504282085316
-[16:58:42] [Server thread/WARN]: Horse (vehicle of Aptekoc) moved wrongly! 0.29014976557213856
-[16:58:43] [Server thread/WARN]: Horse (vehicle of Aptekoc) moved wrongly! 0.25117953545688465
-[16:58:44] [Server thread/WARN]: Horse (vehicle of Aptekoc) moved wrongly! 0.3910845749307441
-[16:58:44] [Server thread/WARN]: Horse (vehicle of Aptekoc) moved wrongly! 0.8432925366610107
-[16:58:45] [Server thread/WARN]: Horse (vehicle of Aptekoc) moved wrongly! 0.3645781446476519
-[16:58:45] [Server thread/WARN]: Horse (vehicle of Aptekoc) moved wrongly! 0.5
-[16:59:51] [Server thread/INFO]: ramzecb issued server command: /note ramzecb list
-[17:03:13] [Server thread/INFO]: ramzecb issued server command: /note ramzecb remove
-[17:03:21] [Server thread/INFO]: ramzecb issued server command: /cmil rmc -5333676309211196847
-[17:03:24] [Server thread/INFO]: ramzecb issued server command: /cmil rmc -5266277499139415558
-[17:03:27] [Server thread/INFO]: ramzecb issued server command: /note ramzecb remove
-[17:03:37] [Server thread/INFO]: ramzecb issued server command: /note ramzecb remove 3
-[17:03:40] [Server thread/INFO]: ramzecb issued server command: /note ramzecb remove 3
-[17:04:02] [Server thread/INFO]: ramzecb issued server command: /note ramzecb add -38 y 31
-[17:12:51] [Server thread/INFO]: ramzecb встал в AFK
-[17:13:42] [Server thread/INFO]: ramzecb больше не в AFK
-[17:23:31] [Server thread/INFO]: ramzecb встал в AFK
-[17:31:10] [User Authenticator #58/INFO]: UUID of player youube1233 is e17fe5c2-00e9-3fc0-a4bc-54a26aa6c13e
-[17:31:10] [Server thread/INFO]: youube1233 joined the game
-[17:31:10] [Server thread/INFO]: youube1233[/178.34.158.152:43532] logged in with entity id 567029 at ([world]-6154.639460126153, 185.0, 3931.909246829793)
-[17:31:15] [User Authenticator #58/INFO]: UUID of player youube1233 is e17fe5c2-00e9-3fc0-a4bc-54a26aa6c13e
-[17:31:15] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@30e81dfb[id=e17fe5c2-00e9-3fc0-a4bc-54a26aa6c13e,name=youube1233,properties={},legacy=false] (/178.34.158.152:43584): Игрок с данным никнеймом уже играет на сервере!
-[17:31:15] [Server thread/INFO]: com.mojang.authlib.GameProfile@30e81dfb[id=e17fe5c2-00e9-3fc0-a4bc-54a26aa6c13e,name=youube1233,properties={},legacy=false] (/178.34.158.152:43584) lost connection: Игрок с данным никнеймом уже играет на сервере!
-[17:31:17] [Async Chat Thread - #87/INFO]: DAYMOON4ik: q
-[17:31:22] [Async Chat Thread - #87/INFO]: Aptekoc: прив
-[17:31:23] [Async Chat Thread - #87/INFO]: DAYMOON4ik: как дела
-[17:31:40] [Server thread/INFO]: youube1233 lost connection: Время авторизации истекло.
-[17:31:40] [Server thread/INFO]: youube1233 left the game
-[17:31:47] [User Authenticator #58/INFO]: UUID of player youube1233 is e17fe5c2-00e9-3fc0-a4bc-54a26aa6c13e
-[17:31:48] [Server thread/INFO]: youube1233 joined the game
-[17:31:48] [Server thread/INFO]: youube1233[/178.34.158.152:43611] logged in with entity id 567339 at ([world]-6154.639460126153, 185.0, 3931.909246829793)
-[17:31:52] [Craft Scheduler Thread - 7825/INFO]: [AuthMe] youube1233 logged in 178.34.158.152
-[17:31:53] [Async Chat Thread - #87/INFO]: [тима гениев] youube1233<Night Gaming>: qq
-[17:32:08] [Async Chat Thread - #87/INFO]: [тима гениев] youube1233<Night Gaming>: Пацаны, как экзамены?
-[17:32:17] [Async Chat Thread - #87/INFO]: DAYMOON4ik: а можно нам с Ваней дать префикс Сёгунат зелёнового цвета
-[17:32:19] [Async Chat Thread - #87/INFO]: Aptekoc: норм легкий
-[17:32:26] [Async Chat Thread - #87/INFO]: DAYMOON4ik: лёгкий
-[17:32:40] [Async Chat Thread - #87/INFO]: DAYMOON4ik: пожалуйста\
-[17:33:23] [Server thread/INFO]: ramzecb больше не в AFK
-[17:33:30] [Async Chat Thread - #87/INFO]: [тима гениев] ramzecb<Легенда>: заходи в дс
-[17:34:48] [Async Chat Thread - #88/INFO]: [тима гениев] youube1233<Night Gaming>: Окей
-[17:34:53] [Async Chat Thread - #88/INFO]: Aptekoc: спспспспспспспспсспсп
-[17:35:17] [Async Chat Thread - #88/INFO]: Aptekoc: сука
-[17:36:59] [luckperms-command-executor/INFO]: [LP] Preparing a new editor session, please wait...
-[17:36:59] [luckperms-command-executor/INFO]: [LP] Click the link below to open the editor:
-[17:36:59] [luckperms-command-executor/INFO]: https://luckperms.net/editor/5GLCJCVa4W
-[17:37:40] [Server thread/INFO]: [Server] &21цвет &aВторой цвет
-[17:37:55] [Server thread/INFO]: [Server] сек
-[17:37:58] [Async Chat Thread - #89/INFO]: DAYMOON4ik: Зелёный оранжевый
-[17:38:00] [Server thread/INFO]: [Server] &2 цвет &aВторой цвет
-[17:38:20] [Server thread/INFO]: [Server] &2 fd
-[17:38:21] [Async Chat Thread - #89/INFO]: DAYMOON4ik: 2 оранжевый
-[17:38:29] [Async Chat Thread - #89/INFO]: [тима гениев] youube1233<Night Gaming>: Не
-[17:38:37] [Async Chat Thread - #89/INFO]: [тима гениев] youube1233<Night Gaming>: делай распеределение цвета
-[17:38:40] [Async Chat Thread - #89/INFO]: [тима гениев] youube1233<Night Gaming>: грандиет делать не буду
-[17:38:43] [Async Chat Thread - #89/INFO]: [тима гениев] youube1233<Night Gaming>: это наш кастом
-[17:38:44] [Async Chat Thread - #89/INFO]: [тима гениев] youube1233<Night Gaming>: ъаъаъа
-[17:38:53] [Async Chat Thread - #89/INFO]: DAYMOON4ik: а понял
-[17:39:04] [Async Chat Thread - #89/INFO]: DAYMOON4ik: просто зелёный
-[17:39:15] [Async Chat Thread - #89/INFO]: [тима гениев] youube1233<Night Gaming>: Их два
-[17:39:20] [Async Chat Thread - #89/INFO]: [тима гениев] youube1233<Night Gaming>: тёмный или светлыйэ
-[17:39:25] [Async Chat Thread - #89/INFO]: DAYMOON4ik: светлый
-[17:39:28] [Server thread/INFO]: youube1233 issued server command: /lastonline
-[17:41:22] [Server thread/INFO]: [Server] &2 цвет &aВторой цвет/lp applyedits WwLAPIubSO
-[17:41:24] [luckperms-command-executor/INFO]: [LP] Web editor data was applied to group сёгунат (Сёгунат) successfully.
-[17:41:24] [luckperms-command-executor/INFO]: [LP] (3 additions and 0 deletions)
-[17:41:24] [luckperms-command-executor/INFO]: +  displayname.Сёгунат (true)
-[17:41:24] [luckperms-command-executor/INFO]: +  weight.2 (true)
-[17:41:24] [luckperms-command-executor/INFO]: +  prefix.2.&a[Сёгу&2нат]  (true)
-[17:41:32] [Server thread/INFO]: Использование: /clearchat (self) (-s)
-[17:41:32] [Server thread/INFO]: * Очистить чат
-[17:41:47] [Async Chat Thread - #90/INFO]: DAYMOON4ik: ЭМ
-[17:42:28] [Server thread/INFO]: ramzecb issued server command: /playtimetop
-[17:42:30] [luckperms-command-executor/INFO]: [LP] Web editor data was applied to user aptekoc successfully.
-[17:42:30] [luckperms-command-executor/INFO]: [LP] (1 addition and 1 deletion)
-[17:42:30] [luckperms-command-executor/INFO]: +  group.сёгунат (true)
-[17:42:30] [luckperms-command-executor/INFO]: -  group.default (true)
-[17:42:31] [luckperms-command-executor/INFO]: [LP] Web editor data was applied to user daymoon4ik successfully.
-[17:42:31] [luckperms-command-executor/INFO]: [LP] (1 addition and 1 deletion)
-[17:42:31] [luckperms-command-executor/INFO]: +  group.сёгунат (true)
-[17:42:31] [luckperms-command-executor/INFO]: -  group.default (true)
-[17:42:31] [luckperms-command-executor/INFO]: [LP] Web editor data was applied to group сёгунат (Сёгунат) successfully.
-[17:42:31] [luckperms-command-executor/INFO]: [LP] (1 addition and 0 deletions)
-[17:42:31] [luckperms-command-executor/INFO]: +  group.default (true)
-[17:42:37] [Async Chat Thread - #90/INFO]: [тима гениев] youube1233<Night Gaming>: Какой цвет
-[17:42:40] [Async Chat Thread - #90/INFO]: [тима гениев] youube1233<Night Gaming>: первый или второй
-[17:42:46] [Async Chat Thread - #90/INFO]: [Сёгунат] DAYMOON4ik: ВТОРОЙ
-[17:42:48] [Async Chat Thread - #90/INFO]: [тима гениев] youube1233<Night Gaming>: Который в начале или конце
-[17:43:02] [Async Chat Thread - #90/INFO]: [Сёгунат] DAYMOON4ik: В НАЧАЛЕ
-[17:43:15] [luckperms-command-executor/INFO]: [LP] Web editor data was applied to group сёгунат (Сёгунат) successfully.
-[17:43:15] [luckperms-command-executor/INFO]: [LP] (1 addition and 1 deletion)
-[17:43:15] [luckperms-command-executor/INFO]: +  prefix.2.&2[Сёгунат] &r (true)
-[17:43:15] [luckperms-command-executor/INFO]: -  prefix.2.&a[Сёгу&2нат]  (true)
-[17:43:28] [Async Chat Thread - #90/INFO]: [тима гениев] youube1233<Night Gaming>: Сделал
-[17:43:36] [Async Chat Thread - #90/INFO]: [Сёгунат] Aptekoc: спспспспспсппспспспспспспсп
-[17:43:49] [Server thread/INFO]: youube1233 lost connection: Disconnected
-[17:43:49] [Server thread/INFO]: youube1233 left the game
-[17:43:50] [User Authenticator #59/INFO]: UUID of player youube1233 is e17fe5c2-00e9-3fc0-a4bc-54a26aa6c13e
-[17:43:50] [Server thread/INFO]: youube1233 joined the game
-[17:43:50] [Server thread/INFO]: youube1233[/178.34.158.152:21593] logged in with entity id 571016 at ([world]-6154.762499988079, 185.0, 3931.113105592788)
-[17:43:50] [Craft Scheduler Thread - 7830/INFO]: [AuthMe] youube1233 logged in 178.34.158.152
-[17:43:50] [Async Chat Thread - #90/INFO]: [Сёгунат] DAYMOON4ik: Спасибо огромное
-[17:44:35] [luckperms-command-executor/INFO]: [LP] Web editor data was applied to group тима-гениев (тима гениев) successfully.
-[17:44:35] [luckperms-command-executor/INFO]: [LP] (1 addition and 1 deletion)
-[17:44:35] [luckperms-command-executor/INFO]: +  weight.65 (true)
-[17:44:35] [luckperms-command-executor/INFO]: -  weight.3 (true)
-[17:44:41] [Server thread/INFO]: Команды с этим названием не существует!
-[17:44:42] [Server thread/INFO]: Updated (EN) language file. Took 25ms
-[17:44:42] [Server thread/INFO]: Updated (RU) language file. Took 40ms
-[17:44:42] [Server thread/INFO]: CMIL Configs and locale files reloaded! Took 142ms
-[17:44:42] [Server thread/INFO]: [CMI] Loaded (1) custom text's into memory. Took 8ms
-[17:44:43] [Server thread/INFO]: [CMI] Started SqLite data base. Took 17ms
-[17:44:43] [Server thread/INFO]: [CMI] Loaded (5) warning categories into memory. Took 0ms
-[17:44:43] [Server thread/INFO]: [CMI] Loaded (3) warning commands into memory. Took 0ms
-[17:44:43] [Server thread/INFO]: [CMI] Loaded (135) custom mob heads into memory. Took 29ms
-[17:44:43] [Server thread/INFO]: [CMI] Loaded (0) cooldowns into memory. Took 30ms
-[17:44:43] [Server thread/INFO]: [CMI] Updated (EN) language file. Took 156ms
-[17:44:43] [Server thread/INFO]: [CMI] Updated (RU) language file. Took 321ms
-[17:44:43] [Server thread/INFO]: [CMI] Loaded (56) regular alias into memory. Took 47ms
-[17:44:43] [Server thread/INFO]: [CMI] Loaded (0) skin cache entries into memory. Took 1ms
-[17:44:43] [Server thread/INFO]: [CMI] Loaded (0) event action commands into memory. Took 4ms
-[17:44:43] [Server thread/INFO]: Конфигурация перезагружена! Это заняло 856мс
-[17:44:48] [Server thread/INFO]: Таблист обновлен
-[17:44:49] [Server thread/INFO]: youube1233 lost connection: Disconnected
-[17:44:49] [Server thread/INFO]: youube1233 left the game
-[17:44:50] [User Authenticator #60/INFO]: UUID of player youube1233 is e17fe5c2-00e9-3fc0-a4bc-54a26aa6c13e
-[17:44:50] [Server thread/INFO]: youube1233 joined the game
-[17:44:50] [Server thread/INFO]: youube1233[/178.34.158.152:21624] logged in with entity id 571300 at ([world]-6154.699999988079, 185.0, 3932.5316158679207)
-[17:44:50] [Craft Scheduler Thread - 7832/INFO]: [AuthMe] youube1233 logged in 178.34.158.152
-[17:45:02] [luckperms-command-executor/INFO]: [LP] Web editor data was applied to group тима-гениев (тима гениев) successfully.
-[17:45:02] [luckperms-command-executor/INFO]: [LP] (1 addition and 1 deletion)
-[17:45:02] [luckperms-command-executor/INFO]: +  weight.3 (true)
-[17:45:02] [luckperms-command-executor/INFO]: -  weight.65 (true)
-[17:45:04] [Server thread/INFO]: youube1233 lost connection: Disconnected
-[17:45:04] [Server thread/INFO]: youube1233 left the game
-[17:46:21] [User Authenticator #61/INFO]: UUID of player Shizik is f3ddb75e-a663-3b55-8e35-685bf8b951c1
-[17:46:22] [Server thread/INFO]: Shizik[/178.34.158.152:60877] logged in with entity id 571894 at ([world]-389.61104455513095, 88.0, -159.22525044739217)
-[17:46:33] [Craft Scheduler Thread - 7826/INFO]: [AuthMe] The user Shizik has 2 accounts:
-[17:46:33] [Craft Scheduler Thread - 7826/INFO]: [AuthMe] youube1233, Shizik.
-[17:46:33] [Craft Scheduler Thread - 7826/INFO]: [AuthMe] Shizik logged in 178.34.158.152
-[17:46:37] [Server thread/INFO]: Shizik issued server command: /v
-[17:46:56] [Server thread/INFO]: Shizik issued server command: /vv
-[17:46:58] [Server thread/INFO]: Shizik issued server command: /v
-[17:48:02] [Server thread/INFO]: Shizik issued server command: /tp ramzecb
-[17:48:02] [Server thread/INFO]: Shizik has made the advancement [We Need to Go Deeper]
-[17:48:58] [Server thread/INFO]: Shizik has made the advancement [Ice Bucket Challenge]
-[17:49:31] [Server thread/INFO]: ramzecb встал в AFK
-[17:49:37] [Server thread/INFO]: Shizik issued server command: /coreprotect inspect
-[17:50:00] [Server thread/INFO]: ramzecb больше не в AFK
-[17:50:26] [Server thread/INFO]: Shizik issued server command: /v
-[17:50:28] [Server thread/INFO]: Shizik issued server command: /v
-[17:50:48] [Server thread/INFO]: Shizik issued server command: /v
-[17:50:49] [Server thread/INFO]: Shizik issued server command: /v
-[17:51:11] [Server thread/INFO]: Shizik issued server command: /v
-[17:53:30] [Server thread/INFO]: Shizik issued server command: /v
-[17:53:32] [Server thread/INFO]: Shizik issued server command: /tp Aptekoc
-[17:53:45] [Server thread/INFO]: Shizik issued server command: /playsound
-[17:53:47] [Server thread/INFO]: Shizik issued server command: /playtimetop
-[17:54:28] [Server thread/INFO]: Shizik issued server command: /tp ramzecb
-[17:54:35] [Server thread/INFO]: Shizik issued server command: /tp avelgn
-[17:54:50] [Server thread/INFO]: Shizik issued server command: /tp ramzecb
-[17:55:47] [Async Chat Thread - #91/INFO]: Developer<*>: y/v
-[17:55:48] [Server thread/INFO]: Shizik issued server command: /v
-[17:55:55] [Server thread/INFO]: Shizik issued server command: /cmi clearchat -s
-[17:56:28] [Server thread/INFO]: Shizik issued server command: /playtimetop
-[17:58:45] [Async Chat Thread - #92/INFO]: [Сёгунат] Aptekoc: ку
-[18:00:15] [Server thread/INFO]: Shizik issued server command: /cmi broadcast В 18:30 волейбол
-[18:00:15] [Server thread/INFO]: [ОБЪЯВЛЕНИЕ] В 18:30 волейбол
-[18:00:17] [Server thread/INFO]: Shizik issued server command: /cmi broadcast В 18:30 волейбол
-[18:00:17] [Server thread/INFO]: [ОБЪЯВЛЕНИЕ] В 18:30 волейбол
-[18:00:17] [Server thread/INFO]: Shizik issued server command: /cmi broadcast В 18:30 волейбол
-[18:00:17] [Server thread/INFO]: [ОБЪЯВЛЕНИЕ] В 18:30 волейбол
-[18:00:17] [Server thread/INFO]: Shizik issued server command: /cmi broadcast В 18:30 волейбол
-[18:00:17] [Server thread/INFO]: [ОБЪЯВЛЕНИЕ] В 18:30 волейбол
-[18:00:17] [Server thread/INFO]: Shizik issued server command: /cmi broadcast В 18:30 волейбол
-[18:00:18] [Server thread/INFO]: [ОБЪЯВЛЕНИЕ] В 18:30 волейбол
-[18:00:18] [Server thread/INFO]: Shizik issued server command: /cmi broadcast В 18:30 волейбол
-[18:00:18] [Server thread/INFO]: [ОБЪЯВЛЕНИЕ] В 18:30 волейбол
-[18:03:05] [Server thread/INFO]: Shizik issued server command: /cmi enchant efficiency 100000
-[18:03:11] [Server thread/INFO]: Shizik issued server command: /gm 0
-[18:03:15] [Server thread/INFO]: Shizik issued server command: /cmi enchant efficiency -1
-[18:03:21] [Server thread/INFO]: Shizik issued server command: /cmi enchant efficiency -100000
-[18:03:27] [Server thread/INFO]: ramzecb issued server command: /playtimetop
-[18:03:30] [Server thread/INFO]: Shizik issued server command: /placeholders
-[18:03:33] [Server thread/INFO]: Shizik issued server command: /playtime
-[18:03:34] [Server thread/INFO]: Shizik issued server command: /playtimetop
-[18:03:39] [Server thread/INFO]: Shizik issued server command: /lastonline
-[18:03:42] [Server thread/INFO]: Shizik issued server command: /lastonline -p:2
-[18:03:56] [Server thread/INFO]: Shizik issued server command: /msg ramzecb /lastonline
-[18:03:59] [Server thread/INFO]: Shizik issued server command: /gm 1
-[18:04:02] [Server thread/INFO]: ramzecb issued server command: /lastonline
-[18:04:16] [Server thread/INFO]: DAYMOON4ik has made the advancement [What a Deal!]
-[18:05:54] [Server thread/INFO]: Shizik issued server command: /coreprotect inspect
-[18:06:44] [Server thread/INFO]: Shizik issued server command: /co l 2
-[18:06:45] [Server thread/INFO]: Shizik issued server command: /co l 3
-[18:06:46] [Server thread/INFO]: Shizik issued server command: /co l 4
-[18:06:47] [Server thread/INFO]: Shizik issued server command: /co l 5
-[18:07:30] [Server thread/INFO]: Shizik issued server command: /coreprotect inspect
-[18:09:06] [Server thread/INFO]: ramzecb blew up
-[18:14:11] [Server thread/INFO]: Aptekoc lost connection: Disconnected
-[18:14:11] [Server thread/INFO]: Aptekoc left the game
-[18:15:12] [Server thread/INFO]: Shizik lost connection: Disconnected
-[18:15:12] [Server thread/INFO]: Shizik left the game
-[18:16:05] [User Authenticator #62/INFO]: UUID of player Aptekoc is 46f5b895-c21b-38fa-bbb5-32cc6756ecbe
-[18:16:05] [Server thread/INFO]: Aptekoc joined the game
-[18:16:05] [Server thread/INFO]: Aptekoc[/185.16.28.125:28024] logged in with entity id 579748 at ([world]-370.04086167265194, 63.5, -227.96114111111854)
-[18:16:05] [Craft Scheduler Thread - 7845/INFO]: [AuthMe] The user Aptekoc has 2 accounts:
-[18:16:05] [Craft Scheduler Thread - 7845/INFO]: [AuthMe] DAYMOON4ik, Aptekoc.
-[18:16:05] [Craft Scheduler Thread - 7845/INFO]: [AuthMe] Aptekoc logged in 185.16.28.125
-[18:16:45] [User Authenticator #62/INFO]: UUID of player Shizik is f3ddb75e-a663-3b55-8e35-685bf8b951c1
-[18:16:45] [Server thread/INFO]: Shizik joined the game
-[18:16:45] [Server thread/INFO]: Shizik[/178.34.158.152:10100] logged in with entity id 579849 at ([world_nether]-44.96781415942205, 128.0, 29.420879084416477)
-[18:16:45] [Craft Scheduler Thread - 7847/INFO]: [AuthMe] The user Shizik has 2 accounts:
-[18:16:45] [Craft Scheduler Thread - 7847/INFO]: [AuthMe] youube1233, Shizik.
-[18:16:45] [Craft Scheduler Thread - 7847/INFO]: [AuthMe] Shizik logged in 178.34.158.152
-[18:19:55] [Server thread/INFO]: ramzecb lost connection: Disconnected
-[18:19:55] [Server thread/INFO]: ramzecb left the game
-[18:23:48] [User Authenticator #63/INFO]: UUID of player ramzecb is c9672c8f-15a2-3efd-9669-9329c4e5c719
-[18:23:49] [Server thread/INFO]: ramzecb joined the game
-[18:23:49] [Server thread/INFO]: ramzecb[/109.200.234.108:50291] logged in with entity id 582281 at ([world_nether]-39.23579699407719, 128.0, 31.300000011920922)
-[18:23:49] [Craft Scheduler Thread - 7855/INFO]: [AuthMe] ramzecb logged in 109.200.234.108
-[18:24:43] [Server thread/INFO]: Shizik issued server command: /GM 3
-[18:26:37] [Server thread/INFO]: Shizik issued server command: /gm 0
-[18:26:40] [Server thread/INFO]: Shizik issued server command: /gm 1
-[18:27:14] [Server thread/INFO]: Shizik has completed the challenge [Cover Me in Debris]
-[18:28:02] [Server thread/INFO]: Shizik issued server command: /cmi enchant protection 10000
-[18:28:08] [Server thread/INFO]: Shizik issued server command: /cmi enchant protection 10000
-[18:28:15] [Server thread/INFO]: Shizik issued server command: /gm 0
-[18:30:54] [Server thread/INFO]: Shizik issued server command: /GM
-[18:30:57] [Server thread/INFO]: Shizik issued server command: /GM 1
-[18:34:01] [Server thread/INFO]: Shizik issued server command: /top
-[18:34:04] [Server thread/INFO]: Shizik issued server command: /cmi top
-[18:34:29] [Server thread/INFO]: Shizik lost connection: Disconnected
-[18:34:29] [Server thread/INFO]: Shizik left the game
-[18:35:37] [Server thread/INFO]: ramzecb issued server command: /playtimetop
-[18:35:44] [User Authenticator #64/INFO]: UUID of player youube1233 is e17fe5c2-00e9-3fc0-a4bc-54a26aa6c13e
-[18:35:44] [Server thread/INFO]: youube1233 joined the game
-[18:35:44] [Server thread/INFO]: youube1233[/178.34.158.152:54392] logged in with entity id 586792 at ([world]-6154.27715690595, 185.0, 3931.7381278276225)
-[18:35:45] [Craft Scheduler Thread - 7857/INFO]: [AuthMe] The user youube1233 has 2 accounts:
-[18:35:45] [Craft Scheduler Thread - 7857/INFO]: [AuthMe] youube1233, shizik.
-[18:35:45] [Craft Scheduler Thread - 7857/INFO]: [AuthMe] youube1233 logged in 178.34.158.152
-[18:35:57] [Server thread/INFO]: youube1233 issued server command: /playtimetop
-[18:36:20] [Server thread/INFO]: 
---------------------------------------------------
-DAYMOON4ik Группа: сёгунат Онлайн for: 4 часов, 33 мин, 40 сек.  Время игры: 18 часов, 8 мин, 51 сек.  (0.00 БадыльКоинов)  
-UUID: e592a984-8fee-39f6-a261-99a3317df011 
-IP: 185.16.28.125 N/A (--)  Пинг: 77 FПервый вход: 13/06/22 23:09:49 
-CanFly(Flying)  Скорость полета: 1 
-Игровой режим: Выживание  Скорость ходьбы: 1 Здоровье: 19.99/20.0 Голод: 20/20 Saturation +0.0 Exp: 322exp -> 7/37 (15lvl) 
-Местоположение  world (461.54:70.75:-368.89) 
-Следующий респавн  world (-112:65:64) 
-Место смерти  world (-409:7:-157) 
-Back  world_nether (-51:73:-11) 
---------------------------------------------------
-[18:40:46] [Async Chat Thread - #93/INFO]: [тима гениев] youube1233<Night Gaming>: Вы все экзамены написали?
-[18:40:59] [Async Chat Thread - #93/INFO]: [Сёгунат] Aptekoc: нет остался 1
-[18:41:07] [Async Chat Thread - #93/INFO]: [тима гениев] youube1233<Night Gaming>: ?
-[18:41:26] [Async Chat Thread - #93/INFO]: [Сёгунат] Aptekoc: остался 1 экзамен
-[18:41:30] [Async Chat Thread - #93/INFO]: [тима гениев] youube1233<Night Gaming>: Какой?
-[18:42:02] [Async Chat Thread - #93/INFO]: [Сёгунат] Aptekoc: для 6 человек география а для остальный инфа
-[18:42:46] [Server thread/INFO]: Aptekoc lost connection: Disconnected
-[18:42:46] [Server thread/INFO]: Aptekoc left the game
-[18:43:09] [Server thread/INFO]: ramzecb lost connection: Disconnected
-[18:43:09] [Server thread/INFO]: ramzecb left the game
-[18:43:24] [Server thread/INFO]: [ОБЪЯВЛЕНИЕ] Тех. работы на 5 минут
-[18:43:25] [Server thread/INFO]: [ОБЪЯВЛЕНИЕ] Тех. работы на 5 минут
-[18:43:25] [Server thread/INFO]: [ОБЪЯВЛЕНИЕ] Тех. работы на 5 минут
-[18:43:25] [Server thread/INFO]: [ОБЪЯВЛЕНИЕ] Тех. работы на 5 минут
-[18:43:25] [Server thread/INFO]: [ОБЪЯВЛЕНИЕ] Тех. работы на 5 минут
-[18:43:26] [Server thread/INFO]: [ОБЪЯВЛЕНИЕ] Тех. работы на 5 минут
-[18:43:26] [Server thread/INFO]: [ОБЪЯВЛЕНИЕ] Тех. работы на 5 минут
-[18:43:26] [Server thread/INFO]: [ОБЪЯВЛЕНИЕ] Тех. работы на 5 минут
-[18:43:26] [Server thread/INFO]: [ОБЪЯВЛЕНИЕ] Тех. работы на 5 минут
-[18:43:27] [Server thread/INFO]: [ОБЪЯВЛЕНИЕ] Тех. работы на 5 минут
-[18:43:27] [Server thread/INFO]: [ОБЪЯВЛЕНИЕ] Тех. работы на 5 минут
-[18:43:27] [Server thread/INFO]: [ОБЪЯВЛЕНИЕ] Тех. работы на 5 минут
-[18:43:27] [Server thread/INFO]: [ОБЪЯВЛЕНИЕ] Тех. работы на 5 минут
-[18:43:27] [Server thread/INFO]: [ОБЪЯВЛЕНИЕ] Тех. работы на 5 минут
-[18:43:28] [Server thread/INFO]: [ОБЪЯВЛЕНИЕ] Тех. работы на 5 минут
-[18:43:30] [Server thread/INFO]: Stopping the server
-[18:43:30] [Server thread/WARN]: java.lang.Throwable: Server stopped
-[18:43:30] [Server thread/WARN]: 	at io.papermc.paper.util.TraceUtil.dumpTraceForThread(TraceUtil.java:16)
-[18:43:30] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.safeShutdown(MinecraftServer.java:1001)
-[18:43:30] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.safeShutdown(MinecraftServer.java:995)
-[18:43:30] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.CommandStop.a(SourceFile:17)
-[18:43:30] [Server thread/WARN]: 	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:262)
-[18:43:30] [Server thread/WARN]: 	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:176)
-[18:43:30] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.CommandDispatcher.a(CommandDispatcher.java:276)
-[18:43:30] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.command.VanillaCommandWrapper.execute(VanillaCommandWrapper.java:45)
-[18:43:30] [Server thread/WARN]: 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:159)
-[18:43:30] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.dispatchCommand(CraftServer.java:826)
-[18:43:30] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.dispatchServerCommand(CraftServer.java:788)
-[18:43:30] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.DedicatedServer.handleCommandQueue(DedicatedServer.java:470)
-[18:43:30] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.DedicatedServer.b(DedicatedServer.java:437)
-[18:43:30] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.a(MinecraftServer.java:1347)
-[18:43:30] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:1135)
-[18:43:30] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:291)
-[18:43:30] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:829)
-[18:43:30] [Server thread/INFO]: Stopping server
-[18:43:30] [Server thread/INFO]: [CMI] Disabling CMI v9.0.2.9
-[18:43:30] [Server thread/INFO]: [AuthMe] CMI has been disabled: unhooking
-[18:43:30] [Server thread/INFO]: [Vault][Economy] CMI Economy unhooked.
-[18:43:30] [Server thread/INFO]: [CMI] Closed db connections
-[18:43:30] [Server thread/INFO]: [CMILib] Disabling CMILib v1.2.0.1
-[18:43:30] [Server thread/INFO]: [AuthMe] Disabling AuthMe v5.6.0-SNAPSHOT-b2501
-[18:43:30] [Server thread/INFO]: [AuthMe] Waiting for 0 tasks to finish
-[18:43:30] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0-SNAPSHOT-b2501 disabled!
-[18:43:30] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-CMI
-[18:43:30] [Server thread/INFO]: [WorldBorder] Disabling WorldBorder v1.9.10 (beta)
-[18:43:30] [Server thread/INFO]: [WorldBorder] [CONFIG] Border-checking timed task stopped.
-[18:43:30] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.3.77
-[18:43:30] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[18:43:30] [Server thread/INFO]: [LuckPerms] Closing storage...
-[18:43:30] [Server thread/INFO]: [LuckPerms] Goodbye!
-[18:43:30] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.2.2
-[18:43:30] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
-[18:43:30] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v20.1
-[18:43:30] [Server thread/INFO]: [CoreProtect] Завершение регистрации данных. Пожалуйста, подождите...
-[18:43:31] [Server thread/INFO]: [CoreProtect] CoreProtect v20.1 был успешно отключён!
-[18:43:31] [Server thread/INFO]: Saving players
-[18:43:31] [Server thread/INFO]: DAYMOON4ik lost connection: Сервер закрыт.
-[18:43:31] [Server thread/INFO]: DAYMOON4ik left the game
-[18:43:31] [Server thread/INFO]: youube1233 lost connection: Сервер закрыт.
-[18:43:31] [Server thread/INFO]: youube1233 left the game
-[18:43:31] [Server thread/INFO]: Saving worlds
-[18:43:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[18:43:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[18:43:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[18:43:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[18:43:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[18:43:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[18:43:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[18:43:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[18:43:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[18:43:33] [Server thread/INFO]: Flushing Chunk IO
-[18:43:33] [Server thread/INFO]: Closing Thread Pool
-[18:43:33] [Server thread/INFO]: Closing Server
-[18:43:33] [Thread-1/WARN]: java.lang.Throwable: Server stopped
-[18:43:33] [Thread-1/WARN]: 	at io.papermc.paper.util.TraceUtil.dumpTraceForThread(TraceUtil.java:16)
+[00:12:32] [Server thread/INFO]: youube1233 больше не в AFK
+[00:12:42] [Async Chat Thread - #7/INFO]: [тима гениев] youube1233<Night Gaming>: На дракона идём все вместе
+[00:12:48] [Async Chat Thread - #7/INFO]: [Сёгунат] DAYMOON4ik: окей
+[00:12:49] [Async Chat Thread - #7/INFO]: [тима гениев] youube1233<Night Gaming>: Время согласуем чуть позже
+[00:12:54] [Async Chat Thread - #7/INFO]: [Сёгунат] DAYMOON4ik: спасибо
+[00:13:29] [Async Chat Thread - #7/INFO]: [Сёгунат] DAYMOON4ik: 3 тотэма на одно лицо выдам
+[00:14:10] [Async Chat Thread - #7/INFO]: [Сёгунат] DAYMOON4ik: у нас их 16 штук
+[00:14:38] [Async Chat Thread - #7/INFO]: [Сёгунат] DAYMOON4ik: у если не считать наши то 12
+[00:15:06] [Async Chat Thread - #7/INFO]: [Сёгунат] DAYMOON4ik: что делаешь?
+[00:17:51] [Server thread/INFO]: youube1233 встал в AFK
+[00:22:01] [User Authenticator #13/INFO]: UUID of player Tars_Play is 3d6142ca-6be4-334b-88cf-a3b0c404e1ba
+[00:22:01] [Server thread/INFO]: Tars_Play joined the game
+[00:22:01] [Server thread/INFO]: Tars_Play[/2.63.176.21:62695] logged in with entity id 123766 at ([world]-6354.811136447618, 77.0, 4312.279511141424)
+[00:22:06] [Async Chat Thread - #8/INFO]: [Сёгунат] DAYMOON4ik: q
+[00:22:24] [Craft Scheduler Thread - 174/INFO]: [AuthMe] Tars_Play logged in 2.63.176.21
+[00:23:25] [Server thread/INFO]: Tars_Play issued server command: /playtimetop
+[00:23:35] [Server thread/INFO]: youube1233 больше не в AFK
+[00:23:48] [Async Chat Thread - #9/INFO]: [тима гениев] youube1233<Night Gaming>: Жека, в дс через 5 мин го?
+[00:23:58] [Async Chat Thread - #9/INFO]: [YT] Жека_Бро<ver. 2.0>: Ща
+[00:24:08] [Async Chat Thread - #9/INFO]: [Сёгунат] DAYMOON4ik: шо делаете?
+[00:25:04] [Async Chat Thread - #9/INFO]: [Сёгунат] DAYMOON4ik: срочно дайте корды вашего портала
+[00:25:14] [Async Chat Thread - #9/INFO]: [Сёгунат] DAYMOON4ik: Жэк
+[00:25:33] [Async Chat Thread - #9/INFO]: [YT] Жека_Бро<ver. 2.0>: Я нахожусь очень далеко
+[00:25:45] [Async Chat Thread - #9/INFO]: [Сёгунат] DAYMOON4ik: через ад
+[00:25:55] [Async Chat Thread - #9/INFO]: [YT] Жека_Бро<ver. 2.0>: И с чего ты взял, что у меня есть портал?
+[00:26:20] [Async Chat Thread - #9/INFO]: [Сёгунат] DAYMOON4ik: вы с Авилем пного раз умирали в Аду
+[00:26:38] [Async Chat Thread - #9/INFO]: [YT] Жека_Бро<ver. 2.0>: Зачем тебе
+[00:26:59] [Server thread/INFO]: youube1233 issued server command: /msg Tars_Play Воис
+[00:27:01] [Server thread/INFO]: youube1233 issued server command: /msg Tars_Play Воис
+[00:27:01] [Server thread/INFO]: youube1233 issued server command: /msg Tars_Play Воис
+[00:27:01] [Server thread/INFO]: youube1233 issued server command: /msg Tars_Play Воис
+[00:27:01] [Server thread/INFO]: youube1233 issued server command: /msg Tars_Play Воисе
+[00:27:02] [Server thread/INFO]: youube1233 issued server command: /msg Tars_Play Воисе
+[00:27:02] [Server thread/INFO]: youube1233 issued server command: /msg Tars_Play Воисе
+[00:27:02] [Server thread/INFO]: youube1233 issued server command: /msg Tars_Play Воисее
+[00:27:03] [Server thread/INFO]: youube1233 issued server command: /msg Tars_Play Воисеее
+[00:27:03] [Server thread/INFO]: youube1233 issued server command: /msg Tars_Play Воисееее
+[00:27:07] [Server thread/INFO]: youube1233 issued server command: /msg Tars_Play Воис
+[00:27:10] [Async Chat Thread - #9/INFO]: [Сёгунат] DAYMOON4ik: ты с кем живёшь
+[00:27:13] [Async Chat Thread - #9/INFO]: [Сёгунат] DAYMOON4ik: ?
+[00:32:08] [Server thread/INFO]: youube1233 встал в AFK
+[00:39:51] [Server thread/INFO]: youube1233 больше не в AFK
+[00:40:47] [Server thread/INFO]: youube1233 issued server command: /playtimetop
+[00:43:08] [Server thread/INFO]: Tars_Play issued server command: /playtimetop
+[00:45:52] [Server thread/INFO]: youube1233 встал в AFK
+[00:45:56] [Server thread/INFO]: youube1233 больше не в AFK
+[00:46:26] [User Authenticator #14/INFO]: UUID of player AvelGn is 6dba0c94-a7c8-3131-8bfb-707a92def345
+[00:46:26] [Server thread/INFO]: AvelGn joined the game
+[00:46:26] [Server thread/INFO]: AvelGn[/213.59.162.100:13119] logged in with entity id 134699 at ([world]-6354.002331446133, 77.0, 4312.262495574512)
+[00:46:44] [Craft Scheduler Thread - 185/INFO]: [AuthMe] AvelGn logged in 213.59.162.100
+[00:47:44] [Async Chat Thread - #10/INFO]: [YT] Бре_нд<ver. 2.0>: Ваня и Дима привет вам передаю!!!
+[00:47:58] [Async Chat Thread - #10/INFO]: [Сёгунат] Aptekoc: прривет
+[00:48:01] [Async Chat Thread - #10/INFO]: [Сёгунат] DAYMOON4ik: окей
+[00:48:04] [Async Chat Thread - #10/INFO]: [Сёгунат] DAYMOON4ik: привет
+[00:48:30] [Craft Scheduler Thread - 187/INFO]: [Vault] Checking for Updates ... 
+[00:48:30] [Craft Scheduler Thread - 187/INFO]: [Vault] No new version available
+[00:50:09] [Netty Epoll Server IO #2/WARN]: io.netty.handler.timeout.ReadTimeoutException
+[00:52:47] [Server thread/INFO]: youube1233 issued server command: /playtimetop
+[00:54:36] [Server thread/INFO]: youube1233 issued server command: /cmi playtimetop 2
+[00:54:41] [Server thread/INFO]: youube1233 issued server command: /lastonline
+[00:54:46] [Async Chat Thread - #11/INFO]: [тима гениев] youube1233<Night Gaming>: sleep
+[01:02:45] [Server thread/INFO]: youube1233 issued server command: /cmi broadcast
+[01:02:45] [Server thread/INFO]: youube1233 не имеет разрешения: cmi.command.broadcast
+[01:04:28] [luckperms-command-executor/INFO]: [LP] Preparing a new editor session, please wait...
+[01:04:29] [luckperms-command-executor/INFO]: [LP] Click the link below to open the editor:
+[01:04:29] [luckperms-command-executor/INFO]: https://luckperms.net/editor/TURsFYJ7j0
+[01:04:52] [luckperms-command-executor/INFO]: [LP] Web editor data was applied to user youube1233 successfully.
+[01:04:52] [luckperms-command-executor/INFO]: [LP] (1 addition and 0 deletions)
+[01:04:52] [luckperms-command-executor/INFO]: +  cmi.command.broadcast (true)
+[01:05:22] [Server thread/INFO]: youube1233 issued server command: /broadcast &4Test
+[01:05:22] [Server thread/INFO]: [ОБЪЯВЛЕНИЕ] Test
+[01:05:24] [Server thread/INFO]: youube1233 issued server command: /broadcast &5Test
+[01:05:24] [Server thread/INFO]: [ОБЪЯВЛЕНИЕ] Test
+[01:05:33] [Async Chat Thread - #12/INFO]: [Сёгунат] DAYMOON4ik: что
+[01:05:39] [Async Chat Thread - #12/INFO]: [Сёгунат] DAYMOON4ik: за тест
+[01:05:42] [Server thread/INFO]: youube1233 issued server command: /broadcast &5Стрим на твиче &4twitch.tv/youube1233
+[01:05:42] [Server thread/INFO]: [ОБЪЯВЛЕНИЕ] Стрим на твиче twitch.tv/youube1233
+[01:05:51] [Async Chat Thread - #12/INFO]: [Сёгунат] DAYMOON4ik: понял
+[01:05:53] [Server thread/INFO]: youube1233 issued server command: /broadcast &5Стрим на твиче &4htthp://twitch.tv/youube1233
+[01:05:53] [Server thread/INFO]: [ОБЪЯВЛЕНИЕ] Стрим на твиче htthp://twitch.tv/youube1233
+[01:07:05] [Server thread/INFO]: [CMI] !toast! -t:goal -icon:clock ВНИМАНИЕ: 2 из 3 игроков требуется для ускорения ночного времени!
+[01:07:26] [Server thread/INFO]: youube1233 issued server command: /broadcast &5Стрим на твиче &4 htthp://twitch.tv/youube1233
+[01:07:26] [Server thread/INFO]: [ОБЪЯВЛЕНИЕ] Стрим на твиче  htthp://twitch.tv/youube1233
+[01:07:28] [Server thread/INFO]: [CMI] !toast! -t:goal -icon:clock ВНИМАНИЕ: 2 из 3 игроков требуется для ускорения ночного времени!
+[01:07:35] [Server thread/INFO]: [CMI] !toast! -t:goal -icon:clock ВНИМАНИЕ: 2 из 3 игроков требуется для ускорения ночного времени!
+[01:07:39] [Server thread/INFO]: [CMI] !toast! -t:goal -icon:clock ВНИМАНИЕ: 2 из 3 игроков требуется для ускорения ночного времени!
+[01:07:42] [Server thread/INFO]: youube1233 issued server command: /broadcast &5Стрим на твиче &4 https://twitch.tv/youube1233
+[01:07:42] [Server thread/INFO]: [ОБЪЯВЛЕНИЕ] Стрим на твиче  https://twitch.tv/youube1233
+[01:07:51] [Server thread/INFO]: youube1233 issued server command: /broadcast &5Стрим на твиче&4 htthp://twitch.tv/youube1233
+[01:07:51] [Server thread/INFO]: [ОБЪЯВЛЕНИЕ] Стрим на твиче htthp://twitch.tv/youube1233
+[01:07:58] [Server thread/INFO]: youube1233 issued server command: /broadcast &5Стрим на твиче&4 https://twitch.tv/youube1233
+[01:07:58] [Server thread/INFO]: [ОБЪЯВЛЕНИЕ] Стрим на твиче https://twitch.tv/youube1233
+[01:08:14] [Async Chat Thread - #13/INFO]: [тима гениев] youube1233<Night Gaming>: https://twitch.tv/youube1233
+[01:08:24] [Server thread/INFO]: youube1233 issued server command: /broadcast https://twitch.tv/youube1233
+[01:08:24] [Server thread/INFO]: [ОБЪЯВЛЕНИЕ] https://twitch.tv/youube1233
+[01:09:36] [Server thread/INFO]: youube1233 issued server command: /broadcast https://twitch.tv/youube1233(f)
+[01:09:36] [Server thread/INFO]: [ОБЪЯВЛЕНИЕ] https://twitch.tv/youube1233(f)
+[01:09:43] [Server thread/INFO]: youube1233 issued server command: /broadcast "https://twitch.tv/youube1233"
+[01:09:43] [Server thread/INFO]: [ОБЪЯВЛЕНИЕ] "https://twitch.tv/youube1233"
+[01:10:10] [Server thread/INFO]: youube1233 issued server command: /broadcast &5Стрим на твиче&4 https://twitch.tv/youube1233(Почему-то не кликабельно)
+[01:10:10] [Server thread/INFO]: [ОБЪЯВЛЕНИЕ] Стрим на твиче https://twitch.tv/youube1233(Почему-то не кликабельно)
+[01:11:58] [Server thread/INFO]: DAYMOON4ik встал в AFK
+[01:13:40] [Server thread/INFO]: DAYMOON4ik больше не в AFK
+[01:17:12] [Server thread/INFO]: AvelGn was blown up by Creeper
+[01:19:10] [Async Chat Thread - #14/INFO]: [тима гениев] youube1233<Night Gaming>: sleep
+[01:19:12] [Server thread/INFO]: youube1233 issued server command: /broadcast &5Стрим на твиче&4 https://twitch.tv/youube1233(Почему-то не кликабельно)
+[01:19:12] [Server thread/INFO]: [ОБЪЯВЛЕНИЕ] Стрим на твиче https://twitch.tv/youube1233(Почему-то не кликабельно)
+[01:19:16] [Async Chat Thread - #14/INFO]: [тима гениев] youube1233<Night Gaming>: sleep
+[01:19:17] [Async Chat Thread - #14/INFO]: [тима гениев] youube1233<Night Gaming>: sleep
+[01:19:18] [Server thread/INFO]: youube1233 issued server command: /broadcast &5Стрим на твиче&4 https://twitch.tv/youube1233(Почему-то не кликабельно)
+[01:19:18] [Server thread/INFO]: [ОБЪЯВЛЕНИЕ] Стрим на твиче https://twitch.tv/youube1233(Почему-то не кликабельно)
+[01:19:20] [Async Chat Thread - #14/INFO]: [тима гениев] youube1233<Night Gaming>: sleep
+[01:19:21] [Async Chat Thread - #14/INFO]: [тима гениев] youube1233<Night Gaming>: sleep
+[01:19:49] [Server thread/INFO]: [CMI] !toast! -t:goal -icon:clock ВНИМАНИЕ: 2 из 3 игроков требуется для ускорения ночного времени!
+[01:21:28] [Server thread/INFO]: youube1233 issued server command: /lastonline
+[01:21:29] [Server thread/INFO]: youube1233 issued server command: /lastonline -p:2
+[01:26:49] [Server thread/INFO]: AvelGn was shot by Skeleton
+[01:30:57] [Async Chat Thread - #15/INFO]: [Сёгунат] Aptekoc: 6 ТПС
+[01:31:22] [Async Chat Thread - #15/INFO]: [Сёгунат] Aptekoc: ДА
+[01:31:26] [Async Chat Thread - #15/INFO]: [Сёгунат] Aptekoc: СПС
+[01:32:08] [Async Chat Thread - #15/INFO]: [тима гениев] youube1233<Night Gaming>: sleep
+[01:36:59] [Async Chat Thread - #16/INFO]: [Сёгунат] DAYMOON4ik: фарш
+[01:37:46] [Server thread/INFO]: AvelGn was shot by Skeleton
+[01:39:03] [Async Chat Thread - #17/INFO]: [Сёгунат] DAYMOON4ik: кто такой шизик?
+[01:39:28] [Async Chat Thread - #17/INFO]: [Сёгунат] Aptekoc: НА СЕРВЕРЕ
+[01:44:48] [Async Chat Thread - #18/INFO]: [Сёгунат] DAYMOON4ik: спать
+[01:45:23] [Async Chat Thread - #18/INFO]: [Сёгунат] DAYMOON4ik: спать
+[01:48:49] [Server thread/INFO]: Бре_нд встал в AFK
+[01:49:23] [Server thread/INFO]: Tars_Play fell from a high place
+[01:50:52] [Server thread/INFO]: Tars_Play was slain by Piglin
+[01:51:35] [Server thread/INFO]: Бре_нд больше не в AFK
+[01:54:32] [Server thread/INFO]: AvelGn was blown up by Creeper
+[01:55:16] [Server thread/INFO]: youube1233 issued server command: /playtimetop
+[01:55:53] [Server thread/INFO]: AvelGn issued server command: /playtimetop
+[01:58:07] [Async Chat Thread - #19/INFO]: [Сёгунат] Aptekoc: какой аганичитель чанков
+[02:00:59] [User Authenticator #15/INFO]: UUID of player kleb0ld is d8bceadc-9299-3f83-b363-e428feac24cf
+[02:00:59] [Server thread/INFO]: kleb0ld joined the game
+[02:00:59] [Server thread/INFO]: kleb0ld[/31.28.230.95:63545] logged in with entity id 174910 at ([world]-104.5, 64.0, 65.5)
+[02:01:02] [Server thread/INFO]: youube1233 was slain by Zombie
+[02:01:20] [Server thread/INFO]: youube1233 was slain by Zombie
+[02:01:27] [Server thread/INFO]: [AuthMe] kleb0ld registered 31.28.230.95
+[02:01:27] [Craft Scheduler Thread - 248/INFO]: [AuthMe] kleb0ld logged in 31.28.230.95
+[02:01:43] [Server thread/INFO]: Aptekoc was slain by Zombie
+[02:02:00] [Async Chat Thread - #20/INFO]: [Сёгунат] Aptekoc: блляяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяя
+[02:02:42] [Async Chat Thread - #20/INFO]: [Сёгунат] Aptekoc: нет
+[02:02:53] [Async Chat Thread - #20/INFO]: [Сёгунат] DAYMOON4ik: по табу
+[02:03:52] [Server thread/INFO]: youube1233 issued server command: /msg Aptekoc -759 80 520
+[02:05:13] [Async Chat Thread - #21/INFO]: [Сёгунат] DAYMOON4ik: нет
+[02:05:27] [Server thread/INFO]: kleb0ld has made the advancement [Stone Age]
+[02:05:36] [Server thread/INFO]: kleb0ld has made the advancement [Getting an Upgrade]
+[02:06:34] [Async Chat Thread - #22/INFO]: [Сёгунат] DAYMOON4ik: по приколу
+[02:06:34] [Server thread/INFO]: AvelGn burned to death
+[02:06:56] [Async Chat Thread - #22/INFO]: [Сёгунат] DAYMOON4ik: F
+[02:07:47] [Server thread/INFO]: Tars_Play was slain by Piglin
+[02:09:19] [Server thread/INFO]: Aptekoc has made the advancement [Those Were the Days]
+[02:11:36] [Server thread/INFO]: youube1233 issued server command: /playtimetop
+[02:11:38] [Async Chat Thread - #23/INFO]: [тима гениев] youube1233<Night Gaming>: ./playtimetop
+[02:11:46] [Async Chat Thread - #23/INFO]: [Сёгунат] DAYMOON4ik: короче
+[02:12:21] [Server thread/INFO]: kleb0ld issued server command: /pl
+[02:12:27] [Async Chat Thread - #23/INFO]: [Сёгунат] DAYMOON4ik: у нас в планах очень большая постройка
+[02:12:53] [Async Chat Thread - #23/INFO]: [Сёгунат] DAYMOON4ik: много чего
+[02:13:46] [Async Chat Thread - #23/INFO]: [Сёгунат] DAYMOON4ik: то что мы сделали только начало и это зрам наша достопремичательность
+[02:14:04] [Async Chat Thread - #23/INFO]: [Сёгунат] DAYMOON4ik: храм
+[02:14:08] [Server thread/INFO]: [CMI] !toast! -t:goal -icon:clock ВНИМАНИЕ: 2 из 3 игроков требуется для ускорения ночного времени!
+[02:14:35] [Async Chat Thread - #23/INFO]: [Сёгунат] DAYMOON4ik: ещё есть ферма опыта и тотемов
+[02:15:00] [Async Chat Thread - #23/INFO]: [Сёгунат] DAYMOON4ik: на территори нашей базы
+[02:15:13] [Async Chat Thread - #23/INFO]: [Сёгунат] DAYMOON4ik: это надо
+[02:15:44] [Async Chat Thread - #23/INFO]: [Сёгунат] DAYMOON4ik: го
+[02:16:01] [Server thread/INFO]: [CMI] !toast! -t:goal -icon:clock ВНИМАНИЕ: 2 из 3 игроков требуется для ускорения ночного времени!
+[02:16:13] [Server thread/INFO]: kleb0ld has made the advancement [Monster Hunter]
+[02:16:59] [Server thread/INFO]: kleb0ld was slain by Husk
+[02:17:47] [Server thread/INFO]: kleb0ld was slain by Zombie
+[02:18:06] [luckperms-command-executor/INFO]: [LP] Preparing a new editor session, please wait...
+[02:18:07] [luckperms-command-executor/INFO]: [LP] Click the link below to open the editor:
+[02:18:07] [luckperms-command-executor/INFO]: https://luckperms.net/editor/cG7fsSd3if
+[02:18:39] [Server thread/INFO]: AvelGn was shot by Skeleton
+[02:19:42] [luckperms-command-executor/INFO]: [LP] Web editor data was applied to group сёгунат (Сёгунат) successfully.
+[02:19:42] [luckperms-command-executor/INFO]: [LP] (1 addition and 0 deletions)
+[02:19:42] [luckperms-command-executor/INFO]: +  suffix.2.&6<СтримСнайпер> (true)
+[02:19:49] [Server thread/INFO]: AvelGn lost connection: Disconnected
+[02:19:49] [Server thread/INFO]: AvelGn left the game
+[02:20:00] [Server thread/INFO]: Aptekoc has completed the challenge [Subspace Bubble]
+[02:21:01] [Async Chat Thread - #24/INFO]: [Сёгунат] DAYMOON4ik<СтримСнайпер>: мы шли чтобы подарок сделать
+[02:21:07] [Async Chat Thread - #24/INFO]: [Сёгунат] DAYMOON4ik<СтримСнайпер>: а ты так
+[02:21:30] [Async Chat Thread - #24/INFO]: [Сёгунат] DAYMOON4ik<СтримСнайпер>: да
+[02:21:34] [Async Chat Thread - #24/INFO]: kleb0ld: лучше быть стримснайпером, чем......
+[02:21:59] [luckperms-command-executor/INFO]: [LP] Web editor data was applied to group сёгунат (Сёгунат) successfully.
+[02:21:59] [luckperms-command-executor/INFO]: [LP] (1 addition and 1 deletion)
+[02:21:59] [luckperms-command-executor/INFO]: +  suffix.2.&6<СтримСнайпер> (false)
+[02:21:59] [luckperms-command-executor/INFO]: -  suffix.2.&6<СтримСнайпер> (true)
+[02:22:56] [Async Chat Thread - #25/INFO]: [Сёгунат] DAYMOON4ik: пока
+[02:23:10] [Server thread/INFO]: youube1233 has made the advancement [Cover Me With Diamonds]
+[02:29:23] [Server thread/INFO]: Villager EntityVillager['Leatherworker'/17910, uuid='44fc3418-2de9-44d2-998a-f698754da0dc', l='ServerLevel[world]', x=47.19, y=70.94, z=127.73, cx=2, cz=7, tl=208334, v=true, d=false] died, message: 'Leatherworker was slain by Zombie'
+[02:29:35] [Server thread/INFO]: kleb0ld lost connection: Disconnected
+[02:29:35] [Server thread/INFO]: kleb0ld left the game
+[02:29:40] [User Authenticator #16/INFO]: UUID of player kleb0ld is d8bceadc-9299-3f83-b363-e428feac24cf
+[02:29:40] [Server thread/INFO]: kleb0ld joined the game
+[02:29:40] [Server thread/INFO]: kleb0ld[/31.28.230.95:64048] logged in with entity id 190303 at ([world]130.05716025021556, 70.0, 168.5707092607631)
+[02:29:40] [Craft Scheduler Thread - 262/INFO]: [AuthMe] kleb0ld logged in 31.28.230.95
+[02:30:45] [Async Chat Thread - #26/INFO]: [Сёгунат] Aptekoc: много времени прошло
+[02:31:33] [Server thread/INFO]: kleb0ld has made the advancement [Acquire Hardware]
+[02:31:34] [Async Chat Thread - #26/INFO]: [Сёгунат] Aptekoc: мы дома
+[02:31:34] [Server thread/INFO]: DAYMOON4ik has completed the challenge [Subspace Bubble]
+[02:32:55] [Server thread/INFO]: kleb0ld has made the advancement [Isn't It Iron Pick]
+[02:33:00] [Async Chat Thread - #27/INFO]: [Сёгунат] DAYMOON4ik: Андрей мы больше тебя наиграли учитывая что ты стоял много в афк
+[02:33:12] [Server thread/INFO]: youube1233 issued server command: /cmi playtimetop
+[02:33:21] [Async Chat Thread - #27/INFO]: [Сёгунат] DAYMOON4ik: а понял
+[02:35:55] [Async Chat Thread - #28/INFO]: [Сёгунат] DAYMOON4ik: блин разбойники не спавнятся
+[02:38:09] [Server thread/WARN]: DAYMOON4ik moved too quickly! -5.060750690450504,0.0,-8.685616847697133
+[02:40:48] [Async Chat Thread - #29/INFO]: [тима гениев] youube1233<Night Gaming>: sleep
+[02:40:58] [Async Chat Thread - #29/INFO]: [Сёгунат] DAYMOON4ik: пж можете 2 человека на минуту выйти у нас разбойник с флагом не спавниться
+[02:41:09] [Server thread/INFO]: kleb0ld lost connection: Disconnected
+[02:41:09] [Server thread/INFO]: kleb0ld left the game
+[02:41:57] [Server thread/INFO]: youube1233 lost connection: Disconnected
+[02:41:57] [Server thread/INFO]: youube1233 left the game
+[02:43:14] [User Authenticator #17/INFO]: UUID of player youube1233 is e17fe5c2-00e9-3fc0-a4bc-54a26aa6c13e
+[02:43:14] [Server thread/INFO]: youube1233 joined the game
+[02:43:14] [Server thread/INFO]: youube1233[/178.34.158.152:11783] logged in with entity id 197598 at ([world]-6106.036825817517, 68.5, 4230.676192523328)
+[02:43:14] [Craft Scheduler Thread - 262/INFO]: [AuthMe] The user youube1233 has 2 accounts:
+[02:43:14] [Craft Scheduler Thread - 262/INFO]: [AuthMe] youube1233, shizik.
+[02:43:14] [Craft Scheduler Thread - 262/INFO]: [AuthMe] youube1233 logged in 178.34.158.152
+[02:45:51] [Server thread/INFO]: Aptekoc has made the advancement [Who's the Pillager Now?]
+[02:51:37] [Async Chat Thread - #30/INFO]: [Сёгунат] DAYMOON4ik: продаём сёдла и тотэми
+[02:51:55] [Async Chat Thread - #30/INFO]: [Сёгунат] DAYMOON4ik: да
+[02:57:51] [Async Chat Thread - #31/INFO]: [Сёгунат] Aptekoc: пофиг
+[03:04:23] [Async Chat Thread - #32/INFO]: [Сёгунат] DAYMOON4ik: 7 тотэмов за один рэйд
+[03:06:17] [Async Chat Thread - #33/INFO]: [Сёгунат] Aptekoc: всем пока спокойной ночи
+[03:06:38] [Server thread/INFO]: Aptekoc lost connection: Disconnected
+[03:06:38] [Server thread/INFO]: Aptekoc left the game
+[03:06:59] [Server thread/WARN]: Boat (vehicle of Tars_Play) moved wrongly! 0.3232043491971126
+[03:07:09] [Async Chat Thread - #33/INFO]: [Сёгунат] DAYMOON4ik: спать
+[03:08:14] [Async Chat Thread - #34/INFO]: [Сёгунат] DAYMOON4ik: три полу блока с верху по центру книхная полка и под ней полублок
+[03:08:41] [Async Chat Thread - #34/INFO]: [тима гениев] youube1233<Night Gaming>: У тебя задержка ебанутая, это было 3 минуты назад
+[03:08:51] [Async Chat Thread - #34/INFO]: [Сёгунат] DAYMOON4ik: не я просто долго печатал
+[03:08:56] [Async Chat Thread - #34/INFO]: [тима гениев] youube1233<Night Gaming>: пон
+[03:19:23] [Server thread/INFO]: DAYMOON4ik встал в AFK
+[03:19:43] [Server thread/INFO]: DAYMOON4ik больше не в AFK
+[03:19:45] [Async Chat Thread - #35/INFO]: [Сёгунат] DAYMOON4ik: пока
+[03:20:04] [Server thread/WARN]: Boat (vehicle of Tars_Play) moved wrongly! 0.28233521621366775
+[03:20:15] [Async Chat Thread - #35/INFO]: [тима гениев] youube1233<Night Gaming>: DAYMOON4ik, спать?
+[03:20:36] [Async Chat Thread - #35/INFO]: [Сёгунат] DAYMOON4ik: не я ещё мне мост строить
+[03:23:21] [Server thread/INFO]: youube1233 issued server command: /playtimetop
+[03:23:51] [Async Chat Thread - #36/INFO]: [Сёгунат] DAYMOON4ik: ладно я спать мост завтра спокойной ночи
+[03:23:57] [Async Chat Thread - #36/INFO]: [тима гениев] youube1233<Night Gaming>: Спокойной
+[03:24:09] [Server thread/INFO]: DAYMOON4ik lost connection: Disconnected
+[03:24:09] [Server thread/INFO]: DAYMOON4ik left the game
+[03:24:48] [Server thread/INFO]: Tars_Play issued server command: /playtimetop
+[03:29:23] [Server thread/WARN]: Boat (vehicle of Tars_Play) moved too quickly! -13.706705555787266,0.0,-14.719138578112506
+[03:29:23] [Server thread/WARN]: Boat (vehicle of Tars_Play) moved too quickly! -13.954025039049156,0.0,-15.032598772951133
+[03:29:23] [Server thread/WARN]: Boat (vehicle of Tars_Play) moved too quickly! -14.200508252717555,0.0,-15.346790908953153
+[03:29:23] [Server thread/WARN]: Boat (vehicle of Tars_Play) moved too quickly! -14.44621421264219,0.0,-15.661660112962636
+[03:29:23] [Server thread/WARN]: Boat (vehicle of Tars_Play) moved too quickly! -14.691199097136632,0.0,-15.977154689459894
+[03:29:23] [Server thread/WARN]: Boat (vehicle of Tars_Play) moved too quickly! -14.935513459230606,0.0,-16.293228101302702
+[03:29:23] [Server thread/WARN]: Boat (vehicle of Tars_Play) moved too quickly! -15.179205866290431,0.0,-16.609836166561763
+[03:29:23] [Server thread/WARN]: Boat (vehicle of Tars_Play) moved too quickly! -15.422323102308837,0.0,-16.92693683044581
+[03:29:23] [Server thread/WARN]: Boat (vehicle of Tars_Play) moved too quickly! -15.664910351829349,0.0,-17.24448995631701
+[03:29:23] [Server thread/WARN]: Boat (vehicle of Tars_Play) moved too quickly! -15.90700519267557,0.0,-17.562461693628393
+[03:29:23] [Server thread/WARN]: Boat (vehicle of Tars_Play) moved too quickly! -16.14864761210538,0.0,-17.880817017134177
+[03:29:23] [Server thread/WARN]: Boat (vehicle of Tars_Play) moved too quickly! -16.389870510384753,0.0,-18.1995266728145
+[03:29:23] [Server thread/WARN]: Boat (vehicle of Tars_Play) moved too quickly! -16.630706578566787,0.0,-18.518562055901384
+[03:29:23] [Server thread/WARN]: Boat (vehicle of Tars_Play) moved too quickly! -16.871185236735982,0.0,-18.837897422103197
+[03:29:23] [Server thread/WARN]: Boat (vehicle of Tars_Play) moved too quickly! -17.111336051233593,0.0,-19.157507321680896
+[03:29:23] [Server thread/WARN]: Boat (vehicle of Tars_Play) moved too quickly! -17.351185631766384,0.0,-19.4773688461446
+[03:29:23] [Server thread/WARN]: Boat (vehicle of Tars_Play) moved too quickly! -17.590757923343517,0.0,-19.797461381578614
+[03:29:23] [Server thread/WARN]: Boat (vehicle of Tars_Play) moved too quickly! -17.830074478336428,0.0,-20.117766371735343
+[03:29:23] [Server thread/WARN]: Boat (vehicle of Tars_Play) moved too quickly! -18.069154690152573,0.0,-20.43826711599104
+[03:29:23] [Server thread/WARN]: Boat (vehicle of Tars_Play) moved too quickly! -18.30801910298669,0.0,-20.75894630763287
+[03:29:23] [Server thread/WARN]: Boat (vehicle of Tars_Play) moved too quickly! -18.546683116485838,0.0,-21.07979064677238
+[03:39:49] [Server thread/INFO]: youube1233 issued server command: /playtimetop
+[03:47:56] [Server thread/INFO]: Tars_Play issued server command: /playtimetop
+[03:48:09] [Server thread/INFO]: youube1233 issued server command: /playtimetop
+[03:48:25] [Server thread/INFO]: Tars_Play lost connection: Disconnected
+[03:48:25] [Server thread/INFO]: Tars_Play left the game
+[03:54:06] [Server thread/INFO]: youube1233 issued server command: /playtimetop
+[04:03:28] [Server thread/INFO]: youube1233 issued server command: /playtimetop
+[04:07:11] [Server thread/WARN]: youube1233 moved wrongly!
+[04:09:56] [Server thread/INFO]: youube1233 issued server command: /playtimetop
+[04:12:57] [Server thread/INFO]: Updated (EN) language file. Took 20ms
+[04:12:57] [Server thread/INFO]: Updated (RU) language file. Took 18ms
+[04:12:57] [Server thread/INFO]: CMIL Configs and locale files reloaded! Took 74ms
+[04:12:57] [Server thread/INFO]: [CMI] Loaded (1) custom text's into memory. Took 0ms
+[04:12:57] [Server thread/INFO]: [CMI] Started SqLite data base. Took 1ms
+[04:12:57] [Server thread/INFO]: [CMI] Loaded (5) warning categories into memory. Took 0ms
+[04:12:57] [Server thread/INFO]: [CMI] Loaded (3) warning commands into memory. Took 0ms
+[04:12:57] [Server thread/INFO]: [CMI] Loaded (135) custom mob heads into memory. Took 11ms
+[04:12:57] [Server thread/INFO]: [CMI] Loaded (0) cooldowns into memory. Took 11ms
+[04:12:57] [Server thread/INFO]: [CMI] Updated (EN) language file. Took 86ms
+[04:12:57] [Server thread/INFO]: [CMI] Updated (RU) language file. Took 135ms
+[04:12:57] [Server thread/INFO]: [CMI] Loaded (56) regular alias into memory. Took 21ms
+[04:12:57] [Server thread/INFO]: [CMI] Loaded (0) skin cache entries into memory. Took 0ms
+[04:12:57] [Server thread/INFO]: [CMI] Loaded (0) event action commands into memory. Took 2ms
+[04:12:57] [Server thread/INFO]: Конфигурация перезагружена! Это заняло 323мс
+[04:13:01] [Async Chat Thread - #37/INFO]: [тима гениев] youube1233<Night Gaming>: yo
+[04:13:02] [Async Chat Thread - #37/INFO]: [тима гениев] youube1233<Night Gaming>: youube1233
+[04:13:05] [Async Chat Thread - #37/INFO]: [тима гениев] youube1233<Night Gaming>: @youube1233
+[04:13:25] [Server thread/INFO]: youube1233 issued server command: /playtimetop
+[04:20:20] [Server thread/INFO]: youube1233 was slain by Zombie
+[04:21:32] [Server thread/INFO]: youube1233 issued server command: /playtimetop
+[04:29:02] [Server thread/INFO]: youube1233 issued server command: /playtimetop
+[04:29:26] [Server thread/INFO]: youube1233 issued server command: /playtimetop
+[04:29:34] [Server thread/INFO]: youube1233 issued server command: /playtimetop
+[04:29:35] [Server thread/INFO]: youube1233 issued server command: /playtimetop
+[04:29:35] [Server thread/INFO]: youube1233 issued server command: /playtimetop
+[04:29:36] [Server thread/INFO]: youube1233 issued server command: /playtimetop
+[04:29:37] [Server thread/INFO]: youube1233 issued server command: /playtimetop
+[04:29:38] [Server thread/INFO]: youube1233 issued server command: /playtimetop
+[04:29:39] [Server thread/INFO]: youube1233 issued server command: /playtimetop
+[04:29:39] [Server thread/INFO]: youube1233 issued server command: /playtimetop
+[04:29:40] [Server thread/INFO]: youube1233 issued server command: /playtimetop
+[04:29:41] [Server thread/INFO]: youube1233 issued server command: /playtimetop
+[04:29:43] [Server thread/INFO]: youube1233 issued server command: /playtimetop
+[04:43:40] [Server thread/INFO]: youube1233 issued server command: /playtimetop
+[04:49:11] [Server thread/INFO]: youube1233 issued server command: /playtimetop
+[04:53:34] [Server thread/INFO]: youube1233 issued server command: /playtimetop
+[04:57:55] [Server thread/INFO]: youube1233 issued server command: /playtimetop
+[05:02:56] [Server thread/INFO]: youube1233 встал в AFK
+[05:03:41] [Server thread/INFO]: youube1233 issued server command: /playtimetop
+[05:03:41] [Server thread/INFO]: youube1233 больше не в AFK
+[05:07:51] [Server thread/INFO]: youube1233 issued server command: /playtimetop
+[05:07:55] [Server thread/INFO]: youube1233 lost connection: Disconnected
+[05:07:55] [Server thread/INFO]: youube1233 left the game
+[05:08:12] [Server thread/INFO]: Stopping the server
+[05:08:12] [Server thread/WARN]: java.lang.Throwable: Server stopped
+[05:08:12] [Server thread/WARN]: 	at io.papermc.paper.util.TraceUtil.dumpTraceForThread(TraceUtil.java:16)
+[05:08:12] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.safeShutdown(MinecraftServer.java:1001)
+[05:08:12] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.safeShutdown(MinecraftServer.java:995)
+[05:08:12] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.CommandStop.a(SourceFile:17)
+[05:08:12] [Server thread/WARN]: 	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:262)
+[05:08:12] [Server thread/WARN]: 	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:176)
+[05:08:12] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.CommandDispatcher.a(CommandDispatcher.java:276)
+[05:08:12] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.command.VanillaCommandWrapper.execute(VanillaCommandWrapper.java:45)
+[05:08:12] [Server thread/WARN]: 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:159)
+[05:08:12] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.dispatchCommand(CraftServer.java:826)
+[05:08:12] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.dispatchServerCommand(CraftServer.java:788)
+[05:08:12] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.DedicatedServer.handleCommandQueue(DedicatedServer.java:470)
+[05:08:12] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.DedicatedServer.b(DedicatedServer.java:437)
+[05:08:12] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.a(MinecraftServer.java:1347)
+[05:08:12] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:1135)
+[05:08:12] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:291)
+[05:08:12] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:829)
+[05:08:12] [Server thread/INFO]: Stopping server
+[05:08:12] [Server thread/INFO]: [CMI] Disabling CMI v9.0.2.9
+[05:08:12] [Server thread/INFO]: [AuthMe] CMI has been disabled: unhooking
+[05:08:12] [Server thread/INFO]: [Vault][Economy] CMI Economy unhooked.
+[05:08:12] [Server thread/INFO]: [CMI] Closed db connections
+[05:08:12] [Server thread/INFO]: [CMILib] Disabling CMILib v1.2.0.1
+[05:08:12] [Server thread/INFO]: [AuthMe] Disabling AuthMe v5.6.0-SNAPSHOT-b2501
+[05:08:12] [Server thread/INFO]: [AuthMe] Waiting for 0 tasks to finish
+[05:08:12] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0-SNAPSHOT-b2501 disabled!
+[05:08:12] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-CMI
+[05:08:12] [Server thread/INFO]: [WorldBorder] Disabling WorldBorder v1.9.10 (beta)
+[05:08:12] [Server thread/INFO]: [WorldBorder] [CONFIG] Border-checking timed task stopped.
+[05:08:12] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.3.77
+[05:08:12] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[05:08:12] [Server thread/INFO]: [LuckPerms] Closing storage...
+[05:08:12] [Server thread/INFO]: [LuckPerms] Goodbye!
+[05:08:12] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.2.2
+[05:08:12] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
+[05:08:12] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v20.1
+[05:08:12] [Server thread/INFO]: [CoreProtect] Завершение регистрации данных. Пожалуйста, подождите...
+[05:08:13] [Server thread/INFO]: [CoreProtect] CoreProtect v20.1 был успешно отключён!
+[05:08:13] [Server thread/INFO]: Saving players
+[05:08:13] [Server thread/INFO]: Saving worlds
+[05:08:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[05:08:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[05:08:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[05:08:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[05:08:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[05:08:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[05:08:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[05:08:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[05:08:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[05:08:13] [Server thread/INFO]: Flushing Chunk IO
+[05:08:13] [Server thread/INFO]: Closing Thread Pool
+[05:08:13] [Server thread/INFO]: Closing Server
+[05:08:13] [Thread-1/WARN]: java.lang.Throwable: Server stopped
+[05:08:13] [Thread-1/WARN]: 	at io.papermc.paper.util.TraceUtil.dumpTraceForThread(TraceUtil.java:16)
+[05:08:13] [Thread-1/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.safeShutdown(MinecraftServer.java:1001)
+[05:08:13] [Thread-1/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.util.ServerShutdownThread.run(ServerShutdownThread.java:16)
