@@ -632,6 +632,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:blaze": "2022-06-09 16:59:57 +0300",
+      "minecraft:pillager": "2022-06-17 04:54:27 +0300",
       "minecraft:skeleton": "2022-06-08 20:29:13 +0300",
       "minecraft:ghast": "2022-06-13 01:01:14 +0300",
       "minecraft:hoglin": "2022-06-10 02:03:35 +0300",
@@ -641,7 +642,8 @@
       "minecraft:wither_skeleton": "2022-06-09 16:56:49 +0300",
       "minecraft:piglin": "2022-06-09 17:32:07 +0300",
       "minecraft:zombie": "2022-06-08 20:28:01 +0300",
-      "minecraft:drowned": "2022-06-09 21:16:09 +0300"
+      "minecraft:drowned": "2022-06-09 21:16:09 +0300",
+      "minecraft:zombie_villager": "2022-06-17 06:29:25 +0300"
     },
     "done": false
   },
@@ -2438,12 +2440,6 @@
   "minecraft:recipes/building_blocks/cyan_concrete_powder": {
     "criteria": {
       "has_sand": "2022-06-08 20:33:36 +0300"
-    },
-    "done": true
-  },
-  "cmilib:cmi/commandtoast": {
-    "criteria": {
-      "IMPOSSIBLE": "2022-06-16 02:43:40 +0300"
     },
     "done": true
   },

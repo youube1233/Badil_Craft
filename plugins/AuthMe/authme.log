@@ -785,3 +785,133 @@
 [06-16 02:43:14]: [FINE] youube1233 logged in 178.34.158.152
 [06-16 05:08:12]: [INFO] CMI has been disabled: unhooking
 [06-16 05:08:12]: [INFO] AuthMe 5.6.0-SNAPSHOT-b2501 disabled!
+[06-16 05:14:37]: [INFO] SQLite Setup finished
+[06-16 05:14:37]: [INFO] Hooked into LuckPerms!
+[06-16 05:14:38]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[06-16 05:14:38]: [INFO] AuthMe 5.6.0-SNAPSHOT build n.2501 successfully enabled!
+[06-16 05:14:45]: [INFO] Hooked successfully into CMI
+[06-16 05:14:45]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[06-16 05:14:45]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[06-16 05:14:45]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[06-16 05:14:45]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[06-16 05:14:45]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:345)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:259)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:214)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:101)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+[06-16 10:04:35]: [FINE] Aptekoc logged in 185.16.29.183
+[06-16 11:40:53]: [FINE] kW1n logged in 176.97.63.35
+[06-16 17:28:59]: [FINE] Aptekoc logged in 185.16.29.183
+[06-16 17:40:09]: [FINE] DAYMOON4ik logged in 185.16.28.125
+[06-16 17:46:51]: [FINE] ramzecb logged in 109.200.234.108
+[06-16 17:57:35]: [FINE] Aptekoc logged in 185.16.29.183
+[06-16 17:57:54]: [FINE] Aptekoc logged in 185.16.29.183
+[06-16 17:59:47]: [FINE] Aptekoc logged in 185.16.29.183
+[06-16 18:02:20]: [FINE] Aptekoc logged in 185.16.29.183
+[06-16 18:03:46]: [FINE] Aptekoc logged in 185.16.29.183
+[06-16 18:26:03]: [FINE] The user youube1233 has 2 accounts:
+[06-16 18:26:03]: [FINE] §7§ayouube1233§7, shizik.
+[06-16 18:26:03]: [FINE] youube1233 logged in 178.34.158.152
+[06-16 18:43:19]: [FINE] DAYMOON4ik logged in 185.16.28.125
+[06-16 20:55:33]: [FINE] DAYMOON4ik logged in 185.16.28.125
+[06-16 20:55:52]: [FINE] DAYMOON4ik logged in 185.16.28.125
+[06-16 23:24:15]: [FINE] Aptekoc logged in 185.16.29.183
+[06-16 23:29:26]: [FINE] DAYMOON4ik logged in 185.16.28.125
+[06-16 23:30:00]: [FINE] DAYMOON4ik logged in 185.16.28.125
+[06-17 00:05:32]: [FINE] Aptekoc logged in 185.16.29.183
+[06-17 00:08:32]: [FINE] Aptekoc logged in 185.16.29.183
+[06-17 00:08:35]: [FINE] DAYMOON4ik logged in 185.16.28.125
+[06-17 01:12:50]: [FINE] The user youube1233 has 2 accounts:
+[06-17 01:12:50]: [FINE] §7§ayouube1233§7, shizik.
+[06-17 01:12:50]: [FINE] youube1233 logged in 178.34.158.152
+[06-17 01:16:39]: [FINE] The user youube1233 has 2 accounts:
+[06-17 01:16:39]: [FINE] §7§ayouube1233§7, shizik.
+[06-17 01:16:39]: [FINE] youube1233 logged in 178.34.158.152
+[06-17 01:17:43]: [FINE] The user youube1233 has 2 accounts:
+[06-17 01:17:43]: [FINE] §7§ayouube1233§7, shizik.
+[06-17 01:17:43]: [FINE] youube1233 logged in 178.34.158.152
+[06-17 01:23:54]: [FINE] The user youube1233 has 2 accounts:
+[06-17 01:23:54]: [FINE] §7§ayouube1233§7, shizik.
+[06-17 01:23:54]: [FINE] youube1233 logged in 178.34.158.152
+[06-17 01:40:10]: [FINE] The user youube1233 has 2 accounts:
+[06-17 01:40:10]: [FINE] §7§ayouube1233§7, shizik.
+[06-17 01:40:10]: [FINE] youube1233 logged in 178.34.158.152
+[06-17 04:58:22]: [FINE] The user youube1233 has 2 accounts:
+[06-17 04:58:22]: [FINE] §7§ayouube1233§7, shizik.
+[06-17 04:58:22]: [FINE] youube1233 logged in 178.34.158.152
+[06-17 09:36:06]: [FINE] Aptekoc logged in 185.16.29.183
+[06-17 09:43:57]: [FINE] Aptekoc logged in 185.16.29.183
+[06-17 12:36:55]: [FINE] DAYMOON4ik logged in 185.16.28.125
+[06-17 17:33:19]: [FINE] Aptekoc logged in 185.16.29.183
+[06-17 17:43:12]: [FINE] youube1233 logged in 178.34.158.131
+[06-17 17:49:47]: [FINE] DAYMOON4ik logged in 185.16.28.125
+[06-17 17:50:30]: [FINE] DAYMOON4ik logged in 185.16.28.125
+[06-17 17:50:52]: [FINE] The user Shizik has 2 accounts:
+[06-17 17:50:52]: [FINE] §7§ayouube1233§7, §aShizik§7.
+[06-17 17:50:52]: [FINE] Shizik logged in 178.34.158.131
+[06-17 18:34:15]: [FINE] Aptekoc logged in 185.16.29.183
+[06-17 21:08:55]: [FINE] Aptekoc logged in 185.16.29.183
+[06-17 21:45:18]: [FINE] DAYMOON4ik logged in 185.16.28.125
+[06-18 10:11:47]: [FINE] Aptekoc logged in 185.16.29.183
+[06-18 10:41:40]: [FINE] DAYMOON4ik logged in 185.16.28.125
+[06-18 15:12:27]: [FINE] Aptekoc logged in 185.16.29.183
+[06-18 15:21:17]: [FINE] DAYMOON4ik logged in 185.16.28.125
+[06-18 16:55:02]: [FINE] DAYMOON4ik logged in 185.16.28.125
+[06-18 17:09:47]: [FINE] TheDwyn logged in 109.200.234.160
+[06-18 17:14:30]: [FINE] TheDwyn logged in 109.200.234.160
+[06-18 17:21:55]: [FINE] TheDwyn logged in 109.200.234.160
+[06-18 20:29:25]: [FINE] DAYMOON4ik logged in 185.16.28.125
+[06-18 20:29:56]: [FINE] Aptekoc logged in 185.16.29.183
+[06-18 22:47:47]: [FINE] Aptekoc logged in 185.16.29.183
+[06-18 22:49:26]: [FINE] DAYMOON4ik logged in 185.16.28.125
+[06-18 22:50:18]: [FINE] DAYMOON4ik logged in 185.16.28.125
+[06-18 22:55:04]: [FINE] youube1233 logged in 178.34.158.229
+[06-18 22:59:28]: [INFO] CMI has been disabled: unhooking
+[06-18 22:59:28]: [INFO] AuthMe 5.6.0-SNAPSHOT-b2501 disabled!
+[06-18 22:59:34]: [INFO] SQLite Setup finished
+[06-18 22:59:34]: [INFO] Hooked into LuckPerms!
+[06-18 22:59:40]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[06-18 22:59:40]: [INFO] AuthMe 5.6.0-SNAPSHOT build n.2501 successfully enabled!
+[06-18 22:59:43]: [INFO] Hooked successfully into CMI
+[06-18 22:59:43]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[06-18 22:59:43]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[06-18 22:59:43]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[06-18 22:59:43]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[06-18 22:59:43]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:345)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:259)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:214)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:101)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+[06-18 22:59:55]: [FINE] The user Shizik has 2 accounts:
+[06-18 22:59:55]: [FINE] §7§ayouube1233§7, §aShizik§7.
+[06-18 22:59:55]: [FINE] Shizik logged in 178.34.158.229
+[06-18 23:00:05]: [FINE] DAYMOON4ik logged in 185.16.28.125
+[06-18 23:00:14]: [FINE] The user youube1233 has 2 accounts:
+[06-18 23:00:14]: [FINE] §7§ayouube1233§7, §aShizik§7.
+[06-18 23:00:14]: [FINE] youube1233 logged in 178.34.158.229
+[06-18 23:00:15]: [FINE] Aptekoc logged in 185.16.29.183
+[06-18 23:04:10]: [FINE] Aptekoc logged in 185.16.29.183
+[06-18 23:04:39]: [INFO] CMI has been disabled: unhooking
+[06-18 23:04:39]: [INFO] AuthMe 5.6.0-SNAPSHOT-b2501 disabled!

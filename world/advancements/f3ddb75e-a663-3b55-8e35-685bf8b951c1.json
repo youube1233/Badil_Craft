@@ -255,12 +255,6 @@
     },
     "done": true
   },
-  "cmilib:cmi/commandtoast": {
-    "criteria": {
-      "IMPOSSIBLE": "2022-06-15 19:01:20 +0300"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/stone_brick_stairs": {
     "criteria": {
       "has_stone_bricks": "2022-06-12 04:43:04 +0300"
